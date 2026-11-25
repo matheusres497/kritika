@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::BaseStatusOptionDetail",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::BaseStatusOptionDetail"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "StatusCountRange",
+   "size": 8,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "container",
+   "name": "Statuses",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UStatus@BasicItemOptionInfo@Sdb@Apple@@V?$allocator@UStatus@BasicItemOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "EnableChange",
+   "size": 1,
+   "cond": false,
+   "src": 56
+  }
+ ],
+ "types": {}
+}

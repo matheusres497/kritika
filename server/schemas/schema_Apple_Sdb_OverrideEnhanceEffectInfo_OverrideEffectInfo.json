@@ -1,0 +1,51 @@
+{
+ "type": "Apple::Sdb::OverrideEnhanceEffectInfo::OverrideEffectInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::OverrideEnhanceEffectInfo::OverrideEffectInfo"
+  },
+  {
+   "op": "struct",
+   "name": "Condition",
+   "type": "Apple::Sdb::OverrideEnhanceEffectInfo::ConditionInfo",
+   "func": 10212208,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::OverrideEnhanceEffectInfo::ConditionInfo"
+    },
+    {
+     "op": "raw",
+     "name": "EnhanceLevelRange",
+     "size": 8,
+     "cond": false,
+     "src": 4
+    }
+   ]
+  },
+  {
+   "op": "wstr",
+   "name": "EffectPath",
+   "size": null,
+   "cond": false,
+   "src": 16
+  }
+ ],
+ "types": {
+  "Apple::Sdb::OverrideEnhanceEffectInfo::ConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::OverrideEnhanceEffectInfo::ConditionInfo"
+   },
+   {
+    "op": "raw",
+    "name": "EnhanceLevelRange",
+    "size": 8,
+    "cond": false,
+    "src": 4
+   }
+  ]
+ }
+}

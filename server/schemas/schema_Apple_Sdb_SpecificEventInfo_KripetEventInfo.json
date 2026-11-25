@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::SpecificEventInfo::KripetEventInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SpecificEventInfo::KripetEventInfo"
+  },
+  {
+   "op": "container",
+   "name": "KripetInfos",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUKripetInfo@KripetEventInfo@SpecificEventInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUKripetInfo@KripetEventInfo@SpecificEventInfo@Sdb@Apple@@@std@@@7@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CountRewardInfos",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HURewardItemInfo@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHURewardItemInfo@Apple@@@std@@@4@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,114 @@
+{
+ "type": "Apple::Sdb::EnhanceSupportInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EnhanceSupportInfo"
+  },
+  {
+   "op": "i32",
+   "name": "MaxEnhanceLevel",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "MaxEnhanceLevelsByInherit",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UMaxEnhanceLevelByInherit@EnhanceSupportInfo@Sdb@Apple@@V?$allocator@UMaxEnhanceLevelByInherit@EnhanceSupportInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RequiredItemByEquipmentLimitLevel",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URequiredItemByEquipLimitLevel@EnhanceSupportInfo@Sdb@Apple@@V?$allocator@URequiredItemByEquipLimitLevel@EnhanceSupportInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RuneInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URuneInfo@Sdb@Apple@@V?$allocator@URuneInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "UsableRuneMaxCount",
+   "size": 4,
+   "cond": false,
+   "src": 56
+  },
+  {
+   "op": "container",
+   "name": "DestroyPreventItemInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UDestroyPreventItemInfo@Sdb@Apple@@V?$allocator@UDestroyPreventItemInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RepresentItemByMinLimitLevelRange",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@U?$Vector2@M@Math@AllM@@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@U?$Vector2@M@Math@AllM@@@5@V?$allocator@U?$pair@$$CBU?$Vector2@M@Math@AllM@@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@5@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "RequireMaterialCountId",
+   "size": null,
+   "cond": false,
+   "src": 92
+  },
+  {
+   "op": "struct",
+   "name": "RandomEnhanceLevelWhenSuccessInfo",
+   "type": "Apple::Sdb::RandomEnhanceLevelWhenSuccess",
+   "func": 8327760,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::RandomEnhanceLevelWhenSuccess"
+    },
+    {
+     "op": "container",
+     "name": "RandomEnhanceLevelInfos",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HV?$vector@URandomEnhanceLevelInfo@RandomEnhanceLevelWhenSuccess@Sdb@Apple@@V?$allocator@URandomEnhanceLevelInfo@RandomEnhanceLevelWhenSuccess@Sdb@Apple@@@std@@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$vector@URandomEnhanceLevelInfo@RandomEnhanceLevelWhenSuccess@Sdb@Apple@@V?$allocator@URandomEnhanceLevelInfo@RandomEnhanceLevelWhenSuccess@Sdb@Apple@@@std@@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "wstr",
+   "name": "RequireDestroyPreventMaterialCountId",
+   "size": null,
+   "cond": false,
+   "src": 140
+  },
+  {
+   "op": "container",
+   "name": "DelegateDestroyPreventItemIds",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {
+  "Apple::Sdb::RandomEnhanceLevelWhenSuccess": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::RandomEnhanceLevelWhenSuccess"
+   },
+   {
+    "op": "container",
+    "name": "RandomEnhanceLevelInfos",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HV?$vector@URandomEnhanceLevelInfo@RandomEnhanceLevelWhenSuccess@Sdb@Apple@@V?$allocator@URandomEnhanceLevelInfo@RandomEnhanceLevelWhenSuccess@Sdb@Apple@@@std@@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$vector@URandomEnhanceLevelInfo@RandomEnhanceLevelWhenSuccess@Sdb@Apple@@V?$allocator@URandomEnhanceLevelInfo@RandomEnhanceLevelWhenSuccess@Sdb@Apple@@@std@@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ]
+ }
+}

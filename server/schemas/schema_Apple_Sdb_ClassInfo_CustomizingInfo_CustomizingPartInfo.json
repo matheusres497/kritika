@@ -1,0 +1,37 @@
+{
+ "type": "Apple::Sdb::ClassInfo::CustomizingInfo::CustomizingPartInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ClassInfo::CustomizingInfo::CustomizingPartInfo"
+  },
+  {
+   "op": "enum",
+   "name": "PartType",
+   "enum": "equipPartType",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "SelectableMeshInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UMeshInfo@CustomizingPartInfo@CustomizingInfo@ClassInfo@Sdb@Apple@@V?$allocator@UMeshInfo@CustomizingPartInfo@CustomizingInfo@ClassInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "SelectablePart1Colors",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$Vector3@M@Math@AllM@@V?$allocator@U?$Vector3@M@Math@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "SelectablePart2Colors",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$Vector3@M@Math@AllM@@V?$allocator@U?$Vector3@M@Math@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

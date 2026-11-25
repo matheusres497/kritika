@@ -1,0 +1,37 @@
+{
+ "type": "Apple::Sdb::EventEffectInfo::ItemDropInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventEffectInfo::ItemDropInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Type",
+   "enum": "Type",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "StageList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "f64",
+   "name": "DropNothingProbablity",
+   "size": 8,
+   "cond": false,
+   "src": 24
+  },
+  {
+   "op": "container",
+   "name": "ItemList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@NV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@V?$allocator@U?$pair@NV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

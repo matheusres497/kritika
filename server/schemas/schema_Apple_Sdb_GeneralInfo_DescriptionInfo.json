@@ -1,0 +1,22 @@
+{
+ "type": "Apple::Sdb::GeneralInfo::DescriptionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GeneralInfo::DescriptionInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

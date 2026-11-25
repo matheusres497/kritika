@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::CustomPackageCashInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::CustomPackageCashInfo"
+  },
+  {
+   "op": "container",
+   "name": "OidProductList",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUProductInfo@CustomPackageCashInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUProductInfo@CustomPackageCashInfo@Sdb@Apple@@@std@@@6@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

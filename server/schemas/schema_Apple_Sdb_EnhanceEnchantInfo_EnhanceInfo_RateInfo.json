@@ -1,0 +1,45 @@
+{
+ "type": "Apple::Sdb::EnhanceEnchantInfo::EnhanceInfo::RateInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EnhanceEnchantInfo::EnhanceInfo::RateInfo"
+  },
+  {
+   "op": "i32",
+   "name": "Level",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "NeededGold",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "EnhanceLevelWhenFailed",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "i32",
+   "name": "NeededSameItemCountForSureEnhance",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "f32",
+   "name": "SuccessRate",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  }
+ ],
+ "types": {}
+}

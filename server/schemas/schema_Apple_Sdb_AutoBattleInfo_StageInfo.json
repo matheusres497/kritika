@@ -1,0 +1,127 @@
+{
+ "type": "Apple::Sdb::AutoBattleInfo::StageInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::AutoBattleInfo::StageInfo"
+  },
+  {
+   "op": "struct",
+   "name": "RedTeam",
+   "type": "Apple::Sdb::AutoBattleInfo::StageInfo::TeamInfo",
+   "func": 10712304,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::AutoBattleInfo::StageInfo::TeamInfo"
+    },
+    {
+     "op": "raw",
+     "name": "LeftBottomNpcPosition",
+     "size": 12,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "raw",
+     "name": "OffsetToRightNpcPosition",
+     "size": 12,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "raw",
+     "name": "OffsetToUpNpcPosition",
+     "size": 12,
+     "cond": false,
+     "src": 28
+    },
+    {
+     "op": "raw",
+     "name": "NpcDirection",
+     "size": 12,
+     "cond": false,
+     "src": 40
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "BlueTeam",
+   "type": "Apple::Sdb::AutoBattleInfo::StageInfo::TeamInfo",
+   "func": 10712304,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::AutoBattleInfo::StageInfo::TeamInfo"
+    },
+    {
+     "op": "raw",
+     "name": "LeftBottomNpcPosition",
+     "size": 12,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "raw",
+     "name": "OffsetToRightNpcPosition",
+     "size": 12,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "raw",
+     "name": "OffsetToUpNpcPosition",
+     "size": 12,
+     "cond": false,
+     "src": 28
+    },
+    {
+     "op": "raw",
+     "name": "NpcDirection",
+     "size": 12,
+     "cond": false,
+     "src": 40
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::AutoBattleInfo::StageInfo::TeamInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::AutoBattleInfo::StageInfo::TeamInfo"
+   },
+   {
+    "op": "raw",
+    "name": "LeftBottomNpcPosition",
+    "size": 12,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "raw",
+    "name": "OffsetToRightNpcPosition",
+    "size": 12,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "raw",
+    "name": "OffsetToUpNpcPosition",
+    "size": 12,
+    "cond": false,
+    "src": 28
+   },
+   {
+    "op": "raw",
+    "name": "NpcDirection",
+    "size": 12,
+    "cond": false,
+    "src": 40
+   }
+  ]
+ }
+}

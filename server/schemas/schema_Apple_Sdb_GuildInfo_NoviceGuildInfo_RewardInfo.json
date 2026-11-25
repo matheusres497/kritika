@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::GuildInfo::NoviceGuildInfo::RewardInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GuildInfo::NoviceGuildInfo::RewardInfo"
+  },
+  {
+   "op": "container",
+   "name": "Items",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UItemInfo@RewardInfo@NoviceGuildInfo@GuildInfo@Sdb@Apple@@V?$allocator@UItemInfo@RewardInfo@NoviceGuildInfo@GuildInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "Gold",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  }
+ ],
+ "types": {}
+}

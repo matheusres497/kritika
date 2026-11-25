@@ -1,0 +1,63 @@
+{
+ "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::StatusConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::StatusConditionInfo"
+  },
+  {
+   "op": "enum",
+   "name": "StatusType",
+   "enum": "StatusType",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "StatusId",
+   "size": null,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "wstr",
+   "name": "StatusValue",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "UsePercentCompare",
+   "size": 1,
+   "cond": false,
+   "src": 85
+  },
+  {
+   "op": "wstr",
+   "name": "PercentBaseStatusId",
+   "size": null,
+   "cond": false,
+   "src": 88
+  },
+  {
+   "op": "f32",
+   "name": "Percent",
+   "size": 4,
+   "cond": false,
+   "src": 116
+  },
+  {
+   "op": "bool",
+   "name": "CheckObserver",
+   "size": 1,
+   "cond": false,
+   "src": 120
+  },
+  {
+   "op": "enum",
+   "name": "Condition",
+   "enum": "CompareType",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

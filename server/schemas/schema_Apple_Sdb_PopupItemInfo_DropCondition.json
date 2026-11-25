@@ -1,0 +1,65 @@
+{
+ "type": "Apple::Sdb::PopupItemInfo::DropCondition",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PopupItemInfo::DropCondition"
+  },
+  {
+   "op": "enum",
+   "name": "ConditionType",
+   "enum": "ConditionType",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "NpcKillScoreTable",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "NpcKillRewardTable",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "TargetNpcId",
+   "size": null,
+   "cond": false,
+   "src": 40
+  },
+  {
+   "op": "container",
+   "name": "NpcHpRateRewardTable",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@MV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$greater@M@2@V?$allocator@U?$pair@$$CBMV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "UsePositionOfItemBundleInfo",
+   "size": 1,
+   "cond": false,
+   "src": 84
+  },
+  {
+   "op": "bool",
+   "name": "IsRewardToInven",
+   "size": 1,
+   "cond": false,
+   "src": 85
+  },
+  {
+   "op": "bool",
+   "name": "IncludeLowGradeReward",
+   "size": 1,
+   "cond": false,
+   "src": 86
+  }
+ ],
+ "types": {}
+}

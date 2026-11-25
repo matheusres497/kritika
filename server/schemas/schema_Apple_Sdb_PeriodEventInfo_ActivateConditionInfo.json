@@ -1,0 +1,70 @@
+{
+ "type": "Apple::Sdb::PeriodEventInfo::ActivateConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PeriodEventInfo::ActivateConditionInfo"
+  },
+  {
+   "op": "struct",
+   "name": "PeriodCondition",
+   "type": "Apple::Sdb::PeriodEventInfo::ActivateConditionInfo::PeriodConditionInfo",
+   "func": 8124096,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::PeriodEventInfo::ActivateConditionInfo::PeriodConditionInfo"
+    },
+    {
+     "op": "enum",
+     "name": "Type",
+     "enum": "Type",
+     "cond": false
+    },
+    {
+     "op": "u32",
+     "name": "NextSequencePeriod",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "container",
+     "name": "Conditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UConditionInfo@PeriodConditionInfo@ActivateConditionInfo@PeriodEventInfo@Sdb@Apple@@V?$allocator@UConditionInfo@PeriodConditionInfo@ActivateConditionInfo@PeriodEventInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::PeriodEventInfo::ActivateConditionInfo::PeriodConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::PeriodEventInfo::ActivateConditionInfo::PeriodConditionInfo"
+   },
+   {
+    "op": "enum",
+    "name": "Type",
+    "enum": "Type",
+    "cond": false
+   },
+   {
+    "op": "u32",
+    "name": "NextSequencePeriod",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "container",
+    "name": "Conditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UConditionInfo@PeriodConditionInfo@ActivateConditionInfo@PeriodEventInfo@Sdb@Apple@@V?$allocator@UConditionInfo@PeriodConditionInfo@ActivateConditionInfo@PeriodEventInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ]
+ }
+}

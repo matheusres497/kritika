@@ -1,0 +1,29 @@
+{
+ "type": ".?AUPartialListPlayersSkills@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "AccountId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PlayerId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Skills",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@IV?$vector@USkill@Apple@@V?$allocator@USkill@Apple@@@std@@@std@@U?$less@I@2@V?$allocator@U?$pair@$$CBIV?$vector@USkill@Apple@@V?$allocator@USkill@Apple@@@std@@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

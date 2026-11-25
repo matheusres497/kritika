@@ -1,0 +1,77 @@
+{
+ "type": "Apple::Sdb::EventMissionGroupInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventMissionGroupInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "OidMissionGroup",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "StartTime",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "EndTime",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "MissionType",
+   "enum": "MissionType",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "RewardMailSenderName",
+   "size": null,
+   "cond": false,
+   "src": 76
+  },
+  {
+   "op": "wstr",
+   "name": "RewardMailContext",
+   "size": null,
+   "cond": false,
+   "src": 104
+  },
+  {
+   "op": "i32",
+   "name": "RewardMailExpirePeriod",
+   "size": 4,
+   "cond": false,
+   "src": 132
+  },
+  {
+   "op": "i32",
+   "name": "ResetIntervalDays",
+   "size": 4,
+   "cond": false,
+   "src": 136
+  },
+  {
+   "op": "container",
+   "name": "MissionLists",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UMissionListInfo@EventMissionGroupInfo@Sdb@Apple@@V?$allocator@UMissionListInfo@EventMissionGroupInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

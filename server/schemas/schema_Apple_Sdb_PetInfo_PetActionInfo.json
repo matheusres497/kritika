@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::PetInfo::PetActionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PetInfo::PetActionInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "f32",
+   "name": "PlayTime",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "AnimationPath",
+   "size": null,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "container",
+   "name": "Effects",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEffectInfo@Sdb@Apple@@V?$allocator@UEffectInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

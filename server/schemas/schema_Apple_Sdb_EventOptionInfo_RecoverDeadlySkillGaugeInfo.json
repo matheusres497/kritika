@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::EventOptionInfo::RecoverDeadlySkillGaugeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventOptionInfo::RecoverDeadlySkillGaugeInfo"
+  },
+  {
+   "op": "i32",
+   "name": "Point",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "Rate",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

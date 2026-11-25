@@ -1,0 +1,37 @@
+{
+ "type": "Apple::Sdb::DamageFontInfo::FontDetailInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::DamageFontInfo::FontDetailInfo"
+  },
+  {
+   "op": "raw",
+   "name": "Color",
+   "size": 16,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "AjustPosition",
+   "size": 8,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "enum",
+   "name": "StartRenderPositionType",
+   "enum": "StartRenderPositionType",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "PlusSize",
+   "size": 8,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::CashPromotionProductInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::CashPromotionProductInfo"
+  },
+  {
+   "op": "container",
+   "name": "OidProducts",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

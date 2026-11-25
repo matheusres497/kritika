@@ -1,0 +1,29 @@
+{
+ "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::EquipmentConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::EquipmentConditionInfo"
+  },
+  {
+   "op": "i32",
+   "name": "Count",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "enum",
+   "name": "CompareType",
+   "enum": "CompareType",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "ItemGrade",
+   "enum": "ItemGrade",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

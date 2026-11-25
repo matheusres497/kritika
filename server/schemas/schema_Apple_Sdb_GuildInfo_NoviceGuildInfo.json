@@ -1,0 +1,179 @@
+{
+ "type": "Apple::Sdb::GuildInfo::NoviceGuildInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GuildInfo::NoviceGuildInfo"
+  },
+  {
+   "op": "i32",
+   "name": "DefaultLevel",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "MaxGuildMember",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "container",
+   "name": "Skills",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USkill@GuildInfo@Sdb@Apple@@V?$allocator@USkill@GuildInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "GuildShopId",
+   "size": null,
+   "cond": false,
+   "src": 28
+  },
+  {
+   "op": "wstr",
+   "name": "GuildId",
+   "size": null,
+   "cond": false,
+   "src": 56
+  },
+  {
+   "op": "enum",
+   "name": "GuildName",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "GuildMasterName",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "NoticeTitle",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "NoticeDesc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "NoviceGuildJoinLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 212
+  },
+  {
+   "op": "struct",
+   "name": "JoinReward",
+   "type": "Apple::Sdb::GuildInfo::NoviceGuildInfo::RewardInfo",
+   "func": 9402608,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GuildInfo::NoviceGuildInfo::RewardInfo"
+    },
+    {
+     "op": "container",
+     "name": "Items",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UItemInfo@RewardInfo@NoviceGuildInfo@GuildInfo@Sdb@Apple@@V?$allocator@UItemInfo@RewardInfo@NoviceGuildInfo@GuildInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "Gold",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "GraduateReward",
+   "type": "Apple::Sdb::GuildInfo::NoviceGuildInfo::RewardInfo",
+   "func": 9402608,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GuildInfo::NoviceGuildInfo::RewardInfo"
+    },
+    {
+     "op": "container",
+     "name": "Items",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UItemInfo@RewardInfo@NoviceGuildInfo@GuildInfo@Sdb@Apple@@V?$allocator@UItemInfo@RewardInfo@NoviceGuildInfo@GuildInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "Gold",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    }
+   ]
+  },
+  {
+   "op": "i32",
+   "name": "GraduateRewardMinLevel",
+   "size": 4,
+   "cond": false,
+   "src": 288
+  },
+  {
+   "op": "container",
+   "name": "GuildTips",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@VLocaleType@Locale@AllM@@V?$allocator@VLocaleType@Locale@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "TipIntervalSecond",
+   "size": 4,
+   "cond": false,
+   "src": 284
+  },
+  {
+   "op": "bool",
+   "name": "Enable",
+   "size": 1,
+   "cond": false,
+   "src": 292
+  }
+ ],
+ "types": {
+  "Apple::Sdb::GuildInfo::NoviceGuildInfo::RewardInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::GuildInfo::NoviceGuildInfo::RewardInfo"
+   },
+   {
+    "op": "container",
+    "name": "Items",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UItemInfo@RewardInfo@NoviceGuildInfo@GuildInfo@Sdb@Apple@@V?$allocator@UItemInfo@RewardInfo@NoviceGuildInfo@GuildInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "Gold",
+    "size": 4,
+    "cond": false,
+    "src": 20
+   }
+  ]
+ }
+}

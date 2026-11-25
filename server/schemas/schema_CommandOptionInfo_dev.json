@@ -1,0 +1,29 @@
+{
+ "type": "Apple::CommandOptionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::CommandOptionInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "OptionName",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "HorizontalPositioning",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Components",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UComponentInfo@CommandOptionInfo@Apple@@V?$allocator@UComponentInfo@CommandOptionInfo@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

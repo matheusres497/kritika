@@ -1,0 +1,43 @@
+{
+ "type": "Apple::Sdb::PathFinderInfo::PathfinderItemStepInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PathFinderInfo::PathfinderItemStepInfo"
+  },
+  {
+   "op": "i32",
+   "name": "Index",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ItemList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "TierItemGrade",
+   "enum": "Grade",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "EssenceCountRange",
+   "size": 8,
+   "cond": false,
+   "src": 44
+  }
+ ],
+ "types": {}
+}

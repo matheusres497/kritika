@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::LobbyCreatureInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::LobbyCreatureInfo"
+  },
+  {
+   "op": "container",
+   "name": "ItemIdsForIgnoreLobbyEffect",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CreatureInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCreatureInfo@LobbyCreatureInfo@Sdb@Apple@@V?$allocator@UCreatureInfo@LobbyCreatureInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

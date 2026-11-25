@@ -1,0 +1,36 @@
+{
+ "type": ".?AUPartialListPlayersOldSkillsAndQuickSlots@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "AccountId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PlayerId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "OldSkills",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USkillLevelData@Apple@@V?$allocator@USkillLevelData@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "OldSkillQuickSlots",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@IV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@I@2@V?$allocator@U?$pair@$$CBIV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

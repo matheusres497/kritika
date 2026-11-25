@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::SkillInfo::_ActionListInfo::OverrideActionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SkillInfo::_ActionListInfo::OverrideActionInfo"
+  },
+  {
+   "op": "raw",
+   "name": "SkillLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "OverrideActionId",
+   "size": null,
+   "cond": false,
+   "src": 12
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,28 @@
+{
+ "type": "Apple::Protocol::FromServer::StageSystem::ChangeSectorLoadEnd",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "Serial",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 12,
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "Direction",
+   "size": 12,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

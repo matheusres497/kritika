@@ -1,0 +1,66 @@
+{
+ "type": ".?AU?$WriterWrapper@$$CBUNpcInfo@NpcSummonStageInfo@Sdb@Apple@@@Private@Serializer@AllM@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::NpcSummonStageInfo::NpcInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "NpcId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "OverrideBonusStatus",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "OverrideDifficulty",
+   "enum": "OverrideDifficulty",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "OverrideLevel",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "RevivalCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "Duration",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsBroadCast",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "Difficulty",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RewardItemInfos",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

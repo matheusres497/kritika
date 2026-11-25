@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::EnchantJewelCombineInfo::JewelCombineInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EnchantJewelCombineInfo::JewelCombineInfo"
+  },
+  {
+   "op": "i32",
+   "name": "JewelLevel",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "RequireSelectItemId",
+   "size": null,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "RequireSelectItemCount",
+   "size": 4,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "container",
+   "name": "JewelStatusInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UJewelStatusInfo@EnchantJewelCombineInfo@Sdb@Apple@@V?$allocator@UJewelStatusInfo@EnchantJewelCombineInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

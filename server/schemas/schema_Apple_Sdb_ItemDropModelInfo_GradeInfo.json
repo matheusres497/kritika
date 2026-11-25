@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::ItemDropModelInfo::GradeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemDropModelInfo::GradeInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Grade",
+   "enum": "ItemGrade",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "EffectPaths",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

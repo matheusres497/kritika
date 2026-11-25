@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::SoulCategorySetInfo::EffectInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SoulCategorySetInfo::EffectInfo"
+  },
+  {
+   "op": "i32",
+   "name": "EquipedCount",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "GradeEffectInfos",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UGradeEffectInfo@EffectInfo@SoulCategorySetInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UGradeEffectInfo@EffectInfo@SoulCategorySetInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

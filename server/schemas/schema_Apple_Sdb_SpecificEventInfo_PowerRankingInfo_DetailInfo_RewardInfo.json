@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::SpecificEventInfo::PowerRankingInfo::DetailInfo::RewardInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SpecificEventInfo::PowerRankingInfo::DetailInfo::RewardInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "MailContext",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "MailExpireDay",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "container",
+   "name": "DetailsByRanking",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@U?$Vector2@H@Math@AllM@@UDetailInfo@RewardInfo@4PowerRankingInfo@SpecificEventInfo@Sdb@Apple@@@std@@V?$allocator@U?$pair@U?$Vector2@H@Math@AllM@@UDetailInfo@RewardInfo@4PowerRankingInfo@SpecificEventInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

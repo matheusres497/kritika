@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::BuffFloorInfo::TargetEffectInfo::TargetStatusConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::BuffFloorInfo::TargetEffectInfo::TargetStatusConditionInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "StatusId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "StatusValue",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "bool",
+   "name": "ConditionCheckType",
+   "size": 1,
+   "cond": false,
+   "src": 60
+  }
+ ],
+ "types": {}
+}

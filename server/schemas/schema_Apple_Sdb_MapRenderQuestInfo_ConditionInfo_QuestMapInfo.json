@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::MapRenderQuestInfo::ConditionInfo::QuestMapInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::MapRenderQuestInfo::ConditionInfo::QuestMapInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "MapPath",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "BgmCue",
+   "size": null,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "container",
+   "name": "AmbientSoundEvents",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@UAmbientSoundEventType@Apple@@V?$allocator@UAmbientSoundEventType@Apple@@@std@@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@UAmbientSoundEventType@Apple@@V?$allocator@UAmbientSoundEventType@Apple@@@std@@@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

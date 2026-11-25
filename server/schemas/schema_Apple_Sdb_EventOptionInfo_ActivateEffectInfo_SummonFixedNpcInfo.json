@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::EventOptionInfo::ActivateEffectInfo::SummonFixedNpcInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventOptionInfo::ActivateEffectInfo::SummonFixedNpcInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "NpcId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  }
+ ],
+ "types": {}
+}

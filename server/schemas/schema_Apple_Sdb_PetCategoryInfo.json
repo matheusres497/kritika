@@ -1,0 +1,36 @@
+{
+ "type": "Apple::Sdb::PetCategoryInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PetCategoryInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "Type",
+   "size": null,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

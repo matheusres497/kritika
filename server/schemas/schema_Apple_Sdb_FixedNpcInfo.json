@@ -1,0 +1,299 @@
+{
+ "type": "Apple::Sdb::FixedNpcInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::FixedNpcInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ModelPath",
+   "size": null,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "wstr",
+   "name": "AnimationPath",
+   "size": null,
+   "cond": false,
+   "src": 96
+  },
+  {
+   "op": "struct",
+   "name": "RandomStandingAnimation",
+   "type": "Apple::Sdb::FixedNpcInfo::RandomStandingAnimationInfo",
+   "func": 8820496,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::FixedNpcInfo::RandomStandingAnimationInfo"
+    },
+    {
+     "op": "raw",
+     "name": "IntervalRange",
+     "size": 8,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "container",
+     "name": "Poses",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UPose@RandomStandingAnimationInfo@FixedNpcInfo@Sdb@Apple@@V?$allocator@UPose@RandomStandingAnimationInfo@FixedNpcInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "wstr",
+   "name": "MovingAnimationPath",
+   "size": null,
+   "cond": false,
+   "src": 156
+  },
+  {
+   "op": "f32",
+   "name": "MovingVelocity",
+   "size": 4,
+   "cond": false,
+   "src": 188
+  },
+  {
+   "op": "container",
+   "name": "Effects",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEffectInfo@Sdb@Apple@@V?$allocator@UEffectInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "Scale",
+   "size": 12,
+   "cond": false,
+   "src": 208
+  },
+  {
+   "op": "raw",
+   "name": "QuestMarkScale",
+   "size": 12,
+   "cond": false,
+   "src": 220
+  },
+  {
+   "op": "f32",
+   "name": "Radius",
+   "size": 4,
+   "cond": false,
+   "src": 232
+  },
+  {
+   "op": "wstr",
+   "name": "ShopId",
+   "size": null,
+   "cond": false,
+   "src": 236
+  },
+  {
+   "op": "wstr",
+   "name": "ImagePath",
+   "size": null,
+   "cond": false,
+   "src": 264
+  },
+  {
+   "op": "enum",
+   "name": "DialogText",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "OpenSoundId",
+   "size": null,
+   "cond": false,
+   "src": 328
+  },
+  {
+   "op": "wstr",
+   "name": "CloseSoundId",
+   "size": null,
+   "cond": false,
+   "src": 356
+  },
+  {
+   "op": "wstr",
+   "name": "IdleSoundId",
+   "size": null,
+   "cond": false,
+   "src": 384
+  },
+  {
+   "op": "container",
+   "name": "OpenSoundIdByClassType",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CloseSoundIdByClassType",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "IdleSoundIdByClassType",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RandomMessages",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@VLocaleType@Locale@AllM@@V?$allocator@VLocaleType@Locale@AllM@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "IconPath",
+   "size": null,
+   "cond": false,
+   "src": 476
+  },
+  {
+   "op": "bool",
+   "name": "VisibleOnWorldMap",
+   "size": 1,
+   "cond": false,
+   "src": 508
+  },
+  {
+   "op": "bool",
+   "name": "Pickable",
+   "size": 1,
+   "cond": false,
+   "src": 509
+  },
+  {
+   "op": "bool",
+   "name": "Visible",
+   "size": 1,
+   "cond": false,
+   "src": 510
+  },
+  {
+   "op": "bool",
+   "name": "CollidablePlayer",
+   "size": 1,
+   "cond": false,
+   "src": 511
+  },
+  {
+   "op": "raw",
+   "name": "CollisionSize",
+   "size": 8,
+   "cond": false,
+   "src": 512
+  },
+  {
+   "op": "container",
+   "name": "RandomQuestIds",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "NickName",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "VillageId",
+   "size": null,
+   "cond": false,
+   "src": 568
+  },
+  {
+   "op": "container",
+   "name": "AvailableStageIds",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "FloatingUiPositionOffset",
+   "size": 8,
+   "cond": false,
+   "src": 612
+  },
+  {
+   "op": "container",
+   "name": "TransformInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UTransformInfo@FixedNpcInfo@Sdb@Apple@@V?$allocator@UTransformInfo@FixedNpcInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "PickableAfterStageClear",
+   "size": 1,
+   "cond": false,
+   "src": 664
+  },
+  {
+   "op": "wstr",
+   "name": "DueDayStartTime",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "BasedVillage",
+   "size": null,
+   "cond": false,
+   "src": 620
+  }
+ ],
+ "types": {
+  "Apple::Sdb::FixedNpcInfo::RandomStandingAnimationInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::FixedNpcInfo::RandomStandingAnimationInfo"
+   },
+   {
+    "op": "raw",
+    "name": "IntervalRange",
+    "size": 8,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "container",
+    "name": "Poses",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UPose@RandomStandingAnimationInfo@FixedNpcInfo@Sdb@Apple@@V?$allocator@UPose@RandomStandingAnimationInfo@FixedNpcInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ]
+ }
+}

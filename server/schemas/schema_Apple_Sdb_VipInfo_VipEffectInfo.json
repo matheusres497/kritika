@@ -1,0 +1,156 @@
+{
+ "type": "Apple::Sdb::VipInfo::VipEffectInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::VipInfo::VipEffectInfo"
+  },
+  {
+   "op": "enum",
+   "name": "VipStepType",
+   "enum": "VipStep",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "StepLevel",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "PossibleGainPoint",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "f32",
+   "name": "StageClearBonusRate",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "f32",
+   "name": "KillExpBonusRate",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "i32",
+   "name": "AccountMaketUsageBonusCount",
+   "size": 4,
+   "cond": false,
+   "src": 24
+  },
+  {
+   "op": "i32",
+   "name": "CharacterMaketUsageBonusCount",
+   "size": 4,
+   "cond": false,
+   "src": 28
+  },
+  {
+   "op": "i32",
+   "name": "BonusFatigue",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "i32",
+   "name": "BonusResurrectionStoneCount",
+   "size": 4,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "bool",
+   "name": "PossibleVictoryPoseCancel",
+   "size": 1,
+   "cond": false,
+   "src": 40
+  },
+  {
+   "op": "i32",
+   "name": "PopupCashShopBonusCount",
+   "size": 4,
+   "cond": false,
+   "src": 44
+  },
+  {
+   "op": "container",
+   "name": "DailyGift",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UItemInfo@VipEffectInfo@VipInfo@Sdb@Apple@@V?$allocator@UItemInfo@VipEffectInfo@VipInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "EffectDescList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEffectDescInfo@VipEffectInfo@VipInfo@Sdb@Apple@@V?$allocator@UEffectDescInfo@VipEffectInfo@VipInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "MvpScreenEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 48
+  },
+  {
+   "op": "bool",
+   "name": "UseAdditionalStageItemReward",
+   "size": 1,
+   "cond": false,
+   "src": 80
+  },
+  {
+   "op": "container",
+   "name": "AdditionalStageLimitCount",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "AdditionalStageGroupLimitCount",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IgnoreFailBuff",
+   "size": 1,
+   "cond": false,
+   "src": 116
+  },
+  {
+   "op": "i32",
+   "name": "KeepConnectionEventBoostMagnification",
+   "size": 4,
+   "cond": false,
+   "src": 120
+  },
+  {
+   "op": "container",
+   "name": "Status",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "AdditionalMarketRegistCount",
+   "size": 4,
+   "cond": false,
+   "src": 140
+  }
+ ],
+ "types": {}
+}

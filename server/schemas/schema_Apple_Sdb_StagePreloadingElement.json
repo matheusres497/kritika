@@ -1,0 +1,107 @@
+{
+ "type": "Apple::Sdb::StagePreloadingElement",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::StagePreloadingElement"
+  },
+  {
+   "op": "struct",
+   "name": "StandardElement",
+   "type": "Apple::Sdb::PreloadingElement",
+   "func": 33707056,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::PreloadingElement"
+    },
+    {
+     "op": "container",
+     "name": "Models",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "Effects",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "Animations",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "Sounds",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "Textures",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "QuestElement",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UQuestElementInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UQuestElementInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {
+  "Apple::Sdb::PreloadingElement": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::PreloadingElement"
+   },
+   {
+    "op": "container",
+    "name": "Models",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "Effects",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "Animations",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "Sounds",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "Textures",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ]
+ }
+}

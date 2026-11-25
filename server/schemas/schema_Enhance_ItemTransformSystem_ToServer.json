@@ -1,0 +1,73 @@
+{
+ "type": ".?AUEnhance@ItemTransformSystem@ToServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "SrcTabIndex",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "u32",
+   "name": "SrcSlotIndex",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "container",
+   "name": "RuneIndexes",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@IHU?$less@I@std@@V?$allocator@U?$pair@$$CBIH@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "EnhanceStoneIndex",
+   "size": 4,
+   "cond": false,
+   "src": 28
+  },
+  {
+   "op": "u32",
+   "name": "DestroyPreventItemTabIndex",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "u32",
+   "name": "DestroyPreventItemIndex",
+   "size": 4,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "bool",
+   "name": "UseDestroyPreventItem",
+   "size": 1,
+   "cond": false,
+   "src": 40
+  },
+  {
+   "op": "wstr",
+   "name": "EnhanceStoneId",
+   "size": null,
+   "cond": false,
+   "src": 44
+  },
+  {
+   "op": "bool",
+   "name": "UseEnhancePoint",
+   "size": 1,
+   "cond": false,
+   "src": 72
+  }
+ ],
+ "types": {}
+}

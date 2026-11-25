@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Protocol::ToServer::ItemTransformSystem::Upgrade",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "TabCategory",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "u32",
+   "name": "SlotIndex",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "wstr",
+   "name": "TargetItemId",
+   "size": null,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "bool",
+   "name": "IsInstant",
+   "size": 1,
+   "cond": false,
+   "src": 40
+  }
+ ],
+ "types": {}
+}

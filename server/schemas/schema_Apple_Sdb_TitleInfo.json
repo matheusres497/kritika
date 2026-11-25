@@ -1,0 +1,441 @@
+{
+ "type": "Apple::Sdb::TitleInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::TitleInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Description",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "ActiveConditionDescription",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "IconPath",
+   "size": null,
+   "cond": false,
+   "src": 128
+  },
+  {
+   "op": "wstr",
+   "name": "AnimationIconPath",
+   "size": null,
+   "cond": false,
+   "src": 160
+  },
+  {
+   "op": "container",
+   "name": "Status",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "EventOptionList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "ExpireInfo",
+   "type": "Apple::Sdb::TitleInfo::Expire",
+   "func": 8094176,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::TitleInfo::Expire"
+    },
+    {
+     "op": "enum",
+     "name": "Type",
+     "enum": "ExpirationType",
+     "cond": false
+    },
+    {
+     "op": "struct",
+     "name": "DateInfo",
+     "type": "Apple::Sdb::TitleInfo::Expire::Date",
+     "func": 8091744,
+     "cond": false,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::Sdb::TitleInfo::Expire::Date"
+      },
+      {
+       "op": "i32",
+       "name": "Year",
+       "size": 4,
+       "cond": false,
+       "src": 4
+      },
+      {
+       "op": "i32",
+       "name": "Month",
+       "size": 4,
+       "cond": false,
+       "src": 8
+      },
+      {
+       "op": "i32",
+       "name": "Day",
+       "size": 4,
+       "cond": false,
+       "src": 12
+      },
+      {
+       "op": "i32",
+       "name": "Hour",
+       "size": 4,
+       "cond": false,
+       "src": 16
+      },
+      {
+       "op": "i32",
+       "name": "Minute",
+       "size": 4,
+       "cond": false,
+       "src": 20
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "op": "i32",
+   "name": "TitleLevel",
+   "size": 4,
+   "cond": false,
+   "src": 192
+  },
+  {
+   "op": "bool",
+   "name": "IsDisplay",
+   "size": 1,
+   "cond": false,
+   "src": 196
+  },
+  {
+   "op": "i32",
+   "name": "CollectionPoint",
+   "size": 4,
+   "cond": false,
+   "src": 200
+  },
+  {
+   "op": "struct",
+   "name": "ExtendInfo",
+   "type": "Apple::Sdb::TitleInfo::Extend",
+   "func": 8093936,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::TitleInfo::Extend"
+    },
+    {
+     "op": "container",
+     "name": "PeriodStatus",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "PeriodEventOptionList",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "struct",
+     "name": "ExpireInfo",
+     "type": "Apple::Sdb::TitleInfo::Expire",
+     "func": 8094176,
+     "cond": false,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::Sdb::TitleInfo::Expire"
+      },
+      {
+       "op": "enum",
+       "name": "Type",
+       "enum": "ExpirationType",
+       "cond": false
+      },
+      {
+       "op": "struct",
+       "name": "DateInfo",
+       "type": "Apple::Sdb::TitleInfo::Expire::Date",
+       "func": 8091744,
+       "cond": false,
+       "fields": [
+        {
+         "op": "begin",
+         "type": "Apple::Sdb::TitleInfo::Expire::Date"
+        },
+        {
+         "op": "i32",
+         "name": "Year",
+         "size": 4,
+         "cond": false,
+         "src": 4
+        },
+        {
+         "op": "i32",
+         "name": "Month",
+         "size": 4,
+         "cond": false,
+         "src": 8
+        },
+        {
+         "op": "i32",
+         "name": "Day",
+         "size": 4,
+         "cond": false,
+         "src": 12
+        },
+        {
+         "op": "i32",
+         "name": "Hour",
+         "size": 4,
+         "cond": false,
+         "src": 16
+        },
+        {
+         "op": "i32",
+         "name": "Minute",
+         "size": 4,
+         "cond": false,
+         "src": 20
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "ChangeFontColorInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UChangeFontColorInfo@TitleInfo@Sdb@Apple@@V?$allocator@UChangeFontColorInfo@TitleInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {
+  "Apple::Sdb::TitleInfo::Expire": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::TitleInfo::Expire"
+   },
+   {
+    "op": "enum",
+    "name": "Type",
+    "enum": "ExpirationType",
+    "cond": false
+   },
+   {
+    "op": "struct",
+    "name": "DateInfo",
+    "type": "Apple::Sdb::TitleInfo::Expire::Date",
+    "func": 8091744,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::Sdb::TitleInfo::Expire::Date"
+     },
+     {
+      "op": "i32",
+      "name": "Year",
+      "size": 4,
+      "cond": false,
+      "src": 4
+     },
+     {
+      "op": "i32",
+      "name": "Month",
+      "size": 4,
+      "cond": false,
+      "src": 8
+     },
+     {
+      "op": "i32",
+      "name": "Day",
+      "size": 4,
+      "cond": false,
+      "src": 12
+     },
+     {
+      "op": "i32",
+      "name": "Hour",
+      "size": 4,
+      "cond": false,
+      "src": 16
+     },
+     {
+      "op": "i32",
+      "name": "Minute",
+      "size": 4,
+      "cond": false,
+      "src": 20
+     }
+    ]
+   }
+  ],
+  "Apple::Sdb::TitleInfo::Expire::Date": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::TitleInfo::Expire::Date"
+   },
+   {
+    "op": "i32",
+    "name": "Year",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "Month",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "i32",
+    "name": "Day",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "i32",
+    "name": "Hour",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "i32",
+    "name": "Minute",
+    "size": 4,
+    "cond": false,
+    "src": 20
+   }
+  ],
+  "Apple::Sdb::TitleInfo::Extend": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::TitleInfo::Extend"
+   },
+   {
+    "op": "container",
+    "name": "PeriodStatus",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "PeriodEventOptionList",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "struct",
+    "name": "ExpireInfo",
+    "type": "Apple::Sdb::TitleInfo::Expire",
+    "func": 8094176,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::Sdb::TitleInfo::Expire"
+     },
+     {
+      "op": "enum",
+      "name": "Type",
+      "enum": "ExpirationType",
+      "cond": false
+     },
+     {
+      "op": "struct",
+      "name": "DateInfo",
+      "type": "Apple::Sdb::TitleInfo::Expire::Date",
+      "func": 8091744,
+      "cond": false,
+      "fields": [
+       {
+        "op": "begin",
+        "type": "Apple::Sdb::TitleInfo::Expire::Date"
+       },
+       {
+        "op": "i32",
+        "name": "Year",
+        "size": 4,
+        "cond": false,
+        "src": 4
+       },
+       {
+        "op": "i32",
+        "name": "Month",
+        "size": 4,
+        "cond": false,
+        "src": 8
+       },
+       {
+        "op": "i32",
+        "name": "Day",
+        "size": 4,
+        "cond": false,
+        "src": 12
+       },
+       {
+        "op": "i32",
+        "name": "Hour",
+        "size": 4,
+        "cond": false,
+        "src": 16
+       },
+       {
+        "op": "i32",
+        "name": "Minute",
+        "size": 4,
+        "cond": false,
+        "src": 20
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::PopupItemInfo::ItemBundleInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PopupItemInfo::ItemBundleInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "ItemBundleDropId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 8,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

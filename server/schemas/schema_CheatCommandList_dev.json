@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Protocol::FromServer::DevEnvSystem::CheatCommandList",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "container",
+   "name": "CommandList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCheatCommandInfo@Apple@@V?$allocator@UCheatCommandInfo@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

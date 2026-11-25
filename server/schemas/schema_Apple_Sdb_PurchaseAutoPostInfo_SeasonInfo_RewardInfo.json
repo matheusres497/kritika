@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::PurchaseAutoPostInfo::SeasonInfo::RewardInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PurchaseAutoPostInfo::SeasonInfo::RewardInfo"
+  },
+  {
+   "op": "i32",
+   "name": "TargetOidProduct",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "RewardItemList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardItemInfo@RewardInfo@SeasonInfo@PurchaseAutoPostInfo@Sdb@Apple@@V?$allocator@URewardItemInfo@RewardInfo@SeasonInfo@PurchaseAutoPostInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

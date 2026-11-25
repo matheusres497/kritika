@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::TutorialInfo::Condition::ComboInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::TutorialInfo::Condition::ComboInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "Time",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

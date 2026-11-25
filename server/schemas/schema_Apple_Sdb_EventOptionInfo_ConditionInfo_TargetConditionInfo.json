@@ -1,0 +1,42 @@
+{
+ "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::TargetConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::TargetConditionInfo"
+  },
+  {
+   "op": "enum",
+   "name": "TargetType",
+   "enum": "TargetType",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "TargetCount",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "enum",
+   "name": "DistanceCondition",
+   "enum": "SortType",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "OnlyHitTarget",
+   "size": 1,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "enum",
+   "name": "AutoItemPickUpType",
+   "enum": "AutoItemPickUpType",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

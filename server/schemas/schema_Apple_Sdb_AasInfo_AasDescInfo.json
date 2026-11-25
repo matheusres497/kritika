@@ -1,0 +1,28 @@
+{
+ "type": "Apple::Sdb::AasInfo::AasDescInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::AasInfo::AasStateDesc"
+  },
+  {
+   "op": "enum",
+   "name": "AasState",
+   "enum": "aasState",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

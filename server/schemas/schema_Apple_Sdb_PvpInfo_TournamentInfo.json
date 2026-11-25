@@ -1,0 +1,176 @@
+{
+ "type": "Apple::Sdb::PvpInfo::TournamentInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PvpInfo::TournamentInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "StartDateTime",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "EndDateTime",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "struct",
+   "name": "Codition",
+   "type": "Apple::Sdb::PvpInfo::TournamentInfo::ConditionInfo",
+   "func": 9290832,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::PvpInfo::TournamentInfo::ConditionInfo"
+    },
+    {
+     "op": "raw",
+     "name": "LevelRange",
+     "size": 8,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "container",
+     "name": "Classes",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    }
+   ]
+  },
+  {
+   "op": "enum",
+   "name": "StartDayOfWeek",
+   "enum": "WeekDays",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "PeriodInfos",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UPeriodInfo@TournamentInfo@PvpInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UPeriodInfo@TournamentInfo@PvpInfo@Sdb@Apple@@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "FightInfos",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HUFightInfo@TournamentInfo@PvpInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUFightInfo@TournamentInfo@PvpInfo@Sdb@Apple@@@std@@@7@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "RankLimitLow",
+   "size": 4,
+   "cond": true,
+   "src": 124
+  },
+  {
+   "op": "i32",
+   "name": "RankLimitHigh",
+   "size": 4,
+   "cond": true,
+   "src": 128
+  },
+  {
+   "op": "i32",
+   "name": "StartSequentialFinalsRound",
+   "size": 4,
+   "cond": true,
+   "src": 132
+  },
+  {
+   "op": "i32",
+   "name": "PreliminaryWinPoint",
+   "size": 4,
+   "cond": true,
+   "src": 136
+  },
+  {
+   "op": "i32",
+   "name": "PreliminaryLosePoint",
+   "size": 4,
+   "cond": true,
+   "src": 140
+  },
+  {
+   "op": "i32",
+   "name": "MaxPreliminarySamePlayerFightCountPerDay",
+   "size": 4,
+   "cond": true,
+   "src": 144
+  },
+  {
+   "op": "i32",
+   "name": "WaitInterval",
+   "size": 4,
+   "cond": true,
+   "src": 148
+  },
+  {
+   "op": "i32",
+   "name": "BaseWinPoint",
+   "size": 4,
+   "cond": true,
+   "src": 152
+  },
+  {
+   "op": "i32",
+   "name": "MinStartPlayerCount",
+   "size": 4,
+   "cond": true,
+   "src": 156
+  },
+  {
+   "op": "i32",
+   "name": "StartFinalsWaitSeconds",
+   "size": 4,
+   "cond": true,
+   "src": 160
+  },
+  {
+   "op": "i32",
+   "name": "NotifySeconds",
+   "size": 4,
+   "cond": true,
+   "src": 164
+  },
+  {
+   "op": "i32",
+   "name": "MatchListLoadDelayHours",
+   "size": 4,
+   "cond": true,
+   "src": 168
+  }
+ ],
+ "types": {
+  "Apple::Sdb::PvpInfo::TournamentInfo::ConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::PvpInfo::TournamentInfo::ConditionInfo"
+   },
+   {
+    "op": "raw",
+    "name": "LevelRange",
+    "size": 8,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "container",
+    "name": "Classes",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   }
+  ]
+ }
+}

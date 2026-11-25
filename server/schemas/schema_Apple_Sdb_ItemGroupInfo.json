@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::ItemGroupInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemGroupInfo"
+  },
+  {
+   "op": "enum",
+   "name": "GroupName",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ItemInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UGroupedItemInfo@Sdb@Apple@@V?$allocator@UGroupedItemInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

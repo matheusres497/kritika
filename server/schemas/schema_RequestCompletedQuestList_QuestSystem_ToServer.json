@@ -1,0 +1,17 @@
+{
+ "type": ".?AURequestCompletedQuestList@QuestSystem@ToServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "container",
+   "name": "CheckQuestIdHashes",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@IV?$allocator@I@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

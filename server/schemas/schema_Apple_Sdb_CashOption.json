@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::CashOption",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::CashOption"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "Elements",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCashOptionElement@Sdb@Apple@@V?$allocator@UCashOptionElement@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::VehicleCollectionInfo::RideInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::VehicleCollectionInfo"
+  },
+  {
+   "op": "container",
+   "name": "Actions",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "RiderBoneName",
+   "size": null,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "wstr",
+   "name": "VehicleBoneName",
+   "size": null,
+   "cond": false,
+   "src": 48
+  }
+ ],
+ "types": {}
+}

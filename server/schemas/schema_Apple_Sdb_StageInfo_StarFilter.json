@@ -1,0 +1,45 @@
+{
+ "type": "Apple::Sdb::StageInfo::StarFilter",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::StageInfo::StarFilter"
+  },
+  {
+   "op": "bool",
+   "name": "Enable",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "Threshold",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "f32",
+   "name": "Size",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "f32",
+   "name": "SizeScale",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "f32",
+   "name": "Power",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  }
+ ],
+ "types": {}
+}

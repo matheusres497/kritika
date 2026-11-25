@@ -1,0 +1,37 @@
+{
+ "type": "Apple::Sdb::PopStageInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PopStageInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "ConditionInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCondition@PopStageInfo@Sdb@Apple@@V?$allocator@UCondition@PopStageInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "StageType",
+   "enum": "PopStageType",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsMainStage",
+   "size": 1,
+   "cond": false,
+   "src": 36
+  }
+ ],
+ "types": {}
+}

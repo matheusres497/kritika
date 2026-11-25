@@ -1,0 +1,49 @@
+{
+ "type": "Apple::Sdb::ContractTableInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ContractTableInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Id",
+   "enum": "Id",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "IconPath",
+   "size": null,
+   "cond": false,
+   "src": 96
+  },
+  {
+   "op": "container",
+   "name": "NoticeTimeInfos",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@IVLocaleType@Locale@AllM@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIVLocaleType@Locale@AllM@@@std@@@5@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "bool",
+   "name": "IsVisibleDeleteButton",
+   "size": 1,
+   "cond": true,
+   "src": 144
+  }
+ ],
+ "types": {}
+}

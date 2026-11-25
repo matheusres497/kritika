@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::DailyGoldTradeUsageAmountInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::DailyGoldTradeUsageAmountInfo"
+  },
+  {
+   "op": "bool",
+   "name": "Enable",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "Amount",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

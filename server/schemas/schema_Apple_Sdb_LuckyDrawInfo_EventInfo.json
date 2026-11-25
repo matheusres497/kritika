@@ -1,0 +1,62 @@
+{
+ "type": "Apple::Sdb::LuckyDrawInfo::EventInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::LuckyDrawInfo::EventInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "EventId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "StartDate",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "EndDate",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "MailExpirationPeriod",
+   "size": 4,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "bool",
+   "name": "IsAccountEvent",
+   "size": 1,
+   "cond": false,
+   "src": 68
+  },
+  {
+   "op": "container",
+   "name": "DrawRewards",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardInfo@LuckyDrawInfo@Sdb@Apple@@V?$allocator@URewardInfo@LuckyDrawInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "TitleName",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Caution",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

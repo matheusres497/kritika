@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::BasicItemOptionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::BasicItemOptionInfo"
+  },
+  {
+   "op": "container",
+   "name": "OptionDetails",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UOptionDetail@BasicItemOptionInfo@Sdb@Apple@@V?$allocator@UOptionDetail@BasicItemOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "GoodOptionDetails",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UOptionDetail@BasicItemOptionInfo@Sdb@Apple@@V?$allocator@UOptionDetail@BasicItemOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

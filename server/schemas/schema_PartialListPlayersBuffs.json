@@ -1,0 +1,68 @@
+{
+ "type": ".?AUPartialListPlayersBuffs@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "AccountId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PlayerId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "Buffs",
+   "type": "VBuffContainer@Apple@@",
+   "func": 11144624,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::BuffContainer"
+    },
+    {
+     "op": "container",
+     "name": "List",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UBuffInstance@Apple@@V?$allocator@UBuffInstance@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "u32",
+     "name": "NextSerial",
+     "size": 4,
+     "cond": false
+    }
+   ]
+  }
+ ],
+ "types": {
+  "VBuffContainer@Apple@@": [
+   {
+    "op": "begin",
+    "type": "Apple::BuffContainer"
+   },
+   {
+    "op": "container",
+    "name": "List",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UBuffInstance@Apple@@V?$allocator@UBuffInstance@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "u32",
+    "name": "NextSerial",
+    "size": 4,
+    "cond": false
+   }
+  ]
+ }
+}

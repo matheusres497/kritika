@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::NpcInfo::InheritStatusOfServantInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::NpcInfo::InheritStatusOfServantInfo"
+  },
+  {
+   "op": "container",
+   "name": "StatusNames",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "ApplyDefaultStatus",
+   "size": 1,
+   "cond": false,
+   "src": 20
+  }
+ ],
+ "types": {}
+}

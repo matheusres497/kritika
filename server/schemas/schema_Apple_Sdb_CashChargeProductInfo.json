@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::CashChargeProductInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::CashChargeProductInfo"
+  },
+  {
+   "op": "container",
+   "name": "ChannelingList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UChannelingInfo@CashChargeProductInfo@Sdb@Apple@@V?$allocator@UChannelingInfo@CashChargeProductInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "GuideDesc",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

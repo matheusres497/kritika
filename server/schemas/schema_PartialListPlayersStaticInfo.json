@@ -1,0 +1,134 @@
+{
+ "type": ".?AUPartialListPlayersStaticInfo@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "AccountId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "StaticInfo",
+   "type": "Apple::StaticPlayerInfo",
+   "func": 12190880,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::StaticPlayerInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "PlayerName",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "i64",
+     "name": "PlayerSerial",
+     "size": 8,
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "PlayerGender",
+     "enum": "playerGender",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "ClassType",
+     "enum": "classType",
+     "cond": false
+    },
+    {
+     "op": "struct",
+     "name": "CreatedDateTime",
+     "type": "Apple::DateTime",
+     "func": 4809616,
+     "cond": false,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::DateTime"
+      },
+      {
+       "op": "u64",
+       "name": "Ticks",
+       "size": 8,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "bool",
+     "name": "IsDeleted",
+     "size": 1,
+     "cond": false
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::StaticPlayerInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::StaticPlayerInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "PlayerName",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "i64",
+    "name": "PlayerSerial",
+    "size": 8,
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "PlayerGender",
+    "enum": "playerGender",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "ClassType",
+    "enum": "classType",
+    "cond": false
+   },
+   {
+    "op": "struct",
+    "name": "CreatedDateTime",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "bool",
+    "name": "IsDeleted",
+    "size": 1,
+    "cond": false
+   }
+  ]
+ }
+}

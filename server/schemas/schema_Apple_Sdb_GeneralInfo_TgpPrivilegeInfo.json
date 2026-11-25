@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::GeneralInfo::TgpPrivilegeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GeneralInfo::TgpPrivilegeInfo"
+  },
+  {
+   "op": "container",
+   "name": "TgpStageClearExpInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UTgpStageClearExpInfo@TgpPrivilegeInfo@GeneralInfo@Sdb@Apple@@V?$allocator@UTgpStageClearExpInfo@TgpPrivilegeInfo@GeneralInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

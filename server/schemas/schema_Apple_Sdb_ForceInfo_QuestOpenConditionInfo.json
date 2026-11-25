@@ -1,0 +1,36 @@
+{
+ "type": "Apple::Sdb::ForceInfo::QuestOpenConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ForceInfo::QuestOpenConditionInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "wstr",
+   "name": "QuestId",
+   "size": null,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "OpenType",
+   "enum": "OpenType",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

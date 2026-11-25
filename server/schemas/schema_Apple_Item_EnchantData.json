@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Item::EnchantData",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Item::EnchantData"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "Statuses",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UIncreaseStatus@Apple@@V?$allocator@UIncreaseStatus@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "EventOptions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEventOption@Apple@@V?$allocator@UEventOption@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,85 @@
+{
+ "type": "Apple::Sdb::NamedNpcInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::NamedNpc"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "BaseNpcId",
+   "size": null,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "f32",
+   "name": "ScaleFactor",
+   "size": 4,
+   "cond": false,
+   "src": 92
+  },
+  {
+   "op": "u32",
+   "name": "MinBuffNum",
+   "size": 4,
+   "cond": false,
+   "src": 96
+  },
+  {
+   "op": "u32",
+   "name": "MaxBuffNum",
+   "size": 4,
+   "cond": false,
+   "src": 100
+  },
+  {
+   "op": "enum",
+   "name": "Rank",
+   "enum": "Rank",
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "InitialBuffCount",
+   "size": 4,
+   "cond": false,
+   "src": 108
+  },
+  {
+   "op": "container",
+   "name": "BuffCandidates",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UBuff@NamedNpcInfo@Sdb@Apple@@V?$allocator@UBuff@NamedNpcInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Effects",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEffectInfo@Sdb@Apple@@V?$allocator@UEffectInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RandomMessages",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@VLocaleType@Locale@AllM@@V?$allocator@VLocaleType@Locale@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  }
+ ],
+ "types": {}
+}

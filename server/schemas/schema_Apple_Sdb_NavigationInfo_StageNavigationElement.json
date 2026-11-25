@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::NavigationInfo::StageNavigationElement",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::NavigationInfo::NavigationElement"
+  },
+  {
+   "op": "enum",
+   "name": "StartCondition",
+   "enum": "NavigationCondition",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "TargetPositions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UTargetPositionInfo@NavigationInfo@Sdb@Apple@@V?$allocator@UTargetPositionInfo@NavigationInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

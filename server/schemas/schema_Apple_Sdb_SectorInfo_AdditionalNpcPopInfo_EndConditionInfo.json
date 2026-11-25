@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::SectorInfo::AdditionalNpcPopInfo::EndConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SectorInfo::AdditionalNpcPopInfo::EndConditionInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "DestroyedNpcId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  }
+ ],
+ "types": {}
+}

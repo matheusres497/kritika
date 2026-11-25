@@ -1,0 +1,45 @@
+{
+ "type": "Apple::Sdb::ActionInfo::DecorationObjectInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ActionInfo::DecorationObjectInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "ModelPath",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "AnimationPath",
+   "size": null,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 12,
+   "cond": false,
+   "src": 68
+  },
+  {
+   "op": "raw",
+   "name": "Direction",
+   "size": 12,
+   "cond": false,
+   "src": 80
+  },
+  {
+   "op": "raw",
+   "name": "Scale",
+   "size": 12,
+   "cond": false,
+   "src": 92
+  }
+ ],
+ "types": {}
+}

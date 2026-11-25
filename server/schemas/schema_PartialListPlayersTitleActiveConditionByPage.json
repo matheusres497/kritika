@@ -1,0 +1,41 @@
+{
+ "type": ".?AUPartialListPlayersTitleActiveConditionByPage@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "AccountId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PlayerId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "TitleActiveCondition",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UActiveCondition@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UActiveCondition@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "CurrentPage",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "TotalPage",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

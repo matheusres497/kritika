@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::StageDifficultySetting::Bonus",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::StageDifficultySetting::Bonus"
+  },
+  {
+   "op": "f32",
+   "name": "ExpBonusRate",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "GoldBonusRate",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

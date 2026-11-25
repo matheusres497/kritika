@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::ItemInfo::Equip::Fishing",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::ItemInfo::Equip::Fishing"
+  },
+  {
+   "op": "i32",
+   "name": "BaitSlotCount",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "Status",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "FishingEventOptions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::ClassInfo::_Description",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ClassInfo::Description"
+  },
+  {
+   "op": "enum",
+   "name": "Brief",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "Difficulty",
+   "size": null,
+   "cond": false,
+   "src": 36
+  }
+ ],
+ "types": {}
+}

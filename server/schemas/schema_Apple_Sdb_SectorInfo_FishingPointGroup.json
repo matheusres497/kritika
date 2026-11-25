@@ -1,0 +1,71 @@
+{
+ "type": ".?AU?$WriterWrapper@$$CBUFishingPointGroup@SectorInfo@Sdb@Apple@@@Private@Serializer@AllM@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SectorInfo::FishingPointGroup"
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "bool",
+   "name": "IsMarkMinimap",
+   "size": 1,
+   "cond": true
+  },
+  {
+   "op": "raw",
+   "name": "CenterPosition",
+   "size": 12,
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": true
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "raw",
+   "name": "CenterPosition",
+   "size": 12,
+   "cond": true
+  },
+  {
+   "op": "raw",
+   "name": "Direction",
+   "size": 12,
+   "cond": true
+  },
+  {
+   "op": "f32",
+   "name": "AbleAngle",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "bool",
+   "name": "IsMarkMinimap",
+   "size": 1,
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "FishingPoints",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$Vector2@M@Math@AllM@@V?$allocator@U?$Vector2@M@Math@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  }
+ ],
+ "types": {}
+}

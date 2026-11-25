@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::JewelSupportInfo::ExtractJewel::RequiredItem",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::JewelSupportInfo::ExtractJewel::RequiredItem"
+  },
+  {
+   "op": "raw",
+   "name": "JewelLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "ItemId",
+   "size": null,
+   "cond": false,
+   "src": 12
+  }
+ ],
+ "types": {}
+}

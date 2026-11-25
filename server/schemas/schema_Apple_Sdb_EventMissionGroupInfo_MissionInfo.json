@@ -1,0 +1,199 @@
+{
+ "type": "Apple::Sdb::EventMissionGroupInfo::MissionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventMissionGroupInfo::MissionInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "ConditionType",
+   "enum": "ConditionType",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "AchieveNumber",
+   "size": 4,
+   "cond": false,
+   "src": 68
+  },
+  {
+   "op": "bool",
+   "name": "IsActivatedInRecommendStage",
+   "size": 1,
+   "cond": false,
+   "src": 72
+  },
+  {
+   "op": "struct",
+   "name": "PlayerCondition",
+   "type": "Apple::Sdb::EventMissionGroupInfo::MissionInfo::PlayerCondition",
+   "func": 8400240,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::EventMissionGroupInfo::MissionInfo::PlayerCondition"
+    },
+    {
+     "op": "bool",
+     "name": "IsFatigueMission",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "StageCondition",
+   "type": "Apple::Sdb::EventMissionGroupInfo::MissionInfo::StageCondition",
+   "func": 8406080,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::EventMissionGroupInfo::MissionInfo::StageCondition"
+    },
+    {
+     "op": "bool",
+     "name": "IsEveryStageAllowed",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "container",
+     "name": "StageIds",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "StageSelectTypes",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "Reward",
+   "type": "Apple::Sdb::EventMissionGroupInfo::MissionInfo::RewardInfo",
+   "func": 8400304,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::EventMissionGroupInfo::MissionInfo::RewardInfo"
+    },
+    {
+     "op": "i32",
+     "name": "OidProduct",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "wstr",
+     "name": "ItemId",
+     "size": null,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "i32",
+     "name": "Count",
+     "size": 4,
+     "cond": false,
+     "src": 36
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::EventMissionGroupInfo::MissionInfo::PlayerCondition": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::EventMissionGroupInfo::MissionInfo::PlayerCondition"
+   },
+   {
+    "op": "bool",
+    "name": "IsFatigueMission",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   }
+  ],
+  "Apple::Sdb::EventMissionGroupInfo::MissionInfo::StageCondition": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::EventMissionGroupInfo::MissionInfo::StageCondition"
+   },
+   {
+    "op": "bool",
+    "name": "IsEveryStageAllowed",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "container",
+    "name": "StageIds",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "StageSelectTypes",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   }
+  ],
+  "Apple::Sdb::EventMissionGroupInfo::MissionInfo::RewardInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::EventMissionGroupInfo::MissionInfo::RewardInfo"
+   },
+   {
+    "op": "i32",
+    "name": "OidProduct",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "wstr",
+    "name": "ItemId",
+    "size": null,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "i32",
+    "name": "Count",
+    "size": 4,
+    "cond": false,
+    "src": 36
+   }
+  ]
+ }
+}

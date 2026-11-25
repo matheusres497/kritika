@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::CardCollectionInfo::CardInfo::LevelInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::CardCollectionInfo::CardInfo::LevelInfo"
+  },
+  {
+   "op": "container",
+   "name": "Status",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "RequiredCardCountToLevelUp",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "i32",
+   "name": "LevelUpSuccessPercent",
+   "size": 4,
+   "cond": false,
+   "src": 24
+  }
+ ],
+ "types": {}
+}

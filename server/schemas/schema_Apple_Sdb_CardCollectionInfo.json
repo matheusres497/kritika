@@ -1,0 +1,87 @@
+{
+ "type": "Apple::Sdb::CardCollectionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::CardCollectionInfo"
+  },
+  {
+   "op": "container",
+   "name": "Cards",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCardInfo@CardCollectionInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCardInfo@CardCollectionInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CollectionEffects",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCollectionEffectInfo@CardCollectionInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCollectionEffectInfo@CardCollectionInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CollectionGroups",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCollectionGroupInfo@CardCollectionInfo@Sdb@Apple@@V?$allocator@UCollectionGroupInfo@CardCollectionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RandomCardTables",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@U?$pair@MV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@V?$allocator@U?$pair@MV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@2@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@U?$pair@MV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@V?$allocator@U?$pair@MV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@2@@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ReDrawCardTables",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@U?$pair@MV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@V?$allocator@U?$pair@MV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@2@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@U?$pair@MV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@V?$allocator@U?$pair@MV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@2@@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RandomCards",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URandomCardInfo@CardCollectionInfo@Sdb@Apple@@V?$allocator@URandomCardInfo@CardCollectionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "MaxRedrawSlotCount",
+   "size": 4,
+   "cond": false,
+   "src": 132
+  },
+  {
+   "op": "i32",
+   "name": "MaxRedrawCardCount",
+   "size": 4,
+   "cond": false,
+   "src": 136
+  },
+  {
+   "op": "i32",
+   "name": "CardRedrawPeriod",
+   "size": 4,
+   "cond": false,
+   "src": 140
+  },
+  {
+   "op": "container",
+   "name": "RedrawMaterialInfos",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@URedrawMaterialInfo@CardCollectionInfo@Sdb@Apple@@V?$allocator@URedrawMaterialInfo@CardCollectionInfo@Sdb@Apple@@@std@@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@URedrawMaterialInfo@CardCollectionInfo@Sdb@Apple@@V?$allocator@URedrawMaterialInfo@CardCollectionInfo@Sdb@Apple@@@std@@@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "CardLevelUpAdditionalInfos",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$map@HNU?$less@H@std@@V?$allocator@U?$pair@$$CBHN@std@@@2@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$map@HNU?$less@H@std@@V?$allocator@U?$pair@$$CBHN@std@@@2@@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  }
+ ],
+ "types": {}
+}

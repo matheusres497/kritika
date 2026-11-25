@@ -1,0 +1,212 @@
+{
+ "type": "Apple::Sdb::QuestSettingInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::QuestSettingInfo"
+  },
+  {
+   "op": "u32",
+   "name": "MaximumItemReward",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "u32",
+   "name": "MaximumSelectableItemReward",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "u32",
+   "name": "MaximumNumberOfAcceptedQuests",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "container",
+   "name": "AcceptEffectPaths",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CompleteEffectPaths",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "AbandonEffectPaths",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "AcceptNpcEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "wstr",
+   "name": "EventQuestAcceptNpcEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 96
+  },
+  {
+   "op": "wstr",
+   "name": "TitleQuestAcceptNpcEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 128
+  },
+  {
+   "op": "wstr",
+   "name": "AwakenQuestAcceptNpcEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 160
+  },
+  {
+   "op": "wstr",
+   "name": "WorldQuestAcceptNpcEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 192
+  },
+  {
+   "op": "wstr",
+   "name": "Under10QuestAcceptNpcEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 224
+  },
+  {
+   "op": "wstr",
+   "name": "MainQuestAcceptNpcEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 256
+  },
+  {
+   "op": "wstr",
+   "name": "DailyQuestAcceptNpcEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 288
+  },
+  {
+   "op": "wstr",
+   "name": "LimitDailyQuestAcceptNpcEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 320
+  },
+  {
+   "op": "wstr",
+   "name": "LearningQuestAcceptNpcEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 352
+  },
+  {
+   "op": "wstr",
+   "name": "InEfficientQuestAcceptNpcEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 384
+  },
+  {
+   "op": "wstr",
+   "name": "AcceptedNpcEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 416
+  },
+  {
+   "op": "wstr",
+   "name": "CompleteNpcEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 448
+  },
+  {
+   "op": "wstr",
+   "name": "RepeatableNpcEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 480
+  },
+  {
+   "op": "wstr",
+   "name": "SuddenNpcEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 512
+  },
+  {
+   "op": "wstr",
+   "name": "SupplementaryNpcEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 544
+  },
+  {
+   "op": "wstr",
+   "name": "SideNpcEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 576
+  },
+  {
+   "op": "i32",
+   "name": "InEfficientLevelGap",
+   "size": 4,
+   "cond": false,
+   "src": 608
+  },
+  {
+   "op": "struct",
+   "name": "DirectClearInfo",
+   "type": "Apple::Sdb::QuestSettingInfo::QuestDirectClearInfo",
+   "func": 9864320,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::QuestSettingInfo::QuestDirectClearInfo"
+    },
+    {
+     "op": "container",
+     "name": "RequireItemCountList",
+     "kind": "associative_array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::QuestSettingInfo::QuestDirectClearInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::QuestSettingInfo::QuestDirectClearInfo"
+   },
+   {
+    "op": "container",
+    "name": "RequireItemCountList",
+    "kind": "associative_array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   }
+  ]
+ }
+}

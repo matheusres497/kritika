@@ -1,0 +1,143 @@
+{
+ "type": "Apple::Sdb::__SkillInfo::SkillDetailInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SkillInfo::SkillDetailInfo"
+  },
+  {
+   "op": "u32",
+   "name": "MaxLevel",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "u32",
+   "name": "LimitedLevel",
+   "size": 4,
+   "cond": false,
+   "src": 140
+  },
+  {
+   "op": "u32",
+   "name": "AutoLearnSkillLevel",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "u32",
+   "name": "MinLevelToLearn",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "u32",
+   "name": "SpToLearn",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "u32",
+   "name": "AwakeningPointToLearn",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "u32",
+   "name": "TierAttackPowerToLearn",
+   "size": 4,
+   "cond": false,
+   "src": 24
+  },
+  {
+   "op": "u32",
+   "name": "LearnInterval",
+   "size": 4,
+   "cond": false,
+   "src": 28
+  },
+  {
+   "op": "f32",
+   "name": "ConsumeMp",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "f32",
+   "name": "ConsumeRage",
+   "size": 4,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "f32",
+   "name": "ConsumeNp",
+   "size": 4,
+   "cond": false,
+   "src": 40
+  },
+  {
+   "op": "f32",
+   "name": "Cooldown",
+   "size": 4,
+   "cond": false,
+   "src": 44
+  },
+  {
+   "op": "i32",
+   "name": "AttackPowerRate",
+   "size": 4,
+   "cond": false,
+   "src": 48
+  },
+  {
+   "op": "i32",
+   "name": "AttackPowerRatePerLevel",
+   "size": 4,
+   "cond": false,
+   "src": 52
+  },
+  {
+   "op": "i32",
+   "name": "AttackNum",
+   "size": 4,
+   "cond": false,
+   "src": 56
+  },
+  {
+   "op": "container",
+   "name": "OverrideLevelInfoList",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UOverrideLevelInfo@SkillDetailInfo@__SkillInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UOverrideLevelInfo@SkillDetailInfo@__SkillInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "OverrideSkillInfoList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UOverrideSkillInfo@SkillDetailInfo@__SkillInfo@Sdb@Apple@@V?$allocator@UOverrideSkillInfo@SkillDetailInfo@__SkillInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "AddAttackPowerRateBySkill",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UAddAttackPowerRateBySkillInfo@SkillDetailInfo@__SkillInfo@Sdb@Apple@@V?$allocator@UAddAttackPowerRateBySkillInfo@SkillDetailInfo@__SkillInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Params",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

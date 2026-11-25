@@ -1,0 +1,138 @@
+{
+ "type": ".?AU?$WriterWrapper@$$CBUStageInfo@AffixInfo@Sdb@Apple@@@Private@Serializer@AllM@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::AffixInfo::StageInfo"
+  },
+  {
+   "op": "container",
+   "name": "StatusIncreaseRate",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "DebuffRate",
+   "size": 8,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Rewards",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "OverrideDropRule",
+   "type": "Apple::Sdb::DropInfo",
+   "func": 7531504,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::DropInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "Id",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "wstr",
+     "name": "VipAdditionalRewardId",
+     "size": null,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "raw",
+     "name": "EquipableItemLevelRange",
+     "size": 8,
+     "cond": false,
+     "src": 60
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "OverrideStageClearRewardRule",
+   "type": "Apple::Sdb::DropInfo",
+   "func": 7531504,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::DropInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "Id",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "wstr",
+     "name": "VipAdditionalRewardId",
+     "size": null,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "raw",
+     "name": "EquipableItemLevelRange",
+     "size": 8,
+     "cond": false,
+     "src": 60
+    }
+   ]
+  },
+  {
+   "op": "u64",
+   "name": "RequiredDPS",
+   "size": 8,
+   "cond": false
+  },
+  {
+   "op": "u64",
+   "name": "RecommendDPS",
+   "size": 8,
+   "cond": false
+  }
+ ],
+ "types": {
+  "Apple::Sdb::DropInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::DropInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "Id",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "wstr",
+    "name": "VipAdditionalRewardId",
+    "size": null,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "raw",
+    "name": "EquipableItemLevelRange",
+    "size": 8,
+    "cond": false,
+    "src": 60
+   }
+  ]
+ }
+}

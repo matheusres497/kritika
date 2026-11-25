@@ -1,0 +1,114 @@
+{
+ "type": "Apple::Sdb::OverrideItemBaseStatusInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::OverrideItemBaseStatusInfo"
+  },
+  {
+   "op": "struct",
+   "name": "OverrideInfo",
+   "type": "Apple::Sdb::OverrideItemBaseStatusInfo::BaseStatusDescInfo",
+   "func": 10282688,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::OverrideItemBaseStatusInfo::BaseStatusDescInfo"
+    },
+    {
+     "op": "enum",
+     "name": "Condition",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "DisplayStatusList",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HV?$vector@UBaseStatusRange@BaseStatusDescInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@V?$allocator@UBaseStatusRange@BaseStatusDescInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@@std@@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$vector@UBaseStatusRange@BaseStatusDescInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@V?$allocator@UBaseStatusRange@BaseStatusDescInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@@std@@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "Desc",
+     "enum": "locale",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "IncreaseInfo",
+   "type": "Apple::Sdb::OverrideItemBaseStatusInfo::BaseStatusDescInfo",
+   "func": 10282688,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::OverrideItemBaseStatusInfo::BaseStatusDescInfo"
+    },
+    {
+     "op": "enum",
+     "name": "Condition",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "DisplayStatusList",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HV?$vector@UBaseStatusRange@BaseStatusDescInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@V?$allocator@UBaseStatusRange@BaseStatusDescInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@@std@@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$vector@UBaseStatusRange@BaseStatusDescInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@V?$allocator@UBaseStatusRange@BaseStatusDescInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@@std@@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "Desc",
+     "enum": "locale",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "BaseStatusIncreases",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UBaseStatusIncreaseInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@V?$allocator@UBaseStatusIncreaseInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RequiredMaterials",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UBaseStatusRequireInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UBaseStatusRequireInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {
+  "Apple::Sdb::OverrideItemBaseStatusInfo::BaseStatusDescInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::OverrideItemBaseStatusInfo::BaseStatusDescInfo"
+   },
+   {
+    "op": "enum",
+    "name": "Condition",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "DisplayStatusList",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HV?$vector@UBaseStatusRange@BaseStatusDescInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@V?$allocator@UBaseStatusRange@BaseStatusDescInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@@std@@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$vector@UBaseStatusRange@BaseStatusDescInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@V?$allocator@UBaseStatusRange@BaseStatusDescInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@@std@@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "Desc",
+    "enum": "locale",
+    "cond": false
+   }
+  ]
+ }
+}

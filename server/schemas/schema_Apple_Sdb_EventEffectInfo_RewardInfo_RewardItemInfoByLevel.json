@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::EventEffectInfo::RewardInfo::RewardItemInfoByLevel",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventEffectInfo::RewardInfo::RewardItemInfoByLevel"
+  },
+  {
+   "op": "raw",
+   "name": "LevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "OidProduct",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "container",
+   "name": "RewardItems",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardItemInfo@RewardInfo@EventEffectInfo@Sdb@Apple@@V?$allocator@URewardItemInfo@RewardInfo@EventEffectInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

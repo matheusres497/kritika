@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::SectorInfo::StatusInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SectorInfo::StatusInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Class",
+   "enum": "ClassType",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "StatusList",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@NU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@N@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::ForceInfo::StatusInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ForceInfo::StatusInfo"
+  },
+  {
+   "op": "i32",
+   "name": "MaxValue",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "NumberPointType",
+   "enum": "NumberPointType",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

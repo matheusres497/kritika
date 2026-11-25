@@ -1,0 +1,29 @@
+{
+ "type": "Apple::Condition::StageCondition::SkillUsageForSpecificNpc",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Condition::StageCondition::SkillUsageForSpecificNpc"
+  },
+  {
+   "op": "enum",
+   "name": "Type",
+   "enum": "NpcConditionType",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "Key",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "SkillUsageCounts",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@V?$allocator@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

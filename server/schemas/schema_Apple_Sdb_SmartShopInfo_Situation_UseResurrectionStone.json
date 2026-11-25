@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::SmartShopInfo::Situation::UseResurrectionStone",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SmartShopInfo::Situation::UseResurrectionStone"
+  },
+  {
+   "op": "container",
+   "name": "RecommendProducts",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "Count",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  }
+ ],
+ "types": {}
+}

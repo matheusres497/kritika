@@ -1,0 +1,34 @@
+{
+ "type": "Apple::Sdb::ToleranceInfo::DebuffInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ToleranceInfo::DebuffInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Type",
+   "enum": "debuffType",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "EnhanceMaterialName",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

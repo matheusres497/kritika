@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::AoeVisualInfo::JustTimeGaugeElement",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::JustTimeGaugeElement"
+  },
+  {
+   "op": "f32",
+   "name": "GaugeSpeed",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "AreaGood",
+   "size": 12,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "raw",
+   "name": "AreaPerfect",
+   "size": 12,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "f32",
+   "name": "LimitSecond",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

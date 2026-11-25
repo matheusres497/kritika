@@ -1,0 +1,30 @@
+{
+ "type": "Apple::Sdb::AdditionalStatusDeltaInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::AdditionalStatusDeltaInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "StageType",
+   "enum": "stagetype",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "AdditionalStatusIds",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

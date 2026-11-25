@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::JumpingCharacterInfo::JumpingClassInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::JumpingCharacterInfo::JumpingClassInfo"
+  },
+  {
+   "op": "container",
+   "name": "EquipItems",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "PossibleClassTypes",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CompleteQuestInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UCompleteQuestInfo@JumpingClassInfo@JumpingCharacterInfo@Sdb@Apple@@V?$allocator@UCompleteQuestInfo@JumpingClassInfo@JumpingCharacterInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "RestrictedMainQuestId",
+   "size": null,
+   "cond": false,
+   "src": 52
+  }
+ ],
+ "types": {}
+}

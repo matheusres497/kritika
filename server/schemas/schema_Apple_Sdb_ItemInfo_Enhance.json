@@ -1,0 +1,92 @@
+{
+ "type": "Apple::Sdb::ItemInfo::Enhance",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemInfo::Enhance"
+  },
+  {
+   "op": "enum",
+   "name": "Type",
+   "enum": "EnhanceType",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "InitialEnhanceLevel",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "container",
+   "name": "EnhanceFactors",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "Enable",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "SameEquipmentEnhanceIds",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "EnhanceItemPotentialInfoId",
+   "size": null,
+   "cond": false,
+   "src": 48
+  },
+  {
+   "op": "i32",
+   "name": "FailPointByDestroyPrevent",
+   "size": 4,
+   "cond": false,
+   "src": 76
+  },
+  {
+   "op": "i32",
+   "name": "InheritLevel",
+   "size": 4,
+   "cond": false,
+   "src": 80
+  },
+  {
+   "op": "bool",
+   "name": "IsBoostInherit",
+   "size": 1,
+   "cond": false,
+   "src": 84
+  },
+  {
+   "op": "bool",
+   "name": "IsIgnoreInheritLevel",
+   "size": 1,
+   "cond": false,
+   "src": 85
+  },
+  {
+   "op": "wstr",
+   "name": "InheritCategory",
+   "size": null,
+   "cond": false,
+   "src": 88
+  },
+  {
+   "op": "enum",
+   "name": "InheritCategoryName",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

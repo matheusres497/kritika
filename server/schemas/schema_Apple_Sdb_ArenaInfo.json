@@ -1,0 +1,55 @@
+{
+ "type": "Apple::Sdb::ArenaInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ArenaInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "StageId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "SectorInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@USectorInfo@ArenaInfo@Sdb@Apple@@V?$allocator@USectorInfo@ArenaInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "SectorRewardInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@USectorRewardInfo@ArenaInfo@Sdb@Apple@@V?$allocator@USectorRewardInfo@ArenaInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "raw",
+   "name": "DailyPenaltyRange",
+   "size": 8,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "MaxPenaltyDay",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "SeasonPenaltyFloor",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

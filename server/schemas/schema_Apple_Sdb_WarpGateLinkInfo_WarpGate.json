@@ -1,0 +1,51 @@
+{
+ "type": "Apple::Sdb::WarpGateLinkInfo::WarpGate",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::WarpGateLinkInfo::WarpGate"
+  },
+  {
+   "op": "wstr",
+   "name": "StageId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "SectorId",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "WarpGateId",
+   "size": null,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "bool",
+   "name": "Enable",
+   "size": 1,
+   "cond": false,
+   "src": 88
+  },
+  {
+   "op": "bool",
+   "name": "IsChannelWarpGate",
+   "size": 1,
+   "cond": false,
+   "src": 89
+  },
+  {
+   "op": "enum",
+   "name": "WarpGateName",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

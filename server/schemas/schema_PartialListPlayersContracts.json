@@ -1,0 +1,36 @@
+{
+ "type": ".?AUPartialListPlayersContracts@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "AccountId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PlayerId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Contracts",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HUContract@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUContract@Apple@@@std@@@4@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "ItemEffectPeriods",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HUItemEffectPeriodInfo@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUItemEffectPeriodInfo@Apple@@@std@@@4@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  }
+ ],
+ "types": {}
+}

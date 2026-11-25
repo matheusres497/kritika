@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::StageInfo::PositionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::StageInfo::PositionInfo"
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "Direction",
+   "size": 8,
+   "cond": false,
+   "src": 12
+  }
+ ],
+ "types": {}
+}

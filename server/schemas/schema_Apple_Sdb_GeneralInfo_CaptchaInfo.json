@@ -1,0 +1,52 @@
+{
+ "type": "Apple::Sdb::GeneralInfo::CaptchaInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GeneralInfo::CaptchaInfo"
+  },
+  {
+   "op": "i32",
+   "name": "ActivateSpentFatigue",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "RepeatInterval",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "RetryLimitCount",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "i32",
+   "name": "TimeLimitSecond",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "i32",
+   "name": "BlockPeriod",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "i32",
+   "name": "LogFrequency",
+   "size": 4,
+   "cond": false,
+   "src": 24
+  }
+ ],
+ "types": {}
+}

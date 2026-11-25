@@ -1,0 +1,37 @@
+{
+ "type": "Apple::Sdb::TransformationMonsterInfo::DayMonsterInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::TransformationMonsterInfo::DayMonsterInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Day",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "NpcId",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "enum",
+   "name": "NpcDesc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "MonsterSectorPositionInfos",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UMonsterSectorPositionInfo@DayMonsterInfo@TransformationMonsterInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UMonsterSectorPositionInfo@DayMonsterInfo@TransformationMonsterInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,126 @@
+{
+ "type": "Apple::Sdb::NpcSummonCollectionInfo::SummonNpcInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::NpcSummonCollectionInfo::SummonNpcInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "CollectionId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "TargetNpcId",
+   "size": null,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "wstr",
+   "name": "ImagePath",
+   "size": null,
+   "cond": false,
+   "src": 92
+  },
+  {
+   "op": "enum",
+   "name": "CollectionName",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "Count",
+   "size": 4,
+   "cond": false,
+   "src": 124
+  },
+  {
+   "op": "u64",
+   "name": "RecommendedDps",
+   "size": 8,
+   "cond": false,
+   "src": 128
+  },
+  {
+   "op": "enum",
+   "name": "Grade",
+   "enum": "ItemGrade",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "Rewards",
+   "type": "Apple::Sdb::NpcSummonCollectionInfo::SummonNpcRewardInfo",
+   "func": 9586208,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::NpcSummonCollectionInfo::SummonNpcRewardInfo"
+    },
+    {
+     "op": "container",
+     "name": "Status",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "Titles",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "Items",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "BestDropItemList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {
+  "Apple::Sdb::NpcSummonCollectionInfo::SummonNpcRewardInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::NpcSummonCollectionInfo::SummonNpcRewardInfo"
+   },
+   {
+    "op": "container",
+    "name": "Status",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "Titles",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "Items",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ]
+ }
+}

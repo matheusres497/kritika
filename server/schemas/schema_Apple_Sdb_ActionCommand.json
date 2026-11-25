@@ -1,0 +1,45 @@
+{
+ "type": "Apple::Sdb::ActionCommand",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ActionCommand"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "container",
+   "name": "LinkedActions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@ULinkedAction@ActionCommand@Sdb@Apple@@V?$allocator@ULinkedAction@ActionCommand@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "LinkedSkills",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@ULinkedSkill@ActionCommand@Sdb@Apple@@V?$allocator@ULinkedSkill@ActionCommand@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "LinkedActionsOnPvp",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@ULinkedAction@ActionCommand@Sdb@Apple@@V?$allocator@ULinkedAction@ActionCommand@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "LinkedSkillsOnPvp",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@ULinkedSkill@ActionCommand@Sdb@Apple@@V?$allocator@ULinkedSkill@ActionCommand@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

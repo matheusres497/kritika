@@ -1,0 +1,94 @@
+{
+ "type": "Apple::Sdb::ShopInfo::SellItem::PriceInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ShopInfo::SellItem::PriceInfo"
+  },
+  {
+   "op": "u32",
+   "name": "Gold",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "FriendPoint",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "bool",
+   "name": "IsChoiceCrest",
+   "size": 1,
+   "cond": false,
+   "src": 24
+  },
+  {
+   "op": "container",
+   "name": "Crests",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCrestInfo@PriceInfo@SellItem@ShopInfo@Sdb@Apple@@V?$allocator@UCrestInfo@PriceInfo@SellItem@ShopInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "GuildCoin",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "i32",
+   "name": "Mileage",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "i32",
+   "name": "ImprintingCoin",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "i32",
+   "name": "WarPoint",
+   "size": 4,
+   "cond": false,
+   "src": 44
+  },
+  {
+   "op": "i32",
+   "name": "MemberSiegeCoin",
+   "size": 4,
+   "cond": false,
+   "src": 48
+  },
+  {
+   "op": "i32",
+   "name": "DestinyPoint",
+   "size": 4,
+   "cond": false,
+   "src": 52
+  },
+  {
+   "op": "i32",
+   "name": "MentorPoint",
+   "size": 4,
+   "cond": false,
+   "src": 56
+  },
+  {
+   "op": "i32",
+   "name": "MenteePoint",
+   "size": 4,
+   "cond": false,
+   "src": 60
+  }
+ ],
+ "types": {}
+}

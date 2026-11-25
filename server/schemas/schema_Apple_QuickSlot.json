@@ -1,0 +1,22 @@
+{
+ "type": "Apple::QuickSlot",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::QuickSlot"
+  },
+  {
+   "op": "enum",
+   "name": "QuickSlotType",
+   "enum": "QuickSlotType",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "Command",
+   "size": null,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

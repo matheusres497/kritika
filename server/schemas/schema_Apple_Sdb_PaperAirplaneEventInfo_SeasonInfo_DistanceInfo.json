@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::PaperAirplaneEventInfo::SeasonInfo::DistanceInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PaperAirplaneEventInfo::SeasonInfo::DistanceInfo"
+  },
+  {
+   "op": "i32",
+   "name": "distance",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "Probability",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "bool",
+   "name": "IsJackpot",
+   "size": 1,
+   "cond": false,
+   "src": 12
+  }
+ ],
+ "types": {}
+}

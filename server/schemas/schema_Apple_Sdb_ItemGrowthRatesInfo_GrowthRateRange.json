@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::ItemGrowthRatesInfo::GrowthRateRange",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemGrowthRatesInfo::GrowthRateRange"
+  },
+  {
+   "op": "raw",
+   "name": "LevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "GrowthRate",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "f32",
+   "name": "EnhanceGrowthRate",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  }
+ ],
+ "types": {}
+}

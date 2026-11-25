@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::SpecificEventInfo::PuzzleInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SpecificEventInfo::PuzzleInfo"
+  },
+  {
+   "op": "container",
+   "name": "BoardList",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUPuzzleBoardInfo@PuzzleInfo@SpecificEventInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUPuzzleBoardInfo@PuzzleInfo@SpecificEventInfo@Sdb@Apple@@@std@@@7@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "RewardItemId",
+   "size": null,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "container",
+   "name": "UseItemList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

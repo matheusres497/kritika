@@ -1,0 +1,37 @@
+{
+ "type": "Apple::Sdb::ActionInfo::OverrideAnimationPathByClass",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ActionInfo::OverrideAnimationPathByClass"
+  },
+  {
+   "op": "enum",
+   "name": "ClassType",
+   "enum": "ClassType",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsOvercome",
+   "size": 1,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "wstr",
+   "name": "AnimationPath",
+   "size": null,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "container",
+   "name": "AnimationPathByMode",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@VLocator@AllM@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@VLocator@AllM@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

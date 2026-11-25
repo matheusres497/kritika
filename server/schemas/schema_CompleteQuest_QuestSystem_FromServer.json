@@ -1,0 +1,41 @@
+{
+ "type": ".?AUCompleteQuest@QuestSystem@FromServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "Result",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "QuestId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "BlockExpiration",
+   "type": "Apple::DateTime",
+   "func": 4809616,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::DateTime"
+    },
+    {
+     "op": "u64",
+     "name": "Ticks",
+     "size": 8,
+     "cond": false
+    }
+   ]
+  }
+ ],
+ "types": {}
+}

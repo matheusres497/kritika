@@ -1,0 +1,58 @@
+{
+ "type": "Apple::Sdb::UpgradeInfo::TargetItem",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::UpgradeInfo::TargetItem"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "Order",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "enum",
+   "name": "AvailableClass",
+   "enum": "AvailableClass",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RequiredItems",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$pair@H_N@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$pair@H_N@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "RequiredGold",
+   "size": 4,
+   "cond": false,
+   "src": 56
+  },
+  {
+   "op": "wstr",
+   "name": "UpgradeId",
+   "size": null,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "container",
+   "name": "InstantRequiredItems",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

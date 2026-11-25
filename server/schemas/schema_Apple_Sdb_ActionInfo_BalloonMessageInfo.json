@@ -1,0 +1,43 @@
+{
+ "type": "Apple::Sdb::ActionInfo::BalloonMessageInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ActionInfo::BalloonMessageInfo"
+  },
+  {
+   "op": "f32",
+   "name": "StartTime",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "Duration",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "enum",
+   "name": "Message",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PortraitImagePath",
+   "size": null,
+   "cond": false,
+   "src": 44
+  },
+  {
+   "op": "enum",
+   "name": "BalloonPosition",
+   "enum": "BalloonPosition",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

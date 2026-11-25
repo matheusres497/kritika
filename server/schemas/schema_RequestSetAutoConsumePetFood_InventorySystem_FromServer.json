@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Protocol::FromServer::InventorySystem::RequestSetAutoConsumePetFood",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "Result",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "PetFoodItemId",
+   "size": null,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

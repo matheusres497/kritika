@@ -1,0 +1,29 @@
+{
+ "type": "Apple::Sdb::OverrideItemBaseStatusInfo::BaseStatusDescInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::OverrideItemBaseStatusInfo::BaseStatusDescInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Condition",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "DisplayStatusList",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HV?$vector@UBaseStatusRange@BaseStatusDescInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@V?$allocator@UBaseStatusRange@BaseStatusDescInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@@std@@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$vector@UBaseStatusRange@BaseStatusDescInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@V?$allocator@UBaseStatusRange@BaseStatusDescInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@@std@@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

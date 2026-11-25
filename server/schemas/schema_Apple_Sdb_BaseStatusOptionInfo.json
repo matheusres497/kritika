@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::BaseStatusOptionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::BaseStatusOptionInfo"
+  },
+  {
+   "op": "container",
+   "name": "BaseStatusOptionDetails",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UBaseStatusOptionDetail@Sdb@Apple@@V?$allocator@UBaseStatusOptionDetail@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

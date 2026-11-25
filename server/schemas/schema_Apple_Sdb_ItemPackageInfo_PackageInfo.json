@@ -1,0 +1,80 @@
+{
+ "type": "Apple::Sdb::ItemPackageInfo::PackageInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemPackageInfo::PackageInfo"
+  },
+  {
+   "op": "container",
+   "name": "RequireItemIds",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "RequireItemCount",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "i32",
+   "name": "RequiredGold",
+   "size": 4,
+   "cond": false,
+   "src": 24
+  },
+  {
+   "op": "container",
+   "name": "PreviewItems",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ContainedItems",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UContainedItemsInfo@ItemPackageInfo@Sdb@Apple@@V?$allocator@UContainedItemsInfo@ItemPackageInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "SelectionCount",
+   "size": 4,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "bool",
+   "name": "UseCash",
+   "size": 1,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "raw",
+   "name": "LevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 68
+  },
+  {
+   "op": "raw",
+   "name": "RemainLockExpirationRange",
+   "size": 8,
+   "cond": false,
+   "src": 76
+  },
+  {
+   "op": "wstr",
+   "name": "RandomEnhanceInfoId",
+   "size": null,
+   "cond": false,
+   "src": 84
+  }
+ ],
+ "types": {}
+}

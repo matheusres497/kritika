@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::SkillPointInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SkillPointInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "SkillPointsPerLevel",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USkillPointPerLevelInfo@SkillPointInfo@Sdb@Apple@@V?$allocator@USkillPointPerLevelInfo@SkillPointInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

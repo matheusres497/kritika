@@ -1,0 +1,37 @@
+{
+ "type": "Apple::Sdb::ItemInfo::Equip::MeshPathData",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::ItemInfo::Equip::MeshPathData"
+  },
+  {
+   "op": "enum",
+   "name": "ClassType",
+   "enum": "ClassType",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "DefaultPath",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "PathByGrade",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "PathByGrowth",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@U?$Vector2@H@Math@AllM@@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@U?$less@U?$Vector2@H@Math@AllM@@@5@V?$allocator@U?$pair@$$CBU?$Vector2@H@Math@AllM@@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@std@@@5@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

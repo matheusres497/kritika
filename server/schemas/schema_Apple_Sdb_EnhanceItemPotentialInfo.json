@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::EnhanceItemPotentialInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EnhanceItemPotentialInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "EnhanceLevelInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEnhanceLevelInfo@EnhanceItemPotentialInfo@Sdb@Apple@@V?$allocator@UEnhanceLevelInfo@EnhanceItemPotentialInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

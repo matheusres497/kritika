@@ -1,0 +1,17 @@
+{
+ "type": ".?AURequestTeleportByGuidePopup@StageSystem@ToServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "QuestId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  }
+ ],
+ "types": {}
+}

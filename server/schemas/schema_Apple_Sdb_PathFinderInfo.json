@@ -1,0 +1,598 @@
+{
+ "type": "Apple::Sdb::PathFinderInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PathFinderInfo"
+  },
+  {
+   "op": "struct",
+   "name": "MainEquipmentInfo",
+   "type": "Apple::Sdb::PathFinderInfo::MainEquipmentPathfinderInfo",
+   "func": 8985120,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::PathFinderInfo::MainEquipmentPathfinderInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "TargetVillageId",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "wstr",
+     "name": "UiMenuType",
+     "size": null,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "enum",
+     "name": "Name",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "StageInfoHeader",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "LinkInfoHeader",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "Caution",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "RequiredLevel",
+     "size": 4,
+     "cond": false,
+     "src": 188
+    },
+    {
+     "op": "container",
+     "name": "ContentList",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UMainEquipmentPathfinderContentInfo@PathFinderInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UMainEquipmentPathfinderContentInfo@PathFinderInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "SubEquipmentInfo",
+   "type": "Apple::Sdb::PathFinderInfo::CommonPathfinderInfo",
+   "func": 8985632,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::PathFinderInfo::CommonPathfinderInfo"
+    },
+    {
+     "op": "enum",
+     "name": "Name",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "StageInfoHeader",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "LinkInfoHeader",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "Caution",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "UiMenuType",
+     "size": null,
+     "cond": false,
+     "src": 132
+    },
+    {
+     "op": "i32",
+     "name": "RequiredLevel",
+     "size": 4,
+     "cond": false,
+     "src": 160
+    },
+    {
+     "op": "container",
+     "name": "ContentList",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCommonPathfinderContentInfo@PathFinderInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCommonPathfinderContentInfo@PathFinderInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "SpecialEquipmentInfo",
+   "type": "Apple::Sdb::PathFinderInfo::CommonPathfinderInfo",
+   "func": 8985632,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::PathFinderInfo::CommonPathfinderInfo"
+    },
+    {
+     "op": "enum",
+     "name": "Name",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "StageInfoHeader",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "LinkInfoHeader",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "Caution",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "UiMenuType",
+     "size": null,
+     "cond": false,
+     "src": 132
+    },
+    {
+     "op": "i32",
+     "name": "RequiredLevel",
+     "size": 4,
+     "cond": false,
+     "src": 160
+    },
+    {
+     "op": "container",
+     "name": "ContentList",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCommonPathfinderContentInfo@PathFinderInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCommonPathfinderContentInfo@PathFinderInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "SpecialChannelInfo",
+   "type": "Apple::Sdb::PathFinderInfo::CommonPathfinderInfo",
+   "func": 8985632,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::PathFinderInfo::CommonPathfinderInfo"
+    },
+    {
+     "op": "enum",
+     "name": "Name",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "StageInfoHeader",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "LinkInfoHeader",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "Caution",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "UiMenuType",
+     "size": null,
+     "cond": false,
+     "src": 132
+    },
+    {
+     "op": "i32",
+     "name": "RequiredLevel",
+     "size": 4,
+     "cond": false,
+     "src": 160
+    },
+    {
+     "op": "container",
+     "name": "ContentList",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCommonPathfinderContentInfo@PathFinderInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCommonPathfinderContentInfo@PathFinderInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "MiscellanousInfo",
+   "type": "Apple::Sdb::PathFinderInfo::CommonPathfinderInfo",
+   "func": 8985632,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::PathFinderInfo::CommonPathfinderInfo"
+    },
+    {
+     "op": "enum",
+     "name": "Name",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "StageInfoHeader",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "LinkInfoHeader",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "Caution",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "UiMenuType",
+     "size": null,
+     "cond": false,
+     "src": 132
+    },
+    {
+     "op": "i32",
+     "name": "RequiredLevel",
+     "size": 4,
+     "cond": false,
+     "src": 160
+    },
+    {
+     "op": "container",
+     "name": "ContentList",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCommonPathfinderContentInfo@PathFinderInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCommonPathfinderContentInfo@PathFinderInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "CollectionInfo",
+   "type": "Apple::Sdb::PathFinderInfo::CommonPathfinderInfo",
+   "func": 8985632,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::PathFinderInfo::CommonPathfinderInfo"
+    },
+    {
+     "op": "enum",
+     "name": "Name",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "StageInfoHeader",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "LinkInfoHeader",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "Caution",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "UiMenuType",
+     "size": null,
+     "cond": false,
+     "src": 132
+    },
+    {
+     "op": "i32",
+     "name": "RequiredLevel",
+     "size": 4,
+     "cond": false,
+     "src": 160
+    },
+    {
+     "op": "container",
+     "name": "ContentList",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCommonPathfinderContentInfo@PathFinderInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCommonPathfinderContentInfo@PathFinderInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "ContentsInfo",
+   "type": "Apple::Sdb::PathFinderInfo::CommonPathfinderInfo",
+   "func": 8985632,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::PathFinderInfo::CommonPathfinderInfo"
+    },
+    {
+     "op": "enum",
+     "name": "Name",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "StageInfoHeader",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "LinkInfoHeader",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "Caution",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "UiMenuType",
+     "size": null,
+     "cond": false,
+     "src": 132
+    },
+    {
+     "op": "i32",
+     "name": "RequiredLevel",
+     "size": 4,
+     "cond": false,
+     "src": 160
+    },
+    {
+     "op": "container",
+     "name": "ContentList",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCommonPathfinderContentInfo@PathFinderInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCommonPathfinderContentInfo@PathFinderInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "RaidInfo",
+   "type": "Apple::Sdb::PathFinderInfo::CommonPathfinderInfo",
+   "func": 8985632,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::PathFinderInfo::CommonPathfinderInfo"
+    },
+    {
+     "op": "enum",
+     "name": "Name",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "StageInfoHeader",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "LinkInfoHeader",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "Caution",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "UiMenuType",
+     "size": null,
+     "cond": false,
+     "src": 132
+    },
+    {
+     "op": "i32",
+     "name": "RequiredLevel",
+     "size": 4,
+     "cond": false,
+     "src": 160
+    },
+    {
+     "op": "container",
+     "name": "ContentList",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCommonPathfinderContentInfo@PathFinderInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCommonPathfinderContentInfo@PathFinderInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "i32",
+   "name": "AlertLevel",
+   "size": 4,
+   "cond": false,
+   "src": 1472
+  }
+ ],
+ "types": {
+  "Apple::Sdb::PathFinderInfo::MainEquipmentPathfinderInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::PathFinderInfo::MainEquipmentPathfinderInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "TargetVillageId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "wstr",
+    "name": "UiMenuType",
+    "size": null,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "enum",
+    "name": "Name",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "StageInfoHeader",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "LinkInfoHeader",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "Caution",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "RequiredLevel",
+    "size": 4,
+    "cond": false,
+    "src": 188
+   },
+   {
+    "op": "container",
+    "name": "ContentList",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UMainEquipmentPathfinderContentInfo@PathFinderInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UMainEquipmentPathfinderContentInfo@PathFinderInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::PathFinderInfo::CommonPathfinderInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::PathFinderInfo::CommonPathfinderInfo"
+   },
+   {
+    "op": "enum",
+    "name": "Name",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "StageInfoHeader",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "LinkInfoHeader",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "Caution",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "UiMenuType",
+    "size": null,
+    "cond": false,
+    "src": 132
+   },
+   {
+    "op": "i32",
+    "name": "RequiredLevel",
+    "size": 4,
+    "cond": false,
+    "src": 160
+   },
+   {
+    "op": "container",
+    "name": "ContentList",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCommonPathfinderContentInfo@PathFinderInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCommonPathfinderContentInfo@PathFinderInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ]
+ }
+}

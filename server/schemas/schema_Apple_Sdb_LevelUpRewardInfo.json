@@ -1,0 +1,175 @@
+{
+ "type": "Apple::Sdb::LevelUpRewardInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::LevelUpRewardInfo"
+  },
+  {
+   "op": "struct",
+   "name": "DailyReward",
+   "type": "Apple::Sdb::LevelUpRewardInfo::DailyRewardInfo",
+   "func": 8756704,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::LevelUpRewardInfo::DailyRewardInfo"
+    },
+    {
+     "op": "container",
+     "name": "RewardItems",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardInfo@LevelUpRewardInfo@Sdb@Apple@@V?$allocator@URewardInfo@LevelUpRewardInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "ActiveLevelRange",
+     "size": 8,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "i32",
+     "name": "MailExpirePeriod",
+     "size": 4,
+     "cond": false,
+     "src": 28
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "TargetLevelRewards",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UTargetLevelRewardInfo@LevelUpRewardInfo@Sdb@Apple@@V?$allocator@UTargetLevelRewardInfo@LevelUpRewardInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "LevelUpPointReward",
+   "type": "Apple::Sdb::LevelUpRewardInfo::LevelUpPointRewardInfo",
+   "func": 8755472,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::LevelUpRewardInfo::LevelUpPointRewardInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "RewardPackageItemId",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "raw",
+     "name": "ActiveLevelRange",
+     "size": 8,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "raw",
+     "name": "RandomAcquirePointRange",
+     "size": 8,
+     "cond": false,
+     "src": 40
+    },
+    {
+     "op": "i32",
+     "name": "MaxPoint",
+     "size": 4,
+     "cond": false,
+     "src": 48
+    },
+    {
+     "op": "i32",
+     "name": "MailExpirePeriod",
+     "size": 4,
+     "cond": false,
+     "src": 52
+    }
+   ]
+  },
+  {
+   "op": "bool",
+   "name": "Enable",
+   "size": 1,
+   "cond": false,
+   "src": 108
+  }
+ ],
+ "types": {
+  "Apple::Sdb::LevelUpRewardInfo::DailyRewardInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::LevelUpRewardInfo::DailyRewardInfo"
+   },
+   {
+    "op": "container",
+    "name": "RewardItems",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardInfo@LevelUpRewardInfo@Sdb@Apple@@V?$allocator@URewardInfo@LevelUpRewardInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "ActiveLevelRange",
+    "size": 8,
+    "cond": false,
+    "src": 20
+   },
+   {
+    "op": "i32",
+    "name": "MailExpirePeriod",
+    "size": 4,
+    "cond": false,
+    "src": 28
+   }
+  ],
+  "Apple::Sdb::LevelUpRewardInfo::LevelUpPointRewardInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::LevelUpRewardInfo::LevelUpPointRewardInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "RewardPackageItemId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "raw",
+    "name": "ActiveLevelRange",
+    "size": 8,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "raw",
+    "name": "RandomAcquirePointRange",
+    "size": 8,
+    "cond": false,
+    "src": 40
+   },
+   {
+    "op": "i32",
+    "name": "MaxPoint",
+    "size": 4,
+    "cond": false,
+    "src": 48
+   },
+   {
+    "op": "i32",
+    "name": "MailExpirePeriod",
+    "size": 4,
+    "cond": false,
+    "src": 52
+   }
+  ]
+ }
+}

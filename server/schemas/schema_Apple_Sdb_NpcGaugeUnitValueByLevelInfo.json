@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::NpcGaugeUnitValueByLevelInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::NpcGaugeUnitValueByLevelInfo"
+  },
+  {
+   "op": "container",
+   "name": "NpcGaugeUnitValuesByLevel",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

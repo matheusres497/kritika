@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::ProjectileInfo::AddPowerRateWhenHasBuffInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ProjectileInfo::AddPowerRateWhenHasBuffInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "BuffId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "InfoPerDuplication",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URateInfoPerDuplication@AddPowerRateWhenHasBuffInfo@ProjectileInfo@Sdb@Apple@@V?$allocator@URateInfoPerDuplication@AddPowerRateWhenHasBuffInfo@ProjectileInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "RemoveBuffCount",
+   "size": 4,
+   "cond": false,
+   "src": 48
+  }
+ ],
+ "types": {}
+}

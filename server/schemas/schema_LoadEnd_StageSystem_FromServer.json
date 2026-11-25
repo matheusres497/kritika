@@ -1,0 +1,78 @@
+{
+ "type": ".?AULoadEnd@StageSystem@FromServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "struct",
+   "name": "LoadEndInfos",
+   "type": "Apple::Protocol::FromServer::StageSystem::LoadEnd::ShouldBeSentInfosForUI",
+   "func": 22683264,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "FromServer::StageSystem::StageClear::PersonalReport"
+    },
+    {
+     "op": "bool",
+     "name": "UsedFatigutTicket",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "UsedStagePlayCountTicket",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "StagePlayCount",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "UsedStagePlayCountTicketId",
+     "size": null,
+     "cond": false
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Protocol::FromServer::StageSystem::LoadEnd::ShouldBeSentInfosForUI": [
+   {
+    "op": "begin",
+    "type": "FromServer::StageSystem::StageClear::PersonalReport"
+   },
+   {
+    "op": "bool",
+    "name": "UsedFatigutTicket",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "UsedStagePlayCountTicket",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "StagePlayCount",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "UsedStagePlayCountTicketId",
+    "size": null,
+    "cond": false
+   }
+  ]
+ }
+}

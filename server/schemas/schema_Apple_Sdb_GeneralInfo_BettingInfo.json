@@ -1,0 +1,107 @@
+{
+ "type": "Apple::Sdb::GeneralInfo::BettingInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GeneralInfo::BettingInfo"
+  },
+  {
+   "op": "i32",
+   "name": "GuildCompetitionBettableMaxTickets",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "GuildCompetitionBettingMatchCount",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "GuildCompetitionBettingStartDelayMinutes",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "wstr",
+   "name": "TicketId",
+   "size": null,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "wstr",
+   "name": "RewardTicketId",
+   "size": null,
+   "cond": false,
+   "src": 44
+  },
+  {
+   "op": "f64",
+   "name": "TicketReturnRate",
+   "size": 8,
+   "cond": false,
+   "src": 72
+  },
+  {
+   "op": "wstr",
+   "name": "RefundTicketId",
+   "size": null,
+   "cond": false,
+   "src": 80
+  },
+  {
+   "op": "wstr",
+   "name": "HackRefundTicketId",
+   "size": null,
+   "cond": false,
+   "src": 108
+  },
+  {
+   "op": "container",
+   "name": "CashItemNames",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@VLocaleType@Locale@AllM@@V?$allocator@VLocaleType@Locale@AllM@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "PvpTournament",
+   "type": "Apple::Sdb::GeneralInfo::BettingInfo::PvpTournamentInfo",
+   "func": 9928112,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::BettingInfo::PvpTournamentInfo"
+    },
+    {
+     "op": "i32",
+     "name": "BettableMaxTicketCount",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::GeneralInfo::BettingInfo::PvpTournamentInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::GeneralInfo::BettingInfo::PvpTournamentInfo"
+   },
+   {
+    "op": "i32",
+    "name": "BettableMaxTicketCount",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   }
+  ]
+ }
+}

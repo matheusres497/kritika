@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::ItemBundleDropInfo::DropGoldInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemBundleDropInfo::DropGoldInfo"
+  },
+  {
+   "op": "raw",
+   "name": "DropCount",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "GoldAmount",
+   "size": 8,
+   "cond": false,
+   "src": 12
+  }
+ ],
+ "types": {}
+}

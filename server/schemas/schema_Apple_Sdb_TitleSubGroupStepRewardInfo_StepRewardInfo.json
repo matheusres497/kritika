@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::TitleSubGroupStepRewardInfo::StepRewardInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::TitleSubGroupStepRewardInfo::StepRewardInfo"
+  },
+  {
+   "op": "container",
+   "name": "StatusList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UIncreaseStatus@Apple@@V?$allocator@UIncreaseStatus@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "EventOptionList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ItemList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@V?$allocator@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

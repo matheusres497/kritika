@@ -1,0 +1,28 @@
+{
+ "type": "Apple::Sdb::ItemGrade",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemGrade"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "BonusItemLevel",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "EnhanceFactor",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,29 @@
+{
+ "type": ".?AUPartialListPlayersQuickSlots@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "AccountId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PlayerId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "QuickSlots",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$map@IUQuickSlot@Apple@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIUQuickSlot@Apple@@@std@@@4@@std@@V?$allocator@V?$map@IUQuickSlot@Apple@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIUQuickSlot@Apple@@@std@@@4@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

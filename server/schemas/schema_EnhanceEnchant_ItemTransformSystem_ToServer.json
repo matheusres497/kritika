@@ -1,0 +1,66 @@
+{
+ "type": ".?AUEnhanceEnchant@ItemTransformSystem@ToServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "TargetInventoryTab",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "u32",
+   "name": "MaterialInventoryTab",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "u32",
+   "name": "DestroyPreventInventoryTab",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "i32",
+   "name": "TargetSlotIndex",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "i32",
+   "name": "MaterialSlotIndex",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "i32",
+   "name": "DestroyPreventSlotIndex",
+   "size": 4,
+   "cond": false,
+   "src": 24
+  },
+  {
+   "op": "i32",
+   "name": "EnhanceIndex",
+   "size": 4,
+   "cond": false,
+   "src": 28
+  },
+  {
+   "op": "bool",
+   "name": "IsSureEnhance",
+   "size": 1,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,70 @@
+{
+ "type": "Apple::Sdb::CrestCollectionInfo::CrestInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::CrestCollectionInfo::CrestInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Grade",
+   "enum": "ItemGrade",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "TooltipDesc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ImagePath",
+   "size": null,
+   "cond": false,
+   "src": 72
+  },
+  {
+   "op": "container",
+   "name": "EnhanceInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEnhanceInfo@CrestInfo@CrestCollectionInfo@Sdb@Apple@@V?$allocator@UEnhanceInfo@CrestInfo@CrestCollectionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "DefaultStatus",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "MaxGrowthCnt",
+   "size": 4,
+   "cond": false,
+   "src": 136
+  },
+  {
+   "op": "i32",
+   "name": "RequiredGoldForGrowth",
+   "size": 4,
+   "cond": false,
+   "src": 140
+  },
+  {
+   "op": "i32",
+   "name": "RequiredGoldForGrowthReset",
+   "size": 4,
+   "cond": false,
+   "src": 144
+  }
+ ],
+ "types": {}
+}

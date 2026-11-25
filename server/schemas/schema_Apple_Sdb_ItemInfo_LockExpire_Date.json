@@ -1,0 +1,45 @@
+{
+ "type": "Apple::Sdb::ItemInfo::LockExpire::Date",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemInfo::LockExpire::Date"
+  },
+  {
+   "op": "i32",
+   "name": "Year",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "Month",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "Day",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "i32",
+   "name": "Hour",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "i32",
+   "name": "Minute",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  }
+ ],
+ "types": {}
+}

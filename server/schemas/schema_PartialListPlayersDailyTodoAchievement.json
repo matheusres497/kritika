@@ -1,0 +1,102 @@
+{
+ "type": ".?AUPartialListPlayersDailyTodoAchievement@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "AccountId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PlayerId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "DailyTodoAchievement",
+   "type": "Apple::DailyTodoAchievement",
+   "func": 12455488,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::DailyTodoAchievement"
+    },
+    {
+     "op": "i32",
+     "name": "DayPoint",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "WeekPoint",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "WeekReward",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "UserResetCount",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "IsWeeklyRewardReceived",
+     "size": 1,
+     "cond": false
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::DailyTodoAchievement": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::DailyTodoAchievement"
+   },
+   {
+    "op": "i32",
+    "name": "DayPoint",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "WeekPoint",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "WeekReward",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "UserResetCount",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "IsWeeklyRewardReceived",
+    "size": 1,
+    "cond": false
+   }
+  ]
+ }
+}

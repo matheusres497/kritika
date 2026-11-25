@@ -1,0 +1,58 @@
+{
+ "type": "Apple::Sdb::AutoHuntingInfo::RegionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::AutoHuntingInfo::RegionInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "IconPath",
+   "size": null,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "wstr",
+   "name": "ThumbnailPath",
+   "size": null,
+   "cond": false,
+   "src": 96
+  },
+  {
+   "op": "wstr",
+   "name": "DropItemImage",
+   "size": null,
+   "cond": false,
+   "src": 128
+  },
+  {
+   "op": "i32",
+   "name": "HuntingTimeMin",
+   "size": 4,
+   "cond": false,
+   "src": 160
+  },
+  {
+   "op": "container",
+   "name": "RewardItems",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

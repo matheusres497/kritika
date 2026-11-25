@@ -1,0 +1,28 @@
+{
+ "type": "Apple::Condition::AutoBattleCondition",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Condition::AutoBattleCondition"
+  },
+  {
+   "op": "i32",
+   "name": "WinCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "ContinuousWinCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "PlayCount",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::FishingInfo::FeverInfo::RewardProbabilityInfo::DropTable",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::FishingInfo::FeverInfo::RewardProbabilityInfo::DropTable"
+  },
+  {
+   "op": "wstr",
+   "name": "TableId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "Probability",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

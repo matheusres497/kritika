@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::SectorInfo::InteractiveNpc",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SectorInfo::InteractiveNpc"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 8,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "raw",
+   "name": "Direction",
+   "size": 12,
+   "cond": false,
+   "src": 40
+  },
+  {
+   "op": "raw",
+   "name": "Scale",
+   "size": 12,
+   "cond": false,
+   "src": 52
+  }
+ ],
+ "types": {}
+}

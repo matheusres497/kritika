@@ -1,0 +1,16 @@
+{
+ "type": "Apple::Protocol::ToServer::DevEnvSystem::Cheat",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "CheatCommand",
+   "size": null,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

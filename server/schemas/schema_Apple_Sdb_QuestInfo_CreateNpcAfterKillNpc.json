@@ -1,0 +1,91 @@
+{
+ "type": "Apple::Sdb::QuestInfo::CreateNpcAfterKillNpc",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::QuestInfo::CreateNpcAfterKillNpc"
+  },
+  {
+   "op": "struct",
+   "name": "SectorInfo",
+   "type": "Apple::Sdb::QuestInfo::Location",
+   "func": 8772656,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::QuestInfo::Location"
+    },
+    {
+     "op": "wstr",
+     "name": "StageId",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "wstr",
+     "name": "SectorId",
+     "size": null,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "enum",
+     "name": "Difficulty",
+     "enum": "Difficulty",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "wstr",
+   "name": "TargetNpcId",
+   "size": null,
+   "cond": false,
+   "src": 68
+  },
+  {
+   "op": "wstr",
+   "name": "CreateNpcId",
+   "size": null,
+   "cond": false,
+   "src": 96
+  },
+  {
+   "op": "wstr",
+   "name": "TeamId",
+   "size": null,
+   "cond": false,
+   "src": 124
+  }
+ ],
+ "types": {
+  "Apple::Sdb::QuestInfo::Location": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::QuestInfo::Location"
+   },
+   {
+    "op": "wstr",
+    "name": "StageId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "wstr",
+    "name": "SectorId",
+    "size": null,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "enum",
+    "name": "Difficulty",
+    "enum": "Difficulty",
+    "cond": false
+   }
+  ]
+ }
+}

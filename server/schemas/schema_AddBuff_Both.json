@@ -1,0 +1,58 @@
+{
+ "type": "Apple::Protocol::Both::BuffSystem::AddBuff",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "Serial",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "TargetSerial",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "CasterSerial",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "CasterOwnerSerial",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "Hash",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u16",
+   "name": "Level",
+   "size": 2,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "Duration",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "RandomSeed",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

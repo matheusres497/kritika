@@ -1,0 +1,36 @@
+{
+ "type": "Apple::Sdb::ClassInfo::ColorLinkInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ClassInfo::ColorLinkInfo"
+  },
+  {
+   "op": "enum",
+   "name": "SourcePart",
+   "enum": "EquipPart",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "SourceColor",
+   "enum": "ColorType",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "TargetMeshes",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "TargetMeshNames",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

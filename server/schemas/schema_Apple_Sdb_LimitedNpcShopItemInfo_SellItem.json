@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::LimitedNpcShopItemInfo::SellItem",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::LimitedNpcShopItemInfo::SellItem"
+  },
+  {
+   "op": "i32",
+   "name": "SellItemId",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "LimitCount",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "ResetDay",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "bool",
+   "name": "IsAccount",
+   "size": 1,
+   "cond": false,
+   "src": 16
+  }
+ ],
+ "types": {}
+}

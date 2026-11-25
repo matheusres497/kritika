@@ -1,0 +1,135 @@
+{
+ "type": "Apple::Sdb::TransformationMonsterInfo::EventStageData",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::TransformationMonsterInfo"
+  },
+  {
+   "op": "container",
+   "name": "PartyRewardInfos",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HV?$map@HURewardItemInfo@EventStageData@TransformationMonsterInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHURewardItemInfo@EventStageData@TransformationMonsterInfo@Sdb@Apple@@@std@@@7@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$map@HURewardItemInfo@EventStageData@TransformationMonsterInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHURewardItemInfo@EventStageData@TransformationMonsterInfo@Sdb@Apple@@@std@@@7@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RaceTracks",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$vector@U?$Vector2@M@Math@AllM@@V?$allocator@U?$Vector2@M@Math@AllM@@@std@@@std@@V?$allocator@V?$vector@U?$Vector2@M@Math@AllM@@V?$allocator@U?$Vector2@M@Math@AllM@@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "GoalPoint",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$Vector2@M@Math@AllM@@V?$allocator@U?$Vector2@M@Math@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "FirstGoalGameOverTimerSeconds",
+   "size": 4,
+   "cond": false,
+   "src": 88
+  },
+  {
+   "op": "wstr",
+   "name": "RelateEventInfoId",
+   "size": null,
+   "cond": false,
+   "src": 92
+  },
+  {
+   "op": "wstr",
+   "name": "ShopInfoId",
+   "size": null,
+   "cond": false,
+   "src": 120
+  },
+  {
+   "op": "wstr",
+   "name": "IconPath",
+   "size": null,
+   "cond": false,
+   "src": 148
+  },
+  {
+   "op": "container",
+   "name": "SectorDatas",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@USectorData@EventStageData@TransformationMonsterInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@USectorData@EventStageData@TransformationMonsterInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "HitPoint",
+   "size": 4,
+   "cond": false,
+   "src": 196
+  },
+  {
+   "op": "i32",
+   "name": "FallingPoint",
+   "size": 4,
+   "cond": false,
+   "src": 200
+  },
+  {
+   "op": "container",
+   "name": "RaceRankPoints",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "EventRewardInfo",
+   "type": "Apple::Sdb::TransformationMonsterInfo::EventStageData::RewardInfo",
+   "func": 9502208,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::TransformationMonsterInfo::EventStageData::RewardInfo"
+    },
+    {
+     "op": "container",
+     "name": "BaseRewards",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardItemInfo@EventStageData@TransformationMonsterInfo@Sdb@Apple@@V?$allocator@URewardItemInfo@EventStageData@TransformationMonsterInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "ClearRewards",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardItemInfo@EventStageData@TransformationMonsterInfo@Sdb@Apple@@V?$allocator@URewardItemInfo@EventStageData@TransformationMonsterInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::TransformationMonsterInfo::EventStageData::RewardInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::TransformationMonsterInfo::EventStageData::RewardInfo"
+   },
+   {
+    "op": "container",
+    "name": "BaseRewards",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardItemInfo@EventStageData@TransformationMonsterInfo@Sdb@Apple@@V?$allocator@URewardItemInfo@EventStageData@TransformationMonsterInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "ClearRewards",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardItemInfo@EventStageData@TransformationMonsterInfo@Sdb@Apple@@V?$allocator@URewardItemInfo@EventStageData@TransformationMonsterInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ]
+ }
+}

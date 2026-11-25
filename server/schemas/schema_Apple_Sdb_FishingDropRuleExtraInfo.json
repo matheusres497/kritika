@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::FishingDropRuleExtraInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::FishingDropRuleExtraInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "DropRuleName",
+   "size": null,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "wstr",
+   "name": "BaitGrade",
+   "size": null,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "wstr",
+   "name": "TableGradeId",
+   "size": null,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "container",
+   "name": "KeyInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UKeyInfo@FishingDropRuleExtraInfo@Sdb@Apple@@V?$allocator@UKeyInfo@FishingDropRuleExtraInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

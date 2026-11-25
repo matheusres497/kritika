@@ -1,0 +1,34 @@
+{
+ "type": "Apple::Condition::EnhanceItemInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Condition::EnhanceItemInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "ItemId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "MinGradeId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "MaxGradeId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "EnhanceLevel",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

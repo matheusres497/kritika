@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::ShopInfo::JewelCategory::CategoryInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ShopInfo::JewelCategory::CategoryInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "ShapeId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "StatusTypeId",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "i32",
+   "name": "JewelLevel",
+   "size": 4,
+   "cond": false,
+   "src": 60
+  }
+ ],
+ "types": {}
+}

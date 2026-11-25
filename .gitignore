@@ -1,0 +1,9 @@
+game_dir.txt
+cache/
+__pycache__/
+*.pyc
+log_choice.txt
+saves/*
+!saves/.gitkeep
+server/data/
+server/logs/

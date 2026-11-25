@@ -1,0 +1,22 @@
+{
+ "type": ".?AURaiseCinematicDialog@QuestSystem@FromServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "DialogId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "RaiseType",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

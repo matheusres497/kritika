@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Protocol::FromServer::EventSystem::EvolveKriPet",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "Result",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "Index",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

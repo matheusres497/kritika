@@ -1,0 +1,28 @@
+{
+ "type": "Apple::Protocol::FromServer::StageSystem::SectorClear",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "i32",
+   "name": "GotHitCountInSector",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "QuestMoviePath",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "isGainFirstClearReward",
+   "size": 1,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

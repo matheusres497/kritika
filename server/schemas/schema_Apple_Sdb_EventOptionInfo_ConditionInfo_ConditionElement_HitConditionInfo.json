@@ -1,0 +1,176 @@
+{
+ "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::HitConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::HitConditionInfo"
+  },
+  {
+   "op": "struct",
+   "name": "ProjectileStatusCondition",
+   "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::HitConditionInfo::ProjectileStatusConditionInfo",
+   "func": 7941120,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::HitConditionInfo::ProjectileStatusConditionInfo"
+    },
+    {
+     "op": "bool",
+     "name": "Enabled",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "wstr",
+     "name": "StatusId",
+     "size": null,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "wstr",
+     "name": "StatusValue",
+     "size": null,
+     "cond": false,
+     "src": 36
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "ChainCondition",
+   "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::HitConditionInfo::ChainConditionInfo",
+   "func": 7952416,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::HitConditionInfo::ChainConditionInfo"
+    },
+    {
+     "op": "bool",
+     "name": "Enabled",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "Count",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "enum",
+     "name": "Condition",
+     "enum": "CompareType",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "HitTypeCondition",
+   "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::HitConditionInfo::HitTypeConditionInfo",
+   "func": 7952624,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::HitConditionInfo::HitTypeConditionInfo"
+    },
+    {
+     "op": "bool",
+     "name": "Enabled",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "enum",
+     "name": "HitType",
+     "enum": "BattleEvent",
+     "cond": false
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::HitConditionInfo::ProjectileStatusConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::HitConditionInfo::ProjectileStatusConditionInfo"
+   },
+   {
+    "op": "bool",
+    "name": "Enabled",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "wstr",
+    "name": "StatusId",
+    "size": null,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "wstr",
+    "name": "StatusValue",
+    "size": null,
+    "cond": false,
+    "src": 36
+   }
+  ],
+  "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::HitConditionInfo::ChainConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::HitConditionInfo::ChainConditionInfo"
+   },
+   {
+    "op": "bool",
+    "name": "Enabled",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "Count",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "enum",
+    "name": "Condition",
+    "enum": "CompareType",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::HitConditionInfo::HitTypeConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::HitConditionInfo::HitTypeConditionInfo"
+   },
+   {
+    "op": "bool",
+    "name": "Enabled",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "enum",
+    "name": "HitType",
+    "enum": "BattleEvent",
+    "cond": false
+   }
+  ]
+ }
+}

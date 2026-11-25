@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::ClassInfo::ClassUniqueBuffInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ClassInfo::ClassUniqueBuffInfo"
+  },
+  {
+   "op": "container",
+   "name": "AddBuffs",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UAddBuffInfo@Sdb@Apple@@V?$allocator@UAddBuffInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RemoveBuffs",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "BuffListToBeErased",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

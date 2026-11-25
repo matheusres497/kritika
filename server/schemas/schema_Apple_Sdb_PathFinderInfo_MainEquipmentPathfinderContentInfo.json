@@ -1,0 +1,49 @@
+{
+ "type": "Apple::Sdb::PathFinderInfo::MainEquipmentPathfinderContentInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PathFinderInfo::MainEquipmentPathfinderContentInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "UiShortcut",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Header",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "StageStepList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UPathfinderStageStepInfo@PathFinderInfo@Sdb@Apple@@V?$allocator@UPathfinderStageStepInfo@PathFinderInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ItemStepList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UPathfinderItemStepInfo@PathFinderInfo@Sdb@Apple@@V?$allocator@UPathfinderItemStepInfo@PathFinderInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

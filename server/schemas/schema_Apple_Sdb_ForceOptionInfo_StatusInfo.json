@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::ForceOptionInfo::StatusInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ForceOptionInfo::ForceOptionDetatilInfo::StatusInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "StatusId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "Probability",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "container",
+   "name": "DetailStatusInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UDetailStatusInfo@StatusInfo@ForceOptionInfo@Sdb@Apple@@V?$allocator@UDetailStatusInfo@StatusInfo@ForceOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

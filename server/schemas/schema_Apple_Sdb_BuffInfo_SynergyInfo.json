@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::BuffInfo::SynergyInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::BuffInfo::SynergyInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "BuffId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "EffectType",
+   "enum": "SynergyEffectType",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

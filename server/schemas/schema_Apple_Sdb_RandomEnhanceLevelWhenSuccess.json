@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::RandomEnhanceLevelWhenSuccess",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::RandomEnhanceLevelWhenSuccess"
+  },
+  {
+   "op": "container",
+   "name": "RandomEnhanceLevelInfos",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HV?$vector@URandomEnhanceLevelInfo@RandomEnhanceLevelWhenSuccess@Sdb@Apple@@V?$allocator@URandomEnhanceLevelInfo@RandomEnhanceLevelWhenSuccess@Sdb@Apple@@@std@@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$vector@URandomEnhanceLevelInfo@RandomEnhanceLevelWhenSuccess@Sdb@Apple@@V?$allocator@URandomEnhanceLevelInfo@RandomEnhanceLevelWhenSuccess@Sdb@Apple@@@std@@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

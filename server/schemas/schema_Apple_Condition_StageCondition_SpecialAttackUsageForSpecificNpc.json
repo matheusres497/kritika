@@ -1,0 +1,30 @@
+{
+ "type": "Apple::Condition::StageCondition::SpecialAttackUsageForSpecificNpc",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Condition::StageCondition::SpecialAttackUsageForSpecificNpc"
+  },
+  {
+   "op": "enum",
+   "name": "Type",
+   "enum": "NpcConditionType",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "Key",
+   "size": null,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "u32",
+   "name": "SpecialAttackUseCount",
+   "size": 4,
+   "cond": false,
+   "src": 36
+  }
+ ],
+ "types": {}
+}

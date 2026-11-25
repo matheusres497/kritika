@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::FishingInfo::FeverInfo::CloseProbabilityInfo::CloseCount",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::FishingInfo::FeverInfo::CloseProbabilityInfo::CloseCount"
+  },
+  {
+   "op": "i32",
+   "name": "Count",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "Probability",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

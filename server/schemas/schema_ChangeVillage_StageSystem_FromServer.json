@@ -1,0 +1,64 @@
+{
+ "type": ".?AUChangeVillage@StageSystem@FromServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "Result",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "VillageId",
+   "size": null,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "wstr",
+   "name": "SectorId",
+   "size": null,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "u32",
+   "name": "TimeStamp",
+   "size": 4,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "bool",
+   "name": "IsFirstEntranceTutorialPlay",
+   "size": 1,
+   "cond": false,
+   "src": 68
+  },
+  {
+   "op": "struct",
+   "name": "BlockExpiration",
+   "type": "Apple::DateTime",
+   "func": 4809616,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::DateTime"
+    },
+    {
+     "op": "u64",
+     "name": "Ticks",
+     "size": 8,
+     "cond": false
+    }
+   ]
+  }
+ ],
+ "types": {}
+}

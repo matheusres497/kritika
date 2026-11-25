@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::GeneralInfo::StageLevelDiffExpRate",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GeneralInfo::StageLevelDiffExpRate"
+  },
+  {
+   "op": "raw",
+   "name": "LevelDiffRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "Slope",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "f32",
+   "name": "Intercept",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::SkillTooltipInfo::CreateProjectileInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SkillTooltipInfo::CreateProjectileInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "SkillId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "SkillLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "container",
+   "name": "OverrideInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UProjectileOverrideInfo@CreateProjectileInfo@SkillTooltipInfo@Sdb@Apple@@V?$allocator@UProjectileOverrideInfo@CreateProjectileInfo@SkillTooltipInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

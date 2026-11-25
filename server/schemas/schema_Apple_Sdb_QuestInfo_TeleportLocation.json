@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::QuestInfo::TeleportLocation",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::QuestInfo::TeleportLocation"
+  },
+  {
+   "op": "wstr",
+   "name": "VillageId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 12,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "raw",
+   "name": "Direction",
+   "size": 12,
+   "cond": false,
+   "src": 44
+  }
+ ],
+ "types": {}
+}

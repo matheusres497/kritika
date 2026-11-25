@@ -1,0 +1,45 @@
+{
+ "type": "Apple::Sdb::CatalapisInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::CatalapisInfo"
+  },
+  {
+   "op": "container",
+   "name": "BoostingInfos",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UBoostingInfo@CatalapisInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UBoostingInfo@CatalapisInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ConsumeCountAdjustingTableInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UConsumeCountAdjustingTableInfo@CatalapisInfo@Sdb@Apple@@V?$allocator@UConsumeCountAdjustingTableInfo@CatalapisInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ChargeInfos",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UChargeInfo@CatalapisInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UChargeInfo@CatalapisInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ExModeInfos",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$map@U?$Vector2@H@Math@AllM@@UExModeInfo@CatalapisInfo@Sdb@Apple@@U?$less@U?$Vector2@H@Math@AllM@@@std@@V?$allocator@U?$pair@$$CBU?$Vector2@H@Math@AllM@@UExModeInfo@CatalapisInfo@Sdb@Apple@@@std@@@9@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$map@U?$Vector2@H@Math@AllM@@UExModeInfo@CatalapisInfo@Sdb@Apple@@U?$less@U?$Vector2@H@Math@AllM@@@std@@V?$allocator@U?$pair@$$CBU?$Vector2@H@Math@AllM@@UExModeInfo@CatalapisInfo@Sdb@Apple@@@std@@@9@@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "UseExModeActions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

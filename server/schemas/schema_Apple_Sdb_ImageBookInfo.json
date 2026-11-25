@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::ImageBookInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ImageBookInfo"
+  },
+  {
+   "op": "container",
+   "name": "PageInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UPageInfo@ImageBookInfo@Sdb@Apple@@V?$allocator@UPageInfo@ImageBookInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  }
+ ],
+ "types": {}
+}

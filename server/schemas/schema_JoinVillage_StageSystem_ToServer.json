@@ -1,0 +1,40 @@
+{
+ "type": ".?AUJoinVillage@StageSystem@ToServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "bool",
+   "name": "IgnoreFistPlay",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "SwitchChannelInVillage",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsReload",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "ExcStartingPointType",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "QuestIdByGuidePopup",
+   "size": null,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::EmeGeneralInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EmeGeneralInfo"
+  },
+  {
+   "op": "bool",
+   "name": "UseStamina",
+   "size": 1,
+   "cond": true,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "StaminaNormalStepMaxValue",
+   "size": 4,
+   "cond": true,
+   "src": 8
+  },
+  {
+   "op": "container",
+   "name": "StaminaStepInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UStaminaStepInfo@EmeGeneralInfo@Sdb@Apple@@V?$allocator@UStaminaStepInfo@EmeGeneralInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  }
+ ],
+ "types": {}
+}

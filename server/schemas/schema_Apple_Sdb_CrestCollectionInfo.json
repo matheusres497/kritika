@@ -1,0 +1,113 @@
+{
+ "type": "Apple::Sdb::CrestCollectionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::CrestCollectionInfo"
+  },
+  {
+   "op": "container",
+   "name": "Crests",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCrestInfo@CrestCollectionInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCrestInfo@CrestCollectionInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CollectionEffects",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCollectionEffectInfo@CrestCollectionInfo@Sdb@Apple@@V?$allocator@UCollectionEffectInfo@CrestCollectionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CollectionGroups",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCollectionGroupInfo@CrestCollectionInfo@Sdb@Apple@@V?$allocator@UCollectionGroupInfo@CrestCollectionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "MaterialCountForMaking",
+   "size": 4,
+   "cond": false,
+   "src": 52
+  },
+  {
+   "op": "i32",
+   "name": "RequiredGoldForMaking",
+   "size": 4,
+   "cond": false,
+   "src": 56
+  },
+  {
+   "op": "container",
+   "name": "DefaulRandomCrestTables",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@MV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@V?$allocator@U?$pair@MV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "HighGrowthStoneRateTables",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@MH@std@@V?$allocator@U?$pair@MH@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "NormalGrowthStoneRateTables",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@MH@std@@V?$allocator@U?$pair@MH@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "NormalGrowthStoneItemId",
+   "size": null,
+   "cond": false,
+   "src": 108
+  },
+  {
+   "op": "wstr",
+   "name": "HighGrowthStoneItemId",
+   "size": null,
+   "cond": false,
+   "src": 136
+  },
+  {
+   "op": "wstr",
+   "name": "ResetGrowthStoneItemId",
+   "size": null,
+   "cond": false,
+   "src": 164
+  },
+  {
+   "op": "i32",
+   "name": "HighGrowthStoneItemOid",
+   "size": 4,
+   "cond": false,
+   "src": 192
+  },
+  {
+   "op": "i32",
+   "name": "ResetGrowthStoneItemOid",
+   "size": 4,
+   "cond": false,
+   "src": 196
+  },
+  {
+   "op": "enum",
+   "name": "GrowthWarningDesc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "CombineWarningDesc",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

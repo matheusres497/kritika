@@ -1,0 +1,41 @@
+{
+ "type": "Apple::Sdb::KirenosKnightsInfo::KirenosShopInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::KirenosKnightsInfo::KirenosShopInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "ShopNpcId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "ShopDesc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "TypeDesc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "WarningMessage",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

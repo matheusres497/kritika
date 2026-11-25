@@ -1,0 +1,31 @@
+{
+ "type": ".?AUStepInWarpGate@ActorSystem@FromServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "PlayerId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "bool",
+   "name": "StepIn",
+   "size": 1,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "WarpGateId",
+   "size": null,
+   "cond": false,
+   "src": 36
+  }
+ ],
+ "types": {}
+}

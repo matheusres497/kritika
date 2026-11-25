@@ -1,0 +1,121 @@
+{
+ "type": "Apple::BuffFloor",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::BuffFloor"
+  },
+  {
+   "op": "wstr",
+   "name": "InfoId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "u32",
+   "name": "InfoHash",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "container",
+   "name": "FloorPoints",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$Vector2@M@Math@AllM@@V?$allocator@U?$Vector2@M@Math@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "HeightRange",
+   "size": 8,
+   "cond": false,
+   "src": 52
+  },
+  {
+   "op": "raw",
+   "name": "Center",
+   "size": 8,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "f32",
+   "name": "Radius",
+   "size": 4,
+   "cond": false,
+   "src": 68
+  },
+  {
+   "op": "struct",
+   "name": "Effect",
+   "type": "Apple::BuffFloor::EffectInfo",
+   "func": 7391824,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::BuffFloor::EffectInfo"
+    },
+    {
+     "op": "raw",
+     "name": "Position",
+     "size": 12,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "raw",
+     "name": "Direction",
+     "size": 12,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "raw",
+     "name": "Scale",
+     "size": 12,
+     "cond": false,
+     "src": 28
+    }
+   ]
+  },
+  {
+   "op": "bool",
+   "name": "Following",
+   "size": 1,
+   "cond": false,
+   "src": 112
+  }
+ ],
+ "types": {
+  "Apple::BuffFloor::EffectInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::BuffFloor::EffectInfo"
+   },
+   {
+    "op": "raw",
+    "name": "Position",
+    "size": 12,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "raw",
+    "name": "Direction",
+    "size": 12,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "raw",
+    "name": "Scale",
+    "size": 12,
+    "cond": false,
+    "src": 28
+   }
+  ]
+ }
+}

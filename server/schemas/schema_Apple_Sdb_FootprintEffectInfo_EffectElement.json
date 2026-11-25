@@ -1,0 +1,44 @@
+{
+ "type": "Apple::Sdb::FootprintEffectInfo::EffectElement",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::FootprintEffectInfo::EffectElement"
+  },
+  {
+   "op": "enum",
+   "name": "ClassType",
+   "enum": "classType",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "LeftEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "wstr",
+   "name": "RightEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 40
+  },
+  {
+   "op": "raw",
+   "name": "EffectScale",
+   "size": 12,
+   "cond": false,
+   "src": 72
+  },
+  {
+   "op": "container",
+   "name": "SoundInfoList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USoundInfo@EffectElement@FootprintEffectInfo@Sdb@Apple@@V?$allocator@USoundInfo@EffectElement@FootprintEffectInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

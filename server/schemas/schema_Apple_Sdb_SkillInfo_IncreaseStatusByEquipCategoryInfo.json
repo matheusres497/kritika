@@ -1,0 +1,35 @@
+{
+ "type": ".?AU?$WriterWrapper@$$CBUIncreaseStatusByEquipCategoryInfo@SkillInfo@Sdb@Apple@@@Private@Serializer@AllM@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SkillInfo::SkillInfo::IncreaseStatusByEquipCategoryInfo"
+  },
+  {
+   "op": "raw",
+   "name": "SkillLevelRange",
+   "size": 8,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "EquipPart",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "EquipCategory",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "IncreaseStatuses",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UIncreaseStatus@Apple@@V?$allocator@UIncreaseStatus@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

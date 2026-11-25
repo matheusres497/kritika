@@ -1,0 +1,73 @@
+{
+ "type": "Apple::Sdb::PvpInfo::DeadlySkillGaugeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PvpInfo::DeadlySkillGaugeInfo"
+  },
+  {
+   "op": "container",
+   "name": "Gauges",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "Attack",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "i32",
+   "name": "DefencePerHpPercent",
+   "size": 4,
+   "cond": false,
+   "src": 24
+  },
+  {
+   "op": "i32",
+   "name": "Revive",
+   "size": 4,
+   "cond": false,
+   "src": 28
+  },
+  {
+   "op": "i32",
+   "name": "MinDefencePoint",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "i32",
+   "name": "InitGaugePoint",
+   "size": 4,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "f32",
+   "name": "DeadlySkillDuration",
+   "size": 4,
+   "cond": false,
+   "src": 40
+  },
+  {
+   "op": "container",
+   "name": "StatusDeltaInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USuperModeStatusDelta@PvpInfo@Sdb@Apple@@V?$allocator@USuperModeStatusDelta@PvpInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "FullGaugeEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 60
+  }
+ ],
+ "types": {}
+}

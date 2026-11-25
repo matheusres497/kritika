@@ -1,0 +1,112 @@
+{
+ "type": "Apple::Sdb::BuffFloorInfo::TargetEffectInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::BuffFloorInfo::TargetEffectInfo"
+  },
+  {
+   "op": "enum",
+   "name": "TargetTeamType",
+   "enum": "teamType",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "TargetObjectType",
+   "enum": "obejctType",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "TargetStatusCondition",
+   "type": "Apple::Sdb::BuffFloorInfo::TargetEffectInfo::TargetStatusConditionInfo",
+   "func": 8071152,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::BuffFloorInfo::TargetEffectInfo::TargetStatusConditionInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "StatusId",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "wstr",
+     "name": "StatusValue",
+     "size": null,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "bool",
+     "name": "ConditionCheckType",
+     "size": 1,
+     "cond": false,
+     "src": 60
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "AddOnEnter",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UBuffInfo@TargetEffectInfo@BuffFloorInfo@Sdb@Apple@@V?$allocator@UBuffInfo@TargetEffectInfo@BuffFloorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RemoveOnEnter",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UBuffInfo@TargetEffectInfo@BuffFloorInfo@Sdb@Apple@@V?$allocator@UBuffInfo@TargetEffectInfo@BuffFloorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "AddOnEscape",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UBuffInfo@TargetEffectInfo@BuffFloorInfo@Sdb@Apple@@V?$allocator@UBuffInfo@TargetEffectInfo@BuffFloorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RemoveOnEscape",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UBuffInfo@TargetEffectInfo@BuffFloorInfo@Sdb@Apple@@V?$allocator@UBuffInfo@TargetEffectInfo@BuffFloorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {
+  "Apple::Sdb::BuffFloorInfo::TargetEffectInfo::TargetStatusConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::BuffFloorInfo::TargetEffectInfo::TargetStatusConditionInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "StatusId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "wstr",
+    "name": "StatusValue",
+    "size": null,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "bool",
+    "name": "ConditionCheckType",
+    "size": 1,
+    "cond": false,
+    "src": 60
+   }
+  ]
+ }
+}

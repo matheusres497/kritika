@@ -1,0 +1,59 @@
+{
+ "type": "Apple::Sdb::BindChangeInfo::ConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::BindChangeInfo::ConditionInfo"
+  },
+  {
+   "op": "raw",
+   "name": "LevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "Grades",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "EquipParts",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ConsumeBindChangeTypes",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "bool",
+   "name": "IsBaseStatusOnly",
+   "size": 1,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "bool",
+   "name": "IsIgnoreUnbindCount",
+   "size": 1,
+   "cond": false,
+   "src": 61
+  },
+  {
+   "op": "bool",
+   "name": "IsTransportToAccountBank",
+   "size": 1,
+   "cond": false,
+   "src": 62
+  }
+ ],
+ "types": {}
+}

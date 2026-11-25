@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Item::EssenceData",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Item::EssenceData"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "LimitMinLevelMinus",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "container",
+   "name": "EventOptions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEventOption@Apple@@V?$allocator@UEventOption@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

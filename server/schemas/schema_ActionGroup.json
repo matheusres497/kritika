@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::ActionCommandGroup::ActionGroup",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ActionCommandGroup::ActionGroup"
+  },
+  {
+   "op": "wstr",
+   "name": "NewCommand",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CommandGroups",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@ULinkedAction@ActionCommand@Sdb@Apple@@V?$allocator@ULinkedAction@ActionCommand@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,17 @@
+{
+ "type": "Apple::ActiveCondition::RemainGuildSiegeConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::ActiveCondition::RemainGuildSiegeConditionInfo"
+  },
+  {
+   "op": "i32",
+   "name": "DonateGuildSiegeMedalCount",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  }
+ ],
+ "types": {}
+}

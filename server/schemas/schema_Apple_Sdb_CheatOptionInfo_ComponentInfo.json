@@ -1,0 +1,52 @@
+{
+ "type": "Apple::Sdb::CheatOptionInfo::ComponentInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::CheatOptionInfo::ComponentInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "ComponentType",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "ComponentId",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "bool",
+   "name": "IsDefault",
+   "size": 1,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 8,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "raw",
+   "name": "Scale",
+   "size": 8,
+   "cond": false,
+   "src": 72
+  },
+  {
+   "op": "container",
+   "name": "Args",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,54 @@
+{
+ "type": "Apple::Sdb::ItemDictionaryInfo::ItemGainInfo::Param",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemDictionaryInfo::ItemGainInfo:ParamParam"
+  },
+  {
+   "op": "enum",
+   "name": "ItemName",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "QuestName",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "NpcName",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "StageName",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "MonsterName",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "Number",
+   "size": null,
+   "cond": false,
+   "src": 164
+  },
+  {
+   "op": "container",
+   "name": "QuestAcceptClasses",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::SpecificIdentifyOptionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SpecificIdentifyOptionInfo"
+  },
+  {
+   "op": "container",
+   "name": "ItemOptionInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USpecificItemOptionInfo@Sdb@Apple@@V?$allocator@USpecificItemOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

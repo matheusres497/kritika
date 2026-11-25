@@ -1,0 +1,79 @@
+{
+ "type": "Apple::Sdb::GameRankInfo::MonsterWaveRankInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GameRankInfo::MonsterWaveRankInfo"
+  },
+  {
+   "op": "bool",
+   "name": "Enable",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "SeasonStartDateTime",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "MininumRankPoint",
+   "size": 4,
+   "cond": false,
+   "src": 24
+  },
+  {
+   "op": "container",
+   "name": "RankNumberRewardInfo",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URankRewardInfo@GameRankInfo@Sdb@Apple@@V?$allocator@URankRewardInfo@GameRankInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RankPercentRewardInfo",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URankRewardInfo@GameRankInfo@Sdb@Apple@@V?$allocator@URankRewardInfo@GameRankInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "RewardMailPeriod",
+   "size": 4,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "container",
+   "name": "OverridingRewardsInfo",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HURewardsInfo@ArenaRankInfo@GameRankInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHURewardsInfo@ArenaRankInfo@GameRankInfo@Sdb@Apple@@@std@@@7@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "RankHideStartTime",
+   "size": null,
+   "cond": false,
+   "src": 80
+  },
+  {
+   "op": "wstr",
+   "name": "RankHideEndTime",
+   "size": null,
+   "cond": false,
+   "src": 108
+  },
+  {
+   "op": "i32",
+   "name": "RankFreezeMinute",
+   "size": 4,
+   "cond": false,
+   "src": 136
+  }
+ ],
+ "types": {}
+}

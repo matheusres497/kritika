@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::IntrusionInfo::GroupInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::IntrusionInfo::GroupInfo"
+  },
+  {
+   "op": "container",
+   "name": "Probabilities",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HMU?$less@H@std@@V?$allocator@U?$pair@$$CBHM@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "GroupId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  }
+ ],
+ "types": {}
+}

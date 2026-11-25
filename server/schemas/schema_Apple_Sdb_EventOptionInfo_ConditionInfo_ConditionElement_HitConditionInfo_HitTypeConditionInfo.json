@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::HitConditionInfo::HitTypeConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::HitConditionInfo::HitTypeConditionInfo"
+  },
+  {
+   "op": "bool",
+   "name": "Enabled",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "HitType",
+   "enum": "BattleEvent",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

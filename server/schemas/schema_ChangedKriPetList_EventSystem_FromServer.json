@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Protocol::FromServer::EventSystem::ChangedKriPetList",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "container",
+   "name": "AcquisitionIndices",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsAcquisitionRewardReceived",
+   "size": 1,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "container",
+   "name": "EvolveInfo",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

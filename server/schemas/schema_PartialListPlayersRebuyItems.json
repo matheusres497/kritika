@@ -1,0 +1,29 @@
+{
+ "type": ".?AUPartialListPlayersRebuyItems@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "AccountId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PlayerId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RebuyItems",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URebuyInfo@PlayerInfo@Apple@@V?$allocator@URebuyInfo@PlayerInfo@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

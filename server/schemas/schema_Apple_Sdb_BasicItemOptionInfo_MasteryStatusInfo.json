@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::BasicItemOptionInfo::MasteryStatusInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::BasicItemOptionInfo::MasteryStatusInfo"
+  },
+  {
+   "op": "container",
+   "name": "EquipCategories",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "MasteryStatuses",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UMasteryStatus@MasteryStatusInfo@BasicItemOptionInfo@Sdb@Apple@@V?$allocator@UMasteryStatus@MasteryStatusInfo@BasicItemOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

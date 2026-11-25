@@ -1,0 +1,22 @@
+{
+ "type": "Apple::Sdb::VipInfo::VipEffectInfo::EffectDescInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::VipInfo::VipEffectInfo::EffectDescInfo"
+  },
+  {
+   "op": "enum",
+   "name": "EffectName",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "EffectValue",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

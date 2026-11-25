@@ -1,0 +1,111 @@
+{
+ "type": ".?AUCreatePopInfoNpc@ActorSystem@FromServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "Index",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "Serial",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "StageMasterSerial",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "RandomSeed",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "MiscIndex",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u64",
+   "name": "MaxHp",
+   "size": 8,
+   "cond": false
+  },
+  {
+   "op": "u64",
+   "name": "Hp",
+   "size": 8,
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "Scale",
+   "size": 12,
+   "cond": true
+  },
+  {
+   "op": "struct",
+   "name": "Buffs",
+   "type": "VBuffContainer@Apple@@",
+   "func": 11144624,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::BuffContainer"
+    },
+    {
+     "op": "container",
+     "name": "List",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UBuffInstance@Apple@@V?$allocator@UBuffInstance@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "u32",
+     "name": "NextSerial",
+     "size": 4,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "StatusBundle",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@INU?$less@I@std@@V?$allocator@U?$pair@$$CBIN@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {
+  "VBuffContainer@Apple@@": [
+   {
+    "op": "begin",
+    "type": "Apple::BuffContainer"
+   },
+   {
+    "op": "container",
+    "name": "List",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UBuffInstance@Apple@@V?$allocator@UBuffInstance@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "u32",
+    "name": "NextSerial",
+    "size": 4,
+    "cond": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::ItemDictionaryFileListInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemDictionaryFileListInfo"
+  },
+  {
+   "op": "container",
+   "name": "ItemInfoFileList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ItemDictionaryTypeInfo",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUTypeInfo@ItemDictionaryFileListInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUTypeInfo@ItemDictionaryFileListInfo@Sdb@Apple@@@std@@@6@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

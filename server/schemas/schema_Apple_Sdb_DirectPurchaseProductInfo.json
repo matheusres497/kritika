@@ -1,0 +1,431 @@
+{
+ "type": "Apple::Sdb::DirectPurchaseProductInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::DirectPurchaseProductInfo"
+  },
+  {
+   "op": "struct",
+   "name": "InstantResurrectionStoneInfo",
+   "type": "Apple::Sdb::DirectPurchaseProductInfo::ResurrectionStoneInfo",
+   "func": 8428352,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::DirectPurchaseProductInfo::ResurrectionStoneInfo"
+    },
+    {
+     "op": "i32",
+     "name": "OidProduct",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "enum",
+     "name": "OrderCategory",
+     "enum": "ordercategory",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "InstantWorldBossResurrectionStoneInfo",
+   "type": "Apple::Sdb::DirectPurchaseProductInfo::ResurrectionStoneInfo",
+   "func": 8428352,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::DirectPurchaseProductInfo::ResurrectionStoneInfo"
+    },
+    {
+     "op": "i32",
+     "name": "OidProduct",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "enum",
+     "name": "OrderCategory",
+     "enum": "ordercategory",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "MembershipProductInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UMembershipInfo@DirectPurchaseProductInfo@Sdb@Apple@@V?$allocator@UMembershipInfo@DirectPurchaseProductInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "PlayerBankExpandInfo",
+   "type": "Apple::Sdb::DirectPurchaseProductInfo::BankExpandInfo",
+   "func": 8428976,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::DirectPurchaseProductInfo::BankExpandInfo::ExpandInfo"
+    },
+    {
+     "op": "i32",
+     "name": "MaxSlotCount",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "container",
+     "name": "Infos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UExpandInfo@BankExpandInfo@DirectPurchaseProductInfo@Sdb@Apple@@V?$allocator@UExpandInfo@BankExpandInfo@DirectPurchaseProductInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "AccountBankExpandInfo",
+   "type": "Apple::Sdb::DirectPurchaseProductInfo::BankExpandInfo",
+   "func": 8428976,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::DirectPurchaseProductInfo::BankExpandInfo::ExpandInfo"
+    },
+    {
+     "op": "i32",
+     "name": "MaxSlotCount",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "container",
+     "name": "Infos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UExpandInfo@BankExpandInfo@DirectPurchaseProductInfo@Sdb@Apple@@V?$allocator@UExpandInfo@BankExpandInfo@DirectPurchaseProductInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "AvatarBankExpandInfo",
+   "type": "Apple::Sdb::DirectPurchaseProductInfo::BankExpandInfo",
+   "func": 8428976,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::DirectPurchaseProductInfo::BankExpandInfo::ExpandInfo"
+    },
+    {
+     "op": "i32",
+     "name": "MaxSlotCount",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "container",
+     "name": "Infos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UExpandInfo@BankExpandInfo@DirectPurchaseProductInfo@Sdb@Apple@@V?$allocator@UExpandInfo@BankExpandInfo@DirectPurchaseProductInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "StashExpandInfo",
+   "type": "Apple::Sdb::DirectPurchaseProductInfo::BankExpandInfo",
+   "func": 8428976,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::DirectPurchaseProductInfo::BankExpandInfo::ExpandInfo"
+    },
+    {
+     "op": "i32",
+     "name": "MaxSlotCount",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "container",
+     "name": "Infos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UExpandInfo@BankExpandInfo@DirectPurchaseProductInfo@Sdb@Apple@@V?$allocator@UExpandInfo@BankExpandInfo@DirectPurchaseProductInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "InventoryExpandInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UInventoryExpandInfo@DirectPurchaseProductInfo@Sdb@Apple@@V?$allocator@UInventoryExpandInfo@DirectPurchaseProductInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ContractProductInfos",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@UContractInfo@DirectPurchaseProductInfo@Sdb@Apple@@V?$allocator@UContractInfo@DirectPurchaseProductInfo@Sdb@Apple@@@std@@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@UContractInfo@DirectPurchaseProductInfo@Sdb@Apple@@V?$allocator@UContractInfo@DirectPurchaseProductInfo@Sdb@Apple@@@std@@@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "struct",
+   "name": "PremiumPlayerSlot",
+   "type": "Apple::Sdb::DirectPurchaseProductInfo::PremiumPlayerSlotInfo",
+   "func": 8419488,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::DirectPurchaseProductInfo::PremiumPlayerSlotInfo"
+    },
+    {
+     "op": "i32",
+     "name": "OidProduct",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "u32",
+     "name": "OrderCategory",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "VipBoostProductInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UVipBoostInfo@DirectPurchaseProductInfo@Sdb@Apple@@V?$allocator@UVipBoostInfo@DirectPurchaseProductInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "VipStepUpInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UVipStepUpInfo@DirectPurchaseProductInfo@Sdb@Apple@@V?$allocator@UVipStepUpInfo@DirectPurchaseProductInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "AvatarDyeInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UAvatarDyeInfo@DirectPurchaseProductInfo@Sdb@Apple@@V?$allocator@UAvatarDyeInfo@DirectPurchaseProductInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "struct",
+   "name": "UnlockMultiPetInfo",
+   "type": "Apple::Sdb::DirectPurchaseProductInfo::UnlockMultiPet",
+   "func": 8429984,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::DirectPurchaseProductInfo::UnlockMultiPet"
+    },
+    {
+     "op": "i32",
+     "name": "OidProduct",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "enum",
+     "name": "OrderCategory",
+     "enum": "ordercategory",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "ShopNpcIntrustionRenewalInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UStandardPurchaseInfo@DirectPurchaseProductInfo@Sdb@Apple@@V?$allocator@UStandardPurchaseInfo@DirectPurchaseProductInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "GachaBoardResetInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UStandardPurchaseInfo@DirectPurchaseProductInfo@Sdb@Apple@@V?$allocator@UStandardPurchaseInfo@DirectPurchaseProductInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "BattlePassInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UBattlePassInfo@DirectPurchaseProductInfo@Sdb@Apple@@V?$allocator@UBattlePassInfo@DirectPurchaseProductInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "struct",
+   "name": "PlantPremiumSlotInfo",
+   "type": "Apple::Sdb::DirectPurchaseProductInfo::StandardPurchaseInfo",
+   "func": 8429520,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::DirectPurchaseProductInfo::StandardPurchaseInfo"
+    },
+    {
+     "op": "i32",
+     "name": "OidProduct",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "enum",
+     "name": "OrderCategory",
+     "enum": "OrderCategory",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "IconPath",
+     "size": null,
+     "cond": false,
+     "src": 12
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "SoulExpandInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@USoulExpandInfo@DirectPurchaseProductInfo@Sdb@Apple@@V?$allocator@USoulExpandInfo@DirectPurchaseProductInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  }
+ ],
+ "types": {
+  "Apple::Sdb::DirectPurchaseProductInfo::ResurrectionStoneInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::DirectPurchaseProductInfo::ResurrectionStoneInfo"
+   },
+   {
+    "op": "i32",
+    "name": "OidProduct",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "enum",
+    "name": "OrderCategory",
+    "enum": "ordercategory",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::DirectPurchaseProductInfo::BankExpandInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::DirectPurchaseProductInfo::BankExpandInfo::ExpandInfo"
+   },
+   {
+    "op": "i32",
+    "name": "MaxSlotCount",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "container",
+    "name": "Infos",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UExpandInfo@BankExpandInfo@DirectPurchaseProductInfo@Sdb@Apple@@V?$allocator@UExpandInfo@BankExpandInfo@DirectPurchaseProductInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::DirectPurchaseProductInfo::PremiumPlayerSlotInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::DirectPurchaseProductInfo::PremiumPlayerSlotInfo"
+   },
+   {
+    "op": "i32",
+    "name": "OidProduct",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "u32",
+    "name": "OrderCategory",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   }
+  ],
+  "Apple::Sdb::DirectPurchaseProductInfo::UnlockMultiPet": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::DirectPurchaseProductInfo::UnlockMultiPet"
+   },
+   {
+    "op": "i32",
+    "name": "OidProduct",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "enum",
+    "name": "OrderCategory",
+    "enum": "ordercategory",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::DirectPurchaseProductInfo::StandardPurchaseInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::DirectPurchaseProductInfo::StandardPurchaseInfo"
+   },
+   {
+    "op": "i32",
+    "name": "OidProduct",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "enum",
+    "name": "OrderCategory",
+    "enum": "OrderCategory",
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "IconPath",
+    "size": null,
+    "cond": false,
+    "src": 12
+   }
+  ]
+ }
+}

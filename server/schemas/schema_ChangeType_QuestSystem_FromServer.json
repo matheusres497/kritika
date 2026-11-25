@@ -1,0 +1,76 @@
+{
+ "type": ".?AUChangeType@QuestSystem@FromServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Protocol::FromServer::QuestSystem::ChangeType"
+  },
+  {
+   "op": "wstr",
+   "name": "ChangedId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ChangedSubId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "MatchingNpcType",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "MatchingNpcKey",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "MatchingModeType",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "MatchingTargetType",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "MatchingTargetKey",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "MatchingPlayerType",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "MatchingPlayerKey",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "Count",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "FullCount",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

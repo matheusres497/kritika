@@ -1,0 +1,45 @@
+{
+ "type": "Apple::Sdb::AoeVisualInfo::AoeVisualElement",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::AoeVisualInfo::AoeVisualElement"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "TexturePath",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "MaxRangeTexturePath",
+   "size": null,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "wstr",
+   "name": "MouseCursorPath",
+   "size": null,
+   "cond": false,
+   "src": 96
+  },
+  {
+   "op": "wstr",
+   "name": "VisualEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 128
+  }
+ ],
+ "types": {}
+}

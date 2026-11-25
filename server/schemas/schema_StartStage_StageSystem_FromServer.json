@@ -1,0 +1,109 @@
+{
+ "type": ".?AUStartStage@StageSystem@FromServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "StageHash",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "SectorId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "Difficulty",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "TimeStamp",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsRestart",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "u16",
+   "name": "SelectedRouteIndex",
+   "size": 2,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "IntrusionType",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "UsingIntrusionItem",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsParallelMaze",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "ChangeStageLevel",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "AffixLevel",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "WeekDay",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "AddStatusByQuest",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RandomSectorIds",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RandomSelectedRoles",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "ParallelMazeStep",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

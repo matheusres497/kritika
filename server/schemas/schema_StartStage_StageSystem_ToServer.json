@@ -1,0 +1,70 @@
+{
+ "type": ".?AUStartStage@StageSystem@ToServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "StageHash",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "Difficulty",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsFirstPlay",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "WarpGateId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsRestart",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "UseIntrusionItem",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsStageEntrance",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsInsideStage",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "ParallelMazeStep",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "AffixLevel",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

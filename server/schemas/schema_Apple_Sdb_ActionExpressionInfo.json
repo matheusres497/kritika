@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::ActionExpressionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ActionExpressionInfo"
+  },
+  {
+   "op": "container",
+   "name": "Actions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UAction@ActionExpressionInfo@Sdb@Apple@@V?$allocator@UAction@ActionExpressionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

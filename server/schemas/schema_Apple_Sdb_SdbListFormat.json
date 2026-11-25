@@ -1,0 +1,16 @@
+{
+ "type": "Apple::Sdb::SdbListFormat",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb"
+  },
+  {
+   "op": "wstr",
+   "name": "?",
+   "size": null,
+   "cond": true
+  }
+ ],
+ "types": {}
+}

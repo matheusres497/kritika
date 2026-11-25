@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::EnhanceInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EnhanceInfo"
+  },
+  {
+   "op": "f32",
+   "name": "SuccessRate",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "u32",
+   "name": "EnhanceLevelWhenFailed",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "f32",
+   "name": "DestroyRate",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

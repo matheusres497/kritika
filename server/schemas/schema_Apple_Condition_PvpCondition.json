@@ -1,0 +1,118 @@
+{
+ "type": "Apple::Condition::PvpCondition",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Condition::PvpCondition"
+  },
+  {
+   "op": "enum",
+   "name": "ModeType",
+   "enum": "PvpModeType",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "TargetType",
+   "enum": "PvpConditionType",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "TargetKey",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "PlayerType",
+   "enum": "PvpConditionType",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PlayerKey",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "KillCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "AssistCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "WinCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "ContinuousWinCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "ContinuousLoseCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "PlayCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "PickUpPotionCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "DeadlySkillUseCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "CarryFlagCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "DeathCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "MvpCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsSingleRoom",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsSingleGame",
+   "size": 1,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

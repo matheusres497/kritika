@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Protocol::ToServer::InventorySystem::UsePetFood",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u16",
+   "name": "SlotIndex",
+   "size": 2,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "u32",
+   "name": "TargetPetSlotType",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

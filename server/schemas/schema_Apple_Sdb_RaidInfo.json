@@ -1,0 +1,73 @@
+{
+ "type": "Apple::Sdb::RaidInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::RaidInfo"
+  },
+  {
+   "op": "u32",
+   "name": "MaxRaidTitleLength",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "DelayWaitSeconds",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "wstr",
+   "name": "DefaultRegionId",
+   "size": null,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "container",
+   "name": "RegionInfos",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@URegionInfo@RaidInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@URegionInfo@RaidInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "RaidBuffCategory",
+   "size": null,
+   "cond": false,
+   "src": 56
+  },
+  {
+   "op": "u32",
+   "name": "MaxRequesterSize",
+   "size": 4,
+   "cond": false,
+   "src": 84
+  },
+  {
+   "op": "i32",
+   "name": "AutoAcceptSeconds",
+   "size": 4,
+   "cond": false,
+   "src": 88
+  },
+  {
+   "op": "i32",
+   "name": "KickVoteExpireSeconds",
+   "size": 4,
+   "cond": false,
+   "src": 92
+  },
+  {
+   "op": "container",
+   "name": "MaxEntranceGroupCountList",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

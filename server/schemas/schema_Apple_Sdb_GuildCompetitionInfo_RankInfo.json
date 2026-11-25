@@ -1,0 +1,52 @@
+{
+ "type": "Apple::Sdb::GuildCompetitionInfo::RankInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GuildCompetitionInfo::RankInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "GradeId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "VictoryRewards",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardItemInfo@Apple@@V?$allocator@URewardItemInfo@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "VictoryRewardsWhenNoOpponent",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardItemInfo@Apple@@V?$allocator@URewardItemInfo@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "LoseRewards",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardItemInfo@Apple@@V?$allocator@URewardItemInfo@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "DecisionVictoryRewards",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardItemInfo@Apple@@V?$allocator@URewardItemInfo@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ParticipantRewards",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardItemInfo@Apple@@V?$allocator@URewardItemInfo@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

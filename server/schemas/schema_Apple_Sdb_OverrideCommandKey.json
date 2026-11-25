@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::OverrideCommandKey",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::OverrideCommandKey"
+  },
+  {
+   "op": "wstr",
+   "name": "ClassId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "OverrideId",
+   "size": null,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

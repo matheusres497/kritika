@@ -1,0 +1,30 @@
+{
+ "type": "Apple::Protocol::FromServer::ActorSystem::DurabilityChange",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "enum",
+   "name": "EquipTab",
+   "enum": "EquipTab",
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "EquipSlot",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "f32",
+   "name": "Durability",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,34 @@
+{
+ "type": ".?AU?$WriterWrapper@$$CBUMovieInfo@QuestInfo@Sdb@Apple@@@Private@Serializer@AllM@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::QuestInfo::MovieInfo"
+  },
+  {
+   "op": "enum",
+   "name": "PlayMovieCategory",
+   "enum": "PlayMovieCategory",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "StageId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "SectorId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "MoviePath",
+   "size": null,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

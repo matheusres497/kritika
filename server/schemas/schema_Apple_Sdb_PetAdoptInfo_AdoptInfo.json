@@ -1,0 +1,44 @@
+{
+ "type": "Apple::Sdb::PetAdoptInfo::AdoptInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PetAdoptInfo::AdoptInfo"
+  },
+  {
+   "op": "i32",
+   "name": "Order",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "bool",
+   "name": "IsEvent",
+   "size": 1,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "enum",
+   "name": "TabName",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RequiredItemInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URequiredItemInfo@AdoptInfo@PetAdoptInfo@Sdb@Apple@@V?$allocator@URequiredItemInfo@AdoptInfo@PetAdoptInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "OutputInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UOutputInfo@AdoptInfo@PetAdoptInfo@Sdb@Apple@@V?$allocator@UOutputInfo@AdoptInfo@PetAdoptInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,34 @@
+{
+ "type": ".?AU?$WriterWrapper@$$CBURewardInfo@LuckyDrawInfo@Sdb@Apple@@@Private@Serializer@AllM@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::LuckyDrawInfo::RewardInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "ItemId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "f64",
+   "name": "Probability",
+   "size": 8,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "MaxDrawCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsLuckyItem",
+   "size": 1,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

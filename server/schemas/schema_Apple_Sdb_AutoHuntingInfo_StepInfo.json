@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::AutoHuntingInfo::StepInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::AutoHuntingInfo::StepInfo"
+  },
+  {
+   "op": "i32",
+   "name": "Level",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "RequiredDps",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "container",
+   "name": "RegionInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URegionInfo@AutoHuntingInfo@Sdb@Apple@@V?$allocator@URegionInfo@AutoHuntingInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

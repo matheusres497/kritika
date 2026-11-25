@@ -1,0 +1,29 @@
+{
+ "type": "Apple::Sdb::MileageInfo::ParticularDayMileageRateInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::MileageInfo::ParticularDayMileageRateInfo"
+  },
+  {
+   "op": "f32",
+   "name": "Rate",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "BeginDateTime",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "EndDateTime",
+   "size": null,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

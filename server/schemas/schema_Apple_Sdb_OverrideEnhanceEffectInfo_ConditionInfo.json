@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::OverrideEnhanceEffectInfo::ConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::OverrideEnhanceEffectInfo::ConditionInfo"
+  },
+  {
+   "op": "raw",
+   "name": "EnhanceLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  }
+ ],
+ "types": {}
+}

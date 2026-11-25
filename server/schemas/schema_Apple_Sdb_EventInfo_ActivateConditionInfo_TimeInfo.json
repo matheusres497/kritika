@@ -1,0 +1,94 @@
+{
+ "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo"
+  },
+  {
+   "op": "bool",
+   "name": "IsValid",
+   "size": 1,
+   "cond": false,
+   "src": 28
+  },
+  {
+   "op": "struct",
+   "name": "StartTime",
+   "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo::SubTimeInfo",
+   "func": 8107168,
+   "cond": true,
+   "cond_on_src": 28,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo::SubTimeInfo"
+    },
+    {
+     "op": "i32",
+     "name": "Hour",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "Minute",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "EndTime",
+   "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo::SubTimeInfo",
+   "func": 8107168,
+   "cond": true,
+   "cond_on_src": 28,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo::SubTimeInfo"
+    },
+    {
+     "op": "i32",
+     "name": "Hour",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "Minute",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo::SubTimeInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo::SubTimeInfo"
+   },
+   {
+    "op": "i32",
+    "name": "Hour",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "Minute",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   }
+  ]
+ }
+}

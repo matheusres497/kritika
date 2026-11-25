@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::PvpInfo::PvpRankInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PvpInfo::PvpRankInfo"
+  },
+  {
+   "op": "raw",
+   "name": "ScoreRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

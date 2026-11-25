@@ -1,0 +1,94 @@
+{
+ "type": "Apple::Sdb::ActionCommand::LinkedAction",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ActionCommand::LinkedAction"
+  },
+  {
+   "op": "f32",
+   "name": "StartTime",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "EndTime",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "f32",
+   "name": "ChangeTime",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "bool",
+   "name": "UseDefaultTimeType",
+   "size": 1,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "bool",
+   "name": "UseGroupCommandType",
+   "size": 1,
+   "cond": false,
+   "src": 17
+  },
+  {
+   "op": "bool",
+   "name": "IgnoreAutoFire",
+   "size": 1,
+   "cond": false,
+   "src": 18
+  },
+  {
+   "op": "container",
+   "name": "ConditionStatus",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UConditionStatusInfo@ActionCommand@Sdb@Apple@@V?$allocator@UConditionStatusInfo@ActionCommand@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ConditionSkills",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$Vector2@H@Math@AllM@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$Vector2@H@Math@AllM@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "Command",
+   "size": null,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "wstr",
+   "name": "NextActionId",
+   "size": null,
+   "cond": false,
+   "src": 48
+  },
+  {
+   "op": "bool",
+   "name": "CommandIsMouseType",
+   "size": 1,
+   "cond": false,
+   "src": 76
+  },
+  {
+   "op": "bool",
+   "name": "EnableDirectionChange",
+   "size": 1,
+   "cond": false,
+   "src": 77
+  }
+ ],
+ "types": {}
+}

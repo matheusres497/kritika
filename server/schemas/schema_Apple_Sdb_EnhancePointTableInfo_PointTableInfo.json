@@ -1,0 +1,108 @@
+{
+ "type": "Apple::Sdb::EnhancePointTableInfo::PointTableInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EnhancePointTableInfo::PointTableInfo"
+  },
+  {
+   "op": "i32",
+   "name": "PointForSureSuccess",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "PenaltyRate",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "bool",
+   "name": "IsUseEquipmentPoint",
+   "size": 1,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "f32",
+   "name": "EquipmentPointRemainRateOnSuccess",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "bool",
+   "name": "IsFixedRate",
+   "size": 1,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "i32",
+   "name": "PointForFixedRate",
+   "size": 4,
+   "cond": false,
+   "src": 24
+  },
+  {
+   "op": "f32",
+   "name": "FixedIncreaseRate",
+   "size": 4,
+   "cond": false,
+   "src": 28
+  },
+  {
+   "op": "f32",
+   "name": "SpentPointReturnRateOnFail",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "i32",
+   "name": "PointIncrementOnFailWithoutPointUse",
+   "size": 4,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "raw",
+   "name": "ItemLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 40
+  },
+  {
+   "op": "raw",
+   "name": "EnhanceLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 48
+  },
+  {
+   "op": "container",
+   "name": "ItemGradeList",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "EquipPartList",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ExceptEnhanceTypeList",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  }
+ ],
+ "types": {}
+}

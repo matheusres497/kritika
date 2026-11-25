@@ -1,0 +1,248 @@
+{
+ "type": "Apple::Sdb::KirenosKnightsInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::KirenosKnightsInfoForUi"
+  },
+  {
+   "op": "container",
+   "name": "KnightsInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UKnightsInfo@KirenosKnightsInfo@Sdb@Apple@@V?$allocator@UKnightsInfo@KirenosKnightsInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::KirenosKnightsInfo"
+  },
+  {
+   "op": "container",
+   "name": "KnightsInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UKnightsInfo@KirenosKnightsInfo@Sdb@Apple@@V?$allocator@UKnightsInfo@KirenosKnightsInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "ActivationPlayerLevel",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "struct",
+   "name": "KirenosBurningInfo",
+   "type": "Apple::Sdb::KirenosKnightsInfo::KirenosKinightsBurningInfo",
+   "func": 10986512,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::KirenosKnightsInfo::KirenosKinightsBurningInfo"
+    },
+    {
+     "op": "container",
+     "name": "FatigueRewardInfoList",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UFatigueRewardInfo@KirenosKinightsBurningInfo@KirenosKnightsInfo@Sdb@Apple@@V?$allocator@UFatigueRewardInfo@KirenosKinightsBurningInfo@KirenosKnightsInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "BuffCategory",
+     "size": null,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "DisplayDailyLimitStages",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "DisplayWeeklyLimitStages",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "enum",
+   "name": "DisplayLimitStagesToolTip",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "struct",
+   "name": "DestinyPointInfo",
+   "type": "Apple::Sdb::KirenosKnightsInfo::PointInfo",
+   "func": 10986592,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::KirenosKnightsInfo::PointInfo"
+    },
+    {
+     "op": "i32",
+     "name": "MaxLimit",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "NeedStackCount",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "XpRatio",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "DisableStageIds",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "?",
+   "type": "Apple::Sdb::KirenosKnightsInfo::KirenosShopInfo",
+   "func": 10988304,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::KirenosKnightsInfo::KirenosShopInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "ShopNpcId",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "Name",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "ShopDesc",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "TypeDesc",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "WarningMessage",
+     "enum": "locale",
+     "cond": false
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::KirenosKnightsInfo::KirenosKinightsBurningInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::KirenosKnightsInfo::KirenosKinightsBurningInfo"
+   },
+   {
+    "op": "container",
+    "name": "FatigueRewardInfoList",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UFatigueRewardInfo@KirenosKinightsBurningInfo@KirenosKnightsInfo@Sdb@Apple@@V?$allocator@UFatigueRewardInfo@KirenosKinightsBurningInfo@KirenosKnightsInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "BuffCategory",
+    "size": null,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::KirenosKnightsInfo::PointInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::KirenosKnightsInfo::PointInfo"
+   },
+   {
+    "op": "i32",
+    "name": "MaxLimit",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "NeedStackCount",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "XpRatio",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "DisableStageIds",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::KirenosKnightsInfo::KirenosShopInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::KirenosKnightsInfo::KirenosShopInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "ShopNpcId",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "Name",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "ShopDesc",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "TypeDesc",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "WarningMessage",
+    "enum": "locale",
+    "cond": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::SmartShopInfo::Situation::StageFail",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SmartShopInfo::Situation::StageFail"
+  },
+  {
+   "op": "container",
+   "name": "RecommendProducts",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

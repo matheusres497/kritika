@@ -1,0 +1,29 @@
+{
+ "type": "Apple::Protocol::FromServer::DevEnvSystem::CheatOptionList",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "CommandName",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsServerCommand",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "OptionList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCommandOptionInfo@Apple@@V?$allocator@UCommandOptionInfo@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

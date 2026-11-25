@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::GuildSiegeInfo::BattleInfo::NpcSummonInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GuildSiegeInfo::BattleInfo::NpcSummonInfo"
+  },
+  {
+   "op": "container",
+   "name": "Npcs",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UNpcInfo@NpcSummonInfo@BattleInfo@GuildSiegeInfo@Sdb@Apple@@V?$allocator@UNpcInfo@NpcSummonInfo@BattleInfo@GuildSiegeInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "SummonIntervalSeconds",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  }
+ ],
+ "types": {}
+}

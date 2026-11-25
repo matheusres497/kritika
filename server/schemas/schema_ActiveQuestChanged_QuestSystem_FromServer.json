@@ -1,0 +1,29 @@
+{
+ "type": ".?AUActiveQuestChanged@QuestSystem@FromServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "PlayerId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ChangedQuests",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UChangedQuestType@QuestSystem@FromServer@Protocol@Apple@@V?$allocator@UChangedQuestType@QuestSystem@FromServer@Protocol@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsDirectClear",
+   "size": 1,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

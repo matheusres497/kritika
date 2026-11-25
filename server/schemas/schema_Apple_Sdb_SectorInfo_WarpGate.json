@@ -1,0 +1,72 @@
+{
+ "type": "Apple::Sdb::SectorInfo::WarpGate",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SectorInfo::WarpGate"
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 8,
+   "cond": true,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": true,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 8,
+   "cond": true,
+   "src": 32
+  },
+  {
+   "op": "raw",
+   "name": "Direction",
+   "size": 12,
+   "cond": true,
+   "src": 40
+  },
+  {
+   "op": "raw",
+   "name": "MinimapIconOffset",
+   "size": 8,
+   "cond": true,
+   "src": 52
+  },
+  {
+   "op": "wstr",
+   "name": "OverrideEffectPath",
+   "size": null,
+   "cond": true,
+   "src": 60
+  },
+  {
+   "op": "wstr",
+   "name": "OverrideDeactivateEffectPath",
+   "size": null,
+   "cond": true,
+   "src": 92
+  },
+  {
+   "op": "container",
+   "name": "OverridePoints",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$Vector2@M@Math@AllM@@V?$allocator@U?$Vector2@M@Math@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "enum",
+   "name": "NameDirection",
+   "enum": "NameDirection",
+   "cond": true
+  }
+ ],
+ "types": {}
+}

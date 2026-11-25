@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::PresentsToFriend",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PresentsToFriend"
+  },
+  {
+   "op": "container",
+   "name": "Presents",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UPresent@PresentsToFriend@Sdb@Apple@@V?$allocator@UPresent@PresentsToFriend@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

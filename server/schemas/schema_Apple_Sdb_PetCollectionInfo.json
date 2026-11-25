@@ -1,0 +1,36 @@
+{
+ "type": "Apple::Sdb::PetCollectionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PetCollectionInfo"
+  },
+  {
+   "op": "enum",
+   "name": "TotalGuideDesc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "CollectionGuideDesc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "TargetItems",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UTargetInfo@PetCollectionInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UTargetInfo@PetCollectionInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Collections",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCollectionInfo@PetCollectionInfo@Sdb@Apple@@V?$allocator@UCollectionInfo@PetCollectionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

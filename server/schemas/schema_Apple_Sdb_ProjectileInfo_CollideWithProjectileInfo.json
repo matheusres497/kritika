@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::ProjectileInfo::CollideWithProjectileInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ProjectileInfo::CollideWithProjectileInfo"
+  },
+  {
+   "op": "bool",
+   "name": "Enable",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "CallbackScript",
+   "size": null,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

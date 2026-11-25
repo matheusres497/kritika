@@ -1,0 +1,221 @@
+{
+ "type": "Apple::Sdb::MentorInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::MentorInfo"
+  },
+  {
+   "op": "bool",
+   "name": "Enabled",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "RequiredMentorLevel",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "MaxMenteeLevel",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "i32",
+   "name": "GraduteLevel",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "i32",
+   "name": "MentorPointMultiplier",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "i32",
+   "name": "MenteePointMultiplier",
+   "size": 4,
+   "cond": false,
+   "src": 24
+  },
+  {
+   "op": "i32",
+   "name": "MaxQuestCount",
+   "size": 4,
+   "cond": false,
+   "src": 28
+  },
+  {
+   "op": "i32",
+   "name": "DispersePenaltyPeriod",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "i32",
+   "name": "MentorBreakRequestExpirePeriod",
+   "size": 4,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "i32",
+   "name": "GraduateWaitingPeriod",
+   "size": 4,
+   "cond": false,
+   "src": 44
+  },
+  {
+   "op": "i32",
+   "name": "SystemMailExpireDays",
+   "size": 4,
+   "cond": false,
+   "src": 40
+  },
+  {
+   "op": "i32",
+   "name": "MaxApplyRequestCount",
+   "size": 4,
+   "cond": false,
+   "src": 48
+  },
+  {
+   "op": "u64",
+   "name": "RequiredMentorDps",
+   "size": 8,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "u64",
+   "name": "MaxMenteeDps",
+   "size": 8,
+   "cond": false,
+   "src": 72
+  },
+  {
+   "op": "u64",
+   "name": "GraduteDps",
+   "size": 8,
+   "cond": false,
+   "src": 80
+  },
+  {
+   "op": "container",
+   "name": "Buffs",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "TimeTypes",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$Vector2@H@Math@AllM@@V?$allocator@U?$Vector2@H@Math@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "MissionInfos",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@UMissionInfo@MentorInfo@Sdb@Apple@@V?$allocator@UMissionInfo@MentorInfo@Sdb@Apple@@@std@@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@UMissionInfo@MentorInfo@Sdb@Apple@@V?$allocator@UMissionInfo@MentorInfo@Sdb@Apple@@@std@@@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "enum",
+   "name": "MentorBenefitDescription",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "enum",
+   "name": "MenteeBenefitDescription",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "enum",
+   "name": "ShopDescription",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "enum",
+   "name": "PointAcquireDescription",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "enum",
+   "name": "MentoringDescription",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "ShopType",
+   "size": null,
+   "cond": true,
+   "src": 328
+  },
+  {
+   "op": "wstr",
+   "name": "ShopNpcId",
+   "size": null,
+   "cond": true,
+   "src": 356
+  },
+  {
+   "op": "i32",
+   "name": "MaxMentorPoint",
+   "size": 4,
+   "cond": true,
+   "src": 52
+  },
+  {
+   "op": "i32",
+   "name": "MaxMenteePoint",
+   "size": 4,
+   "cond": true,
+   "src": 56
+  },
+  {
+   "op": "i32",
+   "name": "MaxTodayPoint",
+   "size": 4,
+   "cond": true,
+   "src": 60
+  },
+  {
+   "op": "enum",
+   "name": "MenteeTitlePlaceholder",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "MenteeTitleId",
+   "size": null,
+   "cond": true,
+   "src": 384
+  },
+  {
+   "op": "container",
+   "name": "MentorTitleIds",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  }
+ ],
+ "types": {}
+}

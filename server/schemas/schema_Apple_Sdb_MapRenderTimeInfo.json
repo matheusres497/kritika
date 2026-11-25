@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::MapRenderTimeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::MapRenderTimeInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "SectorRenderInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USectorRenderInfo@MapRenderTimeInfo@Sdb@Apple@@V?$allocator@USectorRenderInfo@MapRenderTimeInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

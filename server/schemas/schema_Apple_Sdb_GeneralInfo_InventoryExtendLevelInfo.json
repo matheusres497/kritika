@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::GeneralInfo::InventoryExtendLevelInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GeneralInfo::InventoryExtendLevelInfo"
+  },
+  {
+   "op": "i32",
+   "name": "ExpandLevel",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "CashInventoryNumber",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "SlotSize",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  }
+ ],
+ "types": {}
+}

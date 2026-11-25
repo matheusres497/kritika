@@ -1,0 +1,128 @@
+{
+ "type": ".?AUSetNpcRenderInfos@ActorSystem@FromServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "struct",
+   "name": "CompressedNpcRenderInfos",
+   "type": "Apple::Serializable::CompressData",
+   "func": 22685488,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "AllM::Compression::CompressedData"
+    },
+    {
+     "op": "container",
+     "name": "Buffer",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@EV?$allocator@E@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "u32",
+     "name": "CompressSize",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "u32",
+     "name": "UncompressSize",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "u8",
+     "name": "Propertices0",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "u8",
+     "name": "Propertices1",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "u8",
+     "name": "Propertices2",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "u8",
+     "name": "Propertices3",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "u8",
+     "name": "Propertices4",
+     "size": 1,
+     "cond": false
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Serializable::CompressData": [
+   {
+    "op": "begin",
+    "type": "AllM::Compression::CompressedData"
+   },
+   {
+    "op": "container",
+    "name": "Buffer",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@EV?$allocator@E@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "u32",
+    "name": "CompressSize",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "u32",
+    "name": "UncompressSize",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "u8",
+    "name": "Propertices0",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "u8",
+    "name": "Propertices1",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "u8",
+    "name": "Propertices2",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "u8",
+    "name": "Propertices3",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "u8",
+    "name": "Propertices4",
+    "size": 1,
+    "cond": false
+   }
+  ]
+ }
+}

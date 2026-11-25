@@ -1,0 +1,114 @@
+{
+ "type": "Apple::Sdb::InheritEnhanceInfo::EnhanceLevelDecreaseInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::InheritEnhanceInfo::EnhanceLevelDecreaseInfo"
+  },
+  {
+   "op": "struct",
+   "name": "OriginItemCondition",
+   "type": "Apple::Sdb::InheritEnhanceInfo::EnhanceLevelDecreaseInfo::Condition",
+   "func": 8547328,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::InheritEnhanceInfo::EnhanceLevelDecreaseInfo::Condition"
+    },
+    {
+     "op": "raw",
+     "name": "InheritLevelRange",
+     "size": 8,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "enum",
+     "name": "MinGradeRange",
+     "enum": "ItemGrade",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "MaxGradeRange",
+     "enum": "ItemGrade",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "TargetItemCondition",
+   "type": "Apple::Sdb::InheritEnhanceInfo::EnhanceLevelDecreaseInfo::Condition",
+   "func": 8547328,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::InheritEnhanceInfo::EnhanceLevelDecreaseInfo::Condition"
+    },
+    {
+     "op": "raw",
+     "name": "InheritLevelRange",
+     "size": 8,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "enum",
+     "name": "MinGradeRange",
+     "enum": "ItemGrade",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "MaxGradeRange",
+     "enum": "ItemGrade",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "i32",
+   "name": "DefaultDecreaseLevel",
+   "size": 4,
+   "cond": false,
+   "src": 44
+  },
+  {
+   "op": "i32",
+   "name": "BoostDecreaseLevel",
+   "size": 4,
+   "cond": false,
+   "src": 48
+  }
+ ],
+ "types": {
+  "Apple::Sdb::InheritEnhanceInfo::EnhanceLevelDecreaseInfo::Condition": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::InheritEnhanceInfo::EnhanceLevelDecreaseInfo::Condition"
+   },
+   {
+    "op": "raw",
+    "name": "InheritLevelRange",
+    "size": 8,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "enum",
+    "name": "MinGradeRange",
+    "enum": "ItemGrade",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "MaxGradeRange",
+    "enum": "ItemGrade",
+    "cond": false
+   }
+  ]
+ }
+}

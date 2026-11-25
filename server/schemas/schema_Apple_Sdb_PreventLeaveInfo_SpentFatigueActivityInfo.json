@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::PreventLeaveInfo::SpentFatigueActivityInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PreventLeaveInfo::SpentFatigueActivityInfo"
+  },
+  {
+   "op": "raw",
+   "name": "FatigueRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "Point",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  }
+ ],
+ "types": {}
+}

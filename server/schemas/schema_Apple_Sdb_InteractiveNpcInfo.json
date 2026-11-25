@@ -1,0 +1,80 @@
+{
+ "type": "Apple::Sdb::InteractiveNpcInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::InteractiveNpcInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "BaseObjectId",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "JustTimeActivateId",
+   "size": null,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "f32",
+   "name": "InteractionInterval",
+   "size": 4,
+   "cond": false,
+   "src": 216
+  },
+  {
+   "op": "container",
+   "name": "ExceptionalActionIds",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PressActionId",
+   "size": null,
+   "cond": false,
+   "src": 104
+  },
+  {
+   "op": "wstr",
+   "name": "FailActionId",
+   "size": null,
+   "cond": false,
+   "src": 132
+  },
+  {
+   "op": "wstr",
+   "name": "GoodActionId",
+   "size": null,
+   "cond": false,
+   "src": 160
+  },
+  {
+   "op": "wstr",
+   "name": "ReleaseActionId",
+   "size": null,
+   "cond": false,
+   "src": 188
+  },
+  {
+   "op": "f32",
+   "name": "ToActivatePressTime",
+   "size": 4,
+   "cond": false,
+   "src": 220
+  }
+ ],
+ "types": {}
+}

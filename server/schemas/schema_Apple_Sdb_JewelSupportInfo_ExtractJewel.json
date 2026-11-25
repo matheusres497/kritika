@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::JewelSupportInfo::ExtractJewel",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::JewelSupportInfo::ExtractJewel"
+  },
+  {
+   "op": "raw",
+   "name": "GoldConsumeByJewelLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "RequiredItemInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URequiredItem@ExtractJewel@JewelSupportInfo@Sdb@Apple@@V?$allocator@URequiredItem@ExtractJewel@JewelSupportInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

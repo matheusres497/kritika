@@ -1,0 +1,16 @@
+{
+ "type": ".?AULocationConditionAchieve@SectorSpecificEventSystem@ToServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "EventId",
+   "size": null,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

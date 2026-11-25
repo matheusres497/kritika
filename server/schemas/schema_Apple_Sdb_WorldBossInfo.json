@@ -1,0 +1,73 @@
+{
+ "type": "Apple::Sdb::WorldBossInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::WorldBossInfo"
+  },
+  {
+   "op": "container",
+   "name": "Schedules",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@UScheduleInfo@WorldBossInfo@Sdb@Apple@@V?$allocator@UScheduleInfo@WorldBossInfo@Sdb@Apple@@@std@@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@UScheduleInfo@WorldBossInfo@Sdb@Apple@@V?$allocator@UScheduleInfo@WorldBossInfo@Sdb@Apple@@@std@@@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "BossList",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HUBossInfo@WorldBossInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUBossInfo@WorldBossInfo@Sdb@Apple@@@std@@@6@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "UpdateInterval",
+   "size": 4,
+   "cond": true,
+   "src": 84
+  },
+  {
+   "op": "container",
+   "name": "HpPerLevel",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@H_JU?$less@H@std@@V?$allocator@U?$pair@$$CBH_J@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "DamageDivideFactor",
+   "size": 4,
+   "cond": true,
+   "src": 88
+  },
+  {
+   "op": "f64",
+   "name": "ElementalBonusRate",
+   "size": 8,
+   "cond": true,
+   "src": 96
+  },
+  {
+   "op": "f64",
+   "name": "PhysicalBonusRate",
+   "size": 8,
+   "cond": true,
+   "src": 104
+  },
+  {
+   "op": "container",
+   "name": "RewardPerLevel",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@ULevelRewardInfo@WorldBossInfo@Sdb@Apple@@V?$allocator@ULevelRewardInfo@WorldBossInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "RewardItems",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  }
+ ],
+ "types": {}
+}

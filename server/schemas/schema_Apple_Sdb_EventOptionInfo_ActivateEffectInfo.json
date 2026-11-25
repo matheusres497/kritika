@@ -1,0 +1,44 @@
+{
+ "type": "Apple::Sdb::EventOptionInfo::ActivateEffectInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventOptionInfo::ActivateEffectInfo"
+  },
+  {
+   "op": "struct",
+   "name": "SummonFixedNpc",
+   "type": "Apple::Sdb::EventOptionInfo::ActivateEffectInfo::SummonFixedNpcInfo",
+   "func": 7941296,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::EventOptionInfo::ActivateEffectInfo::SummonFixedNpcInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "NpcId",
+     "size": null,
+     "cond": false,
+     "src": 4
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::EventOptionInfo::ActivateEffectInfo::SummonFixedNpcInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::EventOptionInfo::ActivateEffectInfo::SummonFixedNpcInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "NpcId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   }
+  ]
+ }
+}

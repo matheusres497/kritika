@@ -1,0 +1,66 @@
+{
+ "type": "Apple::Sdb::BasicItemOptionInfo::OptionDetail",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::BasicItemOptionInfo::OptionDetail"
+  },
+  {
+   "op": "raw",
+   "name": "LevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "StatusCountRange",
+   "size": 8,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "container",
+   "name": "Statuses",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UStatus@BasicItemOptionInfo@Sdb@Apple@@V?$allocator@UStatus@BasicItemOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "EventOptionCountRange",
+   "size": 8,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "container",
+   "name": "EventOptions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEventOption@BasicItemOptionInfo@Sdb@Apple@@V?$allocator@UEventOption@BasicItemOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "MasteryStatusCountRange",
+   "size": 8,
+   "cond": false,
+   "src": 112
+  },
+  {
+   "op": "container",
+   "name": "MasteryStatusInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UMasteryStatusInfo@BasicItemOptionInfo@Sdb@Apple@@V?$allocator@UMasteryStatusInfo@BasicItemOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "BaseStatusId",
+   "size": null,
+   "cond": false,
+   "src": 136
+  }
+ ],
+ "types": {}
+}

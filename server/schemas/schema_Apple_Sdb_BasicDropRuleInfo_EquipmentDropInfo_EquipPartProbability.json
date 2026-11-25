@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::BasicDropRuleInfo::EquipmentDropInfo::EquipPartProbability",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemDropRuleInfo::EquipmentDropInfo::EquipPartProbability"
+  },
+  {
+   "op": "enum",
+   "name": "EquipPart",
+   "enum": "EquipPart",
+   "cond": false
+  },
+  {
+   "op": "f64",
+   "name": "Probability",
+   "size": 8,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

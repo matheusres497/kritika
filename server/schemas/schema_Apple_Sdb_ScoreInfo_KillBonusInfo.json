@@ -1,0 +1,45 @@
+{
+ "type": "Apple::Sdb::ScoreInfo::KillBonusInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ScoreInfo::KillBonusInfo"
+  },
+  {
+   "op": "f32",
+   "name": "BackAttackBonusRate",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "SpecialAttackBonusRate",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "f32",
+   "name": "SingleExSkillBonusRate",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "f32",
+   "name": "DoubleExSkillBonusRate",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "f32",
+   "name": "OneKillBonusRate",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  }
+ ],
+ "types": {}
+}

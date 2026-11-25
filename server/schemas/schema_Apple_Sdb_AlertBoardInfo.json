@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::AlertBoardInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::AlertBoardInfo"
+  },
+  {
+   "op": "container",
+   "name": "InfoMessages",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@VLocaleType@Locale@AllM@@V?$allocator@VLocaleType@Locale@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  }
+ ],
+ "types": {}
+}

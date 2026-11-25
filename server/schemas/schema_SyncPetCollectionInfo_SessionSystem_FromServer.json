@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Protocol::FromServer::SessionSystem::SyncPetCollectionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "container",
+   "name": "PetCollection",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@IV?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@U?$less@I@2@V?$allocator@U?$pair@$$CBIV?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,28 @@
+{
+ "type": ".?AUComplete@QuestSystem@ToServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "QuestId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "RewardItemId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsDirectClear",
+   "size": 1,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

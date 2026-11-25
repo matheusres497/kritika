@@ -1,0 +1,5 @@
+{
+ "type": "Apple::Protocol::ToServer::InventorySystem::RequestGeneratePetDurability",
+ "fields": [],
+ "types": {}
+}

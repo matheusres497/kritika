@@ -1,0 +1,30 @@
+{
+ "type": "Apple::Sdb::EnhancePointTableInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EnhancePointTableInfo"
+  },
+  {
+   "op": "container",
+   "name": "EnhancePointTableInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UPointTableInfo@EnhancePointTableInfo@Sdb@Apple@@V?$allocator@UPointTableInfo@EnhancePointTableInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ExpireTime",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "IncreaseEnhanceSuccessRateWhenFailedForEnhanceExpand",
+   "size": 4,
+   "cond": false,
+   "src": 40
+  }
+ ],
+ "types": {}
+}

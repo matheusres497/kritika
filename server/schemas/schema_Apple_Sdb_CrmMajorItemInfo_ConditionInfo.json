@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::CrmMajorItemInfo::ConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::CrmMajorItemInfo::ConditionInfo"
+  },
+  {
+   "op": "i32",
+   "name": "ItemLevel",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "bool",
+   "name": "IsTemplateItem",
+   "size": 1,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

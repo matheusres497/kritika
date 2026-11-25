@@ -1,0 +1,77 @@
+{
+ "type": "Apple::Sdb::StageInfo::LoadingScreen",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::StageInfo::LoadingScreenInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Image",
+   "size": null,
+   "cond": true,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Title",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "raw",
+   "name": "TitleRectangle",
+   "size": 16,
+   "cond": true,
+   "src": 68
+  },
+  {
+   "op": "enum",
+   "name": "SubTitle",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "raw",
+   "name": "SubTitleRectangle",
+   "size": 16,
+   "cond": true,
+   "src": 116
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "raw",
+   "name": "DescRectangle",
+   "size": 16,
+   "cond": true,
+   "src": 164
+  },
+  {
+   "op": "bool",
+   "name": "ShowTip",
+   "size": 1,
+   "cond": true,
+   "src": 180
+  },
+  {
+   "op": "container",
+   "name": "MaterialItemDropInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "EquipItemDropInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,149 @@
+{
+ "type": "Apple::Sdb::EventOptionInfo::ConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventOptionInfo::ConditionInfo"
+  },
+  {
+   "op": "enum",
+   "name": "InvokeCondition",
+   "enum": "InvokeConditionType",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "InvokeMatchingId",
+   "size": null,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "container",
+   "name": "AdditionalInvokeMatchingIds",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "Duration",
+   "size": 4,
+   "cond": false,
+   "src": 52
+  },
+  {
+   "op": "container",
+   "name": "OverrideDurationsByStage",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "Probability",
+   "size": 4,
+   "cond": false,
+   "src": 72
+  },
+  {
+   "op": "struct",
+   "name": "TargetCondition",
+   "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::TargetConditionInfo",
+   "func": 7951056,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::TargetConditionInfo"
+    },
+    {
+     "op": "enum",
+     "name": "TargetType",
+     "enum": "TargetType",
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "TargetCount",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "enum",
+     "name": "DistanceCondition",
+     "enum": "SortType",
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "OnlyHitTarget",
+     "size": 1,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "enum",
+     "name": "AutoItemPickUpType",
+     "enum": "AutoItemPickUpType",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "bool",
+   "name": "OnceAvailableOnSector",
+   "size": 1,
+   "cond": false,
+   "src": 100
+  },
+  {
+   "op": "container",
+   "name": "Conditions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UConditionElement@ConditionInfo@EventOptionInfo@Sdb@Apple@@V?$allocator@UConditionElement@ConditionInfo@EventOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {
+  "Apple::Sdb::EventOptionInfo::ConditionInfo::TargetConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::TargetConditionInfo"
+   },
+   {
+    "op": "enum",
+    "name": "TargetType",
+    "enum": "TargetType",
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "TargetCount",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "enum",
+    "name": "DistanceCondition",
+    "enum": "SortType",
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "OnlyHitTarget",
+    "size": 1,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "enum",
+    "name": "AutoItemPickUpType",
+    "enum": "AutoItemPickUpType",
+    "cond": false
+   }
+  ]
+ }
+}

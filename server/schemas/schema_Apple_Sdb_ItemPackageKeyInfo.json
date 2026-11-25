@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::ItemPackageKeyInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemPackageKeyInfo"
+  },
+  {
+   "op": "container",
+   "name": "KeyInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UKeyInfo@ItemPackageKeyInfo@Sdb@Apple@@V?$allocator@UKeyInfo@ItemPackageKeyInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

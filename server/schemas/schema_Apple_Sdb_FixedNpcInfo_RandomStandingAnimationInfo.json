@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::FixedNpcInfo::RandomStandingAnimationInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::FixedNpcInfo::RandomStandingAnimationInfo"
+  },
+  {
+   "op": "raw",
+   "name": "IntervalRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "Poses",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UPose@RandomStandingAnimationInfo@FixedNpcInfo@Sdb@Apple@@V?$allocator@UPose@RandomStandingAnimationInfo@FixedNpcInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

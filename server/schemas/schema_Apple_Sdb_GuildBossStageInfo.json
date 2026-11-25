@@ -1,0 +1,213 @@
+{
+ "type": "Apple::Sdb::GuildBossStageInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GuildBossStageInfo"
+  },
+  {
+   "op": "i32",
+   "name": "MaxLevel",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "RewardMailExpirationPeriod",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "ClearAnnounceStartLevel",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "wstr",
+   "name": "ServiceStartTime",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "AddRateStatusIds",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "Season",
+   "type": "Apple::Sdb::GuildBossStageInfo::SeasonInfo",
+   "func": 10920624,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GuildBossStageInfo::SeasonInfo"
+    },
+    {
+     "op": "struct",
+     "name": "MonthlyStartTime",
+     "type": "Apple::Sdb::GuildBossStageInfo::SeasonInfo::DayHourTime",
+     "func": 10920240,
+     "cond": false,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::Sdb::GuildBossStageInfo::SeasonInfo::DayHourTime"
+      },
+      {
+       "op": "i32",
+       "name": "Day",
+       "size": 4,
+       "cond": false,
+       "src": 4
+      },
+      {
+       "op": "i32",
+       "name": "Hour",
+       "size": 4,
+       "cond": false,
+       "src": 8
+      }
+     ]
+    },
+    {
+     "op": "struct",
+     "name": "MonthlyEndTime",
+     "type": "Apple::Sdb::GuildBossStageInfo::SeasonInfo::DayHourTime",
+     "func": 10920240,
+     "cond": false,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::Sdb::GuildBossStageInfo::SeasonInfo::DayHourTime"
+      },
+      {
+       "op": "i32",
+       "name": "Day",
+       "size": 4,
+       "cond": false,
+       "src": 4
+      },
+      {
+       "op": "i32",
+       "name": "Hour",
+       "size": 4,
+       "cond": false,
+       "src": 8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "Rotation",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UStageRotation@GuildBossStageInfo@Sdb@Apple@@V?$allocator@UStageRotation@GuildBossStageInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Stages",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UStage@GuildBossStageInfo@Sdb@Apple@@V?$allocator@UStage@GuildBossStageInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "SummonDelayTime",
+   "size": 4,
+   "cond": false,
+   "src": 108
+  }
+ ],
+ "types": {
+  "Apple::Sdb::GuildBossStageInfo::SeasonInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::GuildBossStageInfo::SeasonInfo"
+   },
+   {
+    "op": "struct",
+    "name": "MonthlyStartTime",
+    "type": "Apple::Sdb::GuildBossStageInfo::SeasonInfo::DayHourTime",
+    "func": 10920240,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::Sdb::GuildBossStageInfo::SeasonInfo::DayHourTime"
+     },
+     {
+      "op": "i32",
+      "name": "Day",
+      "size": 4,
+      "cond": false,
+      "src": 4
+     },
+     {
+      "op": "i32",
+      "name": "Hour",
+      "size": 4,
+      "cond": false,
+      "src": 8
+     }
+    ]
+   },
+   {
+    "op": "struct",
+    "name": "MonthlyEndTime",
+    "type": "Apple::Sdb::GuildBossStageInfo::SeasonInfo::DayHourTime",
+    "func": 10920240,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::Sdb::GuildBossStageInfo::SeasonInfo::DayHourTime"
+     },
+     {
+      "op": "i32",
+      "name": "Day",
+      "size": 4,
+      "cond": false,
+      "src": 4
+     },
+     {
+      "op": "i32",
+      "name": "Hour",
+      "size": 4,
+      "cond": false,
+      "src": 8
+     }
+    ]
+   }
+  ],
+  "Apple::Sdb::GuildBossStageInfo::SeasonInfo::DayHourTime": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::GuildBossStageInfo::SeasonInfo::DayHourTime"
+   },
+   {
+    "op": "i32",
+    "name": "Day",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "Hour",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   }
+  ]
+ }
+}

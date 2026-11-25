@@ -1,0 +1,64 @@
+{
+ "type": "Apple::Sdb::GameRankInfo::DpsStageRankInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GameRankInfo::DpsStageRankInfo"
+  },
+  {
+   "op": "bool",
+   "name": "Enable",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "ShowRankStartDateTime",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ShowRankEndDateTime",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "RankHideStartTime",
+   "size": null,
+   "cond": false,
+   "src": 40
+  },
+  {
+   "op": "wstr",
+   "name": "RankHideEndTime",
+   "size": null,
+   "cond": false,
+   "src": 68
+  },
+  {
+   "op": "container",
+   "name": "RankNumberRewardInfo",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@URankRewardInfo@GameRankInfo@Sdb@Apple@@V?$allocator@URankRewardInfo@GameRankInfo@Sdb@Apple@@@std@@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@URankRewardInfo@GameRankInfo@Sdb@Apple@@V?$allocator@URankRewardInfo@GameRankInfo@Sdb@Apple@@@std@@@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "RewardMailPeriod",
+   "size": 4,
+   "cond": false,
+   "src": 112
+  },
+  {
+   "op": "container",
+   "name": "RankGradeRange",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HU?$Vector2@H@Math@AllM@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHU?$Vector2@H@Math@AllM@@@std@@@5@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

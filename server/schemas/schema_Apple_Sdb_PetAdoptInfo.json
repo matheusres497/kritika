@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::PetAdoptInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PetAdoptInfo"
+  },
+  {
+   "op": "container",
+   "name": "PetAdoptInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UAdoptInfo@PetAdoptInfo@Sdb@Apple@@V?$allocator@UAdoptInfo@PetAdoptInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

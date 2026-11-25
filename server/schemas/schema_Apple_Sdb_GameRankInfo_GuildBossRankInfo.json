@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::GameRankInfo::GuildBossRankInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GameRankInfo::GuildBossRankInfo"
+  },
+  {
+   "op": "i32",
+   "name": "HideStartHour",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "HideEndHour",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "RewardStartDay",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "container",
+   "name": "Rewards",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardInfo@GuildBossRankInfo@GameRankInfo@Sdb@Apple@@V?$allocator@URewardInfo@GuildBossRankInfo@GameRankInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

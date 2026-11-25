@@ -1,0 +1,34 @@
+{
+ "type": "Apple::Protocol::ToServer::StageSystem::ChangeSector",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "WarpGateId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "AttackSpeed",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "MoveSpeed",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "EvadeRating",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,34 @@
+{
+ "type": ".?AU?$WriterWrapper@$$CBUCreateMonsterInfo@AchieveInfo@SectorSpecificEventInfo@SectorInfo@Sdb@Apple@@@Private@Serializer@AllM@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple;:Sdb::SectorSpecificEventInfo::AchieveInfo::CreateMonsterInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "NpcId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 8,
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "Direction",
+   "size": 12,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "DefaultActionId",
+   "size": null,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

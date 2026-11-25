@@ -1,0 +1,306 @@
+{
+ "type": "Apple::Sdb::EventEffectInfo::RewardInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventEffectInfo::RewardInfo"
+  },
+  {
+   "op": "i32",
+   "name": "OidProduct",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "RewardLevel",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "wstr",
+   "name": "RewardDesc",
+   "size": null,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "bool",
+   "name": "HideReward",
+   "size": 1,
+   "cond": false,
+   "src": 40
+  },
+  {
+   "op": "struct",
+   "name": "RewardCondition",
+   "type": "Apple::Sdb::EventEffectInfo::RewardInfo::RewardConditionInfo",
+   "func": 8106224,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::EventEffectInfo::RewardInfo::RewardConditionInfo"
+    },
+    {
+     "op": "i32",
+     "name": "AttendCount",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "ContinuousAttendCount",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "i32",
+     "name": "InviteeLevel",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "i32",
+     "name": "InviteeCount",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "bool",
+     "name": "IsNewUser",
+     "size": 1,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "i32",
+     "name": "KeepConnectionHour",
+     "size": 4,
+     "cond": false,
+     "src": 24
+    },
+    {
+     "op": "i32",
+     "name": "KeepConnectionMinute",
+     "size": 4,
+     "cond": false,
+     "src": 28
+    },
+    {
+     "op": "i32",
+     "name": "PvpTotalMatchCount",
+     "size": 4,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "i32",
+     "name": "PvpBattlePoint",
+     "size": 4,
+     "cond": false,
+     "src": 36
+    },
+    {
+     "op": "raw",
+     "name": "SpentFatigue",
+     "size": 8,
+     "cond": false,
+     "src": 40
+    },
+    {
+     "op": "i32",
+     "name": "Level",
+     "size": 4,
+     "cond": false,
+     "src": 48
+    },
+    {
+     "op": "i32",
+     "name": "TierAttackPower",
+     "size": 4,
+     "cond": false,
+     "src": 52
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "RewardItems",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardItemInfo@RewardInfo@EventEffectInfo@Sdb@Apple@@V?$allocator@URewardItemInfo@RewardInfo@EventEffectInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RewardBuffs",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardBuffInfo@RewardInfo@EventEffectInfo@Sdb@Apple@@V?$allocator@URewardBuffInfo@RewardInfo@EventEffectInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RewardItemsByLevel",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardItemInfoByLevel@RewardInfo@EventEffectInfo@Sdb@Apple@@V?$allocator@URewardItemInfoByLevel@RewardInfo@EventEffectInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "RewardKPoint",
+   "type": "Apple::Sdb::EventEffectInfo::RewardInfo::RewardKPointInfo",
+   "func": 8118096,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::EventEffectInfo::RewardInfo::RewardKPointInfo"
+    },
+    {
+     "op": "i32",
+     "name": "KPoint",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "wstr",
+     "name": "ExpiredDateTime",
+     "size": null,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "wstr",
+   "name": "RewardTitle",
+   "size": null,
+   "cond": false,
+   "src": 176
+  },
+  {
+   "op": "i32",
+   "name": "RewardFatigue",
+   "size": 4,
+   "cond": false,
+   "src": 204
+  }
+ ],
+ "types": {
+  "Apple::Sdb::EventEffectInfo::RewardInfo::RewardConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::EventEffectInfo::RewardInfo::RewardConditionInfo"
+   },
+   {
+    "op": "i32",
+    "name": "AttendCount",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "ContinuousAttendCount",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "i32",
+    "name": "InviteeLevel",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "i32",
+    "name": "InviteeCount",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "bool",
+    "name": "IsNewUser",
+    "size": 1,
+    "cond": false,
+    "src": 20
+   },
+   {
+    "op": "i32",
+    "name": "KeepConnectionHour",
+    "size": 4,
+    "cond": false,
+    "src": 24
+   },
+   {
+    "op": "i32",
+    "name": "KeepConnectionMinute",
+    "size": 4,
+    "cond": false,
+    "src": 28
+   },
+   {
+    "op": "i32",
+    "name": "PvpTotalMatchCount",
+    "size": 4,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "i32",
+    "name": "PvpBattlePoint",
+    "size": 4,
+    "cond": false,
+    "src": 36
+   },
+   {
+    "op": "raw",
+    "name": "SpentFatigue",
+    "size": 8,
+    "cond": false,
+    "src": 40
+   },
+   {
+    "op": "i32",
+    "name": "Level",
+    "size": 4,
+    "cond": false,
+    "src": 48
+   },
+   {
+    "op": "i32",
+    "name": "TierAttackPower",
+    "size": 4,
+    "cond": false,
+    "src": 52
+   }
+  ],
+  "Apple::Sdb::EventEffectInfo::RewardInfo::RewardKPointInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::EventEffectInfo::RewardInfo::RewardKPointInfo"
+   },
+   {
+    "op": "i32",
+    "name": "KPoint",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "wstr",
+    "name": "ExpiredDateTime",
+    "size": null,
+    "cond": false
+   }
+  ]
+ }
+}

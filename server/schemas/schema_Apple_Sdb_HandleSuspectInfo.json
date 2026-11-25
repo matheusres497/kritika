@@ -1,0 +1,129 @@
+{
+ "type": "Apple::Sdb::HandleSuspectInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::HandleSuspectInfo"
+  },
+  {
+   "op": "u32",
+   "name": "SuspectLimitCount",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "StageClearSkillUseCheckLevel",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "CompletedQuestLevelLimit",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "i32",
+   "name": "CompleteQuestLimit",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "f32",
+   "name": "StageClearLimitTime",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "i32",
+   "name": "SpendFatigueLimitTime",
+   "size": 4,
+   "cond": false,
+   "src": 24
+  },
+  {
+   "op": "f32",
+   "name": "SellItemSuspectRange",
+   "size": 4,
+   "cond": false,
+   "src": 28
+  },
+  {
+   "op": "i32",
+   "name": "SellItemSuspectCount",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "NhnLauncherName",
+   "size": null,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "i32",
+   "name": "CooldownViolationCheckCount",
+   "size": 4,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "f32",
+   "name": "CooldownViolationSuspectLimit",
+   "size": 4,
+   "cond": false,
+   "src": 68
+  },
+  {
+   "op": "f32",
+   "name": "AllowableStageMaxDt",
+   "size": 4,
+   "cond": false,
+   "src": 72
+  },
+  {
+   "op": "f32",
+   "name": "DisconnectAllowableStageMaxDt",
+   "size": 4,
+   "cond": false,
+   "src": 76
+  },
+  {
+   "op": "i32",
+   "name": "StageMaxDtAllowableSuspectCount",
+   "size": 4,
+   "cond": false,
+   "src": 80
+  },
+  {
+   "op": "bool",
+   "name": "CheckProjectileScale",
+   "size": 1,
+   "cond": false,
+   "src": 84
+  },
+  {
+   "op": "container",
+   "name": "ValidatedStatusValueWhenChangeSector",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "SuspectPolicies",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USuspectPolicy@HandleSuspectInfo@Sdb@Apple@@V?$allocator@USuspectPolicy@HandleSuspectInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

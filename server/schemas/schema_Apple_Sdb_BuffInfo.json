@@ -1,0 +1,334 @@
+{
+ "type": "Apple::Sdb::BuffInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::Buff"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "Category",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "enum",
+   "name": "BuffType",
+   "enum": "Bufftype",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "GlobalBuffType",
+   "enum": "globalbufftype",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "AddType",
+   "enum": "AddType",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "MaxDuration",
+   "size": 4,
+   "cond": false,
+   "src": 148
+  },
+  {
+   "op": "bool",
+   "name": "ShowUi",
+   "size": 1,
+   "cond": false,
+   "src": 161
+  },
+  {
+   "op": "bool",
+   "name": "ShowUiTime",
+   "size": 1,
+   "cond": false,
+   "src": 162
+  },
+  {
+   "op": "str",
+   "name": "StateId",
+   "size": null,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "wstr",
+   "name": "IconPath",
+   "size": null,
+   "cond": false,
+   "src": 164
+  },
+  {
+   "op": "i32",
+   "name": "MaxDuplicationCount",
+   "size": 4,
+   "cond": false,
+   "src": 152
+  },
+  {
+   "op": "bool",
+   "name": "RemoveWhenSectorChanged",
+   "size": 1,
+   "cond": false,
+   "src": 156
+  },
+  {
+   "op": "bool",
+   "name": "RemoveWhenDie",
+   "size": 1,
+   "cond": false,
+   "src": 157
+  },
+  {
+   "op": "bool",
+   "name": "RemoveBuffWhenStageEnd",
+   "size": 1,
+   "cond": false,
+   "src": 158
+  },
+  {
+   "op": "bool",
+   "name": "RemoveBuffWhenLevelUp",
+   "size": 1,
+   "cond": false,
+   "src": 159
+  },
+  {
+   "op": "bool",
+   "name": "IsResurrectionBuff",
+   "size": 1,
+   "cond": false,
+   "src": 160
+  },
+  {
+   "op": "container",
+   "name": "Levels",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@ULevelDef@BuffInfo@Sdb@Apple@@V?$allocator@ULevelDef@BuffInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Effects",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UEffectInfo@Sdb@Apple@@V?$allocator@UEffectInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "UiDisplayType",
+   "enum": "BuffUiDisplayType",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "OverrideInfosBySkill",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UBuffOverrideInfoBySkill@Sdb@Apple@@V?$allocator@UBuffOverrideInfoBySkill@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "CanBeCanceledByKeystrokes",
+   "size": 1,
+   "cond": false,
+   "src": 196
+  },
+  {
+   "op": "enum",
+   "name": "ChangeHpGaugeType",
+   "enum": "BuffUiGaugeType",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "UseLevelInfo",
+   "size": 8,
+   "cond": false,
+   "src": 240
+  },
+  {
+   "op": "wstr",
+   "name": "ExceptedTagId",
+   "size": null,
+   "cond": false,
+   "src": 248
+  },
+  {
+   "op": "wstr",
+   "name": "IncludingTagId",
+   "size": null,
+   "cond": false,
+   "src": 276
+  },
+  {
+   "op": "struct",
+   "name": "MultipleItemDropCount",
+   "type": "Apple::Sdb::BuffInfo::MultipleItemDropCountInfo",
+   "func": 8045680,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::BuffInfo::MultipleItemDropCountInfo"
+    },
+    {
+     "op": "enum",
+     "name": "Target",
+     "enum": "TargetType",
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "Multiple",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  },
+  {
+   "op": "bool",
+   "name": "CannotRemoveByScript",
+   "size": 1,
+   "cond": false,
+   "src": 316
+  },
+  {
+   "op": "bool",
+   "name": "CannotAddByScript",
+   "size": 1,
+   "cond": false,
+   "src": 317
+  },
+  {
+   "op": "enum",
+   "name": "TargetObjectType",
+   "enum": "TargetObjectType",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsPartyBuff",
+   "size": 1,
+   "cond": false,
+   "src": 324
+  },
+  {
+   "op": "struct",
+   "name": "ChangeHpValidation",
+   "type": "Apple::Sdb::ChangeHpValidationInfo",
+   "func": 8816944,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ChangeHpInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "ChangeHpInfoId",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "MaxCount",
+     "size": 4,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "bool",
+     "name": "UsingDuration",
+     "size": 1,
+     "cond": false,
+     "src": 36
+    }
+   ]
+  },
+  {
+   "op": "wstr",
+   "name": "StatusDeltaInfoId",
+   "size": null,
+   "cond": false,
+   "src": 368
+  },
+  {
+   "op": "container",
+   "name": "SynergyInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@USynergyInfo@BuffInfo@Sdb@Apple@@V?$allocator@USynergyInfo@BuffInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  }
+ ],
+ "types": {
+  "Apple::Sdb::BuffInfo::MultipleItemDropCountInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::BuffInfo::MultipleItemDropCountInfo"
+   },
+   {
+    "op": "enum",
+    "name": "Target",
+    "enum": "TargetType",
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "Multiple",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   }
+  ],
+  "Apple::Sdb::ChangeHpValidationInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ChangeHpInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "ChangeHpInfoId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "MaxCount",
+    "size": 4,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "bool",
+    "name": "UsingDuration",
+    "size": 1,
+    "cond": false,
+    "src": 36
+   }
+  ]
+ }
+}

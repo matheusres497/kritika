@@ -1,0 +1,108 @@
+{
+ "type": "Apple::Sdb::DevOptionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::DevOptionInfo"
+  },
+  {
+   "op": "bool",
+   "name": "ShowHpChanged",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "bool",
+   "name": "ShowChain",
+   "size": 1,
+   "cond": false,
+   "src": 5
+  },
+  {
+   "op": "bool",
+   "name": "ShowMultikill",
+   "size": 1,
+   "cond": false,
+   "src": 6
+  },
+  {
+   "op": "bool",
+   "name": "NeedChangeColor",
+   "size": 1,
+   "cond": false,
+   "src": 7
+  },
+  {
+   "op": "bool",
+   "name": "ShowHpBar",
+   "size": 1,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "bool",
+   "name": "ShowBattleEvent",
+   "size": 1,
+   "cond": false,
+   "src": 9
+  },
+  {
+   "op": "bool",
+   "name": "ShowVisualRuntimeEffect",
+   "size": 1,
+   "cond": false,
+   "src": 10
+  },
+  {
+   "op": "bool",
+   "name": "ListenSoundRuntimeEffect",
+   "size": 1,
+   "cond": false,
+   "src": 11
+  },
+  {
+   "op": "bool",
+   "name": "ByPassCollisionProcess",
+   "size": 1,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "bool",
+   "name": "DisableRimLight",
+   "size": 1,
+   "cond": false,
+   "src": 13
+  },
+  {
+   "op": "bool",
+   "name": "EffectSavingMode",
+   "size": 1,
+   "cond": false,
+   "src": 14
+  },
+  {
+   "op": "bool",
+   "name": "UseLuaHitManager",
+   "size": 1,
+   "cond": false,
+   "src": 15
+  },
+  {
+   "op": "bool",
+   "name": "UseLuaGetDamage",
+   "size": 1,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "bool",
+   "name": "UseEffectTeamColor",
+   "size": 1,
+   "cond": false,
+   "src": 17
+  }
+ ],
+ "types": {}
+}

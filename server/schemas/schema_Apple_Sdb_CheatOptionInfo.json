@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::CheatOptionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::CheatOptionInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "OptionName",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "HorizontalPositioning",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "container",
+   "name": "Components",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UComponentInfo@CheatOptionInfo@Sdb@Apple@@V?$allocator@UComponentInfo@CheatOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::RandomEnhanceLevelWhenSuccess::RandomEnhanceLevelInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::RandomEnhanceLevelWhenSuccess::RandomEnhanceLevelInfo"
+  },
+  {
+   "op": "i32",
+   "name": "IncreaseLevel",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "SuccessRate",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

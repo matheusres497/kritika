@@ -1,0 +1,1419 @@
+{
+ "type": "Apple::Sdb::ActionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ActionInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "ActionType",
+   "enum": "actiontype",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "SpeedDependency",
+   "enum": "speeddependency",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "AnimationPath",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Effects",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEffectInfo@Sdb@Apple@@V?$allocator@UEffectInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "EffectsOnPvp",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEffectInfo@Sdb@Apple@@V?$allocator@UEffectInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "EffectsByClass",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEffectByClass@ActionInfo@Sdb@Apple@@V?$allocator@UEffectByClass@ActionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "EffectsBySkillLevel",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEffectBySkillLevel@ActionInfo@Sdb@Apple@@V?$allocator@UEffectBySkillLevel@ActionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "OverrideAnimationPathByClassList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UOverrideAnimationPathByClass@ActionInfo@Sdb@Apple@@V?$allocator@UOverrideAnimationPathByClass@ActionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "CameraMoveInfo",
+   "type": "Apple::Sdb::CameraMoveInfo",
+   "func": 8727088,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::CameraMove"
+    },
+    {
+     "op": "enum",
+     "name": "CameraMoveType",
+     "enum": "CameraMoveType",
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "HideObjects",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "SyncEffect",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "Id",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "FilePath",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "StartTime",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "BeginBlendingTime",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "EndBlendingTime",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "CameraEndPose",
+     "enum": "CameraEndPose",
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "PauseWhenFreeze",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "DetachInfos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UDetachInfo@Sdb@Apple@@V?$allocator@UDetachInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "FovBySeeingDir",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "ChangeOfFov",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@MMU?$less@M@std@@V?$allocator@U?$pair@$$CBMM@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "AdditionalFov",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "FovStartTime",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "FovEndTime",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "FovChangeTime",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "CameraTargetSpringConstant",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "SpringStartTime",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "SpringEndTime",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "UIActionId",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "UIActionMessage",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "CameraScale",
+     "size": 12,
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "IsSkipable",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "DefaultTarget",
+     "size": 12,
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "FixedZoom",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "ZoomValue",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "VerticalMoveLimit",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "AzimuthSpringConstantWhenTps",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "ElevationSpringConstantWhenTps",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "MaxRotateSpeedWhenTps",
+     "size": 4,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "bool",
+   "name": "ForcedResetAnimation",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "NeedCollisionCheck",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "FixedPosition",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "EnableDirectionChange",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "CanBeCounterAttacked",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "NotifyUiWhenTerminated",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "PlayTime",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "AnimationDrivenMoving",
+   "type": "Apple::Sdb::AnimationDrivenMovingOption",
+   "func": 7169296,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::AnimationDrivenMovingOption"
+    },
+    {
+     "op": "bool",
+     "name": "HorizontalMove",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "VerticalMove",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "FloatingWhenVerticalMove",
+     "size": 1,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "bool",
+   "name": "AnimationRotationUpdate",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "NextActionId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "OverrideNextActions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UOverrideNextAction@ActionInfo@Sdb@Apple@@V?$allocator@UOverrideNextAction@ActionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "AttackPowerRate",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "States",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UState@__ActionInfo@Sdb@Apple@@V?$allocator@UState@__ActionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "StatesBySkillLevel",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UStateBySkillLevel@ActionInfo@Sdb@Apple@@V?$allocator@UStateBySkillLevel@ActionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "StatesOnPvp",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UState@__ActionInfo@Sdb@Apple@@V?$allocator@UState@__ActionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "StatesBySkillLevelOnPvp",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UStateBySkillLevel@ActionInfo@Sdb@Apple@@V?$allocator@UStateBySkillLevel@ActionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "SystemMessage",
+   "type": "Apple::Sdb::ActionInfo::SystemMessageInfo",
+   "func": 7186960,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ActionInfo::SystemMessageInfo"
+    },
+    {
+     "op": "f32",
+     "name": "Time",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "Message",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "ReplaceInfos",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "BalloonMessage",
+   "type": "Apple::Sdb::ActionInfo::BalloonMessageInfo",
+   "func": 7187200,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ActionInfo::BalloonMessageInfo"
+    },
+    {
+     "op": "f32",
+     "name": "StartTime",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "Duration",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "Message",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "PortraitImagePath",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "BalloonPosition",
+     "enum": "BalloonPosition",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "CinematicDialog",
+   "type": "Apple::Sdb::ActionInfo::CinematicDialogInfo",
+   "func": 7169472,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ActionInfo::CinematicDialogInfo"
+    },
+    {
+     "op": "f32",
+     "name": "Time",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "DialogId",
+     "size": null,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "Tutorial",
+   "type": "Apple::Sdb::ActionInfo::TutorialInfo",
+   "func": 7169552,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ActionInfo::TutorialInfo"
+    },
+    {
+     "op": "f32",
+     "name": "Time",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "Id",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "Pause",
+     "size": 1,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "EnforcedDirectionPeriods",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UAvailableDirectionChange@Sdb@Apple@@V?$allocator@UAvailableDirectionChange@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "JumpInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UJump@__ActionInfo@Sdb@Apple@@V?$allocator@UJump@__ActionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "AnimationPathByMode",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@VLocator@AllM@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@VLocator@AllM@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ChangeMode",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "Casting",
+   "type": "Apple::Sdb::ActionInfo::CastingInfo",
+   "func": 7188176,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ActionInfo::CastingInfo"
+    },
+    {
+     "op": "bool",
+     "name": "Activate",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "Name",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "Range",
+     "size": 8,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "bool",
+   "name": "EnableAnimationBlending",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IgnoreCameraDirection",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "FadeInfo",
+   "type": "Apple::Sdb::ActionInfo::FadeEffectInfo",
+   "func": 7169648,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ActionInfo::FadeEffectInfo"
+    },
+    {
+     "op": "f32",
+     "name": "FadeBeginTime",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "FadeBeginLength",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "FadeEndTime",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "FadeEndLength",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "FadeAlpha",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "Enabled",
+     "size": 1,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "NpcFade",
+   "type": "Apple::Sdb::ActionInfo::NpcFadeInfo",
+   "func": 7169808,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ActionInfo::NpcFadeInfo"
+    },
+    {
+     "op": "bool",
+     "name": "Enabled",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "FadeBeginTime",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "FadeEndTime",
+     "size": 4,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "NpcBuffImmunesOn",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UNpcBuffImmunesOnInfo@ActionInfo@Sdb@Apple@@V?$allocator@UNpcBuffImmunesOnInfo@ActionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "ChangeActionBound",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "AvailableChangeActions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "OverrideAction",
+   "type": "Apple::Sdb::ActionInfo::OverrideActionInfo",
+   "func": 7170224,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ActionInfo::OverrideActionInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "Id",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "Enable",
+     "size": 1,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "Buffs",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UAddBuffInfo@Sdb@Apple@@V?$allocator@UAddBuffInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "BuffsOnPvp",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UAddBuffInfo@Sdb@Apple@@V?$allocator@UAddBuffInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "NPActionInfo",
+   "type": "Apple::Sdb::ActionInfo::NPInfo",
+   "func": 7169904,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ActionInfo::NPInfo"
+    },
+    {
+     "op": "i32",
+     "name": "AddValue",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "AddValueOnPvp",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "GaugeChangeTime",
+     "size": 4,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "DisableEffect",
+   "type": "Apple::Sdb::ActionInfo::DisableEffectInfo",
+   "func": 7208416,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ActionInfo::DisableEffectInfo"
+    },
+    {
+     "op": "container",
+     "name": "DisableEquipParts",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "f32",
+     "name": "StartTime",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "EndTime",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "DisableClassEffect",
+     "size": 1,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "ChangeHpValidation",
+   "type": "Apple::Sdb::ChangeHpValidationInfo",
+   "func": 8816944,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ChangeHpInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "ChangeHpInfoId",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "MaxCount",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "UsingDuration",
+     "size": 1,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "wstr",
+   "name": "StatusDeltaInfoId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsMainJump",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "CutScene",
+   "type": "Apple::Sdb::ActionInfo::CutSceneInfo",
+   "func": 7170000,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ActionInfo::CutSceneInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "FilePath",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "Duration",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "StartTime",
+     "size": 4,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "DecorationObjects",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UDecorationObjectInfo@ActionInfo@Sdb@Apple@@V?$allocator@UDecorationObjectInfo@ActionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {
+  "Apple::Sdb::CameraMoveInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::CameraMove"
+   },
+   {
+    "op": "enum",
+    "name": "CameraMoveType",
+    "enum": "CameraMoveType",
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "HideObjects",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "SyncEffect",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "Id",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "FilePath",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "StartTime",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "BeginBlendingTime",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "EndBlendingTime",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "CameraEndPose",
+    "enum": "CameraEndPose",
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "PauseWhenFreeze",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "DetachInfos",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UDetachInfo@Sdb@Apple@@V?$allocator@UDetachInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "FovBySeeingDir",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "ChangeOfFov",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@MMU?$less@M@std@@V?$allocator@U?$pair@$$CBMM@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "AdditionalFov",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "FovStartTime",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "FovEndTime",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "FovChangeTime",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "CameraTargetSpringConstant",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "SpringStartTime",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "SpringEndTime",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "UIActionId",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "UIActionMessage",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "CameraScale",
+    "size": 12,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "IsSkipable",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "DefaultTarget",
+    "size": 12,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "FixedZoom",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "ZoomValue",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "VerticalMoveLimit",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "AzimuthSpringConstantWhenTps",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "ElevationSpringConstantWhenTps",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "MaxRotateSpeedWhenTps",
+    "size": 4,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::AnimationDrivenMovingOption": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::AnimationDrivenMovingOption"
+   },
+   {
+    "op": "bool",
+    "name": "HorizontalMove",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "VerticalMove",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "FloatingWhenVerticalMove",
+    "size": 1,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ActionInfo::SystemMessageInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ActionInfo::SystemMessageInfo"
+   },
+   {
+    "op": "f32",
+    "name": "Time",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "Message",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "ReplaceInfos",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ActionInfo::BalloonMessageInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ActionInfo::BalloonMessageInfo"
+   },
+   {
+    "op": "f32",
+    "name": "StartTime",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "Duration",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "Message",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "PortraitImagePath",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "BalloonPosition",
+    "enum": "BalloonPosition",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ActionInfo::CinematicDialogInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ActionInfo::CinematicDialogInfo"
+   },
+   {
+    "op": "f32",
+    "name": "Time",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "DialogId",
+    "size": null,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ActionInfo::TutorialInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ActionInfo::TutorialInfo"
+   },
+   {
+    "op": "f32",
+    "name": "Time",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "Id",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "Pause",
+    "size": 1,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ActionInfo::CastingInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ActionInfo::CastingInfo"
+   },
+   {
+    "op": "bool",
+    "name": "Activate",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "Name",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "Range",
+    "size": 8,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ActionInfo::FadeEffectInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ActionInfo::FadeEffectInfo"
+   },
+   {
+    "op": "f32",
+    "name": "FadeBeginTime",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "FadeBeginLength",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "FadeEndTime",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "FadeEndLength",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "FadeAlpha",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "Enabled",
+    "size": 1,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ActionInfo::NpcFadeInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ActionInfo::NpcFadeInfo"
+   },
+   {
+    "op": "bool",
+    "name": "Enabled",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "FadeBeginTime",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "FadeEndTime",
+    "size": 4,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ActionInfo::OverrideActionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ActionInfo::OverrideActionInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "Id",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "Enable",
+    "size": 1,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ActionInfo::NPInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ActionInfo::NPInfo"
+   },
+   {
+    "op": "i32",
+    "name": "AddValue",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "AddValueOnPvp",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "GaugeChangeTime",
+    "size": 4,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ActionInfo::DisableEffectInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ActionInfo::DisableEffectInfo"
+   },
+   {
+    "op": "container",
+    "name": "DisableEquipParts",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "f32",
+    "name": "StartTime",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "EndTime",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "DisableClassEffect",
+    "size": 1,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ChangeHpValidationInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ChangeHpInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "ChangeHpInfoId",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "MaxCount",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "UsingDuration",
+    "size": 1,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ActionInfo::CutSceneInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ActionInfo::CutSceneInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "FilePath",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "Duration",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "StartTime",
+    "size": 4,
+    "cond": false
+   }
+  ]
+ }
+}

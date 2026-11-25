@@ -1,0 +1,113 @@
+{
+ "type": "Apple::Sdb::MileageInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::MileageInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "MileageSeasonString",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "i32",
+   "name": "DefaultStageMileage",
+   "size": 4,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "f32",
+   "name": "ReturneeStageMileageRate",
+   "size": 4,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "f32",
+   "name": "WeekendStageMileageRate",
+   "size": 4,
+   "cond": false,
+   "src": 68
+  },
+  {
+   "op": "f32",
+   "name": "CashProductMileageRate",
+   "size": 4,
+   "cond": false,
+   "src": 72
+  },
+  {
+   "op": "f32",
+   "name": "ReturneeCashProductMileageRate",
+   "size": 4,
+   "cond": false,
+   "src": 76
+  },
+  {
+   "op": "f32",
+   "name": "WeekendCashProductMileageRate",
+   "size": 4,
+   "cond": false,
+   "src": 80
+  },
+  {
+   "op": "wstr",
+   "name": "MileageShopId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "MileageSeasonBeginDateTime",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "MileageSeasonEndDateTime",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "MinPlayerLevelForStageMileageGain",
+   "size": 4,
+   "cond": false,
+   "src": 120
+  },
+  {
+   "op": "bool",
+   "name": "EnableMileageSystem",
+   "size": 1,
+   "cond": false,
+   "src": 124
+  },
+  {
+   "op": "bool",
+   "name": "EnableMileageSystemForCS",
+   "size": 1,
+   "cond": false,
+   "src": 125
+  },
+  {
+   "op": "bool",
+   "name": "EnableMileageSystemForReturnee",
+   "size": 1,
+   "cond": false,
+   "src": 126
+  },
+  {
+   "op": "container",
+   "name": "ParticularDayMileageRateInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UParticularDayMileageRateInfo@MileageInfo@Sdb@Apple@@V?$allocator@UParticularDayMileageRateInfo@MileageInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

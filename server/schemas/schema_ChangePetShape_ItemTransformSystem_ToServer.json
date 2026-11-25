@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Protocol::ToServer::ItemTransformSystem::ChangePetShape",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "ItemSlotIndex",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "PetShapeId",
+   "size": null,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

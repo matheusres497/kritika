@@ -1,0 +1,30 @@
+{
+ "type": "Apple::Sdb::Freeze",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Freeze"
+  },
+  {
+   "op": "enum",
+   "name": "FreezeTarget",
+   "enum": "FreezeTarget",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "Duration",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "f32",
+   "name": "AnimationSpeed",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  }
+ ],
+ "types": {}
+}

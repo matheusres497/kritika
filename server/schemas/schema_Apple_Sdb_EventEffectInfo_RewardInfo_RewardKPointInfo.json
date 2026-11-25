@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::EventEffectInfo::RewardInfo::RewardKPointInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventEffectInfo::RewardInfo::RewardKPointInfo"
+  },
+  {
+   "op": "i32",
+   "name": "KPoint",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "ExpiredDateTime",
+   "size": null,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

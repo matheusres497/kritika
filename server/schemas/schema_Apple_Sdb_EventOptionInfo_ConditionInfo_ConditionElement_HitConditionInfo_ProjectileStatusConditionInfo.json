@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::HitConditionInfo::ProjectileStatusConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::HitConditionInfo::ProjectileStatusConditionInfo"
+  },
+  {
+   "op": "bool",
+   "name": "Enabled",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "StatusId",
+   "size": null,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "wstr",
+   "name": "StatusValue",
+   "size": null,
+   "cond": false,
+   "src": 36
+  }
+ ],
+ "types": {}
+}

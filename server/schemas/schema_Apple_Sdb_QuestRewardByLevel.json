@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::QuestRewardByLevel",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::QuestRewardByLevel"
+  },
+  {
+   "op": "container",
+   "name": "Rewards",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@IUReward@QuestRewardByLevel@Sdb@Apple@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIUReward@QuestRewardByLevel@Sdb@Apple@@@std@@@6@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

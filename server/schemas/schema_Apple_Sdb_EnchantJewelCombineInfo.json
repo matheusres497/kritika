@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::EnchantJewelCombineInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EnchantJewelCombineInfo"
+  },
+  {
+   "op": "container",
+   "name": "JewelCombineInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UJewelCombineInfo@EnchantJewelCombineInfo@Sdb@Apple@@V?$allocator@UJewelCombineInfo@EnchantJewelCombineInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

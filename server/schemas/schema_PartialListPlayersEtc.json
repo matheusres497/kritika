@@ -1,0 +1,277 @@
+{
+ "type": ".?AUPartialListPlayersEtc@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "AccountId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PlayerId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "TitleSubGroupRewardStatus",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "TitleSubGroupStepReward",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "TitleSubGroupStepRewardEventOption",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@UEventOption@Apple@@V?$allocator@UEventOption@Apple@@@std@@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@UEventOption@Apple@@V?$allocator@UEventOption@Apple@@@std@@@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Tutorials",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "SecondCharacterXpBonusLimitLevel",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "EnableSecondCharacterXpBonus",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "CustomizingData",
+   "type": "Apple::CustomizingData",
+   "func": 8278896,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::CustomizingData"
+    },
+    {
+     "op": "container",
+     "name": "CustomizingPartDatas",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UCustomizingPartData@CustomizingData@Apple@@V?$allocator@UCustomizingPartData@CustomizingData@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "SelectedSkinColorIndex",
+     "size": 4,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "SubAvatarSlots",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HV?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "StageLimits",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UStageLimit@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UStageLimit@Apple@@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "struct",
+   "name": "VolatileEventInfo",
+   "type": "Apple::VolatileEventInfo",
+   "func": 12512160,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::VolatileEventInfo"
+    },
+    {
+     "op": "container",
+     "name": "OnTimeEventIds",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "EffectiveEventIds",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "i32",
+   "name": "MarketAccountUsage",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "MarketCharacterUsage",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "CashExchangeAccountUsage",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "CashExchangeCharacterUsage",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "MailAccountUsage",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "MailCharacterUsage",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "RecoveredFatigues",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "GoldTradeAccountUsage",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "GoldTradeCharacterUsage",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "PersonalTradeUsage",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "VisibleAvatar",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HV?$map@H_NU?$less@H@std@@V?$allocator@U?$pair@$$CBH_N@std@@@2@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$map@H_NU?$less@H@std@@V?$allocator@U?$pair@$$CBH_N@std@@@2@@std@@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "DailyItemUseCounts",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "PlayerBankItemLockInfos",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HUChangBankItemLockInfo@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUChangBankItemLockInfo@Apple@@@std@@@4@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "AvatarBankItemLockInfos",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HUChangBankItemLockInfo@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUChangBankItemLockInfo@Apple@@@std@@@4@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "StashItemLockInfos",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HUChangBankItemLockInfo@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUChangBankItemLockInfo@Apple@@@std@@@4@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "ItemLockCount",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "bool",
+   "name": "IsExistOldSkills",
+   "size": 1,
+   "cond": true
+  }
+ ],
+ "types": {
+  "Apple::CustomizingData": [
+   {
+    "op": "begin",
+    "type": "Apple::CustomizingData"
+   },
+   {
+    "op": "container",
+    "name": "CustomizingPartDatas",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UCustomizingPartData@CustomizingData@Apple@@V?$allocator@UCustomizingPartData@CustomizingData@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "SelectedSkinColorIndex",
+    "size": 4,
+    "cond": false
+   }
+  ],
+  "Apple::VolatileEventInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::VolatileEventInfo"
+   },
+   {
+    "op": "container",
+    "name": "OnTimeEventIds",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "EffectiveEventIds",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ]
+ }
+}

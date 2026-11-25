@@ -1,0 +1,736 @@
+{
+ "type": "Apple::Sdb::SectorInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::Sector"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": true,
+   "src": 36
+  },
+  {
+   "op": "bool",
+   "name": "IsBossSector",
+   "size": 1,
+   "cond": true,
+   "src": 156
+  },
+  {
+   "op": "container",
+   "name": "FixedNpcs",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UFixedNpc@SectorInfo@Sdb@Apple@@V?$allocator@UFixedNpc@SectorInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "FishingPointGroups",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UFishingPointGroup@SectorInfo@Sdb@Apple@@V?$allocator@UFishingPointGroup@SectorInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "StageStartWarpGates",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UStageStartWarpGate@SectorInfo@Sdb@Apple@@V?$allocator@UStageStartWarpGate@SectorInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "WarpGates",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UWarpGate@SectorInfo@Sdb@Apple@@V?$allocator@UWarpGate@SectorInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "raw",
+   "name": "MinimapOffset",
+   "size": 8,
+   "cond": true,
+   "src": 160
+  },
+  {
+   "op": "raw",
+   "name": "MinimapSize",
+   "size": 8,
+   "cond": true,
+   "src": 168
+  },
+  {
+   "op": "raw",
+   "name": "SectorEscortPosition",
+   "size": 12,
+   "cond": true,
+   "src": 540
+  },
+  {
+   "op": "raw",
+   "name": "SectorCenterPosition",
+   "size": 12,
+   "cond": true,
+   "src": 504
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": true,
+   "src": 36
+  },
+  {
+   "op": "enum",
+   "name": "SectorDescriptionId",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "enum",
+   "name": "SectorPopNpcType",
+   "enum": "SectorPopNpcType",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "FloorNumber",
+   "size": 4,
+   "cond": true,
+   "src": 100
+  },
+  {
+   "op": "enum",
+   "name": "SectorResetType",
+   "enum": "SectorResetType",
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "SectorPath",
+   "size": null,
+   "cond": true,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "SectorLimitPoints",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@U?$Vector2@M@Math@AllM@@V?$allocator@U?$Vector2@M@Math@AllM@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "Restrictions",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@URestriction@SectorInfo@Sdb@Apple@@V?$allocator@URestriction@SectorInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "Locations",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@ULocation@SectorInfo@Sdb@Apple@@V?$allocator@ULocation@SectorInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "bool",
+   "name": "IsBossSector",
+   "size": 1,
+   "cond": true,
+   "src": 156
+  },
+  {
+   "op": "raw",
+   "name": "MinimapOffset",
+   "size": 8,
+   "cond": true,
+   "src": 160
+  },
+  {
+   "op": "raw",
+   "name": "MinimapSize",
+   "size": 8,
+   "cond": true,
+   "src": 168
+  },
+  {
+   "op": "raw",
+   "name": "MapSize",
+   "size": 8,
+   "cond": true,
+   "src": 176
+  },
+  {
+   "op": "container",
+   "name": "WarpGates",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UWarpGate@SectorInfo@Sdb@Apple@@V?$allocator@UWarpGate@SectorInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "StageStartWarpGates",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UStageStartWarpGate@SectorInfo@Sdb@Apple@@V?$allocator@UStageStartWarpGate@SectorInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "PopInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UPopInfo@SectorInfo@Sdb@Apple@@V?$allocator@UPopInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "FixedNpcs",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UFixedNpc@SectorInfo@Sdb@Apple@@V?$allocator@UFixedNpc@SectorInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "InteractiveNpcs",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UInteractiveNpc@SectorInfo@Sdb@Apple@@V?$allocator@UInteractiveNpc@SectorInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "FixedNpcsByQuest",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UFixedNpcByQuest@SectorInfo@Sdb@Apple@@V?$allocator@UFixedNpcByQuest@SectorInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "BuffFloors",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UBuffFloor@Apple@@V?$allocator@UBuffFloor@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "StartingRedWall",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@U?$Vector2@M@Math@AllM@@V?$allocator@U?$Vector2@M@Math@AllM@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "StartingBlueWall",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@U?$Vector2@M@Math@AllM@@V?$allocator@U?$Vector2@M@Math@AllM@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "FishingPointGroups",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UFishingPointGroup@SectorInfo@Sdb@Apple@@V?$allocator@UFishingPointGroup@SectorInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "struct",
+   "name": "SectorBgmFadingInfo",
+   "type": "Apple::Sdb::SectorInfo::BgmFadingInfo",
+   "func": 7271248,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SectorInfo::BgmFadingInfo"
+    },
+    {
+     "op": "bool",
+     "name": "UsingBgmFadingInfo",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "raw",
+     "name": "Center",
+     "size": 12,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "f32",
+     "name": "FadingBeginDistance",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "f32",
+     "name": "ZeroVolumeDistance",
+     "size": 4,
+     "cond": false,
+     "src": 24
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "AdditionalNpcPopInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UAdditionalNpcPopInfosType@SectorInfo@Sdb@Apple@@V?$allocator@UAdditionalNpcPopInfosType@SectorInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "ReverbPreset",
+   "size": null,
+   "cond": true,
+   "src": 360
+  },
+  {
+   "op": "struct",
+   "name": "ClearEvent",
+   "type": "Apple::Sdb::SectorInfo::ClearEventInfo",
+   "func": 7288624,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ClearEventInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "CinematicDialogId",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "container",
+     "name": "CreateItems",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UCreateItem@ClearEventInfo@SectorInfo@Sdb@Apple@@V?$allocator@UCreateItem@ClearEventInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "AutoWarpGateAfterSectorClear",
+   "type": "Apple::Sdb::SectorInfo::AutoWarpGateAfterSectorClearInfo",
+   "func": 7297520,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::AutoWarpGateAfterSectorClearInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "WarpGateId",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "f32",
+     "name": "DelayTime",
+     "size": 4,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "enum",
+     "name": "Message",
+     "enum": "locale",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "raw",
+   "name": "SectorCenterPosition",
+   "size": 12,
+   "cond": true,
+   "src": 504
+  },
+  {
+   "op": "raw",
+   "name": "SectorRebirthPosition",
+   "size": 12,
+   "cond": true,
+   "src": 516
+  },
+  {
+   "op": "raw",
+   "name": "SectorRebirthDirection",
+   "size": 12,
+   "cond": true,
+   "src": 528
+  },
+  {
+   "op": "raw",
+   "name": "SectorEscortPosition",
+   "size": 12,
+   "cond": true,
+   "src": 540
+  },
+  {
+   "op": "struct",
+   "name": "SectorMessage",
+   "type": "Apple::Sdb::SectorInfo::SectorMessageInfo",
+   "func": 7299296,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SectorInfo::SectorMessageInfo"
+    },
+    {
+     "op": "enum",
+     "name": "EnterMessage",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "ClearMessage",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "TimeMessage",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UTimeMessageInfo@SectorMessageInfo@SectorInfo@Sdb@Apple@@V?$allocator@UTimeMessageInfo@SectorMessageInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "MonsterMessage",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UMonsterMessageInfo@SectorMessageInfo@SectorInfo@Sdb@Apple@@V?$allocator@UMonsterMessageInfo@SectorMessageInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "Falling",
+   "type": "Apple::Sdb::SectorInfo::FallingInfo",
+   "func": 7288704,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SectorInfo::FallingInfo"
+    },
+    {
+     "op": "f32",
+     "name": "FallingHeight",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "f32",
+     "name": "FallingDamageRate",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "raw",
+     "name": "PlayerPositionAfterFalling",
+     "size": 12,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "container",
+     "name": "PlayerActionAfterFalling",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "NpcLocationIdAfterFalling",
+     "size": null,
+     "cond": false,
+     "src": 44
+    },
+    {
+     "op": "container",
+     "name": "NpcActionAfterFalling",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "CreateNpcByClientInfo",
+   "type": "Apple::Sdb::SectorInfo::CreateNpcByClient",
+   "func": 7290272,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SectorInfo::CreateNpcByClient"
+    },
+    {
+     "op": "i32",
+     "name": "MaxCreateNpcCount",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "NpcIds",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "SectorSpecificEvents",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@USectorSpecificEventInfo@SectorInfo@Sdb@Apple@@V?$allocator@USectorSpecificEventInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "PopupItemInfoIds",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "f32",
+   "name": "RecoveryHpRate",
+   "size": 4,
+   "cond": true,
+   "src": 792
+  },
+  {
+   "op": "f32",
+   "name": "RecoveryMpRate",
+   "size": 4,
+   "cond": true,
+   "src": 796
+  },
+  {
+   "op": "wstr",
+   "name": "EnterMoviePath",
+   "size": null,
+   "cond": true,
+   "src": 800
+  },
+  {
+   "op": "container",
+   "name": "AddStatusesByStageRetryCount",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HV?$vector@UStatusInfo@SectorInfo@Sdb@Apple@@V?$allocator@UStatusInfo@SectorInfo@Sdb@Apple@@@std@@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$vector@UStatusInfo@SectorInfo@Sdb@Apple@@V?$allocator@UStatusInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "raw",
+   "name": "OverrideQuickServiceNpcPosition",
+   "size": 8,
+   "cond": true,
+   "src": 876
+  },
+  {
+   "op": "enum",
+   "name": "EventSectorType",
+   "enum": "EventSectorType",
+   "cond": true
+  }
+ ],
+ "types": {
+  "Apple::Sdb::SectorInfo::BgmFadingInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SectorInfo::BgmFadingInfo"
+   },
+   {
+    "op": "bool",
+    "name": "UsingBgmFadingInfo",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "raw",
+    "name": "Center",
+    "size": 12,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "f32",
+    "name": "FadingBeginDistance",
+    "size": 4,
+    "cond": false,
+    "src": 20
+   },
+   {
+    "op": "f32",
+    "name": "ZeroVolumeDistance",
+    "size": 4,
+    "cond": false,
+    "src": 24
+   }
+  ],
+  "Apple::Sdb::SectorInfo::ClearEventInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ClearEventInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "CinematicDialogId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "container",
+    "name": "CreateItems",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UCreateItem@ClearEventInfo@SectorInfo@Sdb@Apple@@V?$allocator@UCreateItem@ClearEventInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::SectorInfo::AutoWarpGateAfterSectorClearInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::AutoWarpGateAfterSectorClearInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "WarpGateId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "f32",
+    "name": "DelayTime",
+    "size": 4,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "enum",
+    "name": "Message",
+    "enum": "locale",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::SectorInfo::SectorMessageInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SectorInfo::SectorMessageInfo"
+   },
+   {
+    "op": "enum",
+    "name": "EnterMessage",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "ClearMessage",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "TimeMessage",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UTimeMessageInfo@SectorMessageInfo@SectorInfo@Sdb@Apple@@V?$allocator@UTimeMessageInfo@SectorMessageInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "MonsterMessage",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UMonsterMessageInfo@SectorMessageInfo@SectorInfo@Sdb@Apple@@V?$allocator@UMonsterMessageInfo@SectorMessageInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::SectorInfo::FallingInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SectorInfo::FallingInfo"
+   },
+   {
+    "op": "f32",
+    "name": "FallingHeight",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "f32",
+    "name": "FallingDamageRate",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "raw",
+    "name": "PlayerPositionAfterFalling",
+    "size": 12,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "container",
+    "name": "PlayerActionAfterFalling",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "NpcLocationIdAfterFalling",
+    "size": null,
+    "cond": false,
+    "src": 44
+   },
+   {
+    "op": "container",
+    "name": "NpcActionAfterFalling",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::SectorInfo::CreateNpcByClient": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SectorInfo::CreateNpcByClient"
+   },
+   {
+    "op": "i32",
+    "name": "MaxCreateNpcCount",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "NpcIds",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ]
+ }
+}

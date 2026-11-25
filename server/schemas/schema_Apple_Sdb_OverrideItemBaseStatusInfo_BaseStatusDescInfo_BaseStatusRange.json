@@ -1,0 +1,30 @@
+{
+ "type": "Apple::Sdb::OverrideItemBaseStatusInfo::BaseStatusDescInfo::BaseStatusRange",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::OverrideItemBaseStatusInfo::BaseStatusDescInfo::BaseStatusRange"
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "Range",
+   "size": 8,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "bool",
+   "name": "IsAlignCenter",
+   "size": 1,
+   "cond": false,
+   "src": 44
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,29 @@
+{
+ "type": "Apple::Sdb::ItemOptionNameInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemOptionNameInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "FirstName",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "SecondName",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

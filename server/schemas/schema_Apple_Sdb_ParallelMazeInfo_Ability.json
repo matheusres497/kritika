@@ -1,0 +1,59 @@
+{
+ "type": "Apple::Sdb::ParallelMazeInfo::Ability",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ParallelMazeInfo::Ability"
+  },
+  {
+   "op": "i32",
+   "name": "WithinTimeLimitClearPoint",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "TimeoutClearPoint",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "MaxPointLimit",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "container",
+   "name": "Effects",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UEffectInfo@Ability@ParallelMazeInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UEffectInfo@Ability@ParallelMazeInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Sets",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USetInfo@Ability@ParallelMazeInfo@Sdb@Apple@@V?$allocator@USetInfo@Ability@ParallelMazeInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "SlotCountPerSet",
+   "size": 4,
+   "cond": false,
+   "src": 48
+  },
+  {
+   "op": "container",
+   "name": "UpgradeProbabilityInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@V?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@V?$vector@UUpgradeProbability@Ability@ParallelMazeInfo@Sdb@Apple@@V?$allocator@UUpgradeProbability@Ability@ParallelMazeInfo@Sdb@Apple@@@std@@@2@@std@@V?$allocator@U?$pair@V?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@V?$vector@UUpgradeProbability@Ability@ParallelMazeInfo@Sdb@Apple@@V?$allocator@UUpgradeProbability@Ability@ParallelMazeInfo@Sdb@Apple@@@std@@@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

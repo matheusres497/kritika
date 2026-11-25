@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::GameRankInfo::RankRewardInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GameRankInfo::RankRewardInfo"
+  },
+  {
+   "op": "raw",
+   "name": "ConditionRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "u64",
+   "name": "ConditionDps",
+   "size": 8,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "container",
+   "name": "RewardItems",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardItem@RankRewardInfo@GameRankInfo@Sdb@Apple@@V?$allocator@URewardItem@RankRewardInfo@GameRankInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RewardTitles",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,22 @@
+{
+ "type": "Apple::AmbientSoundEventType",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::AmbientSoundEvent"
+  },
+  {
+   "op": "wstr",
+   "name": "EventId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 12,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

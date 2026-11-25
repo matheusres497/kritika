@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::RaidInfo::BuffInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::RaidInfo:::BuffInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "BuffId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "BuffLevel",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "bool",
+   "name": "IsDisposable",
+   "size": 1,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "bool",
+   "name": "IsPatternBuff",
+   "size": 1,
+   "cond": false,
+   "src": 37
+  }
+ ],
+ "types": {}
+}

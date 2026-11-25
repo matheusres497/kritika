@@ -1,0 +1,35 @@
+{
+ "type": ".?AUPartialListPlayersInventories@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "TabIndex",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "AccountId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PlayerId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Inventories",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UItem@Apple@@V?$allocator@UItem@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

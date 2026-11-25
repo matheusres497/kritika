@@ -1,0 +1,51 @@
+{
+ "type": "Apple::Sdb::LobbyInfo::CameraPathInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::LobbyInfo::CameraPathInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Name",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 12,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "raw",
+   "name": "Rotation",
+   "size": 16,
+   "cond": false,
+   "src": 44
+  },
+  {
+   "op": "raw",
+   "name": "Scale",
+   "size": 12,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "enum",
+   "name": "CameraPathType",
+   "enum": "CameraPathType",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CameraPointNames",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

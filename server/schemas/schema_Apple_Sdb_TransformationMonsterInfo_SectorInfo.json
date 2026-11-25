@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::TransformationMonsterInfo::SectorInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::TransformationMonsterInfo::SectorInfo"
+  },
+  {
+   "op": "bool",
+   "name": "IsKeepTransform",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  }
+ ],
+ "types": {}
+}

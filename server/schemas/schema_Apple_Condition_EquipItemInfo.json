@@ -1,0 +1,46 @@
+{
+ "type": "Apple::Condition::EquipItemInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Condition::EquipItemInfo"
+  },
+  {
+   "op": "bool",
+   "name": "IsStayEquipped",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "GradeId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "EquipPart",
+   "enum": "EquipPart",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "EnhanceLevel",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "EquipTab",
+   "enum": "EquipTab",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsCheckUpgraded",
+   "size": 1,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

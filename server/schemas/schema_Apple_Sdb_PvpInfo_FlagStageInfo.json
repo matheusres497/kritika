@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::PvpInfo::FlagStageInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PvpInfo::FlagStageInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "StageId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "PvpRedFlagPosition",
+   "size": 12,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "raw",
+   "name": "PvpBlueFlagPosition",
+   "size": 12,
+   "cond": false,
+   "src": 44
+  }
+ ],
+ "types": {}
+}

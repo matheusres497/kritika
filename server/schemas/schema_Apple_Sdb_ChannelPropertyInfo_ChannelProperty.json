@@ -1,0 +1,52 @@
+{
+ "type": "Apple::Sdb::ChannelPropertyInfo::ChannelProperty",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ChannelPropertyInfo::ChannelProperty"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "LevelRanges",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$Vector2@H@Math@AllM@@V?$allocator@U?$Vector2@H@Math@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RegionIds",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "XpFactor",
+   "size": 4,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "wstr",
+   "name": "SwitchingVillageId",
+   "size": null,
+   "cond": false,
+   "src": 68
+  },
+  {
+   "op": "i32",
+   "name": "EnterLevel",
+   "size": 4,
+   "cond": false,
+   "src": 96
+  }
+ ],
+ "types": {}
+}

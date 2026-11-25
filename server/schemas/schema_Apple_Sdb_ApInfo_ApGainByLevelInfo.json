@@ -1,0 +1,22 @@
+{
+ "type": ".?AU?$WriterWrapper@$$CBUApGainByLevelInfo@ApInfo@Sdb@Apple@@@Private@Serializer@AllM@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ApInfo::ApGainByLevelInfo"
+  },
+  {
+   "op": "raw",
+   "name": "LevelRange",
+   "size": 8,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "GainAp",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

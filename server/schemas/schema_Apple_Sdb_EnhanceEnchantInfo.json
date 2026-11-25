@@ -1,0 +1,30 @@
+{
+ "type": "Apple::Sdb::EnhanceEnchantInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EnhanceEnchantInfo"
+  },
+  {
+   "op": "container",
+   "name": "DestroyPreventItemIds",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "EnhanceInfosByType",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEnhanceInfo@EnhanceEnchantInfo@Sdb@Apple@@V?$allocator@UEnhanceInfo@EnhanceEnchantInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "DefaultUiGuideGrade",
+   "enum": "Grade",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

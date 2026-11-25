@@ -1,0 +1,77 @@
+{
+ "type": "Apple::Sdb::TransformCollectionInfo::TransformInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::TransformCollectionInfo::TransformInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "NpcId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Grade",
+   "enum": "ItemGrade",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "BuffId",
+   "size": null,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "i32",
+   "name": "BuffLevel",
+   "size": 4,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "i32",
+   "name": "CoolTimeSeconds",
+   "size": 4,
+   "cond": false,
+   "src": 68
+  },
+  {
+   "op": "container",
+   "name": "Status",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PortraitPath",
+   "size": null,
+   "cond": false,
+   "src": 120
+  },
+  {
+   "op": "wstr",
+   "name": "BackgroundPath",
+   "size": null,
+   "cond": false,
+   "src": 152
+  },
+  {
+   "op": "enum",
+   "name": "TooltipDesc",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

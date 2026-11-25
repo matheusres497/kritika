@@ -1,0 +1,139 @@
+{
+ "type": "Apple::Sdb::GuidePopupInfo::GuideInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GuidePopupInfo::GuideInfo"
+  },
+  {
+   "op": "enum",
+   "name": "GuidePopupQuestType",
+   "enum": "GuidePopupQuestType",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "QuestCondition",
+   "type": "Apple::Sdb::GuidePopupInfo::GuideInfo::QuestConditionInfo",
+   "func": 9756096,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GuidePopupInfo::GuideInfo::QuestConditionInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "AcceptableQuestId",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "wstr",
+     "name": "CompletedQuestId",
+     "size": null,
+     "cond": false,
+     "src": 32
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "TeleportLocation",
+   "type": "Apple::Sdb::GuidePopupInfo::GuideInfo::TeleportLocationInfo",
+   "func": 9755984,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GuidePopupInfo::GuideInfo::TeleportLocationInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "VillageId",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "wstr",
+     "name": "FixedNpcId",
+     "size": null,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "raw",
+     "name": "StartingPosition",
+     "size": 12,
+     "cond": false,
+     "src": 60
+    },
+    {
+     "op": "raw",
+     "name": "StartingDirection",
+     "size": 12,
+     "cond": false,
+     "src": 72
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::GuidePopupInfo::GuideInfo::QuestConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::GuidePopupInfo::GuideInfo::QuestConditionInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "AcceptableQuestId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "wstr",
+    "name": "CompletedQuestId",
+    "size": null,
+    "cond": false,
+    "src": 32
+   }
+  ],
+  "Apple::Sdb::GuidePopupInfo::GuideInfo::TeleportLocationInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::GuidePopupInfo::GuideInfo::TeleportLocationInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "VillageId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "wstr",
+    "name": "FixedNpcId",
+    "size": null,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "raw",
+    "name": "StartingPosition",
+    "size": 12,
+    "cond": false,
+    "src": 60
+   },
+   {
+    "op": "raw",
+    "name": "StartingDirection",
+    "size": 12,
+    "cond": false,
+    "src": 72
+   }
+  ]
+ }
+}

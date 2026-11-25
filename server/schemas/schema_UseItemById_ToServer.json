@@ -1,0 +1,16 @@
+{
+ "type": "Apple::Protocol::ToServer::InventorySystem::UseItemById",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "ItemHash",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

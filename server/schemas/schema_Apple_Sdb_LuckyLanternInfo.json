@@ -1,0 +1,90 @@
+{
+ "type": "Apple::Sdb::LuckyLanternInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::LuckyLanternInfo"
+  },
+  {
+   "op": "container",
+   "name": "Seasons",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USeasonInfo@LuckyLanternInfo@Sdb@Apple@@V?$allocator@USeasonInfo@LuckyLanternInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "NecessaryItemIdForDraw",
+   "size": null,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "i32",
+   "name": "NecessaryItemCountForDraw",
+   "size": 4,
+   "cond": false,
+   "src": 48
+  },
+  {
+   "op": "enum",
+   "name": "TotalRankDesc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "RankRewardDesc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "LuckyLanternRewardDesc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "DrawResultDesc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "BackGroundImgPath",
+   "size": null,
+   "cond": false,
+   "src": 180
+  },
+  {
+   "op": "wstr",
+   "name": "LotusLanternOffImgPath",
+   "size": null,
+   "cond": false,
+   "src": 212
+  },
+  {
+   "op": "wstr",
+   "name": "LotusLanternOnImgPath",
+   "size": null,
+   "cond": false,
+   "src": 244
+  },
+  {
+   "op": "wstr",
+   "name": "WinImgPath",
+   "size": null,
+   "cond": false,
+   "src": 276
+  },
+  {
+   "op": "wstr",
+   "name": "FailImgPath",
+   "size": null,
+   "cond": false,
+   "src": 308
+  }
+ ],
+ "types": {}
+}

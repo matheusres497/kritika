@@ -1,0 +1,32 @@
+{
+ "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::KeepConnectionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::KeepConnectionInfo"
+  },
+  {
+   "op": "bool",
+   "name": "IsValid",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "bool",
+   "name": "IsShowTimeGauge",
+   "size": 1,
+   "cond": true,
+   "src": 5,
+   "cond_on_src": 4
+  },
+  {
+   "op": "i32",
+   "name": "MaxDailyStackSeconds",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

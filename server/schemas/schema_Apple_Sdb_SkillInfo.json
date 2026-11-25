@@ -1,0 +1,977 @@
+{
+ "type": "Apple::Sdb::SkillInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::Skill"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "NeedTarget",
+   "size": 1,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "f32",
+   "name": "MaxRangeOnTarget",
+   "size": 4,
+   "cond": false,
+   "src": 68
+  },
+  {
+   "op": "wstr",
+   "name": "ElementalAttribute",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PhysicalAttribute",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "TargetTypes",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "SkillType",
+   "enum": "SkillType",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "PrecedingSkills",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UPrecedingSkill@SkillInfo@Sdb@Apple@@V?$allocator@UPrecedingSkill@SkillInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "TargetInfo",
+   "type": "Apple::Sdb::SkillInfo::_TargetInfo",
+   "func": 7991328,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SkillInfo::_TargetInfo"
+    },
+    {
+     "op": "bool",
+     "name": "MoveToTarget",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "Position",
+     "size": 12,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "TimeToArrive",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "FaceToTarget",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "CheckObstacle",
+     "size": 1,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "SkillDetailInfo",
+   "type": "VSkillDetailInfo@__SkillInfo@Sdb@Apple@@",
+   "func": 8282192,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SkillInfo::SkillDetailInfo"
+    },
+    {
+     "op": "u32",
+     "name": "MaxLevel",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "u32",
+     "name": "LimitedLevel",
+     "size": 4,
+     "cond": false,
+     "src": 140
+    },
+    {
+     "op": "u32",
+     "name": "AutoLearnSkillLevel",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "u32",
+     "name": "MinLevelToLearn",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "u32",
+     "name": "SpToLearn",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "u32",
+     "name": "AwakeningPointToLearn",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "u32",
+     "name": "TierAttackPowerToLearn",
+     "size": 4,
+     "cond": false,
+     "src": 24
+    },
+    {
+     "op": "u32",
+     "name": "LearnInterval",
+     "size": 4,
+     "cond": false,
+     "src": 28
+    },
+    {
+     "op": "f32",
+     "name": "ConsumeMp",
+     "size": 4,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "f32",
+     "name": "ConsumeRage",
+     "size": 4,
+     "cond": false,
+     "src": 36
+    },
+    {
+     "op": "f32",
+     "name": "ConsumeNp",
+     "size": 4,
+     "cond": false,
+     "src": 40
+    },
+    {
+     "op": "f32",
+     "name": "Cooldown",
+     "size": 4,
+     "cond": false,
+     "src": 44
+    },
+    {
+     "op": "i32",
+     "name": "AttackPowerRate",
+     "size": 4,
+     "cond": false,
+     "src": 48
+    },
+    {
+     "op": "i32",
+     "name": "AttackPowerRatePerLevel",
+     "size": 4,
+     "cond": false,
+     "src": 52
+    },
+    {
+     "op": "i32",
+     "name": "AttackNum",
+     "size": 4,
+     "cond": false,
+     "src": 56
+    },
+    {
+     "op": "container",
+     "name": "OverrideLevelInfoList",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UOverrideLevelInfo@SkillDetailInfo@__SkillInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UOverrideLevelInfo@SkillDetailInfo@__SkillInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "OverrideSkillInfoList",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UOverrideSkillInfo@SkillDetailInfo@__SkillInfo@Sdb@Apple@@V?$allocator@UOverrideSkillInfo@SkillDetailInfo@__SkillInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "AddAttackPowerRateBySkill",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UAddAttackPowerRateBySkillInfo@SkillDetailInfo@__SkillInfo@Sdb@Apple@@V?$allocator@UAddAttackPowerRateBySkillInfo@SkillDetailInfo@__SkillInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "Params",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "ActionListInfo",
+   "type": "Apple::Sdb::SkillInfo::_ActionListInfo",
+   "func": 7999456,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SkillInfo::_ActionListInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "StartActionId",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "container",
+     "name": "ActionIdList",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "OverrideActions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UOverrideActionInfo@_ActionListInfo@SkillInfo@Sdb@Apple@@V?$allocator@UOverrideActionInfo@_ActionListInfo@SkillInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "bool",
+   "name": "OneClickUse",
+   "size": 1,
+   "cond": false,
+   "src": 377
+  },
+  {
+   "op": "bool",
+   "name": "EnableAutoTarget",
+   "size": 1,
+   "cond": false,
+   "src": 376
+  },
+  {
+   "op": "raw",
+   "name": "AutoTargetDistanceRange",
+   "size": 8,
+   "cond": false,
+   "src": 380
+  },
+  {
+   "op": "raw",
+   "name": "AutoTargetAngleRange",
+   "size": 8,
+   "cond": false,
+   "src": 388
+  },
+  {
+   "op": "bool",
+   "name": "EnableAOEAutoTarget",
+   "size": 1,
+   "cond": false,
+   "src": 397
+  },
+  {
+   "op": "raw",
+   "name": "AOEAutoTargetDistanceRange",
+   "size": 8,
+   "cond": false,
+   "src": 400
+  },
+  {
+   "op": "raw",
+   "name": "AOEAutoTargetAngleRange",
+   "size": 8,
+   "cond": false,
+   "src": 408
+  },
+  {
+   "op": "bool",
+   "name": "AutoTargetingIsOnlyFirstAction",
+   "size": 1,
+   "cond": false,
+   "src": 396
+  },
+  {
+   "op": "struct",
+   "name": "SkillActivateCondition",
+   "type": "Apple::Sdb::SkillInfo::SkillActivateCondition",
+   "func": 8002688,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SkillInfo::SkillActivateCondition"
+    },
+    {
+     "op": "bool",
+     "name": "Enable",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "wstr",
+     "name": "ScriptFuncName",
+     "size": null,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "enum",
+     "name": "DeactivatedMessage",
+     "enum": "locale",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "AoeInfo",
+   "type": "Apple::Sdb::SkillInfo::AoeSkillInfo",
+   "func": 7999552,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SkillInfo::AoeSkillInfo"
+    },
+    {
+     "op": "bool",
+     "name": "Enable",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "u32",
+     "name": "Level",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "f32",
+     "name": "Radius",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "f32",
+     "name": "MaxRange",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "enum",
+     "name": "SectorLimitCheckType",
+     "enum": "SectorLimitCheckType",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "AoeVisualId",
+     "size": null,
+     "cond": false,
+     "src": 24
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "OverrideAoeInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UOverrideAoeInfo@SkillInfo@Sdb@Apple@@V?$allocator@UOverrideAoeInfo@SkillInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "EnableSkillUseWhenCooldown",
+   "size": 1,
+   "cond": false,
+   "src": 552
+  },
+  {
+   "op": "wstr",
+   "name": "CommandTag",
+   "size": null,
+   "cond": false,
+   "src": 556
+  },
+  {
+   "op": "bool",
+   "name": "IsDeadlySkill",
+   "size": 1,
+   "cond": false,
+   "src": 620
+  },
+  {
+   "op": "struct",
+   "name": "StackInfo",
+   "type": "Apple::Sdb::SkillInfo::SkillStackInfo",
+   "func": 7999936,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SkillInfo::SkillStackInfo"
+    },
+    {
+     "op": "bool",
+     "name": "Enable",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "enum",
+     "name": "SkillStackType",
+     "enum": "SkillStackType",
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "MaxCount",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "i32",
+     "name": "DefaultCount",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "StackOverrideInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UStackOverrideInfo@SkillInfo@Sdb@Apple@@V?$allocator@UStackOverrideInfo@SkillInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "DeadlySkillFullGaugeSpending",
+   "size": 4,
+   "cond": false,
+   "src": 624
+  },
+  {
+   "op": "wstr",
+   "name": "DeadlySkillId",
+   "size": null,
+   "cond": false,
+   "src": 628
+  },
+  {
+   "op": "enum",
+   "name": "InstructionDesc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "AffectedByAwaken",
+   "size": 1,
+   "cond": false,
+   "src": 656
+  },
+  {
+   "op": "container",
+   "name": "IncompatibleSkills",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsAwakeningSkill",
+   "size": 1,
+   "cond": false,
+   "src": 657
+  },
+  {
+   "op": "container",
+   "name": "SecondaryAwakeningSkills",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "BeAwakenToLearn",
+   "size": 1,
+   "cond": false,
+   "src": 658
+  },
+  {
+   "op": "bool",
+   "name": "IsOvercome",
+   "size": 1,
+   "cond": false,
+   "src": 659
+  },
+  {
+   "op": "bool",
+   "name": "IsTransformationMonserSkill",
+   "size": 1,
+   "cond": false,
+   "src": 660
+  },
+  {
+   "op": "f32",
+   "name": "PvpPrecooldown",
+   "size": 4,
+   "cond": false,
+   "src": 716
+  },
+  {
+   "op": "i32",
+   "name": "PvpAttackPowerRate",
+   "size": 4,
+   "cond": false,
+   "src": 720
+  },
+  {
+   "op": "bool",
+   "name": "IsCatalapisSkill",
+   "size": 1,
+   "cond": false,
+   "src": 724
+  },
+  {
+   "op": "container",
+   "name": "ReduceCooldowns",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UReduceCooldownInfo@Sdb@Apple@@V?$allocator@UReduceCooldownInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "SkillLearnCategory",
+   "enum": "SkillLearnCategory",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "OwnerClassType",
+   "size": null,
+   "cond": false,
+   "src": 800
+  },
+  {
+   "op": "container",
+   "name": "UsableClassTypeList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "UseMaxReloadCount",
+   "size": 4,
+   "cond": false,
+   "src": 844
+  },
+  {
+   "op": "container",
+   "name": "EventOptions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEventOptionInfo@SkillInfo@Sdb@Apple@@V?$allocator@UEventOptionInfo@SkillInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "IncreaseStatuses",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UIncreaseStatusInfo@SkillInfo@Sdb@Apple@@V?$allocator@UIncreaseStatusInfo@SkillInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "IncreaseStatusByEquipCategory",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UIncreaseStatusByEquipCategoryInfo@SkillInfo@Sdb@Apple@@V?$allocator@UIncreaseStatusByEquipCategoryInfo@SkillInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "UseEventOptionInPvp",
+   "size": 1,
+   "cond": false,
+   "src": 896
+  },
+  {
+   "op": "bool",
+   "name": "IsEscapeSkill",
+   "size": 1,
+   "cond": false,
+   "src": 897
+  }
+ ],
+ "types": {
+  "Apple::Sdb::SkillInfo::_TargetInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SkillInfo::_TargetInfo"
+   },
+   {
+    "op": "bool",
+    "name": "MoveToTarget",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "Position",
+    "size": 12,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "TimeToArrive",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "FaceToTarget",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "CheckObstacle",
+    "size": 1,
+    "cond": false
+   }
+  ],
+  "VSkillDetailInfo@__SkillInfo@Sdb@Apple@@": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SkillInfo::SkillDetailInfo"
+   },
+   {
+    "op": "u32",
+    "name": "MaxLevel",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "u32",
+    "name": "LimitedLevel",
+    "size": 4,
+    "cond": false,
+    "src": 140
+   },
+   {
+    "op": "u32",
+    "name": "AutoLearnSkillLevel",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "u32",
+    "name": "MinLevelToLearn",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "u32",
+    "name": "SpToLearn",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "u32",
+    "name": "AwakeningPointToLearn",
+    "size": 4,
+    "cond": false,
+    "src": 20
+   },
+   {
+    "op": "u32",
+    "name": "TierAttackPowerToLearn",
+    "size": 4,
+    "cond": false,
+    "src": 24
+   },
+   {
+    "op": "u32",
+    "name": "LearnInterval",
+    "size": 4,
+    "cond": false,
+    "src": 28
+   },
+   {
+    "op": "f32",
+    "name": "ConsumeMp",
+    "size": 4,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "f32",
+    "name": "ConsumeRage",
+    "size": 4,
+    "cond": false,
+    "src": 36
+   },
+   {
+    "op": "f32",
+    "name": "ConsumeNp",
+    "size": 4,
+    "cond": false,
+    "src": 40
+   },
+   {
+    "op": "f32",
+    "name": "Cooldown",
+    "size": 4,
+    "cond": false,
+    "src": 44
+   },
+   {
+    "op": "i32",
+    "name": "AttackPowerRate",
+    "size": 4,
+    "cond": false,
+    "src": 48
+   },
+   {
+    "op": "i32",
+    "name": "AttackPowerRatePerLevel",
+    "size": 4,
+    "cond": false,
+    "src": 52
+   },
+   {
+    "op": "i32",
+    "name": "AttackNum",
+    "size": 4,
+    "cond": false,
+    "src": 56
+   },
+   {
+    "op": "container",
+    "name": "OverrideLevelInfoList",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UOverrideLevelInfo@SkillDetailInfo@__SkillInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UOverrideLevelInfo@SkillDetailInfo@__SkillInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "OverrideSkillInfoList",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UOverrideSkillInfo@SkillDetailInfo@__SkillInfo@Sdb@Apple@@V?$allocator@UOverrideSkillInfo@SkillDetailInfo@__SkillInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "AddAttackPowerRateBySkill",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UAddAttackPowerRateBySkillInfo@SkillDetailInfo@__SkillInfo@Sdb@Apple@@V?$allocator@UAddAttackPowerRateBySkillInfo@SkillDetailInfo@__SkillInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "Params",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::SkillInfo::_ActionListInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SkillInfo::_ActionListInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "StartActionId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "container",
+    "name": "ActionIdList",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "OverrideActions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UOverrideActionInfo@_ActionListInfo@SkillInfo@Sdb@Apple@@V?$allocator@UOverrideActionInfo@_ActionListInfo@SkillInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::SkillInfo::SkillActivateCondition": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SkillInfo::SkillActivateCondition"
+   },
+   {
+    "op": "bool",
+    "name": "Enable",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "wstr",
+    "name": "ScriptFuncName",
+    "size": null,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "enum",
+    "name": "DeactivatedMessage",
+    "enum": "locale",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::SkillInfo::AoeSkillInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SkillInfo::AoeSkillInfo"
+   },
+   {
+    "op": "bool",
+    "name": "Enable",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "u32",
+    "name": "Level",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "f32",
+    "name": "Radius",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "f32",
+    "name": "MaxRange",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "enum",
+    "name": "SectorLimitCheckType",
+    "enum": "SectorLimitCheckType",
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "AoeVisualId",
+    "size": null,
+    "cond": false,
+    "src": 24
+   }
+  ],
+  "Apple::Sdb::SkillInfo::SkillStackInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SkillInfo::SkillStackInfo"
+   },
+   {
+    "op": "bool",
+    "name": "Enable",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "enum",
+    "name": "SkillStackType",
+    "enum": "SkillStackType",
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "MaxCount",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "i32",
+    "name": "DefaultCount",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   }
+  ]
+ }
+}

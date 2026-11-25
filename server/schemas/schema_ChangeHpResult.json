@@ -1,0 +1,46 @@
+{
+ "type": "Apple::Protocol::Both::StatusSystem::ChangeHpResult",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "TargetSerial",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u64",
+   "name": "Hp",
+   "size": 8,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsHit",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "ShowUi",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "AttackerSerial",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "ChangeHpInfoHash",
+   "size": 4,
+   "cond": true
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::NpcInfo::FixedAttackPowerRateByMasterSkillInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::NpcInfo::FixedAttackPowerRateByMasterSkillInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "MasterSkillId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "Scale",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

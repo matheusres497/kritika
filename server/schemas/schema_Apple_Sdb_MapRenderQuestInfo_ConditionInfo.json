@@ -1,0 +1,45 @@
+{
+ "type": "Apple::Sdb::MapRenderQuestInfo::ConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::MapRenderQuestInfo::ConditionInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "MainQuestId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "MapPath",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "BgmCue",
+   "size": null,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "container",
+   "name": "AmbientSoundEvents",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@UAmbientSoundEventType@Apple@@V?$allocator@UAmbientSoundEventType@Apple@@@std@@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@UAmbientSoundEventType@Apple@@V?$allocator@UAmbientSoundEventType@Apple@@@std@@@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ReplaceTimeMapToQuestMapList",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UQuestMapInfo@ConditionInfo@MapRenderQuestInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UQuestMapInfo@ConditionInfo@MapRenderQuestInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

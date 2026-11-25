@@ -1,0 +1,45 @@
+{
+ "type": "Apple::Sdb::OutlineInfo::TimeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::OutlineInfo::TimeInfo"
+  },
+  {
+   "op": "f32",
+   "name": "StartTime",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "EndTime",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "f32",
+   "name": "DeltaAlpha",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "f32",
+   "name": "VelocityOnSize",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "f32",
+   "name": "Acceleration",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  }
+ ],
+ "types": {}
+}

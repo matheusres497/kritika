@@ -1,0 +1,156 @@
+{
+ "type": "Apple::Sdb::FishingInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::FishingInfo"
+  },
+  {
+   "op": "struct",
+   "name": "Fever",
+   "type": "Apple::Sdb::FishingInfo::FeverInfo",
+   "func": 10144880,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::FishingInfo::FeverInfo"
+    },
+    {
+     "op": "i32",
+     "name": "MaxFeverPoint",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "DefaultFeverPoint",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "container",
+     "name": "RewardTypeProbabilityInfos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardProbabilityInfo@FeverInfo@FishingInfo@Sdb@Apple@@V?$allocator@URewardProbabilityInfo@FeverInfo@FishingInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "CloseTypeProbabilityInfos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UCloseProbabilityInfo@FeverInfo@FishingInfo@Sdb@Apple@@V?$allocator@UCloseProbabilityInfo@FeverInfo@FishingInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "DropRateForUI",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "FeverPointInfos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UFeverPointInfo@FeverInfo@FishingInfo@Sdb@Apple@@V?$allocator@UFeverPointInfo@FeverInfo@FishingInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "raw",
+   "name": "FishingSpeedRange",
+   "size": 8,
+   "cond": true,
+   "src": 80
+  },
+  {
+   "op": "raw",
+   "name": "FishingTimeRange",
+   "size": 8,
+   "cond": true,
+   "src": 88
+  },
+  {
+   "op": "i32",
+   "name": "MaxFishingSkillPoint",
+   "size": 4,
+   "cond": true,
+   "src": 96
+  },
+  {
+   "op": "container",
+   "name": "FishingSkillTableInfos",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "f32",
+   "name": "FishingDurabilityDecrease",
+   "size": 4,
+   "cond": true,
+   "src": 116
+  },
+  {
+   "op": "i32",
+   "name": "FisherLimit",
+   "size": 4,
+   "cond": true,
+   "src": 120
+  }
+ ],
+ "types": {
+  "Apple::Sdb::FishingInfo::FeverInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::FishingInfo::FeverInfo"
+   },
+   {
+    "op": "i32",
+    "name": "MaxFeverPoint",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "DefaultFeverPoint",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "container",
+    "name": "RewardTypeProbabilityInfos",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardProbabilityInfo@FeverInfo@FishingInfo@Sdb@Apple@@V?$allocator@URewardProbabilityInfo@FeverInfo@FishingInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "CloseTypeProbabilityInfos",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UCloseProbabilityInfo@FeverInfo@FishingInfo@Sdb@Apple@@V?$allocator@UCloseProbabilityInfo@FeverInfo@FishingInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "DropRateForUI",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "FeverPointInfos",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UFeverPointInfo@FeverInfo@FishingInfo@Sdb@Apple@@V?$allocator@UFeverPointInfo@FeverInfo@FishingInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ]
+ }
+}

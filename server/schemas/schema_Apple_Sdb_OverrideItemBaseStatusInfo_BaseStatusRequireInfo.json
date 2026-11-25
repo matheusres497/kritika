@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::OverrideItemBaseStatusInfo::BaseStatusRequireInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::OverrideItemBaseStatusInfo::BaseStatusRequireInfo"
+  },
+  {
+   "op": "i32",
+   "name": "Gold",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "Materials",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URequiredItem@BaseStatusRequireInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@V?$allocator@URequiredItem@BaseStatusRequireInfo@OverrideItemBaseStatusInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

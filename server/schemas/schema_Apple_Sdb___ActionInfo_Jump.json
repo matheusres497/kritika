@@ -1,0 +1,45 @@
+{
+ "type": "Apple::Sdb::__ActionInfo::Jump",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ActionInfo::Jump"
+  },
+  {
+   "op": "f32",
+   "name": "StartTime",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "InitSpeed",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "f32",
+   "name": "Gravity",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "f32",
+   "name": "ExtraForce",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "bool",
+   "name": "UseDefaultJump",
+   "size": 1,
+   "cond": false,
+   "src": 20
+  }
+ ],
+ "types": {}
+}

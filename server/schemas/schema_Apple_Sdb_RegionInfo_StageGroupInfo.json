@@ -1,0 +1,30 @@
+{
+ "type": "Apple::Sdb::RegionInfo::StageGroupInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::RegionInfo::StageGroupInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "StageIds",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UStageIdExtendInfo@RegionInfo@Sdb@Apple@@V?$allocator@UStageIdExtendInfo@RegionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "MaxDailyGroupPlayCount",
+   "size": 4,
+   "cond": false,
+   "src": 52
+  }
+ ],
+ "types": {}
+}

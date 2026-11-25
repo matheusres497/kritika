@@ -1,0 +1,226 @@
+{
+ "type": "Apple::Sdb::ParallelMazeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ParallelMazeInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "StageId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "CandidateStageInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCandidateStageInfo@ParallelMazeInfo@Sdb@Apple@@V?$allocator@UCandidateStageInfo@ParallelMazeInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "NpcRankInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UNpcRankInfo@ParallelMazeInfo@Sdb@Apple@@V?$allocator@UNpcRankInfo@ParallelMazeInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "NpcPopValueRange",
+   "size": 8,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "container",
+   "name": "StepInfos",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUStepInfo@ParallelMazeInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUStepInfo@ParallelMazeInfo@Sdb@Apple@@@std@@@6@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "DefaultClearStep",
+   "size": 4,
+   "cond": false,
+   "src": 116
+  },
+  {
+   "op": "i32",
+   "name": "BonusStepCount",
+   "size": 4,
+   "cond": false,
+   "src": 120
+  },
+  {
+   "op": "container",
+   "name": "SpecialBuffIds",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "NpcPopCombineRadius",
+   "size": 4,
+   "cond": false,
+   "src": 88
+  },
+  {
+   "op": "raw",
+   "name": "NpcPopCountPerSector",
+   "size": 8,
+   "cond": false,
+   "src": 92
+  },
+  {
+   "op": "container",
+   "name": "MazeTypeInfos",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUMazeTypeInfo@ParallelMazeInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUMazeTypeInfo@ParallelMazeInfo@Sdb@Apple@@@std@@@6@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "BossSectorOpenPoint",
+   "size": 4,
+   "cond": false,
+   "src": 140
+  },
+  {
+   "op": "i32",
+   "name": "StageClearLimitMinutes",
+   "size": 4,
+   "cond": false,
+   "src": 144
+  },
+  {
+   "op": "f32",
+   "name": "TimeOverRewardRate",
+   "size": 4,
+   "cond": false,
+   "src": 148
+  },
+  {
+   "op": "struct",
+   "name": "AbilityInfo",
+   "type": "Apple::Sdb::ParallelMazeInfo::Ability",
+   "func": 9150544,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ParallelMazeInfo::Ability"
+    },
+    {
+     "op": "i32",
+     "name": "WithinTimeLimitClearPoint",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "TimeoutClearPoint",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "i32",
+     "name": "MaxPointLimit",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "container",
+     "name": "Effects",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UEffectInfo@Ability@ParallelMazeInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UEffectInfo@Ability@ParallelMazeInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "Sets",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@USetInfo@Ability@ParallelMazeInfo@Sdb@Apple@@V?$allocator@USetInfo@Ability@ParallelMazeInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "SlotCountPerSet",
+     "size": 4,
+     "cond": false,
+     "src": 48
+    },
+    {
+     "op": "container",
+     "name": "UpgradeProbabilityInfos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@V?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@V?$vector@UUpgradeProbability@Ability@ParallelMazeInfo@Sdb@Apple@@V?$allocator@UUpgradeProbability@Ability@ParallelMazeInfo@Sdb@Apple@@@std@@@2@@std@@V?$allocator@U?$pair@V?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@V?$vector@UUpgradeProbability@Ability@ParallelMazeInfo@Sdb@Apple@@V?$allocator@UUpgradeProbability@Ability@ParallelMazeInfo@Sdb@Apple@@@std@@@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::ParallelMazeInfo::Ability": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ParallelMazeInfo::Ability"
+   },
+   {
+    "op": "i32",
+    "name": "WithinTimeLimitClearPoint",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "TimeoutClearPoint",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "i32",
+    "name": "MaxPointLimit",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "container",
+    "name": "Effects",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UEffectInfo@Ability@ParallelMazeInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UEffectInfo@Ability@ParallelMazeInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "Sets",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@USetInfo@Ability@ParallelMazeInfo@Sdb@Apple@@V?$allocator@USetInfo@Ability@ParallelMazeInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "SlotCountPerSet",
+    "size": 4,
+    "cond": false,
+    "src": 48
+   },
+   {
+    "op": "container",
+    "name": "UpgradeProbabilityInfos",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@V?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@V?$vector@UUpgradeProbability@Ability@ParallelMazeInfo@Sdb@Apple@@V?$allocator@UUpgradeProbability@Ability@ParallelMazeInfo@Sdb@Apple@@@std@@@2@@std@@V?$allocator@U?$pair@V?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@V?$vector@UUpgradeProbability@Ability@ParallelMazeInfo@Sdb@Apple@@V?$allocator@UUpgradeProbability@Ability@ParallelMazeInfo@Sdb@Apple@@@std@@@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ]
+ }
+}

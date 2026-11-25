@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::IgnoreEntraceFeeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::IgnoreEntraceFeeInfo"
+  },
+  {
+   "op": "container",
+   "name": "Tickets",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UTicketInfo@IgnoreEntraceFeeInfo@Sdb@Apple@@V?$allocator@UTicketInfo@IgnoreEntraceFeeInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

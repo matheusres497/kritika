@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::SkillInfo::_ActionListInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SkillInfo::_ActionListInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "StartActionId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "ActionIdList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "OverrideActions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UOverrideActionInfo@_ActionListInfo@SkillInfo@Sdb@Apple@@V?$allocator@UOverrideActionInfo@_ActionListInfo@SkillInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

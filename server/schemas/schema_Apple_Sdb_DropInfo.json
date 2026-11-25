@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::DropInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::DropInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "VipAdditionalRewardId",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "raw",
+   "name": "EquipableItemLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 60
+  }
+ ],
+ "types": {}
+}

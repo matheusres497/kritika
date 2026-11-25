@@ -1,0 +1,45 @@
+{
+ "type": "Apple::Sdb::ItemSoundCategoryInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemSoundCategoryInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "DropSoundEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "PickupSound",
+   "size": null,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "wstr",
+   "name": "InsertToSlotSound",
+   "size": null,
+   "cond": false,
+   "src": 96
+  },
+  {
+   "op": "wstr",
+   "name": "UseSound",
+   "size": null,
+   "cond": false,
+   "src": 128
+  }
+ ],
+ "types": {}
+}

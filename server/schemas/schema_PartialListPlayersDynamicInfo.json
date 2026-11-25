@@ -1,0 +1,3763 @@
+{
+ "type": ".?AUPartialListPlayersDynamicInfo@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "AccountId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PlayerId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "DynamicInfo",
+   "type": "Apple::DynamicPlayerInfo",
+   "func": 12283376,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::DynamicPlayerInfo"
+    },
+    {
+     "op": "i32",
+     "name": "GameLv",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "GameXp",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "Gold",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "FriendPoint",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "FriendApplyDenyOption",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "ResurrectionStoneCount_Event",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "ResurrectionStoneCount_PcCafe",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "ResurrectionStoneCount_Vip",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "ResurrectionStoneCount_Daily",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "ResurrectionStoneCount",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "TalentLv",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "Fatigue",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "EventFatigue",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "PremiumFatigue",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "MembershipFatigue",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "SpentFatigue",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "SlotIndex",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "TierAttackPower",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "RecentBaseVillageId",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "struct",
+     "name": "ResetDaily",
+     "type": "Apple::DateTime",
+     "func": 4809616,
+     "cond": false,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::DateTime"
+      },
+      {
+       "op": "u64",
+       "name": "Ticks",
+       "size": 8,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "i32",
+     "name": "PlayingSecondsFromLevelUp",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "struct",
+     "name": "PlayerSelectTime",
+     "type": "Apple::DateTime",
+     "func": 4809616,
+     "cond": false,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::DateTime"
+      },
+      {
+       "op": "u64",
+       "name": "Ticks",
+       "size": 8,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "struct",
+     "name": "LastUpdateTime",
+     "type": "Apple::DateTime",
+     "func": 4809616,
+     "cond": false,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::DateTime"
+      },
+      {
+       "op": "u64",
+       "name": "Ticks",
+       "size": 8,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "enum",
+     "name": "AasState",
+     "enum": "AasState",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "PvpRecordInfos",
+     "kind": "associative_array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HUPvpRecordInfo@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUPvpRecordInfo@Apple@@@std@@@4@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "struct",
+     "name": "PvpGradeInfo",
+     "type": "Apple::PvpGradeInfo",
+     "func": 11760016,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::PvpGradeInfo"
+      },
+      {
+       "op": "i32",
+       "name": "PvpGradeNumber",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "BattlePoint",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "BattlePointOnline",
+       "size": 4,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "struct",
+     "name": "EloMatchingBlockExpiration",
+     "type": "Apple::DateTime",
+     "func": 4809616,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::DateTime"
+      },
+      {
+       "op": "u64",
+       "name": "Ticks",
+       "size": 8,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "bool",
+     "name": "EnableInventoryLock",
+     "size": 1,
+     "cond": true
+    },
+    {
+     "op": "struct",
+     "name": "PrevAttendTime",
+     "type": "Apple::DateTime",
+     "func": 4809616,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::DateTime"
+      },
+      {
+       "op": "u64",
+       "name": "Ticks",
+       "size": 8,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "i32",
+     "name": "ContinuousAttendCount",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "AttendRoulettePosition",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "PlayedTimeOnTheStage",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "SpendFatigueOnTheStage",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "DailyPlayingSecondsInKeepConnectionEvent",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "DailyPlayingSecondsInKeepConnectionEvent_PcCafe",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "StackPlayingSecondsInKeepConnectionEvent_PcCafe",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "StackPlayingSecondsInKeepConnectionEvent",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "struct",
+     "name": "StackKeepConnectionUpdateTime",
+     "type": "Apple::DateTime",
+     "func": 4809616,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::DateTime"
+      },
+      {
+       "op": "u64",
+       "name": "Ticks",
+       "size": 8,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "i64",
+     "name": "OidGuild",
+     "size": 8,
+     "cond": true
+    },
+    {
+     "op": "enum",
+     "name": "GradeInGuild",
+     "enum": "GradeInGuild",
+     "cond": true
+    },
+    {
+     "op": "enum",
+     "name": "NoviceGuildJoin",
+     "enum": "NoviceGuildJoin",
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "ProjectileOverrideIdByItem",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "bool",
+     "name": "IsPcCafe",
+     "size": 1,
+     "cond": true
+    },
+    {
+     "op": "bool",
+     "name": "IsVip",
+     "size": 1,
+     "cond": true
+    },
+    {
+     "op": "bool",
+     "name": "IsAwaken",
+     "size": 1,
+     "cond": true
+    },
+    {
+     "op": "u16",
+     "name": "SelectedSkillTabIndex",
+     "size": 2,
+     "cond": true
+    },
+    {
+     "op": "bool",
+     "name": "IsExtendSkillTab",
+     "size": 1,
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "GameSps",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "AwakeningPoints",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "GameOverClockSps",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "struct",
+     "name": "BlockExpiration",
+     "type": "Apple::DateTime",
+     "func": 4809616,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::DateTime"
+      },
+      {
+       "op": "u64",
+       "name": "Ticks",
+       "size": 8,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "struct",
+     "name": "BlockChatExpiration",
+     "type": "Apple::DateTime",
+     "func": 4809616,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::DateTime"
+      },
+      {
+       "op": "u64",
+       "name": "Ticks",
+       "size": 8,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "struct",
+     "name": "BlockItemTransferExpiration",
+     "type": "Apple::DateTime",
+     "func": 4809616,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::DateTime"
+      },
+      {
+       "op": "u64",
+       "name": "Ticks",
+       "size": 8,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "struct",
+     "name": "BlockSendMailExpiration",
+     "type": "Apple::DateTime",
+     "func": 4809616,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::DateTime"
+      },
+      {
+       "op": "u64",
+       "name": "Ticks",
+       "size": 8,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "struct",
+     "name": "BlockStageExpiration",
+     "type": "Apple::DateTime",
+     "func": 4809616,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::DateTime"
+      },
+      {
+       "op": "u64",
+       "name": "Ticks",
+       "size": 8,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "bool",
+     "name": "IsPvpAwaiting",
+     "size": 1,
+     "cond": true
+    },
+    {
+     "op": "bool",
+     "name": "IsRequiredSkillReset",
+     "size": 1,
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "UnlockedEquipSlotList",
+     "kind": "associative_array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HV?$vector@HV?$allocator@H@std@@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$vector@HV?$allocator@H@std@@@std@@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "PartyIntrusionProbabilites",
+     "kind": "associative_array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "MonsterWavePoint",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "InventoryExpandLevel",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "struct",
+     "name": "EventInfo",
+     "type": "Apple::DynamicPlayerInfo::EventPlayerInfo",
+     "func": 12191568,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::DynamicPlayerInfo::EventPlayerInfo"
+      },
+      {
+       "op": "bool",
+       "name": "IsBurningFatigue",
+       "size": 1,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "KeypushMiniGamePlayCount",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "KeypushMiniGameHighestScore",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "GachaBoardResetCount",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "container",
+       "name": "KripetEvolveInfos",
+       "kind": "associative_array",
+       "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUKripetEvolveInfo@EventPlayerInfo@DynamicPlayerInfo@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUKripetEvolveInfo@EventPlayerInfo@DynamicPlayerInfo@Apple@@@std@@@6@@std@@@PrivateFlat@Serializer@AllM@@",
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "struct",
+     "name": "PlayerBotDetect",
+     "type": "Apple::BotDetectInfo",
+     "func": 12511856,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::BotDetectInfo"
+      },
+      {
+       "op": "u64",
+       "name": "TotalGainedGold",
+       "size": 8,
+       "cond": false
+      },
+      {
+       "op": "u64",
+       "name": "TotalSendingGold",
+       "size": 8,
+       "cond": false
+      },
+      {
+       "op": "u64",
+       "name": "TotalItemSellGold",
+       "size": 8,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "TotalUsedResurrectionStone",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "TotalUsedHealthPotion",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "TotalEnhanceCount",
+       "size": 4,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "u64",
+     "name": "VillageDps",
+     "size": 8,
+     "cond": true
+    },
+    {
+     "op": "u64",
+     "name": "MaxVillageDps",
+     "size": 8,
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "VillageBaseStatusValue",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "ReceiveDpsRankRewardDateTimes",
+     "kind": "associative_array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HVDateTime@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHVDateTime@Apple@@@std@@@4@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "ParkingVillageCount",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "wstr",
+     "name": "AutoConsumePetFoodId",
+     "size": null,
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "DpsStageInfos",
+     "kind": "associative_array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_JU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_J@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "struct",
+     "name": "ReceiveDpsStageRankRewardDateTime",
+     "type": "Apple::DateTime",
+     "func": 4809616,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::DateTime"
+      },
+      {
+       "op": "u64",
+       "name": "Ticks",
+       "size": 8,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "struct",
+     "name": "NightmareStageSpecificInfo",
+     "type": "Apple::NightmareStageSpecificInfo",
+     "func": 12512416,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::NightmareStageSpecificInfo"
+      },
+      {
+       "op": "i32",
+       "name": "ClearFloorNumber",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "RetryCount",
+       "size": 4,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "i32",
+     "name": "EventPresentGauge",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "EventPresentReadyInfos",
+     "kind": "associative_array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@_KUEventPresentReadyInfo@Apple@@U?$less@_K@std@@V?$allocator@U?$pair@$$CB_KUEventPresentReadyInfo@Apple@@@std@@@4@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "ImprintingCoinCount",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "f32",
+     "name": "Viability",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "bool",
+     "name": "IsAllowDisplayPlayerInfo",
+     "size": 1,
+     "cond": true
+    },
+    {
+     "op": "bool",
+     "name": "DisableWeaponInVillage",
+     "size": 1,
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "HiddenEquipments",
+     "kind": "associative_array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@H_NU?$less@H@std@@V?$allocator@U?$pair@$$CBH_N@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "struct",
+     "name": "AutoHunting",
+     "type": "Apple::AutoHuntingInfo",
+     "func": 12164208,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::AutoHuntingInfo"
+      },
+      {
+       "op": "wstr",
+       "name": "RegionId",
+       "size": null,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "HuntingTimeMin",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "struct",
+       "name": "StartTime",
+       "type": "Apple::DateTime",
+       "func": 4809616,
+       "cond": false,
+       "fields": [
+        {
+         "op": "begin",
+         "type": "Apple::DateTime"
+        },
+        {
+         "op": "u64",
+         "name": "Ticks",
+         "size": 8,
+         "cond": false
+        }
+       ]
+      },
+      {
+       "op": "i32",
+       "name": "StepLevel",
+       "size": 4,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "container",
+     "name": "CheckFatigueSeedGift",
+     "kind": "associative_array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@H_NU?$less@H@std@@V?$allocator@U?$pair@$$CBH_N@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "bool",
+     "name": "IsJumpingCharacter",
+     "size": 1,
+     "cond": true
+    },
+    {
+     "op": "bool",
+     "name": "IsOvercome",
+     "size": 1,
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "Pet2StatusPercentage",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "ShopNpcIntrusionRenewalCount",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "ShopNpcIntrusionSpentFatigue",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "ShopNpcIntrusionSpentFatigueParty",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "ShopNpcIntrusionAddedProbabilityByItem",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "BuildingFloorCount",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "BuildingEventRewardFloors",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "struct",
+     "name": "ArenaStageSpecificInfo",
+     "type": "Apple::ArenaStageSpecificInfo",
+     "func": 12512976,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::ArenaStageSpecificInfo"
+      },
+      {
+       "op": "i32",
+       "name": "LastSectorClearTime",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "ClearFloorNumber",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "StartedFloorNumber",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "OneTimeRewardSectorWhenStarted",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "OneTimeRewardSector",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "bool",
+       "name": "NeedNewArenaInfo",
+       "size": 1,
+       "cond": false
+      },
+      {
+       "op": "struct",
+       "name": "LastPenaltyTime",
+       "type": "Apple::DateTime",
+       "func": 4809616,
+       "cond": false,
+       "fields": [
+        {
+         "op": "begin",
+         "type": "Apple::DateTime"
+        },
+        {
+         "op": "u64",
+         "name": "Ticks",
+         "size": 8,
+         "cond": false
+        }
+       ]
+      },
+      {
+       "op": "struct",
+       "name": "LastPlayTime",
+       "type": "Apple::DateTime",
+       "func": 4809616,
+       "cond": false,
+       "fields": [
+        {
+         "op": "begin",
+         "type": "Apple::DateTime"
+        },
+        {
+         "op": "u64",
+         "name": "Ticks",
+         "size": 8,
+         "cond": false
+        }
+       ]
+      },
+      {
+       "op": "u32",
+       "name": "SectorChangeType",
+       "size": 4,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "struct",
+     "name": "EnhancePointInfo",
+     "type": "Apple::EnhancePointInfo",
+     "func": 12164400,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::EnhancePointInfo"
+      },
+      {
+       "op": "i32",
+       "name": "EnhancePoint",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "ExpirationEnhancePoint",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "struct",
+       "name": "ExpireTime",
+       "type": "Apple::DateTime",
+       "func": 4809616,
+       "cond": false,
+       "fields": [
+        {
+         "op": "begin",
+         "type": "Apple::DateTime"
+        },
+        {
+         "op": "u64",
+         "name": "Ticks",
+         "size": 8,
+         "cond": false
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "struct",
+     "name": "PrevPreventLeaving",
+     "type": "Apple::PreventLeaving",
+     "func": 12455888,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::PreventLeaving"
+      },
+      {
+       "op": "i32",
+       "name": "TotalPoint",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "ConnectActivityPoint",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "SpentFatigue",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "SpecificStageActivityPoint",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "NonBattleActivityPoint",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "bool",
+       "name": "IsTodayConnection",
+       "size": 1,
+       "cond": false
+      },
+      {
+       "op": "bool",
+       "name": "IsTodayFishing",
+       "size": 1,
+       "cond": false
+      },
+      {
+       "op": "bool",
+       "name": "IsTodayAutoHunting",
+       "size": 1,
+       "cond": false
+      },
+      {
+       "op": "bool",
+       "name": "IsTodayUseMarket",
+       "size": 1,
+       "cond": false
+      },
+      {
+       "op": "bool",
+       "name": "IsTodayEnhance",
+       "size": 1,
+       "cond": false
+      },
+      {
+       "op": "struct",
+       "name": "StartTime",
+       "type": "Apple::DateTime",
+       "func": 4809616,
+       "cond": false,
+       "fields": [
+        {
+         "op": "begin",
+         "type": "Apple::DateTime"
+        },
+        {
+         "op": "u64",
+         "name": "Ticks",
+         "size": 8,
+         "cond": false
+        }
+       ]
+      },
+      {
+       "op": "struct",
+       "name": "EndTime",
+       "type": "Apple::DateTime",
+       "func": 4809616,
+       "cond": false,
+       "fields": [
+        {
+         "op": "begin",
+         "type": "Apple::DateTime"
+        },
+        {
+         "op": "u64",
+         "name": "Ticks",
+         "size": 8,
+         "cond": false
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "struct",
+     "name": "CurrentPreventLeaving",
+     "type": "Apple::PreventLeaving",
+     "func": 12455888,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::PreventLeaving"
+      },
+      {
+       "op": "i32",
+       "name": "TotalPoint",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "ConnectActivityPoint",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "SpentFatigue",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "SpecificStageActivityPoint",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "NonBattleActivityPoint",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "bool",
+       "name": "IsTodayConnection",
+       "size": 1,
+       "cond": false
+      },
+      {
+       "op": "bool",
+       "name": "IsTodayFishing",
+       "size": 1,
+       "cond": false
+      },
+      {
+       "op": "bool",
+       "name": "IsTodayAutoHunting",
+       "size": 1,
+       "cond": false
+      },
+      {
+       "op": "bool",
+       "name": "IsTodayUseMarket",
+       "size": 1,
+       "cond": false
+      },
+      {
+       "op": "bool",
+       "name": "IsTodayEnhance",
+       "size": 1,
+       "cond": false
+      },
+      {
+       "op": "struct",
+       "name": "StartTime",
+       "type": "Apple::DateTime",
+       "func": 4809616,
+       "cond": false,
+       "fields": [
+        {
+         "op": "begin",
+         "type": "Apple::DateTime"
+        },
+        {
+         "op": "u64",
+         "name": "Ticks",
+         "size": 8,
+         "cond": false
+        }
+       ]
+      },
+      {
+       "op": "struct",
+       "name": "EndTime",
+       "type": "Apple::DateTime",
+       "func": 4809616,
+       "cond": false,
+       "fields": [
+        {
+         "op": "begin",
+         "type": "Apple::DateTime"
+        },
+        {
+         "op": "u64",
+         "name": "Ticks",
+         "size": 8,
+         "cond": false
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "f32",
+     "name": "ItemDropRate",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "f32",
+     "name": "MonsterKillXpRate",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "f32",
+     "name": "StageClearXpRate",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "u32",
+     "name": "StaminaStep",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "struct",
+     "name": "SpecialTimeAttackMission",
+     "type": "Apple::SpecialTimeAttackMissionInfo",
+     "func": 12164720,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::SpecialTimeAttackMissionInfo"
+      },
+      {
+       "op": "wstr",
+       "name": "TimeAttackId",
+       "size": null,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "SpentFatigue",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "bool",
+       "name": "IsComplete",
+       "size": 1,
+       "cond": false
+      },
+      {
+       "op": "bool",
+       "name": "IsReward",
+       "size": 1,
+       "cond": false
+      },
+      {
+       "op": "struct",
+       "name": "EndTime",
+       "type": "Apple::DateTime",
+       "func": 4809616,
+       "cond": false,
+       "fields": [
+        {
+         "op": "begin",
+         "type": "Apple::DateTime"
+        },
+        {
+         "op": "u64",
+         "name": "Ticks",
+         "size": 8,
+         "cond": false
+        }
+       ]
+      },
+      {
+       "op": "struct",
+       "name": "CompletedTime",
+       "type": "Apple::DateTime",
+       "func": 4809616,
+       "cond": false,
+       "fields": [
+        {
+         "op": "begin",
+         "type": "Apple::DateTime"
+        },
+        {
+         "op": "u64",
+         "name": "Ticks",
+         "size": 8,
+         "cond": false
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "container",
+     "name": "PartyMiniGameCountInfoList",
+     "kind": "associative_array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@IUPartyMiniGameCountInfo@DynamicPlayerInfo@Apple@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIUPartyMiniGameCountInfo@DynamicPlayerInfo@Apple@@@std@@@5@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "ExpSupportPoint",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "struct",
+     "name": "ExpSupportReceiveRewardTime",
+     "type": "Apple::DateTime",
+     "func": 4809616,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::DateTime"
+      },
+      {
+       "op": "u64",
+       "name": "Ticks",
+       "size": 8,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "i32",
+     "name": "ExpSupportRewardItemReceivedCount",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "ExpSupportRewardItemReceivableCount",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "RaidPlayCountList",
+     "kind": "associative_array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "wstr",
+     "name": "RecentVillageSectorId",
+     "size": null,
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "ParallelMazeInfos",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUParallelMazeInfo@DynamicPlayerInfo@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUParallelMazeInfo@DynamicPlayerInfo@Apple@@@std@@@5@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "EquipAbilities",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "GaugePoints",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "LevelUpRewardPoint",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "struct",
+     "name": "AffixBoard",
+     "type": "Apple::DynamicPlayerInfo::AffixBoardInfo",
+     "func": 12165360,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::AffixBoardInfo"
+      },
+      {
+       "op": "bool",
+       "name": "IsFixed",
+       "size": 1,
+       "cond": false
+      },
+      {
+       "op": "bool",
+       "name": "IsReceiveBothJackpot",
+       "size": 1,
+       "cond": false
+      },
+      {
+       "op": "bool",
+       "name": "IsReceiveStageJackpot",
+       "size": 1,
+       "cond": false
+      },
+      {
+       "op": "bool",
+       "name": "IsReceiveLevelJackpot",
+       "size": 1,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "RerollCount",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "RewardRerollCount",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "struct",
+       "name": "UpdateTime",
+       "type": "Apple::DateTime",
+       "func": 4809616,
+       "cond": false,
+       "fields": [
+        {
+         "op": "begin",
+         "type": "Apple::DateTime"
+        },
+        {
+         "op": "u64",
+         "name": "Ticks",
+         "size": 8,
+         "cond": false
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "op": "container",
+     "name": "ReceivedLevelRewards",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "struct",
+     "name": "LastReceivedDailyLevelUpRewardTime",
+     "type": "Apple::DateTime",
+     "func": 4809616,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::DateTime"
+      },
+      {
+       "op": "u64",
+       "name": "Ticks",
+       "size": 8,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "i32",
+     "name": "PlantPremiumSlotCount",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "struct",
+     "name": "AppearanceChangeSlot",
+     "type": "Apple::AppearanceChangeSlotInfo",
+     "func": 12164960,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::AppearanceChangeSlotInfo"
+      },
+      {
+       "op": "u32",
+       "name": "Type",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "wstr",
+       "name": "Id",
+       "size": null,
+       "cond": false
+      },
+      {
+       "op": "struct",
+       "name": "ExpireTime",
+       "type": "Apple::DateTime",
+       "func": 4809616,
+       "cond": false,
+       "fields": [
+        {
+         "op": "begin",
+         "type": "Apple::DateTime"
+        },
+        {
+         "op": "u64",
+         "name": "Ticks",
+         "size": 8,
+         "cond": false
+        }
+       ]
+      },
+      {
+       "op": "bool",
+       "name": "IsActive",
+       "size": 1,
+       "cond": false
+      },
+      {
+       "op": "bool",
+       "name": "IgnoreCoolDown",
+       "size": 1,
+       "cond": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::DynamicPlayerInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::DynamicPlayerInfo"
+   },
+   {
+    "op": "i32",
+    "name": "GameLv",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "GameXp",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "Gold",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "FriendPoint",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "FriendApplyDenyOption",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "ResurrectionStoneCount_Event",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "ResurrectionStoneCount_PcCafe",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "ResurrectionStoneCount_Vip",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "ResurrectionStoneCount_Daily",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "ResurrectionStoneCount",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "TalentLv",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "Fatigue",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "EventFatigue",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "PremiumFatigue",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "MembershipFatigue",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "SpentFatigue",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "SlotIndex",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "TierAttackPower",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "RecentBaseVillageId",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "struct",
+    "name": "ResetDaily",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "i32",
+    "name": "PlayingSecondsFromLevelUp",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "struct",
+    "name": "PlayerSelectTime",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "struct",
+    "name": "LastUpdateTime",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "enum",
+    "name": "AasState",
+    "enum": "AasState",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "PvpRecordInfos",
+    "kind": "associative_array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HUPvpRecordInfo@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUPvpRecordInfo@Apple@@@std@@@4@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "struct",
+    "name": "PvpGradeInfo",
+    "type": "Apple::PvpGradeInfo",
+    "func": 11760016,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::PvpGradeInfo"
+     },
+     {
+      "op": "i32",
+      "name": "PvpGradeNumber",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "BattlePoint",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "BattlePointOnline",
+      "size": 4,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "struct",
+    "name": "EloMatchingBlockExpiration",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "bool",
+    "name": "EnableInventoryLock",
+    "size": 1,
+    "cond": true
+   },
+   {
+    "op": "struct",
+    "name": "PrevAttendTime",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "i32",
+    "name": "ContinuousAttendCount",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "AttendRoulettePosition",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "PlayedTimeOnTheStage",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "SpendFatigueOnTheStage",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "DailyPlayingSecondsInKeepConnectionEvent",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "DailyPlayingSecondsInKeepConnectionEvent_PcCafe",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "StackPlayingSecondsInKeepConnectionEvent_PcCafe",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "StackPlayingSecondsInKeepConnectionEvent",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "struct",
+    "name": "StackKeepConnectionUpdateTime",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "i64",
+    "name": "OidGuild",
+    "size": 8,
+    "cond": true
+   },
+   {
+    "op": "enum",
+    "name": "GradeInGuild",
+    "enum": "GradeInGuild",
+    "cond": true
+   },
+   {
+    "op": "enum",
+    "name": "NoviceGuildJoin",
+    "enum": "NoviceGuildJoin",
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "ProjectileOverrideIdByItem",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "bool",
+    "name": "IsPcCafe",
+    "size": 1,
+    "cond": true
+   },
+   {
+    "op": "bool",
+    "name": "IsVip",
+    "size": 1,
+    "cond": true
+   },
+   {
+    "op": "bool",
+    "name": "IsAwaken",
+    "size": 1,
+    "cond": true
+   },
+   {
+    "op": "u16",
+    "name": "SelectedSkillTabIndex",
+    "size": 2,
+    "cond": true
+   },
+   {
+    "op": "bool",
+    "name": "IsExtendSkillTab",
+    "size": 1,
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "GameSps",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "AwakeningPoints",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "GameOverClockSps",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "struct",
+    "name": "BlockExpiration",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "struct",
+    "name": "BlockChatExpiration",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "struct",
+    "name": "BlockItemTransferExpiration",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "struct",
+    "name": "BlockSendMailExpiration",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "struct",
+    "name": "BlockStageExpiration",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "bool",
+    "name": "IsPvpAwaiting",
+    "size": 1,
+    "cond": true
+   },
+   {
+    "op": "bool",
+    "name": "IsRequiredSkillReset",
+    "size": 1,
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "UnlockedEquipSlotList",
+    "kind": "associative_array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HV?$vector@HV?$allocator@H@std@@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$vector@HV?$allocator@H@std@@@std@@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "PartyIntrusionProbabilites",
+    "kind": "associative_array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "MonsterWavePoint",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "InventoryExpandLevel",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "struct",
+    "name": "EventInfo",
+    "type": "Apple::DynamicPlayerInfo::EventPlayerInfo",
+    "func": 12191568,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DynamicPlayerInfo::EventPlayerInfo"
+     },
+     {
+      "op": "bool",
+      "name": "IsBurningFatigue",
+      "size": 1,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "KeypushMiniGamePlayCount",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "KeypushMiniGameHighestScore",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "GachaBoardResetCount",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "container",
+      "name": "KripetEvolveInfos",
+      "kind": "associative_array",
+      "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUKripetEvolveInfo@EventPlayerInfo@DynamicPlayerInfo@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUKripetEvolveInfo@EventPlayerInfo@DynamicPlayerInfo@Apple@@@std@@@6@@std@@@PrivateFlat@Serializer@AllM@@",
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "struct",
+    "name": "PlayerBotDetect",
+    "type": "Apple::BotDetectInfo",
+    "func": 12511856,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::BotDetectInfo"
+     },
+     {
+      "op": "u64",
+      "name": "TotalGainedGold",
+      "size": 8,
+      "cond": false
+     },
+     {
+      "op": "u64",
+      "name": "TotalSendingGold",
+      "size": 8,
+      "cond": false
+     },
+     {
+      "op": "u64",
+      "name": "TotalItemSellGold",
+      "size": 8,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "TotalUsedResurrectionStone",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "TotalUsedHealthPotion",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "TotalEnhanceCount",
+      "size": 4,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "u64",
+    "name": "VillageDps",
+    "size": 8,
+    "cond": true
+   },
+   {
+    "op": "u64",
+    "name": "MaxVillageDps",
+    "size": 8,
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "VillageBaseStatusValue",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "ReceiveDpsRankRewardDateTimes",
+    "kind": "associative_array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HVDateTime@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHVDateTime@Apple@@@std@@@4@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "ParkingVillageCount",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "wstr",
+    "name": "AutoConsumePetFoodId",
+    "size": null,
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "DpsStageInfos",
+    "kind": "associative_array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_JU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_J@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "struct",
+    "name": "ReceiveDpsStageRankRewardDateTime",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "struct",
+    "name": "NightmareStageSpecificInfo",
+    "type": "Apple::NightmareStageSpecificInfo",
+    "func": 12512416,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::NightmareStageSpecificInfo"
+     },
+     {
+      "op": "i32",
+      "name": "ClearFloorNumber",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "RetryCount",
+      "size": 4,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "i32",
+    "name": "EventPresentGauge",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "EventPresentReadyInfos",
+    "kind": "associative_array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@_KUEventPresentReadyInfo@Apple@@U?$less@_K@std@@V?$allocator@U?$pair@$$CB_KUEventPresentReadyInfo@Apple@@@std@@@4@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "ImprintingCoinCount",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "f32",
+    "name": "Viability",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "bool",
+    "name": "IsAllowDisplayPlayerInfo",
+    "size": 1,
+    "cond": true
+   },
+   {
+    "op": "bool",
+    "name": "DisableWeaponInVillage",
+    "size": 1,
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "HiddenEquipments",
+    "kind": "associative_array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@H_NU?$less@H@std@@V?$allocator@U?$pair@$$CBH_N@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "struct",
+    "name": "AutoHunting",
+    "type": "Apple::AutoHuntingInfo",
+    "func": 12164208,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::AutoHuntingInfo"
+     },
+     {
+      "op": "wstr",
+      "name": "RegionId",
+      "size": null,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "HuntingTimeMin",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "struct",
+      "name": "StartTime",
+      "type": "Apple::DateTime",
+      "func": 4809616,
+      "cond": false,
+      "fields": [
+       {
+        "op": "begin",
+        "type": "Apple::DateTime"
+       },
+       {
+        "op": "u64",
+        "name": "Ticks",
+        "size": 8,
+        "cond": false
+       }
+      ]
+     },
+     {
+      "op": "i32",
+      "name": "StepLevel",
+      "size": 4,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "container",
+    "name": "CheckFatigueSeedGift",
+    "kind": "associative_array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@H_NU?$less@H@std@@V?$allocator@U?$pair@$$CBH_N@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "bool",
+    "name": "IsJumpingCharacter",
+    "size": 1,
+    "cond": true
+   },
+   {
+    "op": "bool",
+    "name": "IsOvercome",
+    "size": 1,
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "Pet2StatusPercentage",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "ShopNpcIntrusionRenewalCount",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "ShopNpcIntrusionSpentFatigue",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "ShopNpcIntrusionSpentFatigueParty",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "ShopNpcIntrusionAddedProbabilityByItem",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "BuildingFloorCount",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "BuildingEventRewardFloors",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "struct",
+    "name": "ArenaStageSpecificInfo",
+    "type": "Apple::ArenaStageSpecificInfo",
+    "func": 12512976,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::ArenaStageSpecificInfo"
+     },
+     {
+      "op": "i32",
+      "name": "LastSectorClearTime",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "ClearFloorNumber",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "StartedFloorNumber",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "OneTimeRewardSectorWhenStarted",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "OneTimeRewardSector",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "bool",
+      "name": "NeedNewArenaInfo",
+      "size": 1,
+      "cond": false
+     },
+     {
+      "op": "struct",
+      "name": "LastPenaltyTime",
+      "type": "Apple::DateTime",
+      "func": 4809616,
+      "cond": false,
+      "fields": [
+       {
+        "op": "begin",
+        "type": "Apple::DateTime"
+       },
+       {
+        "op": "u64",
+        "name": "Ticks",
+        "size": 8,
+        "cond": false
+       }
+      ]
+     },
+     {
+      "op": "struct",
+      "name": "LastPlayTime",
+      "type": "Apple::DateTime",
+      "func": 4809616,
+      "cond": false,
+      "fields": [
+       {
+        "op": "begin",
+        "type": "Apple::DateTime"
+       },
+       {
+        "op": "u64",
+        "name": "Ticks",
+        "size": 8,
+        "cond": false
+       }
+      ]
+     },
+     {
+      "op": "u32",
+      "name": "SectorChangeType",
+      "size": 4,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "struct",
+    "name": "EnhancePointInfo",
+    "type": "Apple::EnhancePointInfo",
+    "func": 12164400,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::EnhancePointInfo"
+     },
+     {
+      "op": "i32",
+      "name": "EnhancePoint",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "ExpirationEnhancePoint",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "struct",
+      "name": "ExpireTime",
+      "type": "Apple::DateTime",
+      "func": 4809616,
+      "cond": false,
+      "fields": [
+       {
+        "op": "begin",
+        "type": "Apple::DateTime"
+       },
+       {
+        "op": "u64",
+        "name": "Ticks",
+        "size": 8,
+        "cond": false
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "op": "struct",
+    "name": "PrevPreventLeaving",
+    "type": "Apple::PreventLeaving",
+    "func": 12455888,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::PreventLeaving"
+     },
+     {
+      "op": "i32",
+      "name": "TotalPoint",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "ConnectActivityPoint",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "SpentFatigue",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "SpecificStageActivityPoint",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "NonBattleActivityPoint",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "bool",
+      "name": "IsTodayConnection",
+      "size": 1,
+      "cond": false
+     },
+     {
+      "op": "bool",
+      "name": "IsTodayFishing",
+      "size": 1,
+      "cond": false
+     },
+     {
+      "op": "bool",
+      "name": "IsTodayAutoHunting",
+      "size": 1,
+      "cond": false
+     },
+     {
+      "op": "bool",
+      "name": "IsTodayUseMarket",
+      "size": 1,
+      "cond": false
+     },
+     {
+      "op": "bool",
+      "name": "IsTodayEnhance",
+      "size": 1,
+      "cond": false
+     },
+     {
+      "op": "struct",
+      "name": "StartTime",
+      "type": "Apple::DateTime",
+      "func": 4809616,
+      "cond": false,
+      "fields": [
+       {
+        "op": "begin",
+        "type": "Apple::DateTime"
+       },
+       {
+        "op": "u64",
+        "name": "Ticks",
+        "size": 8,
+        "cond": false
+       }
+      ]
+     },
+     {
+      "op": "struct",
+      "name": "EndTime",
+      "type": "Apple::DateTime",
+      "func": 4809616,
+      "cond": false,
+      "fields": [
+       {
+        "op": "begin",
+        "type": "Apple::DateTime"
+       },
+       {
+        "op": "u64",
+        "name": "Ticks",
+        "size": 8,
+        "cond": false
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "op": "struct",
+    "name": "CurrentPreventLeaving",
+    "type": "Apple::PreventLeaving",
+    "func": 12455888,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::PreventLeaving"
+     },
+     {
+      "op": "i32",
+      "name": "TotalPoint",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "ConnectActivityPoint",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "SpentFatigue",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "SpecificStageActivityPoint",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "NonBattleActivityPoint",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "bool",
+      "name": "IsTodayConnection",
+      "size": 1,
+      "cond": false
+     },
+     {
+      "op": "bool",
+      "name": "IsTodayFishing",
+      "size": 1,
+      "cond": false
+     },
+     {
+      "op": "bool",
+      "name": "IsTodayAutoHunting",
+      "size": 1,
+      "cond": false
+     },
+     {
+      "op": "bool",
+      "name": "IsTodayUseMarket",
+      "size": 1,
+      "cond": false
+     },
+     {
+      "op": "bool",
+      "name": "IsTodayEnhance",
+      "size": 1,
+      "cond": false
+     },
+     {
+      "op": "struct",
+      "name": "StartTime",
+      "type": "Apple::DateTime",
+      "func": 4809616,
+      "cond": false,
+      "fields": [
+       {
+        "op": "begin",
+        "type": "Apple::DateTime"
+       },
+       {
+        "op": "u64",
+        "name": "Ticks",
+        "size": 8,
+        "cond": false
+       }
+      ]
+     },
+     {
+      "op": "struct",
+      "name": "EndTime",
+      "type": "Apple::DateTime",
+      "func": 4809616,
+      "cond": false,
+      "fields": [
+       {
+        "op": "begin",
+        "type": "Apple::DateTime"
+       },
+       {
+        "op": "u64",
+        "name": "Ticks",
+        "size": 8,
+        "cond": false
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "op": "f32",
+    "name": "ItemDropRate",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "f32",
+    "name": "MonsterKillXpRate",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "f32",
+    "name": "StageClearXpRate",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "u32",
+    "name": "StaminaStep",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "struct",
+    "name": "SpecialTimeAttackMission",
+    "type": "Apple::SpecialTimeAttackMissionInfo",
+    "func": 12164720,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::SpecialTimeAttackMissionInfo"
+     },
+     {
+      "op": "wstr",
+      "name": "TimeAttackId",
+      "size": null,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "SpentFatigue",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "bool",
+      "name": "IsComplete",
+      "size": 1,
+      "cond": false
+     },
+     {
+      "op": "bool",
+      "name": "IsReward",
+      "size": 1,
+      "cond": false
+     },
+     {
+      "op": "struct",
+      "name": "EndTime",
+      "type": "Apple::DateTime",
+      "func": 4809616,
+      "cond": false,
+      "fields": [
+       {
+        "op": "begin",
+        "type": "Apple::DateTime"
+       },
+       {
+        "op": "u64",
+        "name": "Ticks",
+        "size": 8,
+        "cond": false
+       }
+      ]
+     },
+     {
+      "op": "struct",
+      "name": "CompletedTime",
+      "type": "Apple::DateTime",
+      "func": 4809616,
+      "cond": false,
+      "fields": [
+       {
+        "op": "begin",
+        "type": "Apple::DateTime"
+       },
+       {
+        "op": "u64",
+        "name": "Ticks",
+        "size": 8,
+        "cond": false
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "op": "container",
+    "name": "PartyMiniGameCountInfoList",
+    "kind": "associative_array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@IUPartyMiniGameCountInfo@DynamicPlayerInfo@Apple@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIUPartyMiniGameCountInfo@DynamicPlayerInfo@Apple@@@std@@@5@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "ExpSupportPoint",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "struct",
+    "name": "ExpSupportReceiveRewardTime",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "i32",
+    "name": "ExpSupportRewardItemReceivedCount",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "ExpSupportRewardItemReceivableCount",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "RaidPlayCountList",
+    "kind": "associative_array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "wstr",
+    "name": "RecentVillageSectorId",
+    "size": null,
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "ParallelMazeInfos",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUParallelMazeInfo@DynamicPlayerInfo@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUParallelMazeInfo@DynamicPlayerInfo@Apple@@@std@@@5@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "EquipAbilities",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "GaugePoints",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "LevelUpRewardPoint",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "struct",
+    "name": "AffixBoard",
+    "type": "Apple::DynamicPlayerInfo::AffixBoardInfo",
+    "func": 12165360,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::AffixBoardInfo"
+     },
+     {
+      "op": "bool",
+      "name": "IsFixed",
+      "size": 1,
+      "cond": false
+     },
+     {
+      "op": "bool",
+      "name": "IsReceiveBothJackpot",
+      "size": 1,
+      "cond": false
+     },
+     {
+      "op": "bool",
+      "name": "IsReceiveStageJackpot",
+      "size": 1,
+      "cond": false
+     },
+     {
+      "op": "bool",
+      "name": "IsReceiveLevelJackpot",
+      "size": 1,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "RerollCount",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "RewardRerollCount",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "struct",
+      "name": "UpdateTime",
+      "type": "Apple::DateTime",
+      "func": 4809616,
+      "cond": false,
+      "fields": [
+       {
+        "op": "begin",
+        "type": "Apple::DateTime"
+       },
+       {
+        "op": "u64",
+        "name": "Ticks",
+        "size": 8,
+        "cond": false
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "op": "container",
+    "name": "ReceivedLevelRewards",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$set@HU?$less@H@std@@V?$allocator@H@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "struct",
+    "name": "LastReceivedDailyLevelUpRewardTime",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "i32",
+    "name": "PlantPremiumSlotCount",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "struct",
+    "name": "AppearanceChangeSlot",
+    "type": "Apple::AppearanceChangeSlotInfo",
+    "func": 12164960,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::AppearanceChangeSlotInfo"
+     },
+     {
+      "op": "u32",
+      "name": "Type",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "wstr",
+      "name": "Id",
+      "size": null,
+      "cond": false
+     },
+     {
+      "op": "struct",
+      "name": "ExpireTime",
+      "type": "Apple::DateTime",
+      "func": 4809616,
+      "cond": false,
+      "fields": [
+       {
+        "op": "begin",
+        "type": "Apple::DateTime"
+       },
+       {
+        "op": "u64",
+        "name": "Ticks",
+        "size": 8,
+        "cond": false
+       }
+      ]
+     },
+     {
+      "op": "bool",
+      "name": "IsActive",
+      "size": 1,
+      "cond": false
+     },
+     {
+      "op": "bool",
+      "name": "IgnoreCoolDown",
+      "size": 1,
+      "cond": false
+     }
+    ]
+   }
+  ],
+  "Apple::PvpGradeInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::PvpGradeInfo"
+   },
+   {
+    "op": "i32",
+    "name": "PvpGradeNumber",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "BattlePoint",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "BattlePointOnline",
+    "size": 4,
+    "cond": false
+   }
+  ],
+  "Apple::DynamicPlayerInfo::EventPlayerInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::DynamicPlayerInfo::EventPlayerInfo"
+   },
+   {
+    "op": "bool",
+    "name": "IsBurningFatigue",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "KeypushMiniGamePlayCount",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "KeypushMiniGameHighestScore",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "GachaBoardResetCount",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "KripetEvolveInfos",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUKripetEvolveInfo@EventPlayerInfo@DynamicPlayerInfo@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUKripetEvolveInfo@EventPlayerInfo@DynamicPlayerInfo@Apple@@@std@@@6@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::BotDetectInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::BotDetectInfo"
+   },
+   {
+    "op": "u64",
+    "name": "TotalGainedGold",
+    "size": 8,
+    "cond": false
+   },
+   {
+    "op": "u64",
+    "name": "TotalSendingGold",
+    "size": 8,
+    "cond": false
+   },
+   {
+    "op": "u64",
+    "name": "TotalItemSellGold",
+    "size": 8,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "TotalUsedResurrectionStone",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "TotalUsedHealthPotion",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "TotalEnhanceCount",
+    "size": 4,
+    "cond": false
+   }
+  ],
+  "Apple::NightmareStageSpecificInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::NightmareStageSpecificInfo"
+   },
+   {
+    "op": "i32",
+    "name": "ClearFloorNumber",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "RetryCount",
+    "size": 4,
+    "cond": false
+   }
+  ],
+  "Apple::AutoHuntingInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::AutoHuntingInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "RegionId",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "HuntingTimeMin",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "struct",
+    "name": "StartTime",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "i32",
+    "name": "StepLevel",
+    "size": 4,
+    "cond": false
+   }
+  ],
+  "Apple::ArenaStageSpecificInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::ArenaStageSpecificInfo"
+   },
+   {
+    "op": "i32",
+    "name": "LastSectorClearTime",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "ClearFloorNumber",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "StartedFloorNumber",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "OneTimeRewardSectorWhenStarted",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "OneTimeRewardSector",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "NeedNewArenaInfo",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "struct",
+    "name": "LastPenaltyTime",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "struct",
+    "name": "LastPlayTime",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "u32",
+    "name": "SectorChangeType",
+    "size": 4,
+    "cond": false
+   }
+  ],
+  "Apple::EnhancePointInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::EnhancePointInfo"
+   },
+   {
+    "op": "i32",
+    "name": "EnhancePoint",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "ExpirationEnhancePoint",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "struct",
+    "name": "ExpireTime",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   }
+  ],
+  "Apple::PreventLeaving": [
+   {
+    "op": "begin",
+    "type": "Apple::PreventLeaving"
+   },
+   {
+    "op": "i32",
+    "name": "TotalPoint",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "ConnectActivityPoint",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "SpentFatigue",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "SpecificStageActivityPoint",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "NonBattleActivityPoint",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "IsTodayConnection",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "IsTodayFishing",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "IsTodayAutoHunting",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "IsTodayUseMarket",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "IsTodayEnhance",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "struct",
+    "name": "StartTime",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "struct",
+    "name": "EndTime",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   }
+  ],
+  "Apple::SpecialTimeAttackMissionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::SpecialTimeAttackMissionInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "TimeAttackId",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "SpentFatigue",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "IsComplete",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "IsReward",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "struct",
+    "name": "EndTime",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "struct",
+    "name": "CompletedTime",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   }
+  ],
+  "Apple::DynamicPlayerInfo::AffixBoardInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::AffixBoardInfo"
+   },
+   {
+    "op": "bool",
+    "name": "IsFixed",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "IsReceiveBothJackpot",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "IsReceiveStageJackpot",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "IsReceiveLevelJackpot",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "RerollCount",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "RewardRerollCount",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "struct",
+    "name": "UpdateTime",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   }
+  ],
+  "Apple::AppearanceChangeSlotInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::AppearanceChangeSlotInfo"
+   },
+   {
+    "op": "u32",
+    "name": "Type",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "Id",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "struct",
+    "name": "ExpireTime",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "bool",
+    "name": "IsActive",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "IgnoreCoolDown",
+    "size": 1,
+    "cond": false
+   }
+  ]
+ }
+}

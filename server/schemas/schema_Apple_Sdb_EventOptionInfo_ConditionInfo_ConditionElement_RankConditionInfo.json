@@ -1,0 +1,22 @@
+{
+ "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::RankConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::RankConditionInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Rank",
+   "enum": "RankType",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Condition",
+   "enum": "CompareType",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::JewelCategoryInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::JewelCategoryInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,2184 @@
+{
+ "type": "Apple::Sdb::QuestInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::StaticDatabase::Quest"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "StageIds",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "MainTitle",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "SubTitle",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Category",
+   "enum": "Category",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "ExpandedQuestCategory",
+   "enum": "ExpandedQuestCategory",
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "Level",
+   "size": 4,
+   "cond": false,
+   "src": 120
+  },
+  {
+   "op": "enum",
+   "name": "BeginDesc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "EndDesc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "BeginDialog",
+   "type": "Apple::Sdb::QuestInfo::Dialog",
+   "func": 8800944,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::QuestInfo::Dialog"
+    },
+    {
+     "op": "container",
+     "name": "Lines",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "EndDialog",
+   "type": "Apple::Sdb::QuestInfo::Dialog",
+   "func": 8800944,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::QuestInfo::Dialog"
+    },
+    {
+     "op": "container",
+     "name": "Lines",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "ContinuousQuestList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "AcceptNpc",
+   "size": null,
+   "cond": false,
+   "src": 244
+  },
+  {
+   "op": "wstr",
+   "name": "CompleteNpc",
+   "size": null,
+   "cond": false,
+   "src": 272
+  },
+  {
+   "op": "wstr",
+   "name": "GuideQuestType",
+   "size": null,
+   "cond": false,
+   "src": 300
+  },
+  {
+   "op": "enum",
+   "name": "EpicQuestType",
+   "enum": "EpicQuestType",
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "CanCompleteCount",
+   "size": 4,
+   "cond": false,
+   "src": 332
+  },
+  {
+   "op": "bool",
+   "name": "IsDaily",
+   "size": 1,
+   "cond": false,
+   "src": 336
+  },
+  {
+   "op": "bool",
+   "name": "ForceRemoveWhenResetDaily",
+   "size": 1,
+   "cond": false,
+   "src": 337
+  },
+  {
+   "op": "i32",
+   "name": "RepeatDay",
+   "size": 4,
+   "cond": false,
+   "src": 340
+  },
+  {
+   "op": "bool",
+   "name": "IsRandom",
+   "size": 1,
+   "cond": false,
+   "src": 344
+  },
+  {
+   "op": "struct",
+   "name": "AcceptCondition",
+   "type": "Apple::Condition",
+   "func": 8206256,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Condition"
+    },
+    {
+     "op": "container",
+     "name": "Classes",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "Level",
+     "size": 8,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "i32",
+     "name": "Gold",
+     "size": 4,
+     "cond": false,
+     "src": 28
+    },
+    {
+     "op": "raw",
+     "name": "RequiredTierAttackPower",
+     "size": 8,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "enum",
+     "name": "Awakening",
+     "enum": "AwakenConditionType",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "SlotOpening",
+     "enum": "SlotOpenConditionType",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "PvpWinCounts",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "PvpLoseCounts",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "PvpTotalCounts",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "Items",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "IsAllowExpirableItems",
+     "size": 1,
+     "cond": false,
+     "src": 128
+    },
+    {
+     "op": "container",
+     "name": "Licenses",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "InacceptableQuests",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "InacceptableWhenCompleted",
+     "size": 1,
+     "cond": false,
+     "src": 164
+    },
+    {
+     "op": "container",
+     "name": "PrecedingQuests",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "PrecedingQuestsTypeOr",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "MinimumDifficulty",
+     "enum": "Difficulty",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "CompleteType",
+     "enum": "ConditionCompleteType",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "DetailConditionCompleteType",
+     "enum": "ConditionCompleteType",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "NpcConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UNpcCondition@Condition@Apple@@V?$allocator@UNpcCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "PvpConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UPvpCondition@Condition@Apple@@V?$allocator@UPvpCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "AutoBattleConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UAutoBattleCondition@Condition@Apple@@V?$allocator@UAutoBattleCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "StageEnterCount",
+     "size": 4,
+     "cond": false,
+     "src": 260
+    },
+    {
+     "op": "i32",
+     "name": "StageClearCount",
+     "size": 4,
+     "cond": false,
+     "src": 264
+    },
+    {
+     "op": "container",
+     "name": "StageConditions",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UStageCondition@Condition@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UStageCondition@Condition@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "UseItems",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UUseItemInfo@Condition@Apple@@V?$allocator@UUseItemInfo@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "EnhanceItems",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UEnhanceItemInfo@Condition@Apple@@V?$allocator@UEnhanceItemInfo@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "EquipItems",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UEquipItemInfo@Condition@Apple@@V?$allocator@UEquipItemInfo@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "EquipmentSetInfos",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UEquipmentSetInfo@Condition@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UEquipmentSetInfo@Condition@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "StatusConditions",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@NU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@N@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "InventoryCapacity",
+     "size": 4,
+     "cond": false,
+     "src": 428
+    },
+    {
+     "op": "i32",
+     "name": "PlayerBankCapacity",
+     "size": 4,
+     "cond": false,
+     "src": 432
+    },
+    {
+     "op": "i32",
+     "name": "AccountBankCapacity",
+     "size": 4,
+     "cond": false,
+     "src": 436
+    },
+    {
+     "op": "container",
+     "name": "BuffConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UBuffCondition@Condition@Apple@@V?$allocator@UBuffCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "GeneralConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UGeneralCondition@Condition@Apple@@V?$allocator@UGeneralCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "GuildSiegeConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UGuildSiegeCondition@Condition@Apple@@V?$allocator@UGuildSiegeCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "RequiredAttackPowerForSeconds",
+     "size": 8,
+     "cond": false,
+     "src": 48
+    },
+    {
+     "op": "container",
+     "name": "RaidConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URaidCondition@Condition@Apple@@V?$allocator@URaidCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "RequiredOverPowers",
+     "size": 8,
+     "cond": false,
+     "src": 56
+    },
+    {
+     "op": "i32",
+     "name": "InheritEnhanceCount",
+     "size": 4,
+     "cond": false,
+     "src": 440
+    },
+    {
+     "op": "i32",
+     "name": "OverrideItemBaseStatusCount",
+     "size": 4,
+     "cond": false,
+     "src": 444
+    },
+    {
+     "op": "i32",
+     "name": "ItemBaseStatusChangeCount",
+     "size": 4,
+     "cond": false,
+     "src": 448
+    },
+    {
+     "op": "i32",
+     "name": "UseRuneCount",
+     "size": 4,
+     "cond": false,
+     "src": 452
+    },
+    {
+     "op": "i32",
+     "name": "UseDestroyPreventItemCount",
+     "size": 4,
+     "cond": false,
+     "src": 456
+    },
+    {
+     "op": "i32",
+     "name": "AttemptEnhanceCount",
+     "size": 4,
+     "cond": false,
+     "src": 460
+    },
+    {
+     "op": "bool",
+     "name": "IsMentoringCooperativeMission",
+     "size": 1,
+     "cond": false,
+     "src": 464
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "CompleteCondition",
+   "type": "Apple::Condition",
+   "func": 8206256,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Condition"
+    },
+    {
+     "op": "container",
+     "name": "Classes",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "Level",
+     "size": 8,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "i32",
+     "name": "Gold",
+     "size": 4,
+     "cond": false,
+     "src": 28
+    },
+    {
+     "op": "raw",
+     "name": "RequiredTierAttackPower",
+     "size": 8,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "enum",
+     "name": "Awakening",
+     "enum": "AwakenConditionType",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "SlotOpening",
+     "enum": "SlotOpenConditionType",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "PvpWinCounts",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "PvpLoseCounts",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "PvpTotalCounts",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "Items",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "IsAllowExpirableItems",
+     "size": 1,
+     "cond": false,
+     "src": 128
+    },
+    {
+     "op": "container",
+     "name": "Licenses",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "InacceptableQuests",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "InacceptableWhenCompleted",
+     "size": 1,
+     "cond": false,
+     "src": 164
+    },
+    {
+     "op": "container",
+     "name": "PrecedingQuests",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "PrecedingQuestsTypeOr",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "MinimumDifficulty",
+     "enum": "Difficulty",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "CompleteType",
+     "enum": "ConditionCompleteType",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "DetailConditionCompleteType",
+     "enum": "ConditionCompleteType",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "NpcConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UNpcCondition@Condition@Apple@@V?$allocator@UNpcCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "PvpConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UPvpCondition@Condition@Apple@@V?$allocator@UPvpCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "AutoBattleConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UAutoBattleCondition@Condition@Apple@@V?$allocator@UAutoBattleCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "StageEnterCount",
+     "size": 4,
+     "cond": false,
+     "src": 260
+    },
+    {
+     "op": "i32",
+     "name": "StageClearCount",
+     "size": 4,
+     "cond": false,
+     "src": 264
+    },
+    {
+     "op": "container",
+     "name": "StageConditions",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UStageCondition@Condition@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UStageCondition@Condition@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "UseItems",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UUseItemInfo@Condition@Apple@@V?$allocator@UUseItemInfo@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "EnhanceItems",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UEnhanceItemInfo@Condition@Apple@@V?$allocator@UEnhanceItemInfo@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "EquipItems",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UEquipItemInfo@Condition@Apple@@V?$allocator@UEquipItemInfo@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "EquipmentSetInfos",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UEquipmentSetInfo@Condition@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UEquipmentSetInfo@Condition@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "StatusConditions",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@NU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@N@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "InventoryCapacity",
+     "size": 4,
+     "cond": false,
+     "src": 428
+    },
+    {
+     "op": "i32",
+     "name": "PlayerBankCapacity",
+     "size": 4,
+     "cond": false,
+     "src": 432
+    },
+    {
+     "op": "i32",
+     "name": "AccountBankCapacity",
+     "size": 4,
+     "cond": false,
+     "src": 436
+    },
+    {
+     "op": "container",
+     "name": "BuffConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UBuffCondition@Condition@Apple@@V?$allocator@UBuffCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "GeneralConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UGeneralCondition@Condition@Apple@@V?$allocator@UGeneralCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "GuildSiegeConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UGuildSiegeCondition@Condition@Apple@@V?$allocator@UGuildSiegeCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "RequiredAttackPowerForSeconds",
+     "size": 8,
+     "cond": false,
+     "src": 48
+    },
+    {
+     "op": "container",
+     "name": "RaidConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URaidCondition@Condition@Apple@@V?$allocator@URaidCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "RequiredOverPowers",
+     "size": 8,
+     "cond": false,
+     "src": 56
+    },
+    {
+     "op": "i32",
+     "name": "InheritEnhanceCount",
+     "size": 4,
+     "cond": false,
+     "src": 440
+    },
+    {
+     "op": "i32",
+     "name": "OverrideItemBaseStatusCount",
+     "size": 4,
+     "cond": false,
+     "src": 444
+    },
+    {
+     "op": "i32",
+     "name": "ItemBaseStatusChangeCount",
+     "size": 4,
+     "cond": false,
+     "src": 448
+    },
+    {
+     "op": "i32",
+     "name": "UseRuneCount",
+     "size": 4,
+     "cond": false,
+     "src": 452
+    },
+    {
+     "op": "i32",
+     "name": "UseDestroyPreventItemCount",
+     "size": 4,
+     "cond": false,
+     "src": 456
+    },
+    {
+     "op": "i32",
+     "name": "AttemptEnhanceCount",
+     "size": 4,
+     "cond": false,
+     "src": 460
+    },
+    {
+     "op": "bool",
+     "name": "IsMentoringCooperativeMission",
+     "size": 1,
+     "cond": false,
+     "src": 464
+    }
+   ]
+  },
+  {
+   "op": "enum",
+   "name": "ForceConditionDesc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "AcceptReward",
+   "type": "Apple::Sdb::QuestInfo::Reward",
+   "func": 8771872,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::StaticDatabase::Quest::Reward"
+    },
+    {
+     "op": "f32",
+     "name": "ExpRate",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "BonusExp",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "i32",
+     "name": "Gold",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "i32",
+     "name": "RemoveGold",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "container",
+     "name": "BuffsToGive",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@IU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@I@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "BuffsToRemove",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "ItemsToGive",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@IU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@I@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "ItemsToGiveMail",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@IU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@I@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "ItemsToRemove",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@IU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@I@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "SelectableItems",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@IU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@I@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "RewarsdByCompleteCount",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardByCompleteCount@Reward@QuestInfo@Sdb@Apple@@V?$allocator@URewardByCompleteCount@Reward@QuestInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "LicensesToGive",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "LicensesToRemove",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "ChangeClass",
+     "size": null,
+     "cond": false,
+     "src": 192
+    },
+    {
+     "op": "bool",
+     "name": "MakeAwaken",
+     "size": 1,
+     "cond": false,
+     "src": 220
+    },
+    {
+     "op": "i32",
+     "name": "AwakenPoint",
+     "size": 4,
+     "cond": false,
+     "src": 224
+    },
+    {
+     "op": "container",
+     "name": "UnlockBasicEquipSlots",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "UnlockImprintingSlots",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "Title",
+     "size": null,
+     "cond": false,
+     "src": 260
+    },
+    {
+     "op": "i32",
+     "name": "AccountMileage",
+     "size": 4,
+     "cond": false,
+     "src": 288
+    },
+    {
+     "op": "i32",
+     "name": "TierAttackPower",
+     "size": 4,
+     "cond": false,
+     "src": 292
+    },
+    {
+     "op": "i32",
+     "name": "ImprintingCoinCount",
+     "size": 4,
+     "cond": false,
+     "src": 296
+    },
+    {
+     "op": "wstr",
+     "name": "StepLevelStageIdToGive",
+     "size": null,
+     "cond": false,
+     "src": 164
+    },
+    {
+     "op": "bool",
+     "name": "MakeOvercome",
+     "size": 1,
+     "cond": false,
+     "src": 300
+    },
+    {
+     "op": "i32",
+     "name": "MentorPoint",
+     "size": 4,
+     "cond": false,
+     "src": 304
+    },
+    {
+     "op": "i32",
+     "name": "MenteePoint",
+     "size": 4,
+     "cond": false,
+     "src": 308
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "CompleteReward",
+   "type": "Apple::Sdb::QuestInfo::Reward",
+   "func": 8771872,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::StaticDatabase::Quest::Reward"
+    },
+    {
+     "op": "f32",
+     "name": "ExpRate",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "BonusExp",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "i32",
+     "name": "Gold",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "i32",
+     "name": "RemoveGold",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "container",
+     "name": "BuffsToGive",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@IU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@I@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "BuffsToRemove",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "ItemsToGive",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@IU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@I@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "ItemsToGiveMail",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@IU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@I@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "ItemsToRemove",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@IU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@I@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "SelectableItems",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@IU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@I@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "RewarsdByCompleteCount",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardByCompleteCount@Reward@QuestInfo@Sdb@Apple@@V?$allocator@URewardByCompleteCount@Reward@QuestInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "LicensesToGive",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "LicensesToRemove",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "ChangeClass",
+     "size": null,
+     "cond": false,
+     "src": 192
+    },
+    {
+     "op": "bool",
+     "name": "MakeAwaken",
+     "size": 1,
+     "cond": false,
+     "src": 220
+    },
+    {
+     "op": "i32",
+     "name": "AwakenPoint",
+     "size": 4,
+     "cond": false,
+     "src": 224
+    },
+    {
+     "op": "container",
+     "name": "UnlockBasicEquipSlots",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "UnlockImprintingSlots",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "Title",
+     "size": null,
+     "cond": false,
+     "src": 260
+    },
+    {
+     "op": "i32",
+     "name": "AccountMileage",
+     "size": 4,
+     "cond": false,
+     "src": 288
+    },
+    {
+     "op": "i32",
+     "name": "TierAttackPower",
+     "size": 4,
+     "cond": false,
+     "src": 292
+    },
+    {
+     "op": "i32",
+     "name": "ImprintingCoinCount",
+     "size": 4,
+     "cond": false,
+     "src": 296
+    },
+    {
+     "op": "wstr",
+     "name": "StepLevelStageIdToGive",
+     "size": null,
+     "cond": false,
+     "src": 164
+    },
+    {
+     "op": "bool",
+     "name": "MakeOvercome",
+     "size": 1,
+     "cond": false,
+     "src": 300
+    },
+    {
+     "op": "i32",
+     "name": "MentorPoint",
+     "size": 4,
+     "cond": false,
+     "src": 304
+    },
+    {
+     "op": "i32",
+     "name": "MenteePoint",
+     "size": 4,
+     "cond": false,
+     "src": 308
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "QuestItemDropInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UQuestItemDropInfo@QuestInfo@Sdb@Apple@@V?$allocator@UQuestItemDropInfo@QuestInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CreateNpcInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCreateNpcInfo@QuestInfo@Sdb@Apple@@V?$allocator@UCreateNpcInfo@QuestInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CreateNpcAfterKillNpcs",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCreateNpcAfterKillNpc@QuestInfo@Sdb@Apple@@V?$allocator@UCreateNpcAfterKillNpc@QuestInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "CinematicDialogInfo",
+   "type": "Apple::Sdb::QuestInfo::CinematicDialog",
+   "func": 8771648,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::QuestInfo::CinematicDialog"
+    },
+    {
+     "op": "wstr",
+     "name": "OnQuestAccepted",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "wstr",
+     "name": "OnQuestCompleted",
+     "size": null,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "container",
+     "name": "OnEnterSector",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@USectorDialogInfo@CinematicDialog@QuestInfo@Sdb@Apple@@V?$allocator@USectorDialogInfo@CinematicDialog@QuestInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "OnClearSector",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@USectorDialogInfo@CinematicDialog@QuestInfo@Sdb@Apple@@V?$allocator@USectorDialogInfo@CinematicDialog@QuestInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "OnKillNpc",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UKillNpcInfo@CinematicDialog@QuestInfo@Sdb@Apple@@V?$allocator@UKillNpcInfo@CinematicDialog@QuestInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "ChangeStageInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UChangeStageInfo@QuestInfo@Sdb@Apple@@V?$allocator@UChangeStageInfo@QuestInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "IncreaseNpcStatus",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UIncreaseNpcStatusByStageDifficulty@QuestInfo@Sdb@Apple@@V?$allocator@UIncreaseNpcStatusByStageDifficulty@QuestInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "AutoAcceptableQuestId",
+   "size": null,
+   "cond": false,
+   "src": 2112
+  },
+  {
+   "op": "enum",
+   "name": "AutoSearchMarketItemId",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "QuestClearNoticeType",
+   "size": null,
+   "cond": false,
+   "src": 2188
+  },
+  {
+   "op": "struct",
+   "name": "AcceptTeleport",
+   "type": "Apple::Sdb::QuestInfo::TeleportLocation",
+   "func": 8765040,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::QuestInfo::TeleportLocation"
+    },
+    {
+     "op": "wstr",
+     "name": "VillageId",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "raw",
+     "name": "Position",
+     "size": 12,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "raw",
+     "name": "Direction",
+     "size": 12,
+     "cond": false,
+     "src": 44
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "CompleteTeleport",
+   "type": "Apple::Sdb::QuestInfo::TeleportLocation",
+   "func": 8765040,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::QuestInfo::TeleportLocation"
+    },
+    {
+     "op": "wstr",
+     "name": "VillageId",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "raw",
+     "name": "Position",
+     "size": 12,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "raw",
+     "name": "Direction",
+     "size": 12,
+     "cond": false,
+     "src": 44
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "AddCompleteQuests",
+   "type": "Apple::Sdb::QuestInfo::AddCompleteQuest",
+   "func": 8773056,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::QuestInfo::AddCompleteQuest"
+    },
+    {
+     "op": "u32",
+     "name": "ConditionLevel",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "container",
+     "name": "ToBeCompleteQuest",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "bool",
+   "name": "CanBeEnabledByEvent",
+   "size": 1,
+   "cond": false,
+   "src": 2352
+  },
+  {
+   "op": "bool",
+   "name": "CanBeDisabledByEvent",
+   "size": 1,
+   "cond": false,
+   "src": 2353
+  },
+  {
+   "op": "container",
+   "name": "MovieInfoList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UMovieInfo@QuestInfo@Sdb@Apple@@V?$allocator@UMovieInfo@QuestInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "ImmediateComplete",
+   "size": 1,
+   "cond": false,
+   "src": 2372
+  },
+  {
+   "op": "bool",
+   "name": "IsQuickServiceShow",
+   "size": 1,
+   "cond": false,
+   "src": 2373
+  },
+  {
+   "op": "bool",
+   "name": "IsDummyData",
+   "size": 1,
+   "cond": false,
+   "src": 2374
+  },
+  {
+   "op": "bool",
+   "name": "IsFixedSudden",
+   "size": 1,
+   "cond": false,
+   "src": 2375
+  },
+  {
+   "op": "struct",
+   "name": "AcceptMoveStage",
+   "type": "Apple::Sdb::QuestInfo::MoveStageInfo",
+   "func": 8773392,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::QuestInfo::MoveStageInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "StageId",
+     "size": null,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "bool",
+     "name": "IsUsingPopup",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "enum",
+     "name": "Difficulty",
+     "enum": "Difficulty",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "CompleteMoveStage",
+   "type": "Apple::Sdb::QuestInfo::MoveStageInfo",
+   "func": 8773392,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::QuestInfo::MoveStageInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "StageId",
+     "size": null,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "bool",
+     "name": "IsUsingPopup",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "enum",
+     "name": "Difficulty",
+     "enum": "Difficulty",
+     "cond": false
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::QuestInfo::Dialog": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::QuestInfo::Dialog"
+   },
+   {
+    "op": "container",
+    "name": "Lines",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   }
+  ],
+  "Apple::Condition": [
+   {
+    "op": "begin",
+    "type": "Apple::Condition"
+   },
+   {
+    "op": "container",
+    "name": "Classes",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "Level",
+    "size": 8,
+    "cond": false,
+    "src": 20
+   },
+   {
+    "op": "i32",
+    "name": "Gold",
+    "size": 4,
+    "cond": false,
+    "src": 28
+   },
+   {
+    "op": "raw",
+    "name": "RequiredTierAttackPower",
+    "size": 8,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "enum",
+    "name": "Awakening",
+    "enum": "AwakenConditionType",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "SlotOpening",
+    "enum": "SlotOpenConditionType",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "PvpWinCounts",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "PvpLoseCounts",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "PvpTotalCounts",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "Items",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "IsAllowExpirableItems",
+    "size": 1,
+    "cond": false,
+    "src": 128
+   },
+   {
+    "op": "container",
+    "name": "Licenses",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "InacceptableQuests",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "InacceptableWhenCompleted",
+    "size": 1,
+    "cond": false,
+    "src": 164
+   },
+   {
+    "op": "container",
+    "name": "PrecedingQuests",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "PrecedingQuestsTypeOr",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "MinimumDifficulty",
+    "enum": "Difficulty",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "CompleteType",
+    "enum": "ConditionCompleteType",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "DetailConditionCompleteType",
+    "enum": "ConditionCompleteType",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "NpcConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UNpcCondition@Condition@Apple@@V?$allocator@UNpcCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "PvpConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UPvpCondition@Condition@Apple@@V?$allocator@UPvpCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "AutoBattleConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UAutoBattleCondition@Condition@Apple@@V?$allocator@UAutoBattleCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "StageEnterCount",
+    "size": 4,
+    "cond": false,
+    "src": 260
+   },
+   {
+    "op": "i32",
+    "name": "StageClearCount",
+    "size": 4,
+    "cond": false,
+    "src": 264
+   },
+   {
+    "op": "container",
+    "name": "StageConditions",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UStageCondition@Condition@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UStageCondition@Condition@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "UseItems",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UUseItemInfo@Condition@Apple@@V?$allocator@UUseItemInfo@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "EnhanceItems",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UEnhanceItemInfo@Condition@Apple@@V?$allocator@UEnhanceItemInfo@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "EquipItems",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UEquipItemInfo@Condition@Apple@@V?$allocator@UEquipItemInfo@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "EquipmentSetInfos",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UEquipmentSetInfo@Condition@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UEquipmentSetInfo@Condition@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "StatusConditions",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@NU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@N@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "InventoryCapacity",
+    "size": 4,
+    "cond": false,
+    "src": 428
+   },
+   {
+    "op": "i32",
+    "name": "PlayerBankCapacity",
+    "size": 4,
+    "cond": false,
+    "src": 432
+   },
+   {
+    "op": "i32",
+    "name": "AccountBankCapacity",
+    "size": 4,
+    "cond": false,
+    "src": 436
+   },
+   {
+    "op": "container",
+    "name": "BuffConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UBuffCondition@Condition@Apple@@V?$allocator@UBuffCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "GeneralConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UGeneralCondition@Condition@Apple@@V?$allocator@UGeneralCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "GuildSiegeConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UGuildSiegeCondition@Condition@Apple@@V?$allocator@UGuildSiegeCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "RequiredAttackPowerForSeconds",
+    "size": 8,
+    "cond": false,
+    "src": 48
+   },
+   {
+    "op": "container",
+    "name": "RaidConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@URaidCondition@Condition@Apple@@V?$allocator@URaidCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "RequiredOverPowers",
+    "size": 8,
+    "cond": false,
+    "src": 56
+   },
+   {
+    "op": "i32",
+    "name": "InheritEnhanceCount",
+    "size": 4,
+    "cond": false,
+    "src": 440
+   },
+   {
+    "op": "i32",
+    "name": "OverrideItemBaseStatusCount",
+    "size": 4,
+    "cond": false,
+    "src": 444
+   },
+   {
+    "op": "i32",
+    "name": "ItemBaseStatusChangeCount",
+    "size": 4,
+    "cond": false,
+    "src": 448
+   },
+   {
+    "op": "i32",
+    "name": "UseRuneCount",
+    "size": 4,
+    "cond": false,
+    "src": 452
+   },
+   {
+    "op": "i32",
+    "name": "UseDestroyPreventItemCount",
+    "size": 4,
+    "cond": false,
+    "src": 456
+   },
+   {
+    "op": "i32",
+    "name": "AttemptEnhanceCount",
+    "size": 4,
+    "cond": false,
+    "src": 460
+   },
+   {
+    "op": "bool",
+    "name": "IsMentoringCooperativeMission",
+    "size": 1,
+    "cond": false,
+    "src": 464
+   }
+  ],
+  "Apple::Sdb::QuestInfo::Reward": [
+   {
+    "op": "begin",
+    "type": "Apple::StaticDatabase::Quest::Reward"
+   },
+   {
+    "op": "f32",
+    "name": "ExpRate",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "BonusExp",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "i32",
+    "name": "Gold",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "i32",
+    "name": "RemoveGold",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "container",
+    "name": "BuffsToGive",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@IU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@I@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "BuffsToRemove",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "ItemsToGive",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@IU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@I@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "ItemsToGiveMail",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@IU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@I@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "ItemsToRemove",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@IU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@I@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "SelectableItems",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@IU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@I@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "RewarsdByCompleteCount",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardByCompleteCount@Reward@QuestInfo@Sdb@Apple@@V?$allocator@URewardByCompleteCount@Reward@QuestInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "LicensesToGive",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "LicensesToRemove",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "ChangeClass",
+    "size": null,
+    "cond": false,
+    "src": 192
+   },
+   {
+    "op": "bool",
+    "name": "MakeAwaken",
+    "size": 1,
+    "cond": false,
+    "src": 220
+   },
+   {
+    "op": "i32",
+    "name": "AwakenPoint",
+    "size": 4,
+    "cond": false,
+    "src": 224
+   },
+   {
+    "op": "container",
+    "name": "UnlockBasicEquipSlots",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "UnlockImprintingSlots",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "Title",
+    "size": null,
+    "cond": false,
+    "src": 260
+   },
+   {
+    "op": "i32",
+    "name": "AccountMileage",
+    "size": 4,
+    "cond": false,
+    "src": 288
+   },
+   {
+    "op": "i32",
+    "name": "TierAttackPower",
+    "size": 4,
+    "cond": false,
+    "src": 292
+   },
+   {
+    "op": "i32",
+    "name": "ImprintingCoinCount",
+    "size": 4,
+    "cond": false,
+    "src": 296
+   },
+   {
+    "op": "wstr",
+    "name": "StepLevelStageIdToGive",
+    "size": null,
+    "cond": false,
+    "src": 164
+   },
+   {
+    "op": "bool",
+    "name": "MakeOvercome",
+    "size": 1,
+    "cond": false,
+    "src": 300
+   },
+   {
+    "op": "i32",
+    "name": "MentorPoint",
+    "size": 4,
+    "cond": false,
+    "src": 304
+   },
+   {
+    "op": "i32",
+    "name": "MenteePoint",
+    "size": 4,
+    "cond": false,
+    "src": 308
+   }
+  ],
+  "Apple::Sdb::QuestInfo::CinematicDialog": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::QuestInfo::CinematicDialog"
+   },
+   {
+    "op": "wstr",
+    "name": "OnQuestAccepted",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "wstr",
+    "name": "OnQuestCompleted",
+    "size": null,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "container",
+    "name": "OnEnterSector",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@USectorDialogInfo@CinematicDialog@QuestInfo@Sdb@Apple@@V?$allocator@USectorDialogInfo@CinematicDialog@QuestInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "OnClearSector",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@USectorDialogInfo@CinematicDialog@QuestInfo@Sdb@Apple@@V?$allocator@USectorDialogInfo@CinematicDialog@QuestInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "OnKillNpc",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UKillNpcInfo@CinematicDialog@QuestInfo@Sdb@Apple@@V?$allocator@UKillNpcInfo@CinematicDialog@QuestInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::QuestInfo::TeleportLocation": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::QuestInfo::TeleportLocation"
+   },
+   {
+    "op": "wstr",
+    "name": "VillageId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "raw",
+    "name": "Position",
+    "size": 12,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "raw",
+    "name": "Direction",
+    "size": 12,
+    "cond": false,
+    "src": 44
+   }
+  ],
+  "Apple::Sdb::QuestInfo::AddCompleteQuest": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::QuestInfo::AddCompleteQuest"
+   },
+   {
+    "op": "u32",
+    "name": "ConditionLevel",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "container",
+    "name": "ToBeCompleteQuest",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::QuestInfo::MoveStageInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::QuestInfo::MoveStageInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "StageId",
+    "size": null,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "bool",
+    "name": "IsUsingPopup",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "enum",
+    "name": "Difficulty",
+    "enum": "Difficulty",
+    "cond": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "type": "Apple::Sdb::LobbyInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::LobbyInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "MapFilename",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "BGMCueName",
+   "size": null,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "container",
+   "name": "EntityInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEntityInfo@LobbyInfo@Sdb@Apple@@V?$allocator@UEntityInfo@LobbyInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CameraPathInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCameraPathInfo@LobbyInfo@Sdb@Apple@@V?$allocator@UCameraPathInfo@LobbyInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CameraPointInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCameraPointInfo@LobbyInfo@Sdb@Apple@@V?$allocator@UCameraPointInfo@LobbyInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ActionPackageInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UActionPackageInfo@LobbyInfo@Sdb@Apple@@V?$allocator@UActionPackageInfo@LobbyInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,85 @@
+{
+ "type": "Apple::Sdb::SectorInfo::StageStartWarpGate",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SectorInfo::StageStartWarpGate"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": true,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 8,
+   "cond": true,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": true,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 8,
+   "cond": true,
+   "src": 32
+  },
+  {
+   "op": "raw",
+   "name": "Direction",
+   "size": 12,
+   "cond": true,
+   "src": 40
+  },
+  {
+   "op": "raw",
+   "name": "MinimapIconOffset",
+   "size": 8,
+   "cond": true,
+   "src": 52
+  },
+  {
+   "op": "wstr",
+   "name": "OverrideEffectPath",
+   "size": null,
+   "cond": true,
+   "src": 60
+  },
+  {
+   "op": "container",
+   "name": "OverridePoints",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$Vector2@M@Math@AllM@@V?$allocator@U?$Vector2@M@Math@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "enum",
+   "name": "NameDirection",
+   "enum": "NameDirection",
+   "cond": true
+  },
+  {
+   "op": "enum",
+   "name": "DefaultTabType",
+   "enum": "StageTabType",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "StageTabInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UStageTabInfo@StageStartWarpGate@SectorInfo@Sdb@Apple@@V?$allocator@UStageTabInfo@StageStartWarpGate@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  }
+ ],
+ "types": {}
+}

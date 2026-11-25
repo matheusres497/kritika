@@ -1,0 +1,45 @@
+{
+ "type": "Apple::Sdb::GachaBoardInfo::RewardLevelInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GachaBoardInfo::RewardLevelInfo"
+  },
+  {
+   "op": "i32",
+   "name": "Level",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "bool",
+   "name": "IsBroadcast",
+   "size": 1,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "AppearTypeCount",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "i32",
+   "name": "AppearCountForEach",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "container",
+   "name": "CandidateRewards",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@MURewardItemInfo@GachaBoardInfo@Sdb@Apple@@@std@@V?$allocator@U?$pair@MURewardItemInfo@GachaBoardInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

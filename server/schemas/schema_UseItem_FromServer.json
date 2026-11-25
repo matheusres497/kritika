@@ -1,0 +1,635 @@
+{
+ "type": "Apple::Protocol::FromServer::InventorySystem::UseItem",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "Result",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "Serial",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "ItemInfo",
+   "type": "Apple::Item",
+   "func": 11068224,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Item"
+    },
+    {
+     "op": "wstr",
+     "name": "ItemId",
+     "size": null,
+     "cond": true
+    },
+    {
+     "op": "begin",
+     "type": "Apple::Item"
+    },
+    {
+     "op": "u16",
+     "name": "_flags",
+     "size": 2,
+     "cond": true
+    },
+    {
+     "op": "u32",
+     "name": "ItemHash",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "i64",
+     "name": "Serial",
+     "size": 8,
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "StackCount",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "wstr",
+     "name": "GradeId",
+     "size": null,
+     "cond": true
+    },
+    {
+     "op": "f32",
+     "name": "Durability",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "Status",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "EnhanceFactors",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "IncreaseStatusList",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UIncreaseStatus@Apple@@V?$allocator@UIncreaseStatus@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "Categories",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "EventOptions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UEventOption@Apple@@V?$allocator@UEventOption@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "EnhanceLevel",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "IdentifiedOptions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UIncreaseStatus@Apple@@V?$allocator@UIncreaseStatus@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "Essences",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UEssenceData@Item@Apple@@V?$allocator@UEssenceData@Item@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "Enchants",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUEnchantData@Item@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUEnchantData@Item@Apple@@@std@@@5@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "struct",
+     "name": "TierEnchantInfo",
+     "type": "V?$EmptySharingType@UEnchantData@Item@Apple@@@Apple@@",
+     "func": 11056064,
+     "cond": true,
+     "fields": []
+    },
+    {
+     "op": "struct",
+     "name": "TalismanInfo",
+     "type": "V?$EmptySharingType@UTalismanData@Item@Apple@@@Apple@@",
+     "func": 11056096,
+     "cond": true,
+     "fields": []
+    },
+    {
+     "op": "bool",
+     "name": "IsSealed",
+     "size": 1,
+     "cond": true
+    },
+    {
+     "op": "bool",
+     "name": "IsBoosting",
+     "size": 1,
+     "cond": true
+    },
+    {
+     "op": "bool",
+     "name": "IsUnidentified",
+     "size": 1,
+     "cond": true
+    },
+    {
+     "op": "bool",
+     "name": "IsTradable",
+     "size": 1,
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "GoldValue",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "bool",
+     "name": "IsItemLock",
+     "size": 1,
+     "cond": true
+    },
+    {
+     "op": "struct",
+     "name": "ItemLockExpirationTime",
+     "type": "Apple::DateTime",
+     "func": 4809616,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::DateTime"
+      },
+      {
+       "op": "u64",
+       "name": "Ticks",
+       "size": 8,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "wstr",
+     "name": "PrefixOptionName",
+     "size": null,
+     "cond": true
+    },
+    {
+     "op": "enum",
+     "name": "BindType",
+     "enum": "BindType",
+     "cond": true
+    },
+    {
+     "op": "struct",
+     "name": "ExpirationTime",
+     "type": "Apple::DateTime",
+     "func": 4809616,
+     "cond": true,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::DateTime"
+      },
+      {
+       "op": "u64",
+       "name": "Ticks",
+       "size": 8,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "struct",
+     "name": "ExtendInfo",
+     "type": "V?$EmptySharingType@UExtendData@Item@Apple@@@Apple@@",
+     "func": 11055936,
+     "cond": true,
+     "fields": []
+    },
+    {
+     "op": "struct",
+     "name": "PeriodOption",
+     "type": "V?$EmptySharingType@UPeriodOptionInfo@Item@Apple@@@Apple@@",
+     "func": 11055984,
+     "cond": true,
+     "fields": []
+    },
+    {
+     "op": "bool",
+     "name": "IsUpgradable",
+     "size": 1,
+     "cond": true
+    },
+    {
+     "op": "wstr",
+     "name": "PrimaryJewelId",
+     "size": null,
+     "cond": true
+    },
+    {
+     "op": "wstr",
+     "name": "SecondaryJewelId",
+     "size": null,
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "DyePartColors",
+     "kind": "associative_array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "f32",
+     "name": "MaxDurability",
+     "size": 4,
+     "cond": true
+    },
+    {
+     "op": "bool",
+     "name": "IsApplyPetShapeId",
+     "size": 1,
+     "cond": true
+    },
+    {
+     "op": "enum",
+     "name": "TitleType",
+     "enum": "TitleType",
+     "cond": true
+    },
+    {
+     "op": "u32",
+     "name": "ItemHash",
+     "size": 4,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "u32",
+   "name": "UseEffectType",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "UseItemOutputItems",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UItem@Apple@@V?$allocator@UItem@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RecoveredFatigues",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "struct",
+   "name": "BlockExpiration",
+   "type": "Apple::DateTime",
+   "func": 4809616,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::DateTime"
+    },
+    {
+     "op": "u64",
+     "name": "Ticks",
+     "size": 8,
+     "cond": false
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Item": [
+   {
+    "op": "begin",
+    "type": "Apple::Item"
+   },
+   {
+    "op": "wstr",
+    "name": "ItemId",
+    "size": null,
+    "cond": true
+   },
+   {
+    "op": "begin",
+    "type": "Apple::Item"
+   },
+   {
+    "op": "u16",
+    "name": "_flags",
+    "size": 2,
+    "cond": true
+   },
+   {
+    "op": "u32",
+    "name": "ItemHash",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "i64",
+    "name": "Serial",
+    "size": 8,
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "StackCount",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "wstr",
+    "name": "GradeId",
+    "size": null,
+    "cond": true
+   },
+   {
+    "op": "f32",
+    "name": "Durability",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "Status",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "EnhanceFactors",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "IncreaseStatusList",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UIncreaseStatus@Apple@@V?$allocator@UIncreaseStatus@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "Categories",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "EventOptions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UEventOption@Apple@@V?$allocator@UEventOption@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "EnhanceLevel",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "IdentifiedOptions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UIncreaseStatus@Apple@@V?$allocator@UIncreaseStatus@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "Essences",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UEssenceData@Item@Apple@@V?$allocator@UEssenceData@Item@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "Enchants",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUEnchantData@Item@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUEnchantData@Item@Apple@@@std@@@5@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "struct",
+    "name": "TierEnchantInfo",
+    "type": "V?$EmptySharingType@UEnchantData@Item@Apple@@@Apple@@",
+    "func": 11056064,
+    "cond": true,
+    "fields": []
+   },
+   {
+    "op": "struct",
+    "name": "TalismanInfo",
+    "type": "V?$EmptySharingType@UTalismanData@Item@Apple@@@Apple@@",
+    "func": 11056096,
+    "cond": true,
+    "fields": []
+   },
+   {
+    "op": "bool",
+    "name": "IsSealed",
+    "size": 1,
+    "cond": true
+   },
+   {
+    "op": "bool",
+    "name": "IsBoosting",
+    "size": 1,
+    "cond": true
+   },
+   {
+    "op": "bool",
+    "name": "IsUnidentified",
+    "size": 1,
+    "cond": true
+   },
+   {
+    "op": "bool",
+    "name": "IsTradable",
+    "size": 1,
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "GoldValue",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "bool",
+    "name": "IsItemLock",
+    "size": 1,
+    "cond": true
+   },
+   {
+    "op": "struct",
+    "name": "ItemLockExpirationTime",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "wstr",
+    "name": "PrefixOptionName",
+    "size": null,
+    "cond": true
+   },
+   {
+    "op": "enum",
+    "name": "BindType",
+    "enum": "BindType",
+    "cond": true
+   },
+   {
+    "op": "struct",
+    "name": "ExpirationTime",
+    "type": "Apple::DateTime",
+    "func": 4809616,
+    "cond": true,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::DateTime"
+     },
+     {
+      "op": "u64",
+      "name": "Ticks",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "struct",
+    "name": "ExtendInfo",
+    "type": "V?$EmptySharingType@UExtendData@Item@Apple@@@Apple@@",
+    "func": 11055936,
+    "cond": true,
+    "fields": []
+   },
+   {
+    "op": "struct",
+    "name": "PeriodOption",
+    "type": "V?$EmptySharingType@UPeriodOptionInfo@Item@Apple@@@Apple@@",
+    "func": 11055984,
+    "cond": true,
+    "fields": []
+   },
+   {
+    "op": "bool",
+    "name": "IsUpgradable",
+    "size": 1,
+    "cond": true
+   },
+   {
+    "op": "wstr",
+    "name": "PrimaryJewelId",
+    "size": null,
+    "cond": true
+   },
+   {
+    "op": "wstr",
+    "name": "SecondaryJewelId",
+    "size": null,
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "DyePartColors",
+    "kind": "associative_array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "f32",
+    "name": "MaxDurability",
+    "size": 4,
+    "cond": true
+   },
+   {
+    "op": "bool",
+    "name": "IsApplyPetShapeId",
+    "size": 1,
+    "cond": true
+   },
+   {
+    "op": "enum",
+    "name": "TitleType",
+    "enum": "TitleType",
+    "cond": true
+   },
+   {
+    "op": "u32",
+    "name": "ItemHash",
+    "size": 4,
+    "cond": false
+   }
+  ],
+  "V?$EmptySharingType@UEnchantData@Item@Apple@@@Apple@@": [],
+  "V?$EmptySharingType@UTalismanData@Item@Apple@@@Apple@@": [],
+  "V?$EmptySharingType@UExtendData@Item@Apple@@@Apple@@": [],
+  "V?$EmptySharingType@UPeriodOptionInfo@Item@Apple@@@Apple@@": []
+ }
+}

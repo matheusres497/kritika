@@ -1,0 +1,34 @@
+{
+ "type": "Apple::CustomizingData::CustomizingPartData",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::CustomizingData::CustomizingPartData"
+  },
+  {
+   "op": "helper?",
+   "name": "equipPartType",
+   "func": "0x71bf20",
+   "cond": true
+  },
+  {
+   "op": "i8",
+   "name": "SelectedMeshInfoIndex",
+   "size": 1,
+   "cond": true
+  },
+  {
+   "op": "i8",
+   "name": "SelectedPart1ColorIndex",
+   "size": 1,
+   "cond": true
+  },
+  {
+   "op": "i8",
+   "name": "SelectedPart2ColorIndex",
+   "size": 1,
+   "cond": true
+  }
+ ],
+ "types": {}
+}

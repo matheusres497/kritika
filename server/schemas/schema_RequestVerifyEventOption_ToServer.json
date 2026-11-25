@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Protocol::ToServer::ActionSystem::RequestVerifyEventOption",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "container",
+   "name": "Options",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URequestVerifyEventOption@Apple@@V?$allocator@URequestVerifyEventOption@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

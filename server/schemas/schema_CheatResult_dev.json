@@ -1,0 +1,22 @@
+{
+ "type": "Apple::Protocol::FromServer::DevEnvSystem::CheatResult",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "CheatCommand",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "Result",
+   "size": null,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

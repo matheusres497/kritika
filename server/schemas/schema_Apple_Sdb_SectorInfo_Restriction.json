@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::SectorInfo::Restriction",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SectorInfo::Restriction"
+  },
+  {
+   "op": "bool",
+   "name": "EnableCollision",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "RestrictionPoints",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$Vector3@M@Math@AllM@@V?$allocator@U?$Vector3@M@Math@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

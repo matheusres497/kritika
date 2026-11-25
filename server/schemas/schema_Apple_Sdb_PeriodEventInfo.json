@@ -1,0 +1,535 @@
+{
+ "type": "Apple::Sdb::PeriodEventInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PeriodEventInfo"
+  },
+  {
+   "op": "i32",
+   "name": "Order",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "wstr",
+   "name": "Name",
+   "size": null,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "wstr",
+   "name": "SubName",
+   "size": null,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "wstr",
+   "name": "Desc",
+   "size": null,
+   "cond": false,
+   "src": 92
+  },
+  {
+   "op": "enum",
+   "name": "SecondDesc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "DateDesc",
+   "size": null,
+   "cond": false,
+   "src": 152
+  },
+  {
+   "op": "wstr",
+   "name": "Caution",
+   "size": null,
+   "cond": false,
+   "src": 180
+  },
+  {
+   "op": "wstr",
+   "name": "Image",
+   "size": null,
+   "cond": false,
+   "src": 208
+  },
+  {
+   "op": "wstr",
+   "name": "WebLink",
+   "size": null,
+   "cond": false,
+   "src": 236
+  },
+  {
+   "op": "wstr",
+   "name": "EventType",
+   "size": null,
+   "cond": false,
+   "src": 264
+  },
+  {
+   "op": "bool",
+   "name": "ShowUI",
+   "size": 1,
+   "cond": false,
+   "src": 292
+  },
+  {
+   "op": "wstr",
+   "name": "SwfPath",
+   "size": null,
+   "cond": false,
+   "src": 296
+  },
+  {
+   "op": "struct",
+   "name": "StartDateTime",
+   "type": "Apple::Sdb::DateTimeInfo",
+   "func": 8106912,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::DateTimeInfo"
+    },
+    {
+     "op": "i32",
+     "name": "Year",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "Month",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "i32",
+     "name": "Date",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "i32",
+     "name": "Hour",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "i32",
+     "name": "Minute",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "EndDateTime",
+   "type": "Apple::Sdb::DateTimeInfo",
+   "func": 8106912,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::DateTimeInfo"
+    },
+    {
+     "op": "i32",
+     "name": "Year",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "Month",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "i32",
+     "name": "Date",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "i32",
+     "name": "Hour",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "i32",
+     "name": "Minute",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    }
+   ]
+  },
+  {
+   "op": "raw",
+   "name": "LevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 376
+  },
+  {
+   "op": "struct",
+   "name": "ActivateCondition",
+   "type": "Apple::Sdb::PeriodEventInfo::ActivateConditionInfo",
+   "func": 8108864,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::PeriodEventInfo::ActivateConditionInfo"
+    },
+    {
+     "op": "struct",
+     "name": "PeriodCondition",
+     "type": "Apple::Sdb::PeriodEventInfo::ActivateConditionInfo::PeriodConditionInfo",
+     "func": 8124096,
+     "cond": false,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::Sdb::PeriodEventInfo::ActivateConditionInfo::PeriodConditionInfo"
+      },
+      {
+       "op": "enum",
+       "name": "Type",
+       "enum": "Type",
+       "cond": false
+      },
+      {
+       "op": "u32",
+       "name": "NextSequencePeriod",
+       "size": 4,
+       "cond": false,
+       "src": 8
+      },
+      {
+       "op": "container",
+       "name": "Conditions",
+       "kind": "array",
+       "rtti": ".?AV?$ContainerSerialize@V?$vector@UConditionInfo@PeriodConditionInfo@ActivateConditionInfo@PeriodEventInfo@Sdb@Apple@@V?$allocator@UConditionInfo@PeriodConditionInfo@ActivateConditionInfo@PeriodEventInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+       "cond": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "Effects",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UPeriodEventEffectInfo@Sdb@Apple@@V?$allocator@UPeriodEventEffectInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "Reward",
+   "type": "Apple::Sdb::PeriodEventRewardInfo",
+   "func": 8123568,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::PeriodEventRewardInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "RewardDesc",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "wstr",
+     "name": "SenderName",
+     "size": null,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "wstr",
+     "name": "Context",
+     "size": null,
+     "cond": false,
+     "src": 60
+    },
+    {
+     "op": "i32",
+     "name": "ExpirePeriod",
+     "size": 4,
+     "cond": false,
+     "src": 88
+    },
+    {
+     "op": "enum",
+     "name": "MailType",
+     "enum": "MailType",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "Items",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UItemInfo@PeriodEventRewardInfo@Sdb@Apple@@V?$allocator@UItemInfo@PeriodEventRewardInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "struct",
+     "name": "Condition",
+     "type": "Apple::Sdb::PeriodEventRewardInfo::ConditionInfo",
+     "func": 8123872,
+     "cond": false,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::Sdb::PeriodEventRewardInfo::ConditionInfo"
+      },
+      {
+       "op": "enum",
+       "name": "PeriodType",
+       "enum": "PeriodType",
+       "cond": false
+      },
+      {
+       "op": "u32",
+       "name": "NextRewardPeriod",
+       "size": 4,
+       "cond": false,
+       "src": 8
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::DateTimeInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::DateTimeInfo"
+   },
+   {
+    "op": "i32",
+    "name": "Year",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "Month",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "i32",
+    "name": "Date",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "i32",
+    "name": "Hour",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "i32",
+    "name": "Minute",
+    "size": 4,
+    "cond": false,
+    "src": 20
+   }
+  ],
+  "Apple::Sdb::PeriodEventInfo::ActivateConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::PeriodEventInfo::ActivateConditionInfo"
+   },
+   {
+    "op": "struct",
+    "name": "PeriodCondition",
+    "type": "Apple::Sdb::PeriodEventInfo::ActivateConditionInfo::PeriodConditionInfo",
+    "func": 8124096,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::Sdb::PeriodEventInfo::ActivateConditionInfo::PeriodConditionInfo"
+     },
+     {
+      "op": "enum",
+      "name": "Type",
+      "enum": "Type",
+      "cond": false
+     },
+     {
+      "op": "u32",
+      "name": "NextSequencePeriod",
+      "size": 4,
+      "cond": false,
+      "src": 8
+     },
+     {
+      "op": "container",
+      "name": "Conditions",
+      "kind": "array",
+      "rtti": ".?AV?$ContainerSerialize@V?$vector@UConditionInfo@PeriodConditionInfo@ActivateConditionInfo@PeriodEventInfo@Sdb@Apple@@V?$allocator@UConditionInfo@PeriodConditionInfo@ActivateConditionInfo@PeriodEventInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+      "cond": false
+     }
+    ]
+   }
+  ],
+  "Apple::Sdb::PeriodEventInfo::ActivateConditionInfo::PeriodConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::PeriodEventInfo::ActivateConditionInfo::PeriodConditionInfo"
+   },
+   {
+    "op": "enum",
+    "name": "Type",
+    "enum": "Type",
+    "cond": false
+   },
+   {
+    "op": "u32",
+    "name": "NextSequencePeriod",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "container",
+    "name": "Conditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UConditionInfo@PeriodConditionInfo@ActivateConditionInfo@PeriodEventInfo@Sdb@Apple@@V?$allocator@UConditionInfo@PeriodConditionInfo@ActivateConditionInfo@PeriodEventInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::PeriodEventRewardInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::PeriodEventRewardInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "RewardDesc",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "wstr",
+    "name": "SenderName",
+    "size": null,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "wstr",
+    "name": "Context",
+    "size": null,
+    "cond": false,
+    "src": 60
+   },
+   {
+    "op": "i32",
+    "name": "ExpirePeriod",
+    "size": 4,
+    "cond": false,
+    "src": 88
+   },
+   {
+    "op": "enum",
+    "name": "MailType",
+    "enum": "MailType",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "Items",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UItemInfo@PeriodEventRewardInfo@Sdb@Apple@@V?$allocator@UItemInfo@PeriodEventRewardInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "struct",
+    "name": "Condition",
+    "type": "Apple::Sdb::PeriodEventRewardInfo::ConditionInfo",
+    "func": 8123872,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::Sdb::PeriodEventRewardInfo::ConditionInfo"
+     },
+     {
+      "op": "enum",
+      "name": "PeriodType",
+      "enum": "PeriodType",
+      "cond": false
+     },
+     {
+      "op": "u32",
+      "name": "NextRewardPeriod",
+      "size": 4,
+      "cond": false,
+      "src": 8
+     }
+    ]
+   }
+  ],
+  "Apple::Sdb::PeriodEventRewardInfo::ConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::PeriodEventRewardInfo::ConditionInfo"
+   },
+   {
+    "op": "enum",
+    "name": "PeriodType",
+    "enum": "PeriodType",
+    "cond": false
+   },
+   {
+    "op": "u32",
+    "name": "NextRewardPeriod",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   }
+  ]
+ }
+}

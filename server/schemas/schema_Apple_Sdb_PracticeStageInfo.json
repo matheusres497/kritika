@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::PracticeStageInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PracticeStageInfo"
+  },
+  {
+   "op": "container",
+   "name": "NpcInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UNpcInfo@PracticeStageInfo@Sdb@Apple@@V?$allocator@UNpcInfo@PracticeStageInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "AddStatusInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$Vector2@M@Math@AllM@@@std@@V?$allocator@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$Vector2@M@Math@AllM@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "NpcStartingPosition",
+   "size": 8,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "wstr",
+   "name": "AiScript",
+   "size": null,
+   "cond": false,
+   "src": 44
+  }
+ ],
+ "types": {}
+}

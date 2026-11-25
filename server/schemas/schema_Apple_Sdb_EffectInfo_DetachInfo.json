@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::EffectInfo::DetachInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EffectInfo::DetachInfo"
+  },
+  {
+   "op": "raw",
+   "name": "Interval",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "DetachType",
+   "enum": "DetachEffectType",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

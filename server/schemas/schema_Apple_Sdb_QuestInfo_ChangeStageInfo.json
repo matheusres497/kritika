@@ -1,0 +1,133 @@
+{
+ "type": "Apple::Sdb::QuestInfo::ChangeStageInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::QuestInfo::ChangeStageInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "StageId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "u32",
+   "name": "Level",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "struct",
+   "name": "ItemDropRule",
+   "type": "Apple::Sdb::QuestInfo::ChangeStageInfo::ItemDropRuleInfo",
+   "func": 8764864,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::QuestInfo::ChangeStageInfo::ItemDropRuleInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "Id",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "raw",
+     "name": "EquipableItemLevelRange",
+     "size": 8,
+     "cond": false,
+     "src": 32
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "StageClearRewardRule",
+   "type": "Apple::Sdb::QuestInfo::ChangeStageInfo::StageClearRewardRuleInfo",
+   "func": 8764944,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::QuestInfo::ChangeStageInfo::StageClearRewardRuleInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "Id",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "wstr",
+     "name": "VipAdditionalRewardId",
+     "size": null,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "raw",
+     "name": "EquipableItemLevelRange",
+     "size": 8,
+     "cond": false,
+     "src": 60
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::QuestInfo::ChangeStageInfo::ItemDropRuleInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::QuestInfo::ChangeStageInfo::ItemDropRuleInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "Id",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "raw",
+    "name": "EquipableItemLevelRange",
+    "size": 8,
+    "cond": false,
+    "src": 32
+   }
+  ],
+  "Apple::Sdb::QuestInfo::ChangeStageInfo::StageClearRewardRuleInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::QuestInfo::ChangeStageInfo::StageClearRewardRuleInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "Id",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "wstr",
+    "name": "VipAdditionalRewardId",
+    "size": null,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "raw",
+    "name": "EquipableItemLevelRange",
+    "size": 8,
+    "cond": false,
+    "src": 60
+   }
+  ]
+ }
+}

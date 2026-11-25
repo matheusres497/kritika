@@ -1,0 +1,219 @@
+{
+ "type": "Apple::Sdb::UpgradeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::UpgradeInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "UpgradeStep",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "struct",
+   "name": "Option",
+   "type": "Apple::Sdb::UpgradeInfo::OptionInfo",
+   "func": 7522480,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::UpgradeInfo::OptionInfo"
+    },
+    {
+     "op": "bool",
+     "name": "ResetEnhanceLevel",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "bool",
+     "name": "ResetEnchantment",
+     "size": 1,
+     "cond": false,
+     "src": 5
+    },
+    {
+     "op": "bool",
+     "name": "ResetIdentify",
+     "size": 1,
+     "cond": false,
+     "src": 6
+    },
+    {
+     "op": "bool",
+     "name": "ResetTradable",
+     "size": 1,
+     "cond": false,
+     "src": 7
+    },
+    {
+     "op": "bool",
+     "name": "ResetJewelSocket",
+     "size": 1,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "bool",
+     "name": "ResetJewel",
+     "size": 1,
+     "cond": false,
+     "src": 9
+    },
+    {
+     "op": "bool",
+     "name": "ResetBaseStatusType",
+     "size": 1,
+     "cond": false,
+     "src": 10
+    },
+    {
+     "op": "bool",
+     "name": "ResetBaseStatusValue",
+     "size": 1,
+     "cond": false,
+     "src": 11
+    },
+    {
+     "op": "bool",
+     "name": "ResetTalismanLevel",
+     "size": 1,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "bool",
+     "name": "ResetTalismanStatus",
+     "size": 1,
+     "cond": false,
+     "src": 13
+    },
+    {
+     "op": "bool",
+     "name": "ResetEnhanceValue",
+     "size": 1,
+     "cond": false,
+     "src": 14
+    },
+    {
+     "op": "bool",
+     "name": "ResetEssence",
+     "size": 1,
+     "cond": false,
+     "src": 15
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "TargetItems",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UTargetItem@UpgradeInfo@Sdb@Apple@@V?$allocator@UTargetItem@UpgradeInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {
+  "Apple::Sdb::UpgradeInfo::OptionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::UpgradeInfo::OptionInfo"
+   },
+   {
+    "op": "bool",
+    "name": "ResetEnhanceLevel",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "bool",
+    "name": "ResetEnchantment",
+    "size": 1,
+    "cond": false,
+    "src": 5
+   },
+   {
+    "op": "bool",
+    "name": "ResetIdentify",
+    "size": 1,
+    "cond": false,
+    "src": 6
+   },
+   {
+    "op": "bool",
+    "name": "ResetTradable",
+    "size": 1,
+    "cond": false,
+    "src": 7
+   },
+   {
+    "op": "bool",
+    "name": "ResetJewelSocket",
+    "size": 1,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "bool",
+    "name": "ResetJewel",
+    "size": 1,
+    "cond": false,
+    "src": 9
+   },
+   {
+    "op": "bool",
+    "name": "ResetBaseStatusType",
+    "size": 1,
+    "cond": false,
+    "src": 10
+   },
+   {
+    "op": "bool",
+    "name": "ResetBaseStatusValue",
+    "size": 1,
+    "cond": false,
+    "src": 11
+   },
+   {
+    "op": "bool",
+    "name": "ResetTalismanLevel",
+    "size": 1,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "bool",
+    "name": "ResetTalismanStatus",
+    "size": 1,
+    "cond": false,
+    "src": 13
+   },
+   {
+    "op": "bool",
+    "name": "ResetEnhanceValue",
+    "size": 1,
+    "cond": false,
+    "src": 14
+   },
+   {
+    "op": "bool",
+    "name": "ResetEssence",
+    "size": 1,
+    "cond": false,
+    "src": 15
+   }
+  ]
+ }
+}

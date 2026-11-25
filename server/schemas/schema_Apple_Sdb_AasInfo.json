@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::AasInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::AasInfo"
+  },
+  {
+   "op": "container",
+   "name": "AasMessageInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UAasMessageInfo@AasInfo@Sdb@Apple@@V?$allocator@UAasMessageInfo@AasInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "AasDescInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UAasDescInfo@AasInfo@Sdb@Apple@@V?$allocator@UAasDescInfo@AasInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "AasConditionInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UAasConditionInfo@AasInfo@Sdb@Apple@@V?$allocator@UAasConditionInfo@AasInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "AasActionInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UAasActionInfo@AasInfo@Sdb@Apple@@V?$allocator@UAasActionInfo@AasInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  }
+ ],
+ "types": {}
+}

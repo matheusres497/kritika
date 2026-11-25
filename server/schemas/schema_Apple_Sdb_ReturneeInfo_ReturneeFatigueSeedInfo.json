@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::ReturneeInfo::ReturneeFatigueSeedInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ReturneeInfo::ReturneeFatigueSeedInfo"
+  },
+  {
+   "op": "i32",
+   "name": "Id",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "FatigueSeedGiftInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UFatigueSeedGiftInfo@ReturneeFatigueSeedInfo@ReturneeInfo@Sdb@Apple@@V?$allocator@UFatigueSeedGiftInfo@ReturneeFatigueSeedInfo@ReturneeInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

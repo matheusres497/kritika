@@ -1,0 +1,92 @@
+{
+ "type": "Apple::Sdb::PartyBonus",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PartyBonus"
+  },
+  {
+   "op": "u32",
+   "name": "PartySize",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "struct",
+   "name": "ForMonster",
+   "type": "Apple::Sdb::PartyBonus::Bonus",
+   "func": 11798352,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::PartyBonus::Bonus"
+    },
+    {
+     "op": "f32",
+     "name": "ExpBonusRate",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "f32",
+     "name": "GoldBonusRate",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "ForStageClear",
+   "type": "Apple::Sdb::PartyBonus::Bonus",
+   "func": 11798352,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::PartyBonus::Bonus"
+    },
+    {
+     "op": "f32",
+     "name": "ExpBonusRate",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "f32",
+     "name": "GoldBonusRate",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::PartyBonus::Bonus": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::PartyBonus::Bonus"
+   },
+   {
+    "op": "f32",
+    "name": "ExpBonusRate",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "f32",
+    "name": "GoldBonusRate",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   }
+  ]
+ }
+}

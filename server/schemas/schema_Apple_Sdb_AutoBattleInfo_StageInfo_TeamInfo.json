@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::AutoBattleInfo::StageInfo::TeamInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::AutoBattleInfo::StageInfo::TeamInfo"
+  },
+  {
+   "op": "raw",
+   "name": "LeftBottomNpcPosition",
+   "size": 12,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "OffsetToRightNpcPosition",
+   "size": 12,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "raw",
+   "name": "OffsetToUpNpcPosition",
+   "size": 12,
+   "cond": false,
+   "src": 28
+  },
+  {
+   "op": "raw",
+   "name": "NpcDirection",
+   "size": 12,
+   "cond": false,
+   "src": 40
+  }
+ ],
+ "types": {}
+}

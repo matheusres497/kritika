@@ -1,0 +1,50 @@
+{
+ "type": "Apple::Sdb::SectorInfo::FixedNpcByQuest",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SectorInfo::FixedNpcByQuest"
+  },
+  {
+   "op": "raw",
+   "name": "level",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "QuestId",
+   "size": null,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "enum",
+   "name": "QuestType",
+   "enum": "FixedNpcShowConditionType",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "MinimumDifficulty",
+   "enum": "Difficulty",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "Visible",
+   "size": 1,
+   "cond": false,
+   "src": 48
+  },
+  {
+   "op": "container",
+   "name": "FixedNpcs",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UFixedNpc@SectorInfo@Sdb@Apple@@V?$allocator@UFixedNpc@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

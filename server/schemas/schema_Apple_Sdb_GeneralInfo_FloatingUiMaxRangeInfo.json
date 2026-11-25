@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::GeneralInfo::FloatingUiMaxRangeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GeneralInfo::FloatingUiMaxRangeInfo"
+  },
+  {
+   "op": "enum",
+   "name": "ObjectType",
+   "enum": "ObjectType",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "MaxRange",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

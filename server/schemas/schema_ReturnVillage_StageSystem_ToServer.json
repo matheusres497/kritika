@@ -1,0 +1,16 @@
+{
+ "type": "Apple::Protocol::ToServer::StageSystem::ReturnVillage",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "bool",
+   "name": "Alone",
+   "size": 1,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

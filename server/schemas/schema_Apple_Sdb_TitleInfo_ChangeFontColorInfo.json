@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::TitleInfo::ChangeFontColorInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::TitleInfo::ChangeFontColorInfo"
+  },
+  {
+   "op": "f32",
+   "name": "ChangeTime",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "Color",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,93 @@
+{
+ "type": "Apple::Sdb::FixedNpcInfo::TransformInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::FixedNpcInfo::TransformInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "QuestId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "struct",
+   "name": "TransformSound",
+   "type": "Apple::Sdb::FixedNpcInfo::TransformInfo::TransformSoundInfo",
+   "func": 8818720,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::FixedNpcInfo::TransformInfo::TransformSoundInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "SoundId",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "bool",
+     "name": "IsAlwaysAttach",
+     "size": 1,
+     "cond": false,
+     "src": 32
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "TransformEffects",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UTransformEffectInfo@TransformInfo@FixedNpcInfo@Sdb@Apple@@V?$allocator@UTransformEffectInfo@TransformInfo@FixedNpcInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ModelPath",
+   "size": null,
+   "cond": false,
+   "src": 84
+  },
+  {
+   "op": "wstr",
+   "name": "AnimationPath",
+   "size": null,
+   "cond": false,
+   "src": 116
+  },
+  {
+   "op": "wstr",
+   "name": "ImagePath",
+   "size": null,
+   "cond": false,
+   "src": 148
+  }
+ ],
+ "types": {
+  "Apple::Sdb::FixedNpcInfo::TransformInfo::TransformSoundInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::FixedNpcInfo::TransformInfo::TransformSoundInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "SoundId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "bool",
+    "name": "IsAlwaysAttach",
+    "size": 1,
+    "cond": false,
+    "src": 32
+   }
+  ]
+ }
+}

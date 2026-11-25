@@ -1,0 +1,59 @@
+{
+ "type": "Apple::Sdb::LobbyInfo::EntityInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::LobbyInfo::EntityInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Name",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 12,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "raw",
+   "name": "Rotation",
+   "size": 16,
+   "cond": false,
+   "src": 44
+  },
+  {
+   "op": "raw",
+   "name": "Scale",
+   "size": 12,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "wstr",
+   "name": "ModelFilename",
+   "size": null,
+   "cond": false,
+   "src": 72
+  },
+  {
+   "op": "wstr",
+   "name": "AnimationFilename",
+   "size": null,
+   "cond": false,
+   "src": 104
+  },
+  {
+   "op": "wstr",
+   "name": "EffectFilename",
+   "size": null,
+   "cond": false,
+   "src": 136
+  }
+ ],
+ "types": {}
+}

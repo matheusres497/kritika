@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::QuestInfo::CreateNpcInfo::CreateNpc",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::QuestInfo::CreateNpcInfo::CreateNpc"
+  },
+  {
+   "op": "wstr",
+   "name": "NpcId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 12,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "raw",
+   "name": "Direction",
+   "size": 12,
+   "cond": false,
+   "src": 44
+  },
+  {
+   "op": "wstr",
+   "name": "TeamId",
+   "size": null,
+   "cond": false,
+   "src": 56
+  }
+ ],
+ "types": {}
+}

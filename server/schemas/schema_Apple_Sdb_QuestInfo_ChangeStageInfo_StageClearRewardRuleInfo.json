@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::QuestInfo::ChangeStageInfo::StageClearRewardRuleInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::QuestInfo::ChangeStageInfo::StageClearRewardRuleInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "VipAdditionalRewardId",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "raw",
+   "name": "EquipableItemLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 60
+  }
+ ],
+ "types": {}
+}

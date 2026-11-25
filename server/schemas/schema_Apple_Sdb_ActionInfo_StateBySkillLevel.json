@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::ActionInfo::StateBySkillLevel",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ActionInfo::StateBySkillLevel"
+  },
+  {
+   "op": "raw",
+   "name": "LevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "States",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UState@__ActionInfo@Sdb@Apple@@V?$allocator@UState@__ActionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

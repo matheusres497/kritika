@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::ExpInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ExpInfo"
+  },
+  {
+   "op": "i32",
+   "name": "Level",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "ExpRange",
+   "size": 8,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "raw",
+   "name": "FatigueExpRange",
+   "size": 8,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "i32",
+   "name": "Gold",
+   "size": 4,
+   "cond": false,
+   "src": 24
+  }
+ ],
+ "types": {}
+}

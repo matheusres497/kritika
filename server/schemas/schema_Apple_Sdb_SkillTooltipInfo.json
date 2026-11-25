@@ -1,0 +1,84 @@
+{
+ "type": "Apple::Sdb::SkillTooltipInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SkillTooltipInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "IconPath",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "MoviePath",
+   "size": null,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "PvpDesc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "DescAttribute",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ArmorAtrribute",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UArmorOverrideInfo@SkillTooltipInfo@Sdb@Apple@@V?$allocator@UArmorOverrideInfo@SkillTooltipInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "SuperArmorCrashAttribute",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USuperArmorCrashOverrideInfo@SkillTooltipInfo@Sdb@Apple@@V?$allocator@USuperArmorCrashOverrideInfo@SkillTooltipInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CreateProjectiles",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCreateProjectileInfo@SkillTooltipInfo@Sdb@Apple@@V?$allocator@UCreateProjectileInfo@SkillTooltipInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "DescParams",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UDescParamsInfo@SkillTooltipInfo@Sdb@Apple@@V?$allocator@UDescParamsInfo@SkillTooltipInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "SkillLevelDescList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USkillLevelDescInfo@SkillTooltipInfo@Sdb@Apple@@V?$allocator@USkillLevelDescInfo@SkillTooltipInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,29 @@
+{
+ "type": ".?AUPartialListPlayersItemLocations@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "AccountId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PlayerId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ItemLocations",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@U?$pair@IU?$pair@II@std@@@std@@_KU?$less@U?$pair@IU?$pair@II@std@@@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@IU?$pair@II@std@@@std@@_K@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

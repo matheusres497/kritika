@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::QuizTableLevelInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::QuizTableLevelInfo"
+  },
+  {
+   "op": "container",
+   "name": "LevelInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@ULevelInfo@QuizTableLevelInfo@Sdb@Apple@@V?$allocator@ULevelInfo@QuizTableLevelInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

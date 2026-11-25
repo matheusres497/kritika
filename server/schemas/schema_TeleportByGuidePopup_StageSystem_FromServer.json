@@ -1,0 +1,17 @@
+{
+ "type": ".?AUTeleportByGuidePopup@StageSystem@FromServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "Result",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  }
+ ],
+ "types": {}
+}

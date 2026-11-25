@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::SpecialTimeAttackInfo::RewardInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SpecialTimeAttackInfo::RewardInfo"
+  },
+  {
+   "op": "container",
+   "name": "RewardBuffs",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardBuffInfo@RewardInfo@SpecialTimeAttackInfo@Sdb@Apple@@V?$allocator@URewardBuffInfo@RewardInfo@SpecialTimeAttackInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RewardItems",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardItemInfo@RewardInfo@SpecialTimeAttackInfo@Sdb@Apple@@V?$allocator@URewardItemInfo@RewardInfo@SpecialTimeAttackInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

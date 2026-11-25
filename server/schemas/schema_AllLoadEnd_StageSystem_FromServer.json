@@ -1,0 +1,34 @@
+{
+ "type": ".?AUAllLoadEnd@StageSystem@FromServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "TimeStamp",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "ElapsedTimeForQuestTimer",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "QuestMoviePath",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "PastSectorTime",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

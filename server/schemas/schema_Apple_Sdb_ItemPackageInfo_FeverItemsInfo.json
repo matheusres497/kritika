@@ -1,0 +1,50 @@
+{
+ "type": "Apple::Sdb::ItemPackageInfo::FeverItemsInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemPackageInfo::FeverItemsInfo"
+  },
+  {
+   "op": "enum",
+   "name": "OpenResultType",
+   "enum": "OpenResultType",
+   "cond": false
+  },
+  {
+   "op": "f64",
+   "name": "Probability",
+   "size": 8,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "container",
+   "name": "ItemList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UItemListInfo@ItemPackageInfo@Sdb@Apple@@V?$allocator@UItemListInfo@ItemPackageInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "f64",
+   "name": "RemainFeverPercent",
+   "size": 8,
+   "cond": false,
+   "src": 40
+  },
+  {
+   "op": "raw",
+   "name": "FeverPointRange",
+   "size": 8,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "ObtainableDate",
+   "size": null,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

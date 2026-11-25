@@ -1,0 +1,76 @@
+{
+ "type": "Apple::Sdb::PathFinderInfo::CommonPathfinderContentInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PathFinderInfo::CommonPathfinderContentInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "GuideImagePath",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "UiShortcut",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "StagePositionChannel",
+   "size": null,
+   "cond": false,
+   "src": 88
+  },
+  {
+   "op": "wstr",
+   "name": "StagePositionTabType",
+   "size": null,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "wstr",
+   "name": "StagePositionVillageId",
+   "size": null,
+   "cond": false,
+   "src": 116
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Header",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "RaidRewardGuide",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "StageList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UPathfinderStageInfo@PathFinderInfo@Sdb@Apple@@V?$allocator@UPathfinderStageInfo@PathFinderInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

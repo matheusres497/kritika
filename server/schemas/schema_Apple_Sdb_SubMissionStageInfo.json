@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::SubMissionStageInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SubMissionStageInfo"
+  },
+  {
+   "op": "container",
+   "name": "SubMissionTables",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USubMissionTableInfo@SubMissionStageInfo@Sdb@Apple@@V?$allocator@USubMissionTableInfo@SubMissionStageInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

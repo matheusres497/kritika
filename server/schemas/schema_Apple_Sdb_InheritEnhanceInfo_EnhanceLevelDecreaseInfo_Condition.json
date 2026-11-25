@@ -1,0 +1,29 @@
+{
+ "type": "Apple::Sdb::InheritEnhanceInfo::EnhanceLevelDecreaseInfo::Condition",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::InheritEnhanceInfo::EnhanceLevelDecreaseInfo::Condition"
+  },
+  {
+   "op": "raw",
+   "name": "InheritLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "MinGradeRange",
+   "enum": "ItemGrade",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "MaxGradeRange",
+   "enum": "ItemGrade",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

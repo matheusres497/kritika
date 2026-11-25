@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::SkillPointInfo::SkillPointPerLevelInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SkillPointInfo::SkillPointPerLevelInfo"
+  },
+  {
+   "op": "raw",
+   "name": "LevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "GainSkillPoint",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  }
+ ],
+ "types": {}
+}

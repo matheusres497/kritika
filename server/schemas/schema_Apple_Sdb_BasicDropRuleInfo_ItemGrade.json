@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::BasicDropRuleInfo::ItemGrade",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemDropRuleInfo::ItemGrade"
+  },
+  {
+   "op": "enum",
+   "name": "ItemGrade",
+   "enum": "ItemGrade",
+   "cond": false
+  },
+  {
+   "op": "f64",
+   "name": "Probability",
+   "size": 8,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

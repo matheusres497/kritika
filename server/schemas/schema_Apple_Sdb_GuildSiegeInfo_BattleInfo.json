@@ -1,0 +1,122 @@
+{
+ "type": "Apple::Sdb::GuildSiegeInfo::BattleInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GuildSiegeInfo::BattleInfo"
+  },
+  {
+   "op": "container",
+   "name": "MainStageNpcs",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "SummonNpcsInMainWhenWinSub",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UNpcSummonInfo@BattleInfo@GuildSiegeInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UNpcSummonInfo@BattleInfo@GuildSiegeInfo@Sdb@Apple@@@std@@@2@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UNpcSummonInfo@BattleInfo@GuildSiegeInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UNpcSummonInfo@BattleInfo@GuildSiegeInfo@Sdb@Apple@@@std@@@2@@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "struct",
+   "name": "BuffInMainWhenWinSub",
+   "type": "V?$Pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@Private@Serializer@AllM@@",
+   "func": 7455216,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "pair"
+    },
+    {
+     "op": "wstr",
+     "name": "key",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "value",
+     "size": 4,
+     "cond": false,
+     "src": 32
+    }
+   ]
+  },
+  {
+   "op": "f32",
+   "name": "AdvantagedMainSiegeReviveCountDownSeconds",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "f32",
+   "name": "MainSiegeReviveCountdownSeconds",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "AttackTeamForwardRevivePositions",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UPositionInfo@StageInfo@Sdb@Apple@@V?$allocator@UPositionInfo@StageInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "NoticeMsgsWhenDestroyNpc",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@VLocaleType@Locale@AllM@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@VLocaleType@Locale@AllM@@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "enum",
+   "name": "RevivePositionForwardNoticeMsg",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "MainSiegeEndSecondsWhenNoAttackTeam",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "RedTeamReviveCount",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "BlueTeamReviveCount",
+   "size": 4,
+   "cond": true
+  }
+ ],
+ "types": {
+  "V?$Pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@Private@Serializer@AllM@@": [
+   {
+    "op": "begin",
+    "type": "pair"
+   },
+   {
+    "op": "wstr",
+    "name": "key",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "value",
+    "size": 4,
+    "cond": false,
+    "src": 32
+   }
+  ]
+ }
+}

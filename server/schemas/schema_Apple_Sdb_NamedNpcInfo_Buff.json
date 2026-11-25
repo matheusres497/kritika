@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::NamedNpcInfo::Buff",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::NamedNpcInfo::Buff"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "u32",
+   "name": "Level",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "u32",
+   "name": "DuplicationCount",
+   "size": 4,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "f32",
+   "name": "Probability",
+   "size": 4,
+   "cond": false,
+   "src": 40
+  }
+ ],
+ "types": {}
+}

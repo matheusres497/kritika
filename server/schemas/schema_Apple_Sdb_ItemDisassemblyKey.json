@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::ItemDisassemblyKey",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemDisassemblyKey"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  }
+ ],
+ "types": {}
+}

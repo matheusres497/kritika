@@ -1,0 +1,57 @@
+{
+ "type": "Apple::Sdb::ItemPackageInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemPackageInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "PackageLists",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UPackageInfo@ItemPackageInfo@Sdb@Apple@@V?$allocator@UPackageInfo@ItemPackageInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "FeverPackageLists",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UFeverPackageInfo@ItemPackageInfo@Sdb@Apple@@V?$allocator@UFeverPackageInfo@ItemPackageInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "ItemPackageOpenType",
+   "enum": "ItemPackageOpenType",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "ItemPackageType",
+   "enum": "ItemPackageType",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ItemPackageTypeParams",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsAbleAvatarPreview",
+   "size": 1,
+   "cond": false,
+   "src": 56
+  }
+ ],
+ "types": {}
+}

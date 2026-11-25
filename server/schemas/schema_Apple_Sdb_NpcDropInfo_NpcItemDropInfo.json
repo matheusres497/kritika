@@ -1,0 +1,42 @@
+{
+ "type": ".?AU?$WriterWrapper@$$CBUNpcItemDropInfo@NpcDropInfo@Sdb@Apple@@@Private@Serializer@AllM@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::NpcDropInfo::NpcItemDropInfo"
+  },
+  {
+   "op": "enum",
+   "name": "DifficultyRange",
+   "enum": "DifficultyRange",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "ItemDropCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ItemDropCountsByPlayerCount",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HMU?$less@H@std@@V?$allocator@U?$pair@$$CBHM@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "DropNothingProbability",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Items",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UItemProbability@NpcItemDropInfo@NpcDropInfo@Sdb@Apple@@V?$allocator@UItemProbability@NpcItemDropInfo@NpcDropInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::BuffGroupInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::BuffGroupInfo"
+  },
+  {
+   "op": "container",
+   "name": "BuffGroupInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UBuffGroupElement@BuffGroupInfo@Sdb@Apple@@V?$allocator@UBuffGroupElement@BuffGroupInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

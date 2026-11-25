@@ -1,0 +1,185 @@
+{
+ "type": "Apple::Sdb::SectorInfo::SectorSpecificEventInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SectorSpecificEventInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "struct",
+   "name": "Condition",
+   "type": "Apple::Sdb::SectorInfo::SectorSpecificEventInfo::ConditionInfo",
+   "func": 7289120,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple;:Sdb::SectorSpecificEventInfo::ConditionInfo"
+    },
+    {
+     "op": "enum",
+     "name": "SpecificConditionType",
+     "enum": "SpecificConditionType",
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "MonsterCount",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "container",
+     "name": "LocationConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@ULocationConditionInfo@ConditionInfo@SectorSpecificEventInfo@SectorInfo@Sdb@Apple@@V?$allocator@ULocationConditionInfo@ConditionInfo@SectorSpecificEventInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "UsingSkillIds",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "Achieve",
+   "type": "Apple::Sdb::SectorInfo::SectorSpecificEventInfo::AchieveInfo",
+   "func": 7289376,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple;:Sdb::SectorSpecificEventInfo::AchieveInfo"
+    },
+    {
+     "op": "container",
+     "name": "CreateMonsterInfos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UCreateMonsterInfo@AchieveInfo@SectorSpecificEventInfo@SectorInfo@Sdb@Apple@@V?$allocator@UCreateMonsterInfo@AchieveInfo@SectorSpecificEventInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "Buffs",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UAddBuffInfo@AchieveInfo@SectorSpecificEventInfo@SectorInfo@Sdb@Apple@@V?$allocator@UAddBuffInfo@AchieveInfo@SectorSpecificEventInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "Repeat",
+   "type": "Apple::Sdb::SectorInfo::SectorSpecificEventInfo::RepeatInfo",
+   "func": 7271168,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SectorSpecificEventInfo::RepeatInfo"
+    },
+    {
+     "op": "i32",
+     "name": "Count",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "f32",
+     "name": "Interval",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::SectorInfo::SectorSpecificEventInfo::ConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple;:Sdb::SectorSpecificEventInfo::ConditionInfo"
+   },
+   {
+    "op": "enum",
+    "name": "SpecificConditionType",
+    "enum": "SpecificConditionType",
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "MonsterCount",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "container",
+    "name": "LocationConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@ULocationConditionInfo@ConditionInfo@SectorSpecificEventInfo@SectorInfo@Sdb@Apple@@V?$allocator@ULocationConditionInfo@ConditionInfo@SectorSpecificEventInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "UsingSkillIds",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::SectorInfo::SectorSpecificEventInfo::AchieveInfo": [
+   {
+    "op": "begin",
+    "type": "Apple;:Sdb::SectorSpecificEventInfo::AchieveInfo"
+   },
+   {
+    "op": "container",
+    "name": "CreateMonsterInfos",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UCreateMonsterInfo@AchieveInfo@SectorSpecificEventInfo@SectorInfo@Sdb@Apple@@V?$allocator@UCreateMonsterInfo@AchieveInfo@SectorSpecificEventInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "Buffs",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UAddBuffInfo@AchieveInfo@SectorSpecificEventInfo@SectorInfo@Sdb@Apple@@V?$allocator@UAddBuffInfo@AchieveInfo@SectorSpecificEventInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::SectorInfo::SectorSpecificEventInfo::RepeatInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SectorSpecificEventInfo::RepeatInfo"
+   },
+   {
+    "op": "i32",
+    "name": "Count",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "f32",
+    "name": "Interval",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   }
+  ]
+ }
+}

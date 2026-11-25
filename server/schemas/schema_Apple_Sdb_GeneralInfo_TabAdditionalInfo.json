@@ -1,0 +1,63 @@
+{
+ "type": "Apple::Sdb::GeneralInfo::TabAdditionalInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GeneralInfo::TabAdditionalInfo"
+  },
+  {
+   "op": "container",
+   "name": "ExtendTabTypes",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "struct",
+   "name": "EnableCondition",
+   "type": "Apple::Sdb::GeneralInfo::TabAdditionalInfo::TabEnableConditionInfo",
+   "func": 9952352,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::TabAdditionalInfo::TabEnableConditionInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "QuestId",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "enum",
+     "name": "Description",
+     "enum": "locale",
+     "cond": false
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::GeneralInfo::TabAdditionalInfo::TabEnableConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::GeneralInfo::TabAdditionalInfo::TabEnableConditionInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "QuestId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "enum",
+    "name": "Description",
+    "enum": "locale",
+    "cond": false
+   }
+  ]
+ }
+}

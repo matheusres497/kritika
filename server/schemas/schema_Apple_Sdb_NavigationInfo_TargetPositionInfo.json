@@ -1,0 +1,52 @@
+{
+ "type": "Apple::Sdb::NavigationInfo::TargetPositionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::NavigationInfo::TargetPositionInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "StageId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "SectorId",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 8,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "wstr",
+   "name": "NpcId",
+   "size": null,
+   "cond": false,
+   "src": 68
+  },
+  {
+   "op": "wstr",
+   "name": "WarpgateId",
+   "size": null,
+   "cond": false,
+   "src": 96
+  },
+  {
+   "op": "wstr",
+   "name": "StageStartWarpgateId",
+   "size": null,
+   "cond": false,
+   "src": 124
+  }
+ ],
+ "types": {}
+}

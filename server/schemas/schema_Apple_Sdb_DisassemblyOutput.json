@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::DisassemblyOutput",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::DisassemblyOutput"
+  },
+  {
+   "op": "wstr",
+   "name": "ItemId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "QuantityRange",
+   "size": 8,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

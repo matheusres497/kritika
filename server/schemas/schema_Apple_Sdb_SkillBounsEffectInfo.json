@@ -1,0 +1,66 @@
+{
+ "type": "Apple::Sdb::SkillBounsEffectInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SkillBounsEffectInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "TargetSkillId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "SkillAttackPowerIncreaseRate",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "f32",
+   "name": "SkillCooldownDecreaseRate",
+   "size": 4,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "f32",
+   "name": "ConsumeHpDecreaseRate",
+   "size": 4,
+   "cond": false,
+   "src": 40
+  },
+  {
+   "op": "f32",
+   "name": "ConsumeMpDecreaseRate",
+   "size": 4,
+   "cond": false,
+   "src": 44
+  },
+  {
+   "op": "i32",
+   "name": "RageDeltaValue",
+   "size": 4,
+   "cond": false,
+   "src": 48
+  },
+  {
+   "op": "i32",
+   "name": "BloodDeltaValue",
+   "size": 4,
+   "cond": false,
+   "src": 52
+  },
+  {
+   "op": "container",
+   "name": "ProjectileOverrideInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UProjectileOverrideInfo@Sdb@Apple@@@std@@V?$allocator@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UProjectileOverrideInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

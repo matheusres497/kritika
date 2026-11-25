@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::ClassInfo::ClassBaseStatusSkillInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ClassInfo::ClassBaseStatusSkillInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "LevelInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@ULevelInfo@ClassBaseStatusSkillInfo@ClassInfo@Sdb@Apple@@V?$allocator@ULevelInfo@ClassBaseStatusSkillInfo@ClassInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

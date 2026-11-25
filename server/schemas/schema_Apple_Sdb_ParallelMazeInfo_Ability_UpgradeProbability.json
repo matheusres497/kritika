@@ -1,0 +1,52 @@
+{
+ "type": "Apple::Sdb::ParallelMazeInfo::Ability::UpgradeProbability",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ParallelMazeInfo::Ability::UpgradeProbability"
+  },
+  {
+   "op": "raw",
+   "name": "AbilityLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "DefaultProbability",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "f32",
+   "name": "MinimumProbability",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "f32",
+   "name": "MaximumProbability",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "f32",
+   "name": "ChangeProbabilityByLevel",
+   "size": 4,
+   "cond": false,
+   "src": 24
+  },
+  {
+   "op": "f32",
+   "name": "PenaltyProbability",
+   "size": 4,
+   "cond": false,
+   "src": 28
+  }
+ ],
+ "types": {}
+}

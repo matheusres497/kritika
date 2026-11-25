@@ -1,0 +1,646 @@
+{
+ "type": ".?AUNpcInfo@Sdb@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::Npc"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Gender",
+   "enum": "Gender",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ClassType",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ModelPath",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "Scale",
+   "size": 12,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "CollisionShape",
+   "type": "Apple::CollisionShape",
+   "func": 8670608,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::CollisionShape"
+    },
+    {
+     "op": "enum",
+     "name": "Type",
+     "enum": "Type",
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "Radius",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "Height",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "BoxSize",
+     "size": 12,
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "FanAngle",
+     "size": 8,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "wstr",
+   "name": "ActionListId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "TobeActionWhenDie",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "DeadActionId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "DeltaLevel",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "Rank",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "RaceId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "AiScript",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "Sight",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "BuffImmunes",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "BuffCategoryImmunes",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "DefaultStatus",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "InheritStatusOfServant",
+   "type": "Apple::Sdb::NpcInfo::InheritStatusOfServantInfo",
+   "func": 8677808,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::NpcInfo::InheritStatusOfServantInfo"
+    },
+    {
+     "op": "container",
+     "name": "StatusNames",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "ApplyDefaultStatus",
+     "size": 1,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "FixedAttackPowerRateByMasterSkill",
+   "type": "Apple::Sdb::NpcInfo::FixedAttackPowerRateByMasterSkillInfo",
+   "func": 8673504,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::NpcInfo::FixedAttackPowerRateByMasterSkillInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "MasterSkillId",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "Scale",
+     "size": 4,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "ActionConditions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UActionCondition@NpcInfo@Sdb@Apple@@V?$allocator@UActionCondition@NpcInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "SkinType",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "DefaultActionId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "Ignorable",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "Unhitable",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "ShowHpGauge",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "MoveSectorWithPlayer",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "FixedPosition",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "DropItemWhenDie",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "GiveExpWhenDie",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "HideDestroyEffect",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IgnoreHitFreeze",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Effects",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEffectInfo@Sdb@Apple@@V?$allocator@UEffectInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "DefaultBuffInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UBuff@Apple@@V?$allocator@UBuff@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "UniqueItems",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "DebuffInfo",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "RimLight",
+   "type": "Apple::Sdb::NpcInfo::RimLightInfo",
+   "func": 8673344,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::NpcInfo::RimLightInfo"
+    },
+    {
+     "op": "bool",
+     "name": "Enable",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "Color",
+     "size": 12,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "bool",
+   "name": "CanUseChangeHpProcess",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsSelfDestroyActor",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsServant",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsPartOfNpc",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "ShowWeakElementalAttribute",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsNamed",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "MinBuffNum",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "MaxBuffNum",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "InitialBuffCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "BuffCandidates",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UBuff@NamedNpcInfo@Sdb@Apple@@V?$allocator@UBuff@NamedNpcInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RandomMessages",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@VLocaleType@Locale@AllM@@V?$allocator@VLocaleType@Locale@AllM@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "SpeechInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@USpeechInfo@NpcInfo@Sdb@Apple@@V?$allocator@USpeechInfo@NpcInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "FloatingUiPositionOffset",
+   "size": 8,
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "NickName",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ArmorGaugeType",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ToughnessGaugeInfoId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "ShowFixedHpGauge",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "IncreaseStatusRate",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@NU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@N@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "AbsoulteStatusValue",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@NU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@N@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "MonsterWavePointRate",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "SoundProjectId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "HpLinkTargetNpcIds",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsItemDropWhenSelfDestroy",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "HpGaugeLine",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "OverrideLimitedHitFreezeTime",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "UseNoTarget",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "FixedAttackPower",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsIgnoreAttackerPowerRate",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "FootPrint",
+   "type": "Apple::Sdb::NpcInfo::FootPrintInfo",
+   "func": 8677888,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::NpcInfo::FootPrintInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "FootprintEffectId",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "Intervals",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::CollisionShape": [
+   {
+    "op": "begin",
+    "type": "Apple::CollisionShape"
+   },
+   {
+    "op": "enum",
+    "name": "Type",
+    "enum": "Type",
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "Radius",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "Height",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "BoxSize",
+    "size": 12,
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "FanAngle",
+    "size": 8,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::NpcInfo::InheritStatusOfServantInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::NpcInfo::InheritStatusOfServantInfo"
+   },
+   {
+    "op": "container",
+    "name": "StatusNames",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "ApplyDefaultStatus",
+    "size": 1,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::NpcInfo::FixedAttackPowerRateByMasterSkillInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::NpcInfo::FixedAttackPowerRateByMasterSkillInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "MasterSkillId",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "Scale",
+    "size": 4,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::NpcInfo::RimLightInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::NpcInfo::RimLightInfo"
+   },
+   {
+    "op": "bool",
+    "name": "Enable",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "Color",
+    "size": 12,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::NpcInfo::FootPrintInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::NpcInfo::FootPrintInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "FootprintEffectId",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "Intervals",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ]
+ }
+}

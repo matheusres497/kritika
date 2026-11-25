@@ -1,0 +1,37 @@
+{
+ "type": "Apple::Sdb::SkillInfo::SkillStackInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SkillInfo::SkillStackInfo"
+  },
+  {
+   "op": "bool",
+   "name": "Enable",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "SkillStackType",
+   "enum": "SkillStackType",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "MaxCount",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "i32",
+   "name": "DefaultCount",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  }
+ ],
+ "types": {}
+}

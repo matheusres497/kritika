@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::CatalapisInfo::BoostingInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::CatalapisInfo::BoostingInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "RequiredItemId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "RequiredItemCount",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

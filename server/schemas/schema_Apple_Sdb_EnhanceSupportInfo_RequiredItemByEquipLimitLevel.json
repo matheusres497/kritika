@@ -1,0 +1,173 @@
+{
+ "type": "Apple::Sdb::EnhanceSupportInfo::RequiredItemByEquipLimitLevel",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EnhanceSupportInfo::RequiredItemByEquipLimitLevel"
+  },
+  {
+   "op": "raw",
+   "name": "MinLimitLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "RequiredItem",
+   "size": null,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "struct",
+   "name": "FixedEnhance",
+   "type": "Apple::Sdb::EnhanceSupportInfo::RequiredItemByEquipLimitLevel::FixedEnhanceInfo",
+   "func": 8326832,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::EnhanceSupportInfo::RequiredItemByEquipLimitLevel::FixedEnhanceInfo"
+    },
+    {
+     "op": "bool",
+     "name": "IsFixedEnhace",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "raw",
+     "name": "TargetEquipmentEnhanceLevel",
+     "size": 8,
+     "cond": true,
+     "src": 8,
+     "cond_on_src": 4
+    },
+    {
+     "op": "f32",
+     "name": "SuccessRate",
+     "size": 4,
+     "cond": true,
+     "src": 16,
+     "cond_on_src": 4
+    },
+    {
+     "op": "f32",
+     "name": "DestroyRate",
+     "size": 4,
+     "cond": true,
+     "src": 20,
+     "cond_on_src": 4
+    },
+    {
+     "op": "i32",
+     "name": "Gold",
+     "size": 4,
+     "cond": true,
+     "src": 24,
+     "cond_on_src": 4
+    },
+    {
+     "op": "i32",
+     "name": "EnhanceLevelWhenSuccess",
+     "size": 4,
+     "cond": true,
+     "src": 28,
+     "cond_on_src": 4
+    },
+    {
+     "op": "i32",
+     "name": "EnhanceLevelWhenFailed",
+     "size": 4,
+     "cond": true,
+     "src": 32,
+     "cond_on_src": 4
+    },
+    {
+     "op": "enum",
+     "name": "EnhanceBindType",
+     "enum": "EnhanceBindType",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "i32",
+   "name": "RequiredItemCount",
+   "size": 4,
+   "cond": false,
+   "src": 40
+  }
+ ],
+ "types": {
+  "Apple::Sdb::EnhanceSupportInfo::RequiredItemByEquipLimitLevel::FixedEnhanceInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::EnhanceSupportInfo::RequiredItemByEquipLimitLevel::FixedEnhanceInfo"
+   },
+   {
+    "op": "bool",
+    "name": "IsFixedEnhace",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "raw",
+    "name": "TargetEquipmentEnhanceLevel",
+    "size": 8,
+    "cond": true,
+    "src": 8,
+    "cond_on_src": 4
+   },
+   {
+    "op": "f32",
+    "name": "SuccessRate",
+    "size": 4,
+    "cond": true,
+    "src": 16,
+    "cond_on_src": 4
+   },
+   {
+    "op": "f32",
+    "name": "DestroyRate",
+    "size": 4,
+    "cond": true,
+    "src": 20,
+    "cond_on_src": 4
+   },
+   {
+    "op": "i32",
+    "name": "Gold",
+    "size": 4,
+    "cond": true,
+    "src": 24,
+    "cond_on_src": 4
+   },
+   {
+    "op": "i32",
+    "name": "EnhanceLevelWhenSuccess",
+    "size": 4,
+    "cond": true,
+    "src": 28,
+    "cond_on_src": 4
+   },
+   {
+    "op": "i32",
+    "name": "EnhanceLevelWhenFailed",
+    "size": 4,
+    "cond": true,
+    "src": 32,
+    "cond_on_src": 4
+   },
+   {
+    "op": "enum",
+    "name": "EnhanceBindType",
+    "enum": "EnhanceBindType",
+    "cond": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::RandomStageInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::RandomStageInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "RandomStageList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UStageProbaility@RandomStageInfo@Sdb@Apple@@V?$allocator@UStageProbaility@RandomStageInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

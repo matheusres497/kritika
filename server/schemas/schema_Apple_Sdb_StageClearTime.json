@@ -1,0 +1,29 @@
+{
+ "type": ".?AU?$WriterWrapper@$$CBUStageClearTime@Sdb@Apple@@@Private@Serializer@AllM@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::StageClearTime"
+  },
+  {
+   "op": "wstr",
+   "name": "StageId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "SectorClearTimes",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USectorClearTime@Sdb@Apple@@V?$allocator@USectorClearTime@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "AverageSectorClearTime",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

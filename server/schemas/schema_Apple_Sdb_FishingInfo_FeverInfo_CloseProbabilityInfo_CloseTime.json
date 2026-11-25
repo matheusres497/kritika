@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::FishingInfo::FeverInfo::CloseProbabilityInfo::CloseTime",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::FishingInfo::FeverInfo::CloseProbabilityInfo::CloseTime"
+  },
+  {
+   "op": "i32",
+   "name": "Duration",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "Probability",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::ForceInfo::OptionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ForceInfo::OptionInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "Gold",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "i32",
+   "name": "TierAttackPower",
+   "size": 4,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "container",
+   "name": "RequiredItemInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URequiredItemInfo@OptionInfo@ForceInfo@Sdb@Apple@@V?$allocator@URequiredItemInfo@OptionInfo@ForceInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

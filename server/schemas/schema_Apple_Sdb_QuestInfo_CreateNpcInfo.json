@@ -1,0 +1,91 @@
+{
+ "type": "Apple::Sdb::QuestInfo::CreateNpcInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::QuestInfo::CreateNpcInfo"
+  },
+  {
+   "op": "struct",
+   "name": "SectorInfo",
+   "type": "Apple::Sdb::QuestInfo::Location",
+   "func": 8772656,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::QuestInfo::Location"
+    },
+    {
+     "op": "wstr",
+     "name": "StageId",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "wstr",
+     "name": "SectorId",
+     "size": null,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "enum",
+     "name": "Difficulty",
+     "enum": "Difficulty",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "CreateNpcs",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCreateNpc@CreateNpcInfo@QuestInfo@Sdb@Apple@@V?$allocator@UCreateNpc@CreateNpcInfo@QuestInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RemoveNpcs",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CreateMiscs",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCreateMisc@CreateNpcInfo@QuestInfo@Sdb@Apple@@V?$allocator@UCreateMisc@CreateNpcInfo@QuestInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {
+  "Apple::Sdb::QuestInfo::Location": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::QuestInfo::Location"
+   },
+   {
+    "op": "wstr",
+    "name": "StageId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "wstr",
+    "name": "SectorId",
+    "size": null,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "enum",
+    "name": "Difficulty",
+    "enum": "Difficulty",
+    "cond": false
+   }
+  ]
+ }
+}

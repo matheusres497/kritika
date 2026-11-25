@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::RaidInfo::StagePatternInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::RaidInfo:::StagePatternInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "BuffId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

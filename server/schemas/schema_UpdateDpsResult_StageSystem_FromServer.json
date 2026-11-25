@@ -1,0 +1,24 @@
+{
+ "type": ".?AUUpdateDpsResult@StageSystem@FromServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u64",
+   "name": "TotalDamage",
+   "size": 8,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "f32",
+   "name": "Second",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  }
+ ],
+ "types": {}
+}

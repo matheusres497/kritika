@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::GeneralInfo::OpenEquipSlotInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GeneralInfo::OpenEquipSlotInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "EquipTab",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "EquipSlot",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "i32",
+   "name": "OpenLevel",
+   "size": 4,
+   "cond": false,
+   "src": 60
+  }
+ ],
+ "types": {}
+}

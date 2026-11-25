@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::QuizInfo::QuizExampleInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::QuizInfo::QuizExampleInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "ExampleId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "ExampleName",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,30 @@
+{
+ "type": "Apple::Sdb::GuildSiegeInfo::PvpStageInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "PvpStageInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "MapId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "BattleType",
+   "enum": "PvpGameModeType",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "Score",
+   "size": 4,
+   "cond": false,
+   "src": 36
+  }
+ ],
+ "types": {}
+}

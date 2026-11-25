@@ -1,0 +1,51 @@
+{
+ "type": "Apple::Sdb::DestroyPreventItemInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::DestroyPreventItemInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "GroupId",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "raw",
+   "name": "EnhanceLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "i32",
+   "name": "DecreaseEnhanceLevelWhenFailed",
+   "size": 4,
+   "cond": false,
+   "src": 68
+  },
+  {
+   "op": "enum",
+   "name": "EnhanceBindType",
+   "enum": "EnhanceBindType",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "ChangeUntradeable",
+   "size": 1,
+   "cond": false,
+   "src": 76
+  }
+ ],
+ "types": {}
+}

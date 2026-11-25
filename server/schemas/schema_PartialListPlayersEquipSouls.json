@@ -1,0 +1,36 @@
+{
+ "type": ".?AUPartialListPlayersEquipSouls@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "AccountId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PlayerId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "EquipSouls",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USoul@Apple@@V?$allocator@USoul@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "SoulEquipSets",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USoulEquipSet@Apple@@V?$allocator@USoulEquipSet@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

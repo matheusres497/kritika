@@ -1,0 +1,57 @@
+{
+ "type": "Apple::Sdb::CinematicDialogInfoToUI",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::CinematicDialogInfoToUI"
+  },
+  {
+   "op": "wstr",
+   "name": "TellerName",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "Text",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "ImagePath",
+   "size": null,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "f32",
+   "name": "Duration",
+   "size": 4,
+   "cond": false,
+   "src": 88
+  },
+  {
+   "op": "i32",
+   "name": "Position",
+   "size": 4,
+   "cond": false,
+   "src": 92
+  },
+  {
+   "op": "enum",
+   "name": "DialogBubbleType",
+   "enum": "DialogBubbleType",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "DialogBubbleAnimationType",
+   "enum": "DialogBubbleAnimationType",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

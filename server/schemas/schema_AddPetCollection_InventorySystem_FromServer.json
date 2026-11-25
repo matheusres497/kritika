@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Protocol::FromServer::InventorySystem::AddPetCollection",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "ItemIdHash",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i64",
+   "name": "ItemRdbSerial",
+   "size": 8,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

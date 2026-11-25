@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::LobbyCreatureInfo::CreatureInfo::Transform",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::LobbyCreatureInfo::CreatureInfo::Transform"
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 12,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "Direction",
+   "size": 12,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "raw",
+   "name": "Scale",
+   "size": 12,
+   "cond": false,
+   "src": 28
+  },
+  {
+   "op": "wstr",
+   "name": "AnimationPath",
+   "size": null,
+   "cond": false,
+   "src": 40
+  }
+ ],
+ "types": {}
+}

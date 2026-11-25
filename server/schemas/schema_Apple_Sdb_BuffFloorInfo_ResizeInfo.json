@@ -1,0 +1,45 @@
+{
+ "type": "Apple::Sdb::BuffFloorInfo::ResizeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::BuffFloorInfo::ResizeInfo"
+  },
+  {
+   "op": "f32",
+   "name": "RadiusOnStart",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "RadiusRatioOnEnd",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "f32",
+   "name": "Duration",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "f32",
+   "name": "StartSeconds",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "f32",
+   "name": "EndSeconds",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  }
+ ],
+ "types": {}
+}

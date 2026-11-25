@@ -1,0 +1,37 @@
+{
+ "type": "Apple::Sdb::EmeGeneralInfo::StaminaStepInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EmeGeneralInfo::StaminaStepInfo"
+  },
+  {
+   "op": "enum",
+   "name": "StaminaStep",
+   "enum": "StaminaStepType",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "ItemDropRate",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "f32",
+   "name": "MonsterKillXpRate",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "f32",
+   "name": "StageClearXpRate",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  }
+ ],
+ "types": {}
+}

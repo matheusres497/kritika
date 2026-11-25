@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::GameRankInfo::GuildBossRankInfo::RewardInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GameRankInfo::GuildBossRankInfo::RewardInfo"
+  },
+  {
+   "op": "raw",
+   "name": "RankRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i64",
+   "name": "OidProduct",
+   "size": 8,
+   "cond": false,
+   "src": 16
+  }
+ ],
+ "types": {}
+}

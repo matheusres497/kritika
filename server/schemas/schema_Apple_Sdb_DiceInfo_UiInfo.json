@@ -1,0 +1,30 @@
+{
+ "type": "Apple::Sdb::DiceInfo::UiInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::DiceInfo::UiInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "NumberEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "NumberIconPath",
+   "size": null,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

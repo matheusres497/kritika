@@ -1,0 +1,24 @@
+{
+ "type": ".?AUStageMoveFinished@StageSystem@FromServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "container",
+   "name": "OidAccounts",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@_KV?$allocator@_K@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "RemoveStage",
+   "size": 1,
+   "cond": false,
+   "src": 20
+  }
+ ],
+ "types": {}
+}

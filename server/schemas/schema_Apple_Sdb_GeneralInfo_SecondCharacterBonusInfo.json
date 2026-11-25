@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::GeneralInfo::SecondCharacterBonusInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GeneralInfo::SecondCharacterBonusInfo"
+  },
+  {
+   "op": "container",
+   "name": "XpBonusRateList",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HMU?$less@H@std@@V?$allocator@U?$pair@$$CBHM@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

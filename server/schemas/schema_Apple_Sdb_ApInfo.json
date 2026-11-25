@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::ApInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ApInfo"
+  },
+  {
+   "op": "container",
+   "name": "ApGainByLevel",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UApGainByLevelInfo@ApInfo@Sdb@Apple@@V?$allocator@UApGainByLevelInfo@ApInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

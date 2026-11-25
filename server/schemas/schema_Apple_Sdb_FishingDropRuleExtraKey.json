@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::FishingDropRuleExtraKey",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::FishingDropRuleExtraKey"
+  },
+  {
+   "op": "wstr",
+   "name": "DropRuleId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "BaitGrade",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "TableGradeId",
+   "size": null,
+   "cond": false,
+   "src": 60
+  }
+ ],
+ "types": {}
+}

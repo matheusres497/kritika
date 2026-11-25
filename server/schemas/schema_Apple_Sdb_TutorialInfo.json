@@ -1,0 +1,123 @@
+{
+ "type": "Apple::Sdb::TutorialInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::TutorialInfo"
+  },
+  {
+   "op": "i32",
+   "name": "TutorialComboNumberOfAttempts",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "wstr",
+   "name": "StageId",
+   "size": null,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "bool",
+   "name": "ShowUI",
+   "size": 1,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "enum",
+   "name": "CompleteType",
+   "enum": "CompleteType",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CompleteConditions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCondition@TutorialInfo@Sdb@Apple@@V?$allocator@UCondition@TutorialInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "StartUIDialog",
+   "type": "Apple::Sdb::TutorialInfo::Dialog",
+   "func": 8990832,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::TutorialInfo::Dialog"
+    },
+    {
+     "op": "enum",
+     "name": "DisplayType",
+     "enum": "DisplayType",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "Infos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UInfo@Dialog@TutorialInfo@Sdb@Apple@@V?$allocator@UInfo@Dialog@TutorialInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "EndUIDialog",
+   "type": "Apple::Sdb::TutorialInfo::Dialog",
+   "func": 8990832,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::TutorialInfo::Dialog"
+    },
+    {
+     "op": "enum",
+     "name": "DisplayType",
+     "enum": "DisplayType",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "Infos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UInfo@Dialog@TutorialInfo@Sdb@Apple@@V?$allocator@UInfo@Dialog@TutorialInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::TutorialInfo::Dialog": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::TutorialInfo::Dialog"
+   },
+   {
+    "op": "enum",
+    "name": "DisplayType",
+    "enum": "DisplayType",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "Infos",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UInfo@Dialog@TutorialInfo@Sdb@Apple@@V?$allocator@UInfo@Dialog@TutorialInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ]
+ }
+}

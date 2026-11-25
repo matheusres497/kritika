@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::GeneralInfo::ItemDropCountInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GeneralInfo::ItemDropCountInfo"
+  },
+  {
+   "op": "u32",
+   "name": "PlayerCount",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "DropCountRate",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "f32",
+   "name": "IndividualDropCountRate",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "f32",
+   "name": "CategoryDropProbability",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  }
+ ],
+ "types": {}
+}

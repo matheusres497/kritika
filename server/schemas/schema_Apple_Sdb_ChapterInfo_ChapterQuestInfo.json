@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::ChapterInfo::ChapterQuestInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ChapterInfo::ChapterQuestInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "QuestId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "QuestDetail",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

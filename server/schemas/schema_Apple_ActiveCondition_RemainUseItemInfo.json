@@ -1,0 +1,38 @@
+{
+ "type": "Apple::ActiveCondition::RemainUseItemInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::ActiveCondition::RemainUseItemInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "ItemId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "UsingItemAreas",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@2@@std@@V?$allocator@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "Count",
+   "size": 4,
+   "cond": false,
+   "src": 48
+  },
+  {
+   "op": "u32",
+   "name": "UseEffect",
+   "size": 4,
+   "cond": false,
+   "src": 52
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,35 @@
+{
+ "type": "Apple::PlayerInfoState",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::PlayerInfoState"
+  },
+  {
+   "op": "enum",
+   "name": "PlayerInfoType",
+   "enum": "Type",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "ChangeValueType",
+   "enum": "Type",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "ChangeValue",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "enum",
+   "name": "Range",
+   "enum": "PlayerInfoApplyRange",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

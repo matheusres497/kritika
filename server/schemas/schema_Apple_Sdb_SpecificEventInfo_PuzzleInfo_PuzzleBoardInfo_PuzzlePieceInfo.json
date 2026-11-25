@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::SpecificEventInfo::PuzzleInfo::PuzzleBoardInfo::PuzzlePieceInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SpecificEventInfo::PuzzleInfo::PuzzleBoardInfo::PuzzlePieceInfo"
+  },
+  {
+   "op": "f32",
+   "name": "SelectProbablility",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "NumberList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "RewardItemId",
+   "size": null,
+   "cond": false,
+   "src": 24
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::ItemCategoryInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemCategoryInfo"
+  },
+  {
+   "op": "container",
+   "name": "MainCategory",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCategoryInfo@Sdb@Apple@@V?$allocator@UCategoryInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::IdentifyUnsealCostInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::IdentifyUnsealCostInfo"
+  },
+  {
+   "op": "container",
+   "name": "IdentifyCost",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCostInfo@Sdb@Apple@@V?$allocator@UCostInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "UnsealCost",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCostInfo@Sdb@Apple@@V?$allocator@UCostInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

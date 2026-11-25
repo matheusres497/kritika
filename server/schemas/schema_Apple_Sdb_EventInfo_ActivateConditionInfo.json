@@ -1,0 +1,388 @@
+{
+ "type": "Apple::Sdb::EventInfo::ActivateConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventInfo::ActivateConditionInfo"
+  },
+  {
+   "op": "container",
+   "name": "Day",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "Time",
+   "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo",
+   "func": 8108432,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo"
+    },
+    {
+     "op": "bool",
+     "name": "IsValid",
+     "size": 1,
+     "cond": false,
+     "src": 28
+    },
+    {
+     "op": "struct",
+     "name": "StartTime",
+     "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo::SubTimeInfo",
+     "func": 8107168,
+     "cond": true,
+     "cond_on_src": 28,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo::SubTimeInfo"
+      },
+      {
+       "op": "i32",
+       "name": "Hour",
+       "size": 4,
+       "cond": false,
+       "src": 4
+      },
+      {
+       "op": "i32",
+       "name": "Minute",
+       "size": 4,
+       "cond": false,
+       "src": 8
+      }
+     ]
+    },
+    {
+     "op": "struct",
+     "name": "EndTime",
+     "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo::SubTimeInfo",
+     "func": 8107168,
+     "cond": true,
+     "cond_on_src": 28,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo::SubTimeInfo"
+      },
+      {
+       "op": "i32",
+       "name": "Hour",
+       "size": 4,
+       "cond": false,
+       "src": 4
+      },
+      {
+       "op": "i32",
+       "name": "Minute",
+       "size": 4,
+       "cond": false,
+       "src": 8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "Class",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "KeepConnection",
+   "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::KeepConnectionInfo",
+   "func": 8107328,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::KeepConnectionInfo"
+    },
+    {
+     "op": "bool",
+     "name": "IsValid",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "bool",
+     "name": "IsShowTimeGauge",
+     "size": 1,
+     "cond": true,
+     "src": 5,
+     "cond_on_src": 4
+    },
+    {
+     "op": "i32",
+     "name": "MaxDailyStackSeconds",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  },
+  {
+   "op": "enum",
+   "name": "PcType",
+   "enum": "EventPcType",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "PcCafeCrms",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "PortalType",
+   "enum": "PortalType",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsReturnee",
+   "size": 1,
+   "cond": false,
+   "src": 132
+  },
+  {
+   "op": "bool",
+   "name": "IsNewMember",
+   "size": 1,
+   "cond": false,
+   "src": 133
+  },
+  {
+   "op": "bool",
+   "name": "IsPvpEvent",
+   "size": 1,
+   "cond": false,
+   "src": 134
+  },
+  {
+   "op": "bool",
+   "name": "IsFatigueEvent",
+   "size": 1,
+   "cond": false,
+   "src": 135
+  },
+  {
+   "op": "bool",
+   "name": "IsNomineeOnly",
+   "size": 1,
+   "cond": false,
+   "src": 136
+  },
+  {
+   "op": "enum",
+   "name": "RepeatTerm",
+   "enum": "RepeatTerm",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsFirstCashCharge",
+   "size": 1,
+   "cond": false,
+   "src": 144
+  },
+  {
+   "op": "bool",
+   "name": "IsMembership",
+   "size": 1,
+   "cond": false,
+   "src": 145
+  },
+  {
+   "op": "struct",
+   "name": "Party",
+   "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::PartyInfo",
+   "func": 8149952,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::PartyInfo"
+    },
+    {
+     "op": "raw",
+     "name": "PartyMemberCount",
+     "size": 8,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "container",
+     "name": "ClassInPartyMember",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "WorldIdList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "Account",
+   "size": 1,
+   "cond": false,
+   "src": 164
+  }
+ ],
+ "types": {
+  "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo"
+   },
+   {
+    "op": "bool",
+    "name": "IsValid",
+    "size": 1,
+    "cond": false,
+    "src": 28
+   },
+   {
+    "op": "struct",
+    "name": "StartTime",
+    "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo::SubTimeInfo",
+    "func": 8107168,
+    "cond": true,
+    "cond_on_src": 28,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo::SubTimeInfo"
+     },
+     {
+      "op": "i32",
+      "name": "Hour",
+      "size": 4,
+      "cond": false,
+      "src": 4
+     },
+     {
+      "op": "i32",
+      "name": "Minute",
+      "size": 4,
+      "cond": false,
+      "src": 8
+     }
+    ]
+   },
+   {
+    "op": "struct",
+    "name": "EndTime",
+    "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo::SubTimeInfo",
+    "func": 8107168,
+    "cond": true,
+    "cond_on_src": 28,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo::SubTimeInfo"
+     },
+     {
+      "op": "i32",
+      "name": "Hour",
+      "size": 4,
+      "cond": false,
+      "src": 4
+     },
+     {
+      "op": "i32",
+      "name": "Minute",
+      "size": 4,
+      "cond": false,
+      "src": 8
+     }
+    ]
+   }
+  ],
+  "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo::SubTimeInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::TimeInfo::SubTimeInfo"
+   },
+   {
+    "op": "i32",
+    "name": "Hour",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "Minute",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   }
+  ],
+  "Apple::Sdb::EventInfo::ActivateConditionInfo::KeepConnectionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::KeepConnectionInfo"
+   },
+   {
+    "op": "bool",
+    "name": "IsValid",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "bool",
+    "name": "IsShowTimeGauge",
+    "size": 1,
+    "cond": true,
+    "src": 5,
+    "cond_on_src": 4
+   },
+   {
+    "op": "i32",
+    "name": "MaxDailyStackSeconds",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   }
+  ],
+  "Apple::Sdb::EventInfo::ActivateConditionInfo::PartyInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::EventInfo::ActivateConditionInfo::PartyInfo"
+   },
+   {
+    "op": "raw",
+    "name": "PartyMemberCount",
+    "size": 8,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "container",
+    "name": "ClassInPartyMember",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": false
+   }
+  ]
+ }
+}

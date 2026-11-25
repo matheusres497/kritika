@@ -1,0 +1,76 @@
+{
+ "type": "Apple::Sdb::CinematicDialogInfo::Dialog",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::CinematicDialogInfo::Dialog"
+  },
+  {
+   "op": "enum",
+   "name": "TellerName",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "Position",
+   "size": 4,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "enum",
+   "name": "Text",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "TextForClass",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UTextForClassInfo@Dialog@CinematicDialogInfo@Sdb@Apple@@V?$allocator@UTextForClassInfo@Dialog@CinematicDialogInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PortraitImagePath",
+   "size": null,
+   "cond": false,
+   "src": 88
+  },
+  {
+   "op": "wstr",
+   "name": "SoundPath",
+   "size": null,
+   "cond": false,
+   "src": 120
+  },
+  {
+   "op": "f32",
+   "name": "Duration",
+   "size": 4,
+   "cond": false,
+   "src": 152
+  },
+  {
+   "op": "container",
+   "name": "RemoveDialogs",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@IV?$allocator@I@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "DialogBubbleType",
+   "enum": "DialogBubbleType",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "DialogBubbleAnimationType",
+   "enum": "DialogBubbleAnimationType",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

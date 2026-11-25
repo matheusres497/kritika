@@ -1,0 +1,30 @@
+{
+ "type": "Apple::Sdb::NpcRenderInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::NpcRenderInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "VisibleType",
+   "enum": "VisibleType",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ConditionInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCondition@NpcRenderInfo@Sdb@Apple@@V?$allocator@UCondition@NpcRenderInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

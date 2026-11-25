@@ -1,0 +1,29 @@
+{
+ "type": "Apple::Sdb::ReturneeTooltipInfo::ReturneeFatigueSeedTootipInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ReturneeTooltipInfo::ReturneeFatigueSeedTootipInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "IconPath",
+   "size": null,
+   "cond": false,
+   "src": 68
+  }
+ ],
+ "types": {}
+}

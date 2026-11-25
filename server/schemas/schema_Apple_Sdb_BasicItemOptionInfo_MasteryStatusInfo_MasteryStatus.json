@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::BasicItemOptionInfo::MasteryStatusInfo::MasteryStatus",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::BasicItemOptionInfo::MasteryStatusInfo::MasteryStatus"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f64",
+   "name": "Probability",
+   "size": 8,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

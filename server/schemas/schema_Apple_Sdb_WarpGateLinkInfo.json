@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::WarpGateLinkInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::WarpGateLinkInfo"
+  },
+  {
+   "op": "container",
+   "name": "Warpgates",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UWarpGate@WarpGateLinkInfo@Sdb@Apple@@V?$allocator@UWarpGate@WarpGateLinkInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

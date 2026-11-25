@@ -1,0 +1,100 @@
+{
+ "type": "Apple::Sdb::MiniSlotGameInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::MiniSlotGameInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "MiniSlotGameNpcId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "MinLevel",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "f64",
+   "name": "SuccessProbability",
+   "size": 8,
+   "cond": false,
+   "src": 40
+  },
+  {
+   "op": "i32",
+   "name": "MailExpireDay",
+   "size": 4,
+   "cond": false,
+   "src": 48
+  },
+  {
+   "op": "struct",
+   "name": "RequireItem",
+   "type": "Apple::Sdb::MiniSlotGameInfo::MiniSlotGameItemInfo",
+   "func": 8634928,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::MiniSlotGameInfo::MiniSlotGameItemInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "ItemId",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "Count",
+     "size": 4,
+     "cond": false,
+     "src": 32
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "SuccessRewards",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UMiniSlotGameItemInfo@MiniSlotGameInfo@Sdb@Apple@@V?$allocator@UMiniSlotGameItemInfo@MiniSlotGameInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "FailRewards",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UMiniSlotGameItemInfo@MiniSlotGameInfo@Sdb@Apple@@V?$allocator@UMiniSlotGameItemInfo@MiniSlotGameInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {
+  "Apple::Sdb::MiniSlotGameInfo::MiniSlotGameItemInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::MiniSlotGameInfo::MiniSlotGameItemInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "ItemId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "Count",
+    "size": 4,
+    "cond": false,
+    "src": 32
+   }
+  ]
+ }
+}

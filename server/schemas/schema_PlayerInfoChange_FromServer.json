@@ -1,0 +1,40 @@
+{
+ "type": "Apple::Protocol::FromServer::ActorSystem::PlayerInfoChange",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "PlayerId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "Type",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "Value",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "OldValue",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "CauseEnum",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

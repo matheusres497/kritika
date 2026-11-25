@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::ShopInfo::SellItem::StagesInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ShopInfo::SellItem::StagesInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Description",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Stages",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

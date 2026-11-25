@@ -1,0 +1,23 @@
+{
+ "type": ".?AURequestCompletedQuestListForSingleNpc@QuestSystem@ToServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "NpcId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CheckQuestIdHashes",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@IV?$allocator@I@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

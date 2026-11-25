@@ -1,0 +1,365 @@
+{
+ "type": "Apple::Sdb::ShopInfo::SellItem",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ShopInfo::SellItem"
+  },
+  {
+   "op": "i32",
+   "name": "Id",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "OutputItemId",
+   "size": null,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "struct",
+   "name": "Price",
+   "type": "Apple::Sdb::ShopInfo::SellItem::PriceInfo",
+   "func": 8843120,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ShopInfo::SellItem::PriceInfo"
+    },
+    {
+     "op": "u32",
+     "name": "Gold",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "FriendPoint",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "bool",
+     "name": "IsChoiceCrest",
+     "size": 1,
+     "cond": false,
+     "src": 24
+    },
+    {
+     "op": "container",
+     "name": "Crests",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UCrestInfo@PriceInfo@SellItem@ShopInfo@Sdb@Apple@@V?$allocator@UCrestInfo@PriceInfo@SellItem@ShopInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "GuildCoin",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "i32",
+     "name": "Mileage",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "i32",
+     "name": "ImprintingCoin",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "i32",
+     "name": "WarPoint",
+     "size": 4,
+     "cond": false,
+     "src": 44
+    },
+    {
+     "op": "i32",
+     "name": "MemberSiegeCoin",
+     "size": 4,
+     "cond": false,
+     "src": 48
+    },
+    {
+     "op": "i32",
+     "name": "DestinyPoint",
+     "size": 4,
+     "cond": false,
+     "src": 52
+    },
+    {
+     "op": "i32",
+     "name": "MentorPoint",
+     "size": 4,
+     "cond": false,
+     "src": 56
+    },
+    {
+     "op": "i32",
+     "name": "MenteePoint",
+     "size": 4,
+     "cond": false,
+     "src": 60
+    }
+   ]
+  },
+  {
+   "op": "raw",
+   "name": "RequiredLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 100
+  },
+  {
+   "op": "raw",
+   "name": "RequiredTierAttackPowerRange",
+   "size": 8,
+   "cond": false,
+   "src": 108
+  },
+  {
+   "op": "raw",
+   "name": "RequiredGuildLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 116
+  },
+  {
+   "op": "i32",
+   "name": "RequiredKirenosLevel",
+   "size": 4,
+   "cond": false,
+   "src": 124
+  },
+  {
+   "op": "wstr",
+   "name": "OverrideSealed",
+   "size": null,
+   "cond": false,
+   "src": 128
+  },
+  {
+   "op": "wstr",
+   "name": "ItemCategory",
+   "size": null,
+   "cond": false,
+   "src": 156
+  },
+  {
+   "op": "enum",
+   "name": "VisibleClassType",
+   "enum": "classType",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "RegisterTime",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "UnRegisterTime",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RepeatTimes",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URepeatTimeInfo@SellItem@ShopInfo@Sdb@Apple@@V?$allocator@URepeatTimeInfo@SellItem@ShopInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "LockType",
+   "enum": "ShopLockType",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "OutputItemStackCount",
+   "size": 4,
+   "cond": false,
+   "src": 244
+  },
+  {
+   "op": "wstr",
+   "name": "RandomEnhanceInfoId",
+   "size": null,
+   "cond": false,
+   "src": 248
+  },
+  {
+   "op": "f32",
+   "name": "Probability",
+   "size": 4,
+   "cond": false,
+   "src": 276
+  },
+  {
+   "op": "struct",
+   "name": "AppearStagesInfo",
+   "type": "Apple::Sdb::ShopInfo::SellItem::StagesInfo",
+   "func": 8845968,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ShopInfo::SellItem::StagesInfo"
+    },
+    {
+     "op": "enum",
+     "name": "Description",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "Stages",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "bool",
+   "name": "IsShowNewLabel",
+   "size": 1,
+   "cond": false,
+   "src": 332
+  },
+  {
+   "op": "wstr",
+   "name": "RequiredLicense",
+   "size": null,
+   "cond": false,
+   "src": 336
+  }
+ ],
+ "types": {
+  "Apple::Sdb::ShopInfo::SellItem::PriceInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ShopInfo::SellItem::PriceInfo"
+   },
+   {
+    "op": "u32",
+    "name": "Gold",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "FriendPoint",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "bool",
+    "name": "IsChoiceCrest",
+    "size": 1,
+    "cond": false,
+    "src": 24
+   },
+   {
+    "op": "container",
+    "name": "Crests",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UCrestInfo@PriceInfo@SellItem@ShopInfo@Sdb@Apple@@V?$allocator@UCrestInfo@PriceInfo@SellItem@ShopInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "GuildCoin",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "i32",
+    "name": "Mileage",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "i32",
+    "name": "ImprintingCoin",
+    "size": 4,
+    "cond": false,
+    "src": 20
+   },
+   {
+    "op": "i32",
+    "name": "WarPoint",
+    "size": 4,
+    "cond": false,
+    "src": 44
+   },
+   {
+    "op": "i32",
+    "name": "MemberSiegeCoin",
+    "size": 4,
+    "cond": false,
+    "src": 48
+   },
+   {
+    "op": "i32",
+    "name": "DestinyPoint",
+    "size": 4,
+    "cond": false,
+    "src": 52
+   },
+   {
+    "op": "i32",
+    "name": "MentorPoint",
+    "size": 4,
+    "cond": false,
+    "src": 56
+   },
+   {
+    "op": "i32",
+    "name": "MenteePoint",
+    "size": 4,
+    "cond": false,
+    "src": 60
+   }
+  ],
+  "Apple::Sdb::ShopInfo::SellItem::StagesInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ShopInfo::SellItem::StagesInfo"
+   },
+   {
+    "op": "enum",
+    "name": "Description",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "Stages",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ]
+ }
+}

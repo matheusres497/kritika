@@ -1,0 +1,52 @@
+{
+ "type": "Apple::Sdb::GuildBossStageInfo::Stage",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GuildBossStageInfo::Stage"
+  },
+  {
+   "op": "i32",
+   "name": "Level",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "NeedSummonPoint",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "BossPointPerDamage",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "f32",
+   "name": "AddStatusRate",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "i32",
+   "name": "NeedBossPoint",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "container",
+   "name": "RewardItemList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardItemInfo@Apple@@V?$allocator@URewardItemInfo@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

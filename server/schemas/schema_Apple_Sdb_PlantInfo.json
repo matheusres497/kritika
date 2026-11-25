@@ -1,0 +1,134 @@
+{
+ "type": "Apple::Sdb::PlantInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PlantInfo"
+  },
+  {
+   "op": "container",
+   "name": "Objects",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UObjectInfo@PlantInfo@Sdb@Apple@@V?$allocator@UObjectInfo@PlantInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Collections",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUCollectionInfo@PlantInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUCollectionInfo@PlantInfo@Sdb@Apple@@@std@@@6@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "NormalDefaultExp",
+   "size": 4,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "i32",
+   "name": "AvatarDefaultExp",
+   "size": 4,
+   "cond": false,
+   "src": 40
+  },
+  {
+   "op": "i32",
+   "name": "EventAvatarDefaultXp",
+   "size": 4,
+   "cond": false,
+   "src": 44
+  },
+  {
+   "op": "container",
+   "name": "NormalExpFactorByGrade",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "AvatarExpFactorByGrade",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ExceptionItems",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "JackpotFactor",
+   "size": 4,
+   "cond": false,
+   "src": 96
+  },
+  {
+   "op": "container",
+   "name": "JackpotPercentageInfos",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "DailyDecreaseHpByNotConnected",
+   "size": 4,
+   "cond": false,
+   "src": 116
+  },
+  {
+   "op": "i32",
+   "name": "FreeSlotMaxCount",
+   "size": 4,
+   "cond": false,
+   "src": 120
+  },
+  {
+   "op": "i32",
+   "name": "PremiumSlotMaxCount",
+   "size": 4,
+   "cond": false,
+   "src": 124
+  },
+  {
+   "op": "enum",
+   "name": "PrecautionsDesc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ExpItemOidProducts",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "DistanceFromPlayerToSummonedObject",
+   "size": 4,
+   "cond": false,
+   "src": 176
+  },
+  {
+   "op": "f32",
+   "name": "DistanceToUnsummonObject",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "SummonCoolTimeSeconds",
+   "size": 4,
+   "cond": false,
+   "src": 184
+  }
+ ],
+ "types": {}
+}

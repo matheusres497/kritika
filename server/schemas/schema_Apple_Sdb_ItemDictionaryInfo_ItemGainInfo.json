@@ -1,0 +1,29 @@
+{
+ "type": "Apple::Sdb::ItemDictionaryInfo::ItemGainInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemDictionaryInfo::ItemGainInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Params",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UParam@ItemGainInfo@ItemDictionaryInfo@Sdb@Apple@@V?$allocator@UParam@ItemGainInfo@ItemDictionaryInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

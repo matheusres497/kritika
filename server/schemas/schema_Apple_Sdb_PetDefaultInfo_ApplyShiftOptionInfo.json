@@ -1,0 +1,93 @@
+{
+ "type": "Apple::Sdb::PetDefaultInfo::ApplyShiftOptionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PetDefaultInfo::ApplyShiftOptionInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "GradeId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "AddMin",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "i32",
+   "name": "MaxAddMinLimit",
+   "size": 4,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "struct",
+   "name": "Cost",
+   "type": "Apple::Sdb::PetDefaultInfo::ApplyShiftOptionInfo::Cost",
+   "func": 10071040,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::PetDefaultInfo::ApplyShiftOptionInfo::Cost"
+    },
+    {
+     "op": "i32",
+     "name": "ShiftGold",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "ExtendTimeGold",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "f32",
+     "name": "ReactivateRate",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::PetDefaultInfo::ApplyShiftOptionInfo::Cost": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::PetDefaultInfo::ApplyShiftOptionInfo::Cost"
+   },
+   {
+    "op": "i32",
+    "name": "ShiftGold",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "ExtendTimeGold",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "f32",
+    "name": "ReactivateRate",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   }
+  ]
+ }
+}

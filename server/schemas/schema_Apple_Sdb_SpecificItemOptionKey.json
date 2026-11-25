@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::SpecificItemOptionKey",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SpecificItemOptionKey"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Grade",
+   "enum": "Grade",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

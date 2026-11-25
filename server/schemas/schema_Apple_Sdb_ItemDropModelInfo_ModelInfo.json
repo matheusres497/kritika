@@ -1,0 +1,59 @@
+{
+ "type": "Apple::Sdb::ItemDropModelInfo::ModelInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemDropModelInfo::ModelInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "MeshPath",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "EffectPath",
+   "size": null,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "wstr",
+   "name": "PickupEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 96
+  },
+  {
+   "op": "wstr",
+   "name": "StartAnimationPath",
+   "size": null,
+   "cond": false,
+   "src": 128
+  },
+  {
+   "op": "wstr",
+   "name": "LoopingAnimationPath",
+   "size": null,
+   "cond": false,
+   "src": 160
+  },
+  {
+   "op": "wstr",
+   "name": "EndAnimationPath",
+   "size": null,
+   "cond": false,
+   "src": 192
+  }
+ ],
+ "types": {}
+}

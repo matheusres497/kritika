@@ -1,0 +1,65 @@
+{
+ "type": "Apple::Sdb::ParallelMazeInfo::NpcRankInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ParallelMazeInfo::NpcRankInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Rank",
+   "enum": "ParallelMazeNpcRankType",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CandidateNpcIds",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "PopCost",
+   "size": 4,
+   "cond": false,
+   "src": 24
+  },
+  {
+   "op": "f32",
+   "name": "PopProbability",
+   "size": 4,
+   "cond": false,
+   "src": 28
+  },
+  {
+   "op": "container",
+   "name": "NpcStatusBonus",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "SpecialBuffProbability",
+   "size": 4,
+   "cond": false,
+   "src": 48
+  },
+  {
+   "op": "raw",
+   "name": "SpecialBuffCount",
+   "size": 8,
+   "cond": false,
+   "src": 52
+  },
+  {
+   "op": "wstr",
+   "name": "ItemBundleId",
+   "size": null,
+   "cond": false,
+   "src": 60
+  }
+ ],
+ "types": {}
+}

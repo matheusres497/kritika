@@ -1,0 +1,207 @@
+{
+ "type": "Apple::Sdb::MapRenderTimeInfo::Condition",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::MapRenderTimeInfo::Condition"
+  },
+  {
+   "op": "wstr",
+   "name": "MapPath",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "BgmCue",
+   "size": null,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "container",
+   "name": "AmbientSoundEvents",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@UAmbientSoundEventType@Apple@@V?$allocator@UAmbientSoundEventType@Apple@@@std@@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@UAmbientSoundEventType@Apple@@V?$allocator@UAmbientSoundEventType@Apple@@@std@@@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "StartDateTime",
+   "size": null,
+   "cond": false,
+   "src": 80
+  },
+  {
+   "op": "wstr",
+   "name": "EndDateTime",
+   "size": null,
+   "cond": false,
+   "src": 108
+  },
+  {
+   "op": "struct",
+   "name": "RepeatInfo",
+   "type": "Apple::Sdb::MapRenderTimeInfo::Condition::Repeat",
+   "func": 8414128,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::MapRenderTimeInfo::Condition::Repeat"
+    },
+    {
+     "op": "container",
+     "name": "DayOfWeek",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "struct",
+     "name": "StartTime",
+     "type": "Apple::Sdb::MapRenderTimeInfo::Condition::TimeInfo",
+     "func": 8412208,
+     "cond": false,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::Sdb::MapRenderTimeInfo::Condition::TimeInfo"
+      },
+      {
+       "op": "i32",
+       "name": "Hour",
+       "size": 4,
+       "cond": false,
+       "src": 4
+      },
+      {
+       "op": "i32",
+       "name": "Minute",
+       "size": 4,
+       "cond": false,
+       "src": 8
+      }
+     ]
+    },
+    {
+     "op": "struct",
+     "name": "EndTime",
+     "type": "Apple::Sdb::MapRenderTimeInfo::Condition::TimeInfo",
+     "func": 8412208,
+     "cond": false,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::Sdb::MapRenderTimeInfo::Condition::TimeInfo"
+      },
+      {
+       "op": "i32",
+       "name": "Hour",
+       "size": 4,
+       "cond": false,
+       "src": 4
+      },
+      {
+       "op": "i32",
+       "name": "Minute",
+       "size": 4,
+       "cond": false,
+       "src": 8
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::MapRenderTimeInfo::Condition::Repeat": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::MapRenderTimeInfo::Condition::Repeat"
+   },
+   {
+    "op": "container",
+    "name": "DayOfWeek",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "struct",
+    "name": "StartTime",
+    "type": "Apple::Sdb::MapRenderTimeInfo::Condition::TimeInfo",
+    "func": 8412208,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::Sdb::MapRenderTimeInfo::Condition::TimeInfo"
+     },
+     {
+      "op": "i32",
+      "name": "Hour",
+      "size": 4,
+      "cond": false,
+      "src": 4
+     },
+     {
+      "op": "i32",
+      "name": "Minute",
+      "size": 4,
+      "cond": false,
+      "src": 8
+     }
+    ]
+   },
+   {
+    "op": "struct",
+    "name": "EndTime",
+    "type": "Apple::Sdb::MapRenderTimeInfo::Condition::TimeInfo",
+    "func": 8412208,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::Sdb::MapRenderTimeInfo::Condition::TimeInfo"
+     },
+     {
+      "op": "i32",
+      "name": "Hour",
+      "size": 4,
+      "cond": false,
+      "src": 4
+     },
+     {
+      "op": "i32",
+      "name": "Minute",
+      "size": 4,
+      "cond": false,
+      "src": 8
+     }
+    ]
+   }
+  ],
+  "Apple::Sdb::MapRenderTimeInfo::Condition::TimeInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::MapRenderTimeInfo::Condition::TimeInfo"
+   },
+   {
+    "op": "i32",
+    "name": "Hour",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "Minute",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   }
+  ]
+ }
+}

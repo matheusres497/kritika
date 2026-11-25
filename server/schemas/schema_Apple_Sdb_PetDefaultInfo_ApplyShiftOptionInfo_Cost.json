@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::PetDefaultInfo::ApplyShiftOptionInfo::Cost",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PetDefaultInfo::ApplyShiftOptionInfo::Cost"
+  },
+  {
+   "op": "i32",
+   "name": "ShiftGold",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "ExtendTimeGold",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "f32",
+   "name": "ReactivateRate",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  }
+ ],
+ "types": {}
+}

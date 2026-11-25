@@ -1,0 +1,36 @@
+{
+ "type": "Apple::Sdb::SectorInfo::SectorMessageInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SectorInfo::SectorMessageInfo"
+  },
+  {
+   "op": "enum",
+   "name": "EnterMessage",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "ClearMessage",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "TimeMessage",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UTimeMessageInfo@SectorMessageInfo@SectorInfo@Sdb@Apple@@V?$allocator@UTimeMessageInfo@SectorMessageInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "MonsterMessage",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UMonsterMessageInfo@SectorMessageInfo@SectorInfo@Sdb@Apple@@V?$allocator@UMonsterMessageInfo@SectorMessageInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

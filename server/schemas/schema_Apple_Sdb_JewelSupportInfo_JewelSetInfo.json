@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::JewelSupportInfo::JewelSetInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::JewelSupportInfo::JewelSetInfo"
+  },
+  {
+   "op": "container",
+   "name": "Statuses",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UIncreaseStatus@Apple@@V?$allocator@UIncreaseStatus@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

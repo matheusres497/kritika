@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::ClassInfo::RandomModeChangeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ClassInfo::RandomModeChangeInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "ActionId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "ModeId",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "raw",
+   "name": "ActivateIntervalRange",
+   "size": 8,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "container",
+   "name": "ModeList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URandomModeInfo@RandomModeChangeInfo@ClassInfo@Sdb@Apple@@V?$allocator@URandomModeInfo@RandomModeChangeInfo@ClassInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

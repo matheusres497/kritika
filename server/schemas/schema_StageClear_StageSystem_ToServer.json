@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Protocol::ToServer::StageSystem::StageClear",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "container",
+   "name": "Scores",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UScoreData@Apple@@V?$allocator@UScoreData@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "ElapsedTimeForBossSector",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::SectorInfo::FixedNpc::MovementInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::Sector::FixedNpc::MovementInfo"
+  },
+  {
+   "op": "container",
+   "name": "Stamps",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UStampInfo@MovementInfo@FixedNpc@SectorInfo@Sdb@Apple@@V?$allocator@UStampInfo@MovementInfo@FixedNpc@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "MovementType",
+   "enum": "fixedNpcMovement",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

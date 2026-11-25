@@ -1,0 +1,30 @@
+{
+ "type": "Apple::Sdb::FreetypeTextureInfo::FreetypeTexture",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::FreetypeTexture::FreetypeTextureInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "ObjectType",
+   "enum": "objecttype",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "FreetypeTextureMeshInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UFreetypeTextureMeshInfo@FreetypeTexture@FreetypeTextureInfo@Sdb@Apple@@V?$allocator@UFreetypeTextureMeshInfo@FreetypeTexture@FreetypeTextureInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

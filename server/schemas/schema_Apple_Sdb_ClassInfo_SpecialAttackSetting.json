@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::ClassInfo::SpecialAttackSetting",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ClassInfo::SpecialAttackSettings"
+  },
+  {
+   "op": "wstr",
+   "name": "AttackTypeId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "Conditions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCondition@SpecialAttackSetting@ClassInfo@Sdb@Apple@@V?$allocator@UCondition@SpecialAttackSetting@ClassInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

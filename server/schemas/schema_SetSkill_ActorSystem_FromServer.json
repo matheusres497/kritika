@@ -1,0 +1,42 @@
+{
+ "type": "Apple::Protocol::FromServer::ActorSystem::SetSkill",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "ActorSerial",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Skills",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USkill@Apple@@V?$allocator@USkill@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RemovedEventOptionSerials",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@IV?$allocator@I@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsLearnSkill",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "u16",
+   "name": "SkillTabIndex",
+   "size": 2,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

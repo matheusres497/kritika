@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::GameRankInfo::PvpTournamentRankInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GameRankInfo::PvpTournamentRankInfo"
+  },
+  {
+   "op": "bool",
+   "name": "Enable",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "RewardItems",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HV?$vector@URewardItem@RankRewardInfo@GameRankInfo@Sdb@Apple@@V?$allocator@URewardItem@RankRewardInfo@GameRankInfo@Sdb@Apple@@@std@@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$vector@URewardItem@RankRewardInfo@GameRankInfo@Sdb@Apple@@V?$allocator@URewardItem@RankRewardInfo@GameRankInfo@Sdb@Apple@@@std@@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ParticipationRewardItems",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardItem@RankRewardInfo@GameRankInfo@Sdb@Apple@@V?$allocator@URewardItem@RankRewardInfo@GameRankInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "RewardMailPeriod",
+   "size": 4,
+   "cond": false,
+   "src": 40
+  }
+ ],
+ "types": {}
+}

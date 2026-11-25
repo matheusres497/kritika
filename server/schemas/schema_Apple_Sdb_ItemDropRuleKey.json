@@ -1,0 +1,29 @@
+{
+ "type": "Apple::Sdb::ItemDropRuleKey",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemDropRuleKey"
+  },
+  {
+   "op": "wstr",
+   "name": "ItemDropRuleId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Difficulty",
+   "enum": "Difficulty",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Rank",
+   "enum": "Rank",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,221 @@
+{
+ "type": "Apple::Sdb::JewelSupportInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::JewelSupportInfo"
+  },
+  {
+   "op": "container",
+   "name": "InsertableJewelShapeIds",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RequireUpgradeJewelCountTable",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "ExtractJewelInfo",
+   "type": "Apple::Sdb::JewelSupportInfo::ExtractJewel",
+   "func": 9223904,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::JewelSupportInfo::ExtractJewel"
+    },
+    {
+     "op": "raw",
+     "name": "GoldConsumeByJewelLevelRange",
+     "size": 8,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "container",
+     "name": "RequiredItemInfos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URequiredItem@ExtractJewel@JewelSupportInfo@Sdb@Apple@@V?$allocator@URequiredItem@ExtractJewel@JewelSupportInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "MakeJewelSocketInfo",
+   "type": "Apple::Sdb::JewelSupportInfo::MakeJewelSocket",
+   "func": 9234336,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::JewelSupportInfo::MakeJewelSocket"
+    },
+    {
+     "op": "container",
+     "name": "SocketShapeTable",
+     "kind": "associative_array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "ConsumeOrderList",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    }
+   ]
+  },
+  {
+   "op": "wstr",
+   "name": "JewelShopNpcId",
+   "size": null,
+   "cond": false,
+   "src": 164
+  },
+  {
+   "op": "struct",
+   "name": "UpgradeJewelSocketInfo",
+   "type": "Apple::Sdb::JewelSupportInfo::UpgradeJewelSocket",
+   "func": 9223984,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::JewelSupportInfo::UpgradeJewelSocket"
+    },
+    {
+     "op": "wstr",
+     "name": "PremiumSocketShapeId",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "container",
+     "name": "ConsumeOrderList",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "AvailableEquipParts",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "OldJewelSocketList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "OldJewelList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "OldJewelChangeInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UOldJewelChangeInfo@JewelSupportInfo@Sdb@Apple@@V?$allocator@UOldJewelChangeInfo@JewelSupportInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "JewelSetInfos",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUJewelSetInfo@JewelSupportInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUJewelSetInfo@JewelSupportInfo@Sdb@Apple@@@std@@@6@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "JewelSetDesc",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {
+  "Apple::Sdb::JewelSupportInfo::ExtractJewel": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::JewelSupportInfo::ExtractJewel"
+   },
+   {
+    "op": "raw",
+    "name": "GoldConsumeByJewelLevelRange",
+    "size": 8,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "container",
+    "name": "RequiredItemInfos",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@URequiredItem@ExtractJewel@JewelSupportInfo@Sdb@Apple@@V?$allocator@URequiredItem@ExtractJewel@JewelSupportInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::JewelSupportInfo::MakeJewelSocket": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::JewelSupportInfo::MakeJewelSocket"
+   },
+   {
+    "op": "container",
+    "name": "SocketShapeTable",
+    "kind": "associative_array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "ConsumeOrderList",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   }
+  ],
+  "Apple::Sdb::JewelSupportInfo::UpgradeJewelSocket": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::JewelSupportInfo::UpgradeJewelSocket"
+   },
+   {
+    "op": "wstr",
+    "name": "PremiumSocketShapeId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "container",
+    "name": "ConsumeOrderList",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "AvailableEquipParts",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ]
+ }
+}

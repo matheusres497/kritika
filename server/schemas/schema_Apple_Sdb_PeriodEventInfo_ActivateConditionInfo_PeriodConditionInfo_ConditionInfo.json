@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::PeriodEventInfo::ActivateConditionInfo::PeriodConditionInfo::ConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PeriodEventInfo::ActivateConditionInfo::PeriodConditionInfo::ConditionInfo"
+  },
+  {
+   "op": "container",
+   "name": "Classes",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

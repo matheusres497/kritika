@@ -1,0 +1,407 @@
+{
+ "type": "Apple::Sdb::PvpInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PvpInfo"
+  },
+  {
+   "op": "container",
+   "name": "DeadlySkillGauge",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UDeadlySkillGaugeInfo@PvpInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UDeadlySkillGaugeInfo@PvpInfo@Sdb@Apple@@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "PvpRankInfos",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HUPvpRankInfo@PvpInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUPvpRankInfo@PvpInfo@Sdb@Apple@@@std@@@6@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "MinimumPlayCount",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "EnterLevel",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "JoinChannelLevel",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "UnrankedId",
+   "size": null,
+   "cond": true,
+   "src": 10
+  },
+  {
+   "op": "i32",
+   "name": "InitSearchingDistance",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "IncreaseSearchingDistance",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "f32",
+   "name": "IncreaseDistanceInterval",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "MaxIncreaseSearchingDistance",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "NoPaneltyPointLine",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "RandomStageId",
+   "size": null,
+   "cond": true,
+   "src": 24
+  },
+  {
+   "op": "i32",
+   "name": "PvpRoomNameLength",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "PvpRoomPasswordLength",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "PvpStartMinPlayerCount",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "f32",
+   "name": "PvpHpRatioForAssist",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "PvpSecondsForAssist",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "f32",
+   "name": "PvpRegenHpRateWhenTeamBattleWin",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "raw",
+   "name": "RedTeamColor",
+   "size": 16,
+   "cond": true,
+   "src": 65
+  },
+  {
+   "op": "raw",
+   "name": "BlueTeamColor",
+   "size": 16,
+   "cond": true,
+   "src": 69
+  },
+  {
+   "op": "wstr",
+   "name": "RedTeamEffectPath",
+   "size": null,
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "BlueTeamEffectPath",
+   "size": null,
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "TouchDownEffectPath",
+   "size": null,
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "PvpManDieEffectPath",
+   "size": null,
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "PvpRedFlagManDieEffectPath",
+   "size": null,
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "PvpBlueFlagManDieEffectPath",
+   "size": null,
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "PvpManDieSoundPath",
+   "size": null,
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "PvpLobbyStageId",
+   "size": null,
+   "cond": true,
+   "src": 90
+  },
+  {
+   "op": "i32",
+   "name": "DefaultPvpPoint",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "PvpFlagCaptureScore",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "PvpFlagReturnScore",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "PvpKillScore",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "PvpAssistScore",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "raw",
+   "name": "PvpFightEndScoreRange",
+   "size": 8,
+   "cond": true,
+   "src": 102
+  },
+  {
+   "op": "i32",
+   "name": "PvpFlagCaptureMvpScore",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "PvpFlagReturnMvpScore",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "PvpEscortMvpScore",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "PvpKillMvpScore",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "PvpAssistMvpScore",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "f32",
+   "name": "PvpFlagRegenTime",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "PvpRevivalActionId",
+   "size": null,
+   "cond": true,
+   "src": 110
+  },
+  {
+   "op": "enum",
+   "name": "DefaultPvpRoomName",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "PvpScoreMaxRecommandDiff",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "PvpScoreIgnoreScoreDiff",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "PvpCurrentSeason",
+   "size": null,
+   "cond": true,
+   "src": 80
+  },
+  {
+   "op": "i32",
+   "name": "PvpRoomMaxSlotCount",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "PvpAloneRoomMaxTeamPlayerCount",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "PvpTeamRoomMaxTeamPlayerCount",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "MaxBattlePoint",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "BattlePoint_Win",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "BattlePoint_Lose",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "f32",
+   "name": "BattlePointPcBangBonus",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "f32",
+   "name": "PvpFlagReduceMoveSpeed",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "PvpMvpComments",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@VLocaleType@Locale@AllM@@V?$allocator@VLocaleType@Locale@AllM@@@std@@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@VLocaleType@Locale@AllM@@V?$allocator@VLocaleType@Locale@AllM@@@std@@@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "PvpItemList",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "PvpModeInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UPvpModeInfo@PvpInfo@Sdb@Apple@@V?$allocator@UPvpModeInfo@PvpInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "IncreasePointsByRange",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HU?$Vector2@H@Math@AllM@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHU?$Vector2@H@Math@AllM@@@std@@@5@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "CommonStageList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "FlagStageInfoList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UFlagStageInfo@PvpInfo@Sdb@Apple@@V?$allocator@UFlagStageInfo@PvpInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "HQDestroyStageInfoList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UHQDestroyStageInfo@PvpInfo@Sdb@Apple@@V?$allocator@UHQDestroyStageInfo@PvpInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "FirstTournamentStartDateTime",
+   "size": null,
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "TournamentInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UTournamentInfo@PvpInfo@Sdb@Apple@@V?$allocator@UTournamentInfo@PvpInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "DeathmatchStageList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  }
+ ],
+ "types": {}
+}

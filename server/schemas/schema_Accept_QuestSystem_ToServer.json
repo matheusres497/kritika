@@ -1,0 +1,34 @@
+{
+ "type": ".?AUAccept@QuestSystem@ToServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "QuestId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "RewardItemId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "InventoryTabIndex",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "InventorySlotIndex",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,44 @@
+{
+ "type": "Apple::Sdb::LuckyDrawInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::LuckyDrawInfo"
+  },
+  {
+   "op": "container",
+   "name": "Events",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEventInfo@LuckyDrawInfo@Sdb@Apple@@V?$allocator@UEventInfo@LuckyDrawInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "NeedDrawItemId",
+   "size": null,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "i32",
+   "name": "NeedDrawItemCount",
+   "size": 4,
+   "cond": false,
+   "src": 48
+  },
+  {
+   "op": "bool",
+   "name": "EnableDrawOnce",
+   "size": 1,
+   "cond": false,
+   "src": 52
+  },
+  {
+   "op": "enum",
+   "name": "Caution",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

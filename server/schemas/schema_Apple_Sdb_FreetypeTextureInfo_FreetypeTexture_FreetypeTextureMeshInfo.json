@@ -1,0 +1,85 @@
+{
+ "type": "Apple::Sdb::FreetypeTextureInfo::FreetypeTexture::FreetypeTextureMeshInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::FreetypeTextureInfo::FreetypeTexture::FreetypeTextureMeshInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "MeshName",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "bool",
+   "name": "IsLocaleText",
+   "size": 1,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "enum",
+   "name": "Text",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "FontPath",
+   "size": null,
+   "cond": false,
+   "src": 68
+  },
+  {
+   "op": "u32",
+   "name": "FontSize",
+   "size": 4,
+   "cond": false,
+   "src": 100
+  },
+  {
+   "op": "u32",
+   "name": "FontResolution",
+   "size": 4,
+   "cond": false,
+   "src": 104
+  },
+  {
+   "op": "u32",
+   "name": "TextureWidth",
+   "size": 4,
+   "cond": false,
+   "src": 108
+  },
+  {
+   "op": "u32",
+   "name": "TextureHeight",
+   "size": 4,
+   "cond": false,
+   "src": 112
+  },
+  {
+   "op": "u32",
+   "name": "FontColor",
+   "size": 4,
+   "cond": false,
+   "src": 116
+  },
+  {
+   "op": "u32",
+   "name": "LineSpacing",
+   "size": 4,
+   "cond": false,
+   "src": 120
+  },
+  {
+   "op": "enum",
+   "name": "HorizontalAlign",
+   "enum": "freetypetexturealigntype",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::KirenosKnightsInfo::PointInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::KirenosKnightsInfo::PointInfo"
+  },
+  {
+   "op": "i32",
+   "name": "MaxLimit",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "NeedStackCount",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "f32",
+   "name": "XpRatio",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "container",
+   "name": "DisableStageIds",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

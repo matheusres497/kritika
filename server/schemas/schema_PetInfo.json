@@ -1,0 +1,216 @@
+{
+ "type": "Apple::Sdb::PetInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PetInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ConceptId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "RaceId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ImagePath",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ModelPath",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "Scale",
+   "size": 12,
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "VirtualTextureDirection",
+   "size": 12,
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "VirtualTextureTargetPosition",
+   "size": 12,
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "VirtualTextureCameraPosition",
+   "size": 12,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsGroundUnit",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "CollisionShape",
+   "type": "Apple::CollisionShape",
+   "func": 8670608,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::CollisionShape"
+    },
+    {
+     "op": "enum",
+     "name": "Type",
+     "enum": "Type",
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "Radius",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "Height",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "BoxSize",
+     "size": 12,
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "FanAngle",
+     "size": 8,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "Effects",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEffectInfo@Sdb@Apple@@V?$allocator@UEffectInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RandomMessages",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@VLocaleType@Locale@AllM@@V?$allocator@VLocaleType@Locale@AllM@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "SpeechInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@USpeechInfo@PetInfo@Sdb@Apple@@V?$allocator@USpeechInfo@PetInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "SoundProjectId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "DefaultPositions",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$Vector3@M@Math@AllM@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$Vector3@M@Math@AllM@@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "SelectPlayerPositions",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$Vector3@M@Math@AllM@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$Vector3@M@Math@AllM@@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "ActionList",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UPetActionInfo@PetInfo@Sdb@Apple@@V?$allocator@UPetActionInfo@PetInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "f32",
+   "name": "MasterMoveSpeedDependency",
+   "size": 4,
+   "cond": true
+  },
+  {
+   "op": "f32",
+   "name": "AddFloatingUiOffsetY",
+   "size": 4,
+   "cond": true
+  }
+ ],
+ "types": {
+  "Apple::CollisionShape": [
+   {
+    "op": "begin",
+    "type": "Apple::CollisionShape"
+   },
+   {
+    "op": "enum",
+    "name": "Type",
+    "enum": "Type",
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "Radius",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "Height",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "BoxSize",
+    "size": 12,
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "FanAngle",
+    "size": 8,
+    "cond": false
+   }
+  ]
+ }
+}

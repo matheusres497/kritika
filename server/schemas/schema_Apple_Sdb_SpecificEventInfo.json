@@ -1,0 +1,1088 @@
+{
+ "type": "Apple::Sdb::SpecificEventInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SpecificEventInfo"
+  },
+  {
+   "op": "struct",
+   "name": "PuzzleAttendanceInfo",
+   "type": "Apple::Sdb::SpecificEventInfo::PuzzleAttendanceInfo",
+   "func": 8482944,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SpecificEventInfo::PuzzleAttendanceInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "StandardDay",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "container",
+     "name": "PuzzleInfos",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HV?$vector@HV?$allocator@H@std@@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$vector@HV?$allocator@H@std@@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "ImportantPuzzleIndexes",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "ImagePath",
+     "size": null,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "enum",
+     "name": "AttendanceType",
+     "enum": "AttendanceType",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "CautionMessage",
+     "enum": "locale",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "BingoInfo",
+   "type": "Apple::Sdb::SpecificEventInfo::BingoInfo",
+   "func": 8509120,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SpecificEventInfo::BingoInfo"
+    },
+    {
+     "op": "container",
+     "name": "BingoBoards",
+     "kind": "associative_array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "BurningFatigueInfo",
+   "type": "Apple::Sdb::SpecificEventInfo::BurningFatigueInfo",
+   "func": 8464672,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SpecificEventInfo::BurningFatigueInfo"
+    },
+    {
+     "op": "i32",
+     "name": "SpendFatigueRate",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "StageClearExpRate",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "BestFriend",
+   "type": "Apple::Sdb::SpecificEventInfo::BestFriendInfo",
+   "func": 8474336,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SpecificEventInfo::BestFriendInfo"
+    },
+    {
+     "op": "i32",
+     "name": "MaxCount",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "container",
+     "name": "GetGiftCountLevel",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "GetGiftCountFatigue",
+     "size": 4,
+     "cond": false,
+     "src": 24
+    },
+    {
+     "op": "i32",
+     "name": "EventCheckInterval",
+     "size": 4,
+     "cond": false,
+     "src": 28
+    },
+    {
+     "op": "u32",
+     "name": "MaxMemoSize",
+     "size": 4,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "wstr",
+     "name": "ShopNpcId",
+     "size": null,
+     "cond": false,
+     "src": 36
+    },
+    {
+     "op": "wstr",
+     "name": "BestFriendCoinItemId",
+     "size": null,
+     "cond": false,
+     "src": 64
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "PartyBuffEventInfo",
+   "type": "Apple::Sdb::SpecificEventInfo::PartyBuffEventInfo",
+   "func": 8476480,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SpecificEventInfo::PartyBuffEventInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "BuffCategory",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "NeedClass",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "MiniGame",
+   "type": "Apple::Sdb::SpecificEventInfo::MiniGameInfo",
+   "func": 8474496,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SpecificEventInfo::MiniGameInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "MiniGameCoinId",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "MatchingPlusPoint",
+     "size": 4,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "i32",
+     "name": "UnmatchingMinusPoint",
+     "size": 4,
+     "cond": false,
+     "src": 36
+    },
+    {
+     "op": "i32",
+     "name": "HintConsecutiveMatchingCount",
+     "size": 4,
+     "cond": false,
+     "src": 40
+    },
+    {
+     "op": "container",
+     "name": "RewardInfos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardInfo@MiniGameInfo@SpecificEventInfo@Sdb@Apple@@V?$allocator@URewardInfo@MiniGameInfo@SpecificEventInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "MiniGameStageInfos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UMiniGameStageInfo@MiniGameInfo@SpecificEventInfo@Sdb@Apple@@V?$allocator@UMiniGameStageInfo@MiniGameInfo@SpecificEventInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "LevelReserve",
+   "type": "Apple::Sdb::SpecificEventInfo::LevelReserveInfo",
+   "func": 8476560,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SpecificEventInfo::LevelReserveInfo"
+    },
+    {
+     "op": "enum",
+     "name": "EventType",
+     "enum": "EventType",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "ShopNpcIntrustion",
+   "type": "Apple::Sdb::SpecificEventInfo::ShopNpcIntrustionInfo",
+   "func": 8542912,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SpecificEventInfo::ShopNpcIntrustionInfo"
+    },
+    {
+     "op": "f32",
+     "name": "DefaultProbability",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "ProbabilityPerSpentFatigue",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "ProbabilityPerSpentFatigueParty",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "ProbabilityNoticeRange",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@MV?$allocator@M@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "TargetStageIds",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "ShopNpcSelectProbabilities",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@V?$allocator@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "AlwaysSellItemRange",
+     "size": 8,
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "EventSellItemRange",
+     "size": 8,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "AlwaysSellItemPresentCount",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "EventSellItemPresentCount",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "RenewalMaxCount",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "RenewalCostType",
+     "enum": "RenewalCostType",
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "IsShowNPCPortalImage",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "BannerDesc",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "ShopNpcPopupDesc",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "ShopIconDesc",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "StageMapDesc",
+     "enum": "locale",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "KeypushMiniGame",
+   "type": "Apple::Sdb::SpecificEventInfo::KeypushMiniGameInfo",
+   "func": 8474976,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SpecificEventInfo::KeypushMiniGameInfo"
+    },
+    {
+     "op": "i32",
+     "name": "MaxPlayCountPerDay",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "LimitTimeSecond",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "i32",
+     "name": "KeypushAddScore",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "f32",
+     "name": "LimitTimeAddScoreRate",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "i32",
+     "name": "AllowableMaxScore",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "i32",
+     "name": "GaugeIncreaseValuePerKeypush",
+     "size": 4,
+     "cond": false,
+     "src": 24
+    },
+    {
+     "op": "container",
+     "name": "RewardInfos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardInfo@KeypushMiniGameInfo@SpecificEventInfo@Sdb@Apple@@V?$allocator@URewardInfo@KeypushMiniGameInfo@SpecificEventInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "GaugeInfos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UGaugeInfo@KeypushMiniGameInfo@SpecificEventInfo@Sdb@Apple@@V?$allocator@UGaugeInfo@KeypushMiniGameInfo@SpecificEventInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "Puzzle",
+   "type": "Apple::Sdb::SpecificEventInfo::PuzzleInfo",
+   "func": 8475552,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SpecificEventInfo::PuzzleInfo"
+    },
+    {
+     "op": "container",
+     "name": "BoardList",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUPuzzleBoardInfo@PuzzleInfo@SpecificEventInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUPuzzleBoardInfo@PuzzleInfo@SpecificEventInfo@Sdb@Apple@@@std@@@7@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "RewardItemId",
+     "size": null,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "container",
+     "name": "UseItemList",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "PowerRanking",
+   "type": "Apple::Sdb::SpecificEventInfo::PowerRankingInfo",
+   "func": 8475872,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SpecificEventInfo::PowerRankingInfo"
+    },
+    {
+     "op": "i32",
+     "name": "RankingUpdateStartHour",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "RankingUpdateEndHour",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "container",
+     "name": "DetailsByEvent",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UDetailInfo@PowerRankingInfo@SpecificEventInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UDetailInfo@PowerRankingInfo@SpecificEventInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "GachaBoard",
+   "type": "Apple::Sdb::SpecificEventInfo::GachaBoardInfo",
+   "func": 8476144,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SpecificEventInfo::GachaBoardInfo"
+    },
+    {
+     "op": "i32",
+     "name": "DailyResetableCount",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "bool",
+     "name": "IsResetEveryDay",
+     "size": 1,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "enum",
+     "name": "ResetCostType",
+     "enum": "ResetCostType",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "RequireItemId",
+     "size": null,
+     "cond": false,
+     "src": 16
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "KripetEvent",
+   "type": "Apple::Sdb::SpecificEventInfo::KripetEventInfo",
+   "func": 8476400,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SpecificEventInfo::KripetEventInfo"
+    },
+    {
+     "op": "container",
+     "name": "KripetInfos",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUKripetInfo@KripetEventInfo@SpecificEventInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUKripetInfo@KripetEventInfo@SpecificEventInfo@Sdb@Apple@@@std@@@7@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "CountRewardInfos",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HURewardItemInfo@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHURewardItemInfo@Apple@@@std@@@4@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::SpecificEventInfo::PuzzleAttendanceInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SpecificEventInfo::PuzzleAttendanceInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "StandardDay",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "container",
+    "name": "PuzzleInfos",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HV?$vector@HV?$allocator@H@std@@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$vector@HV?$allocator@H@std@@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "ImportantPuzzleIndexes",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "ImagePath",
+    "size": null,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "enum",
+    "name": "AttendanceType",
+    "enum": "AttendanceType",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "CautionMessage",
+    "enum": "locale",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::SpecificEventInfo::BingoInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SpecificEventInfo::BingoInfo"
+   },
+   {
+    "op": "container",
+    "name": "BingoBoards",
+    "kind": "associative_array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   }
+  ],
+  "Apple::Sdb::SpecificEventInfo::BurningFatigueInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SpecificEventInfo::BurningFatigueInfo"
+   },
+   {
+    "op": "i32",
+    "name": "SpendFatigueRate",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "StageClearExpRate",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   }
+  ],
+  "Apple::Sdb::SpecificEventInfo::BestFriendInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SpecificEventInfo::BestFriendInfo"
+   },
+   {
+    "op": "i32",
+    "name": "MaxCount",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "container",
+    "name": "GetGiftCountLevel",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "GetGiftCountFatigue",
+    "size": 4,
+    "cond": false,
+    "src": 24
+   },
+   {
+    "op": "i32",
+    "name": "EventCheckInterval",
+    "size": 4,
+    "cond": false,
+    "src": 28
+   },
+   {
+    "op": "u32",
+    "name": "MaxMemoSize",
+    "size": 4,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "wstr",
+    "name": "ShopNpcId",
+    "size": null,
+    "cond": false,
+    "src": 36
+   },
+   {
+    "op": "wstr",
+    "name": "BestFriendCoinItemId",
+    "size": null,
+    "cond": false,
+    "src": 64
+   }
+  ],
+  "Apple::Sdb::SpecificEventInfo::PartyBuffEventInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SpecificEventInfo::PartyBuffEventInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "BuffCategory",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "NeedClass",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::SpecificEventInfo::MiniGameInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SpecificEventInfo::MiniGameInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "MiniGameCoinId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "MatchingPlusPoint",
+    "size": 4,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "i32",
+    "name": "UnmatchingMinusPoint",
+    "size": 4,
+    "cond": false,
+    "src": 36
+   },
+   {
+    "op": "i32",
+    "name": "HintConsecutiveMatchingCount",
+    "size": 4,
+    "cond": false,
+    "src": 40
+   },
+   {
+    "op": "container",
+    "name": "RewardInfos",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardInfo@MiniGameInfo@SpecificEventInfo@Sdb@Apple@@V?$allocator@URewardInfo@MiniGameInfo@SpecificEventInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "MiniGameStageInfos",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UMiniGameStageInfo@MiniGameInfo@SpecificEventInfo@Sdb@Apple@@V?$allocator@UMiniGameStageInfo@MiniGameInfo@SpecificEventInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::SpecificEventInfo::LevelReserveInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SpecificEventInfo::LevelReserveInfo"
+   },
+   {
+    "op": "enum",
+    "name": "EventType",
+    "enum": "EventType",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::SpecificEventInfo::ShopNpcIntrustionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SpecificEventInfo::ShopNpcIntrustionInfo"
+   },
+   {
+    "op": "f32",
+    "name": "DefaultProbability",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "ProbabilityPerSpentFatigue",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "ProbabilityPerSpentFatigueParty",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "ProbabilityNoticeRange",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@MV?$allocator@M@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "TargetStageIds",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "ShopNpcSelectProbabilities",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@V?$allocator@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "AlwaysSellItemRange",
+    "size": 8,
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "EventSellItemRange",
+    "size": 8,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "AlwaysSellItemPresentCount",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "EventSellItemPresentCount",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "RenewalMaxCount",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "RenewalCostType",
+    "enum": "RenewalCostType",
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "IsShowNPCPortalImage",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "BannerDesc",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "ShopNpcPopupDesc",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "ShopIconDesc",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "StageMapDesc",
+    "enum": "locale",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::SpecificEventInfo::KeypushMiniGameInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SpecificEventInfo::KeypushMiniGameInfo"
+   },
+   {
+    "op": "i32",
+    "name": "MaxPlayCountPerDay",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "LimitTimeSecond",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "i32",
+    "name": "KeypushAddScore",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "f32",
+    "name": "LimitTimeAddScoreRate",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "i32",
+    "name": "AllowableMaxScore",
+    "size": 4,
+    "cond": false,
+    "src": 20
+   },
+   {
+    "op": "i32",
+    "name": "GaugeIncreaseValuePerKeypush",
+    "size": 4,
+    "cond": false,
+    "src": 24
+   },
+   {
+    "op": "container",
+    "name": "RewardInfos",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardInfo@KeypushMiniGameInfo@SpecificEventInfo@Sdb@Apple@@V?$allocator@URewardInfo@KeypushMiniGameInfo@SpecificEventInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "GaugeInfos",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UGaugeInfo@KeypushMiniGameInfo@SpecificEventInfo@Sdb@Apple@@V?$allocator@UGaugeInfo@KeypushMiniGameInfo@SpecificEventInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::SpecificEventInfo::PuzzleInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SpecificEventInfo::PuzzleInfo"
+   },
+   {
+    "op": "container",
+    "name": "BoardList",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUPuzzleBoardInfo@PuzzleInfo@SpecificEventInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUPuzzleBoardInfo@PuzzleInfo@SpecificEventInfo@Sdb@Apple@@@std@@@7@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "RewardItemId",
+    "size": null,
+    "cond": false,
+    "src": 20
+   },
+   {
+    "op": "container",
+    "name": "UseItemList",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::SpecificEventInfo::PowerRankingInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SpecificEventInfo::PowerRankingInfo"
+   },
+   {
+    "op": "i32",
+    "name": "RankingUpdateStartHour",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "RankingUpdateEndHour",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "container",
+    "name": "DetailsByEvent",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UDetailInfo@PowerRankingInfo@SpecificEventInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UDetailInfo@PowerRankingInfo@SpecificEventInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::SpecificEventInfo::GachaBoardInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SpecificEventInfo::GachaBoardInfo"
+   },
+   {
+    "op": "i32",
+    "name": "DailyResetableCount",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "bool",
+    "name": "IsResetEveryDay",
+    "size": 1,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "enum",
+    "name": "ResetCostType",
+    "enum": "ResetCostType",
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "RequireItemId",
+    "size": null,
+    "cond": false,
+    "src": 16
+   }
+  ],
+  "Apple::Sdb::SpecificEventInfo::KripetEventInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SpecificEventInfo::KripetEventInfo"
+   },
+   {
+    "op": "container",
+    "name": "KripetInfos",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUKripetInfo@KripetEventInfo@SpecificEventInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUKripetInfo@KripetEventInfo@SpecificEventInfo@Sdb@Apple@@@std@@@7@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "CountRewardInfos",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HURewardItemInfo@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHURewardItemInfo@Apple@@@std@@@4@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ]
+ }
+}

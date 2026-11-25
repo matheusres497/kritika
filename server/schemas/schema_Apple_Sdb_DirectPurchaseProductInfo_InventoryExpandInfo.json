@@ -1,0 +1,37 @@
+{
+ "type": "Apple::Sdb::DirectPurchaseProductInfo::InventoryExpandInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::DirectPurchaseProductInfo::InventoryExpandInfo"
+  },
+  {
+   "op": "i32",
+   "name": "OidProduct",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "ExpandLevel",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "CashInventoryNumber",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "enum",
+   "name": "OrderCategory",
+   "enum": "ordercategory",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

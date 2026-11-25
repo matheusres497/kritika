@@ -1,0 +1,121 @@
+{
+ "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement"
+  },
+  {
+   "op": "struct",
+   "name": "DistanceCondition",
+   "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::DistanceConditionInfo",
+   "func": 7940960,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::DistanceConditionInfo"
+    },
+    {
+     "op": "bool",
+     "name": "Enabled",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "raw",
+     "name": "Range",
+     "size": 8,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "StatusConditions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UStatusConditionInfo@ConditionElement@ConditionInfo@EventOptionInfo@Sdb@Apple@@V?$allocator@UStatusConditionInfo@ConditionElement@ConditionInfo@EventOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "BuffConditions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UBuffConditionInfo@ConditionElement@ConditionInfo@EventOptionInfo@Sdb@Apple@@V?$allocator@UBuffConditionInfo@ConditionElement@ConditionInfo@EventOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "LevelConditions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@ULevelConditionInfo@ConditionElement@ConditionInfo@EventOptionInfo@Sdb@Apple@@V?$allocator@ULevelConditionInfo@ConditionElement@ConditionInfo@EventOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RankConditions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URankConditionInfo@ConditionElement@ConditionInfo@EventOptionInfo@Sdb@Apple@@V?$allocator@URankConditionInfo@ConditionElement@ConditionInfo@EventOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RaceConditions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URaceConditionInfo@ConditionElement@ConditionInfo@EventOptionInfo@Sdb@Apple@@V?$allocator@URaceConditionInfo@ConditionElement@ConditionInfo@EventOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "HitConditions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UHitConditionInfo@ConditionElement@ConditionInfo@EventOptionInfo@Sdb@Apple@@V?$allocator@UHitConditionInfo@ConditionElement@ConditionInfo@EventOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ItemConsumeConditions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UItemConsumeConditionInfo@ConditionElement@ConditionInfo@EventOptionInfo@Sdb@Apple@@V?$allocator@UItemConsumeConditionInfo@ConditionElement@ConditionInfo@EventOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "KillConditions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UKillConditionInfo@ConditionElement@ConditionInfo@EventOptionInfo@Sdb@Apple@@V?$allocator@UKillConditionInfo@ConditionElement@ConditionInfo@EventOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "EquipmentConditions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEquipmentConditionInfo@ConditionElement@ConditionInfo@EventOptionInfo@Sdb@Apple@@V?$allocator@UEquipmentConditionInfo@ConditionElement@ConditionInfo@EventOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {
+  "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::DistanceConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::EventOptionInfo::ConditionInfo::ConditionElement::DistanceConditionInfo"
+   },
+   {
+    "op": "bool",
+    "name": "Enabled",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "raw",
+    "name": "Range",
+    "size": 8,
+    "cond": false,
+    "src": 8
+   }
+  ]
+ }
+}

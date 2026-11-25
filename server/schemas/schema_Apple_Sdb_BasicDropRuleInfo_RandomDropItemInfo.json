@@ -1,0 +1,270 @@
+{
+ "type": "Apple::Sdb::BasicDropRuleInfo::RandomDropItemInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemDropRuleInfo::RandomDropItemInfo"
+  },
+  {
+   "op": "f32",
+   "name": "DropCount",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f64",
+   "name": "DropNothingProbability",
+   "size": 8,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "struct",
+   "name": "Gold",
+   "type": "Apple::Sdb::BasicDropRuleInfo::GoldDropInfo",
+   "func": 7531248,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ItemDropRuleInfo::GoldDropInfo"
+    },
+    {
+     "op": "raw",
+     "name": "DropCount",
+     "size": 8,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "f64",
+     "name": "Probability",
+     "size": 8,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "raw",
+     "name": "AmountRange",
+     "size": 8,
+     "cond": false,
+     "src": 24
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "Equipable",
+   "type": "Apple::Sdb::BasicDropRuleInfo::EquipmentDropInfo",
+   "func": 7536672,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ItemDropRuleInfo::EquipmentDropInfo"
+    },
+    {
+     "op": "raw",
+     "name": "DropCount",
+     "size": 8,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "f64",
+     "name": "Probability",
+     "size": 8,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "container",
+     "name": "GradeProbability",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UItemGrade@BasicDropRuleInfo@Sdb@Apple@@V?$allocator@UItemGrade@BasicDropRuleInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "struct",
+     "name": "CreateTypeProbabilities",
+     "type": "Apple::Sdb::BasicDropRuleInfo::EquipmentDropInfo::CreateTypeProbabilityInfo",
+     "func": 7531344,
+     "cond": false,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::Sdb::ItemDropRuleInfo::EquipmentDropInfo::CreateTypeProbabilityInfo"
+      },
+      {
+       "op": "f32",
+       "name": "RandomType",
+       "size": 4,
+       "cond": false,
+       "src": 4
+      },
+      {
+       "op": "f32",
+       "name": "UniqueType",
+       "size": 4,
+       "cond": false,
+       "src": 8
+      }
+     ]
+    },
+    {
+     "op": "container",
+     "name": "EquipPartProbabilities",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UEquipPartProbability@EquipmentDropInfo@BasicDropRuleInfo@Sdb@Apple@@V?$allocator@UEquipPartProbability@EquipmentDropInfo@BasicDropRuleInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "RandomEnhanceInfoId",
+     "size": null,
+     "cond": false,
+     "src": 68
+    },
+    {
+     "op": "raw",
+     "name": "LevelRange",
+     "size": 8,
+     "cond": false,
+     "src": 112
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "DropInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UDropItemInfo@BasicDropRuleInfo@Sdb@Apple@@V?$allocator@UDropItemInfo@BasicDropRuleInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {
+  "Apple::Sdb::BasicDropRuleInfo::GoldDropInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ItemDropRuleInfo::GoldDropInfo"
+   },
+   {
+    "op": "raw",
+    "name": "DropCount",
+    "size": 8,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "f64",
+    "name": "Probability",
+    "size": 8,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "raw",
+    "name": "AmountRange",
+    "size": 8,
+    "cond": false,
+    "src": 24
+   }
+  ],
+  "Apple::Sdb::BasicDropRuleInfo::EquipmentDropInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ItemDropRuleInfo::EquipmentDropInfo"
+   },
+   {
+    "op": "raw",
+    "name": "DropCount",
+    "size": 8,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "f64",
+    "name": "Probability",
+    "size": 8,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "container",
+    "name": "GradeProbability",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UItemGrade@BasicDropRuleInfo@Sdb@Apple@@V?$allocator@UItemGrade@BasicDropRuleInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "struct",
+    "name": "CreateTypeProbabilities",
+    "type": "Apple::Sdb::BasicDropRuleInfo::EquipmentDropInfo::CreateTypeProbabilityInfo",
+    "func": 7531344,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::Sdb::ItemDropRuleInfo::EquipmentDropInfo::CreateTypeProbabilityInfo"
+     },
+     {
+      "op": "f32",
+      "name": "RandomType",
+      "size": 4,
+      "cond": false,
+      "src": 4
+     },
+     {
+      "op": "f32",
+      "name": "UniqueType",
+      "size": 4,
+      "cond": false,
+      "src": 8
+     }
+    ]
+   },
+   {
+    "op": "container",
+    "name": "EquipPartProbabilities",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UEquipPartProbability@EquipmentDropInfo@BasicDropRuleInfo@Sdb@Apple@@V?$allocator@UEquipPartProbability@EquipmentDropInfo@BasicDropRuleInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "RandomEnhanceInfoId",
+    "size": null,
+    "cond": false,
+    "src": 68
+   },
+   {
+    "op": "raw",
+    "name": "LevelRange",
+    "size": 8,
+    "cond": false,
+    "src": 112
+   }
+  ],
+  "Apple::Sdb::BasicDropRuleInfo::EquipmentDropInfo::CreateTypeProbabilityInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ItemDropRuleInfo::EquipmentDropInfo::CreateTypeProbabilityInfo"
+   },
+   {
+    "op": "f32",
+    "name": "RandomType",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "f32",
+    "name": "UniqueType",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   }
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::JewelSupportInfo::OldJewelChangeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::JewelSupportInfo::OldJewelChangeInfo"
+  },
+  {
+   "op": "i32",
+   "name": "Level",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "RewardItemId",
+   "size": null,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "RewardItemCount",
+   "size": 4,
+   "cond": false,
+   "src": 36
+  }
+ ],
+ "types": {}
+}

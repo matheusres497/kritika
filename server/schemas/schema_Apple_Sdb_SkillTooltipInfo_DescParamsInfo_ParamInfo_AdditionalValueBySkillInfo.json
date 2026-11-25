@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::SkillTooltipInfo::DescParamsInfo::ParamInfo::AdditionalValueBySkillInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SkillInfo::DescParamsInfo::ParamInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "SkillId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "LocaleValue",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

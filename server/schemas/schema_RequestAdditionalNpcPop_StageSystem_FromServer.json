@@ -1,0 +1,22 @@
+{
+ "type": "Apple::Protocol::FromServer::StageSystem::RequestAdditionalNpcPop",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "i32",
+   "name": "TriggeredIndex",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "InfoIndex",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

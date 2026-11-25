@@ -1,0 +1,380 @@
+{
+ "type": "Apple::Sdb::ItemInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::ItemInfo"
+  },
+  {
+   "op": "u16",
+   "name": "_flags",
+   "size": 2,
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Grade",
+   "enum": "Grade",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Category",
+   "enum": "Category",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "ItemAttribute",
+   "enum": "ItemAttribute",
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "ItemLevel",
+   "size": 4,
+   "cond": false,
+   "src": 108
+  },
+  {
+   "op": "i32",
+   "name": "MaxStackCount",
+   "size": 4,
+   "cond": false,
+   "src": 112
+  },
+  {
+   "op": "i32",
+   "name": "MaxPossessionLimit",
+   "size": 4,
+   "cond": false,
+   "src": 116
+  },
+  {
+   "op": "wstr",
+   "name": "IconPath",
+   "size": null,
+   "cond": false,
+   "src": 120
+  },
+  {
+   "op": "container",
+   "name": "IconPathByGrade",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@VLocator@AllM@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@VLocator@AllM@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "UITextColor",
+   "size": null,
+   "cond": false,
+   "src": 168
+  },
+  {
+   "op": "bool",
+   "name": "Disassemblable",
+   "size": 1,
+   "cond": false,
+   "src": 196
+  },
+  {
+   "op": "bool",
+   "name": "QuickSlotable",
+   "size": 1,
+   "cond": false,
+   "src": 197
+  },
+  {
+   "op": "bool",
+   "name": "NoDropFromNpc",
+   "size": 1,
+   "cond": false,
+   "src": 198
+  },
+  {
+   "op": "bool",
+   "name": "NoDropFromStageClear",
+   "size": 1,
+   "cond": false,
+   "src": 199
+  },
+  {
+   "op": "bool",
+   "name": "AutoUseWhenPickUp",
+   "size": 1,
+   "cond": false,
+   "src": 200
+  },
+  {
+   "op": "bool",
+   "name": "AutoPickUp",
+   "size": 1,
+   "cond": false,
+   "src": 201
+  },
+  {
+   "op": "bool",
+   "name": "IsPickableWhenStableAction",
+   "size": 1,
+   "cond": false,
+   "src": 202
+  },
+  {
+   "op": "bool",
+   "name": "CanSellTotheShop",
+   "size": 1,
+   "cond": false,
+   "src": 203
+  },
+  {
+   "op": "bool",
+   "name": "Reusable",
+   "size": 1,
+   "cond": false,
+   "src": 204
+  },
+  {
+   "op": "enum",
+   "name": "BindType",
+   "enum": "BindType",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsChangeBindOnEquipWhenUnbind",
+   "size": 1,
+   "cond": false,
+   "src": 216
+  },
+  {
+   "op": "bool",
+   "name": "UseSdbBindType",
+   "size": 1,
+   "cond": false,
+   "src": 217
+  },
+  {
+   "op": "wstr",
+   "name": "MarketCategory",
+   "size": null,
+   "cond": false,
+   "src": 220
+  },
+  {
+   "op": "wstr",
+   "name": "PriceCategory",
+   "size": null,
+   "cond": false,
+   "src": 248
+  },
+  {
+   "op": "wstr",
+   "name": "SoundCategory",
+   "size": null,
+   "cond": false,
+   "src": 276
+  },
+  {
+   "op": "wstr",
+   "name": "DropModelCategory",
+   "size": null,
+   "cond": false,
+   "src": 304
+  },
+  {
+   "op": "enum",
+   "name": "InventoryTab",
+   "enum": "InventoryTab",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "SellPrice",
+   "size": 4,
+   "cond": false,
+   "src": 336
+  },
+  {
+   "op": "container",
+   "name": "StatusCondition",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "EquipInfo",
+   "type": "V?$EmptySharingType@UEquip@ItemInfo@Sdb@Apple@@@Sdb@Apple@@",
+   "func": 4977264,
+   "cond": true,
+   "fields": []
+  },
+  {
+   "op": "struct",
+   "name": "UsableInfo",
+   "type": "V?$EmptySharingType@UUsable@ItemInfo@Sdb@Apple@@@Sdb@Apple@@",
+   "func": 4977328,
+   "cond": true,
+   "fields": []
+  },
+  {
+   "op": "struct",
+   "name": "ExpireInfo",
+   "type": "V?$EmptySharingType@UExpire@ItemInfo@Sdb@Apple@@@Sdb@Apple@@",
+   "func": 4977056,
+   "cond": true,
+   "fields": []
+  },
+  {
+   "op": "bool",
+   "name": "AutoComplete",
+   "size": 1,
+   "cond": false,
+   "src": 440
+  },
+  {
+   "op": "bool",
+   "name": "IsCash",
+   "size": 1,
+   "cond": false,
+   "src": 441
+  },
+  {
+   "op": "bool",
+   "name": "PcCafeExclusive",
+   "size": 1,
+   "cond": false,
+   "src": 205
+  },
+  {
+   "op": "bool",
+   "name": "EventConsume",
+   "size": 1,
+   "cond": false,
+   "src": 206
+  },
+  {
+   "op": "bool",
+   "name": "Discardable",
+   "size": 1,
+   "cond": false,
+   "src": 207
+  },
+  {
+   "op": "struct",
+   "name": "ExtendInfo",
+   "type": "V?$EmptySharingType@UExtend@ItemInfo@Sdb@Apple@@@Sdb@Apple@@",
+   "func": 4977296,
+   "cond": true,
+   "fields": []
+  },
+  {
+   "op": "bool",
+   "name": "CanBeCombineOutput",
+   "size": 1,
+   "cond": false,
+   "src": 442
+  },
+  {
+   "op": "bool",
+   "name": "CanBeCombineInput",
+   "size": 1,
+   "cond": false,
+   "src": 443
+  },
+  {
+   "op": "enum",
+   "name": "LockType",
+   "enum": "LockType",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "EnhanceInfo",
+   "type": "V?$EmptySharingType@UEnhance@ItemInfo@Sdb@Apple@@@Sdb@Apple@@",
+   "func": 4977360,
+   "cond": true,
+   "fields": []
+  },
+  {
+   "op": "struct",
+   "name": "AoeInfo",
+   "type": "V?$EmptySharingType@UAoe@ItemInfo@Sdb@Apple@@@Sdb@Apple@@",
+   "func": 4977392,
+   "cond": true,
+   "fields": []
+  },
+  {
+   "op": "container",
+   "name": "PremiumTypeList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "LockExpireInfo",
+   "type": "V?$EmptySharingType@ULockExpire@ItemInfo@Sdb@Apple@@@Sdb@Apple@@",
+   "func": 4977584,
+   "cond": true,
+   "fields": []
+  },
+  {
+   "op": "wstr",
+   "name": "ImageBookId",
+   "size": null,
+   "cond": false,
+   "src": 468
+  },
+  {
+   "op": "bool",
+   "name": "Dyeable",
+   "size": 1,
+   "cond": false,
+   "src": 208
+  },
+  {
+   "op": "bool",
+   "name": "IsVipUseOnly",
+   "size": 1,
+   "cond": false,
+   "src": 209
+  },
+  {
+   "op": "bool",
+   "name": "VisibleInDictionary",
+   "size": 1,
+   "cond": false,
+   "src": 496
+  }
+ ],
+ "types": {
+  "V?$EmptySharingType@UEquip@ItemInfo@Sdb@Apple@@@Sdb@Apple@@": [],
+  "V?$EmptySharingType@UUsable@ItemInfo@Sdb@Apple@@@Sdb@Apple@@": [],
+  "V?$EmptySharingType@UExpire@ItemInfo@Sdb@Apple@@@Sdb@Apple@@": [],
+  "V?$EmptySharingType@UExtend@ItemInfo@Sdb@Apple@@@Sdb@Apple@@": [],
+  "V?$EmptySharingType@UEnhance@ItemInfo@Sdb@Apple@@@Sdb@Apple@@": [],
+  "V?$EmptySharingType@UAoe@ItemInfo@Sdb@Apple@@@Sdb@Apple@@": [],
+  "V?$EmptySharingType@ULockExpire@ItemInfo@Sdb@Apple@@@Sdb@Apple@@": []
+ }
+}

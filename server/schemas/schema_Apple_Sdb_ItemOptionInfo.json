@@ -1,0 +1,47 @@
+{
+ "type": "Apple::Sdb::ItemOptionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemOptionInfo"
+  },
+  {
+   "op": "enum",
+   "name": "EquipPart",
+   "enum": "EquipPart",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Grade",
+   "enum": "Grade",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "EquipCategory",
+   "size": null,
+   "cond": false,
+   "src": 48
+  },
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::BasicItemOptionInfo"
+  },
+  {
+   "op": "container",
+   "name": "OptionDetails",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UOptionDetail@BasicItemOptionInfo@Sdb@Apple@@V?$allocator@UOptionDetail@BasicItemOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "GoodOptionDetails",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UOptionDetail@BasicItemOptionInfo@Sdb@Apple@@V?$allocator@UOptionDetail@BasicItemOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

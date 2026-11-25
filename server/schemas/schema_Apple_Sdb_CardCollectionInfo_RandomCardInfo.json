@@ -1,0 +1,71 @@
+{
+ "type": "Apple::Sdb::CardCollectionInfo::RandomCardInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::CardCollectionInfo::RandomCardInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PortraitPath",
+   "size": null,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "wstr",
+   "name": "BackgroundPath",
+   "size": null,
+   "cond": false,
+   "src": 96
+  },
+  {
+   "op": "wstr",
+   "name": "RandomCardTableId",
+   "size": null,
+   "cond": false,
+   "src": 128
+  },
+  {
+   "op": "enum",
+   "name": "Grade",
+   "enum": "ItemGrade",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "MakePoint",
+   "size": 4,
+   "cond": false,
+   "src": 160
+  },
+  {
+   "op": "i32",
+   "name": "MakeGoldPoint",
+   "size": 4,
+   "cond": false,
+   "src": 164
+  },
+  {
+   "op": "i32",
+   "name": "MakeMythPoint",
+   "size": 4,
+   "cond": false,
+   "src": 168
+  }
+ ],
+ "types": {}
+}

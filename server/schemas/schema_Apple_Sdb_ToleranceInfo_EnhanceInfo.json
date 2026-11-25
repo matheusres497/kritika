@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::ToleranceInfo::EnhanceInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ToleranceInfo::EnhanceInfo"
+  },
+  {
+   "op": "f64",
+   "name": "Probability",
+   "size": 8,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "NeedGold",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "i32",
+   "name": "NeedMaterial",
+   "size": 4,
+   "cond": false,
+   "src": 24
+  },
+  {
+   "op": "i32",
+   "name": "IncreaseTolerance",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  }
+ ],
+ "types": {}
+}

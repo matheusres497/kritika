@@ -1,0 +1,102 @@
+{
+ "playerGender": {
+  "fallback": "UNKNOWN",
+  "values": {
+   "0": "MALE",
+   "1": "FEMALE"
+  }
+ },
+ "classType": {
+  "fallback": "UNKNOWN",
+  "values": {
+   "1": "WARRIOR",
+   "2": "THIEF",
+   "3": "GLADIBERSERKER",
+   "4": "GIGONGSA",
+   "5": "RIPPER",
+   "6": "ASSASSIN",
+   "7": "MISTRESSOFFENRIR",
+   "8": "DOOMBLADE",
+   "9": "MAGICGUNNER",
+   "10": "DARKSTALKER",
+   "11": "ARCHITECT",
+   "12": "ICEMAGICIAN",
+   "13": "F_SCYTHE_00",
+   "14": "F_SCYTHE_01",
+   "15": "F_SCYTHE_02",
+   "16": "F_SCYTHE_03",
+   "17": "SIDECHARACTER1",
+   "18": "F_LOLITA_00",
+   "19": "F_LOLITA_01",
+   "20": "F_LOLITA_02",
+   "21": "F_LOLITA_03",
+   "22": "MONK",
+   "23": "GALAXYLORD",
+   "24": "BLACKLORD",
+   "25": "FIGHTER",
+   "26": "SIDECHARACTER2",
+   "27": "SIDECHARACTER3",
+   "28": "F_WARRIOR",
+   "29": "F_DOOMBLADE",
+   "30": "F_GIGONGSA",
+   "31": "SIDECHARACTER4",
+   "101": "PROTO_01",
+   "102": "PROTO_02",
+   "103": "PROTO_03",
+   "104": "PROTO_04",
+   "105": "PROTO_05",
+   "106": "PROTO_06",
+   "107": "PROTO_07",
+   "108": "PROTO_08",
+   "109": "PROTO_09",
+   "110": "PROTO_10",
+   "111": "CLASSSIZE"
+  }
+ },
+ "AasState": {
+  "fallback": "UNKNOWN",
+  "values": {
+   "0": "HEALTHY",
+   "1": "TIRED",
+   "2": "UNHEALTHY",
+   "3": "UNMANAGED",
+   "4": "UNREGISTERED"
+  }
+ },
+ "NoviceGuildJoin": {
+  "fallback": "UNKNOWN",
+  "values": {
+   "1": "MASTER",
+   "2": "MANAGER",
+   "3": "NORMAL"
+  }
+ },
+ "GradeInGuild": {
+  "fallback": "NONE",
+  "values": {
+   "1": "JOINED",
+   "2": "AVAILABLE_REJOIN",
+   "3": "LEAVED",
+   "4": "LEAVED_RETURNEE"
+  }
+ },
+ "MentorType": {
+  "fallback": "NONE",
+  "values": {
+   "1": "MENTOR",
+   "2": "MENTEE"
+  }
+ },
+ "VipStep": {
+  "fallback": "UNDEFINED",
+  "values": {
+   "0": "BRONZE",
+   "1": "SILVER",
+   "2": "GOLD",
+   "3": "DIAMOND",
+   "4": "MASTER",
+   "5": "BARON",
+   "6": "NUM_OF_TYPE"
+  }
+ }
+}

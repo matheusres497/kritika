@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::LimitedNpcShopItemInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::LimitedNpcShopItemInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "LimitedNpcShopItems",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USellItem@LimitedNpcShopItemInfo@Sdb@Apple@@V?$allocator@USellItem@LimitedNpcShopItemInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

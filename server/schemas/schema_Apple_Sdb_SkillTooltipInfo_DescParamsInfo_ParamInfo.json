@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::SkillTooltipInfo::DescParamsInfo::ParamInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SkillInfo::DescParamsInfo::ParamInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "LocaleKey",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "LocaleValue",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "f32",
+   "name": "AddValueBySkillLevel",
+   "size": 4,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "container",
+   "name": "AdditionalValueBySkills",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UAdditionalValueBySkillInfo@ParamInfo@DescParamsInfo@SkillTooltipInfo@Sdb@Apple@@V?$allocator@UAdditionalValueBySkillInfo@ParamInfo@DescParamsInfo@SkillTooltipInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

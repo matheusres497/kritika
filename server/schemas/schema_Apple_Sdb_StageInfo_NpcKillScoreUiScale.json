@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::StageInfo::NpcKillScoreUiScale",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::StageInfo::NpcKillScoreUiScale"
+  },
+  {
+   "op": "bool",
+   "name": "IsLinear",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "Scales",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HMU?$less@H@std@@V?$allocator@U?$pair@$$CBHM@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

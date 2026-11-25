@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::MapRenderQuestInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::MapRenderQuestInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "SectorId",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "container",
+   "name": "ConditionInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UConditionInfo@MapRenderQuestInfo@Sdb@Apple@@V?$allocator@UConditionInfo@MapRenderQuestInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

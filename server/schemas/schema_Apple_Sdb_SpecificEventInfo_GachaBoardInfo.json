@@ -1,0 +1,37 @@
+{
+ "type": "Apple::Sdb::SpecificEventInfo::GachaBoardInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SpecificEventInfo::GachaBoardInfo"
+  },
+  {
+   "op": "i32",
+   "name": "DailyResetableCount",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "bool",
+   "name": "IsResetEveryDay",
+   "size": 1,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "enum",
+   "name": "ResetCostType",
+   "enum": "ResetCostType",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "RequireItemId",
+   "size": null,
+   "cond": false,
+   "src": 16
+  }
+ ],
+ "types": {}
+}

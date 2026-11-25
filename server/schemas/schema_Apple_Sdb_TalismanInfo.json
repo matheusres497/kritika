@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::TalismanInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::TalismanInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "OptionDetails",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@U?$Vector2@H@Math@AllM@@UOptionDetail@TalismanInfo@Sdb@Apple@@@std@@V?$allocator@U?$pair@U?$Vector2@H@Math@AllM@@UOptionDetail@TalismanInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Status",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UStatusInfo@TalismanInfo@Sdb@Apple@@V?$allocator@UStatusInfo@TalismanInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

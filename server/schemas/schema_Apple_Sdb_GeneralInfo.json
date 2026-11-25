@@ -1,0 +1,4561 @@
+{
+ "type": "Apple::Sdb::GeneralInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GeneralInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "CameraDirectingModelPath",
+   "size": null,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "raw",
+   "name": "CameraTarget",
+   "size": 12,
+   "cond": false,
+   "src": 52
+  },
+  {
+   "op": "raw",
+   "name": "CameraPosition",
+   "size": 12,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "f32",
+   "name": "CameraRotationLowerBound",
+   "size": 4,
+   "cond": false,
+   "src": 76
+  },
+  {
+   "op": "f32",
+   "name": "CameraRotationUpperBound",
+   "size": 4,
+   "cond": false,
+   "src": 80
+  },
+  {
+   "op": "f32",
+   "name": "CameraZoomMin",
+   "size": 4,
+   "cond": false,
+   "src": 84
+  },
+  {
+   "op": "f32",
+   "name": "CameraZoomMax",
+   "size": 4,
+   "cond": false,
+   "src": 88
+  },
+  {
+   "op": "f32",
+   "name": "CameraYMouseSensitive",
+   "size": 4,
+   "cond": false,
+   "src": 92
+  },
+  {
+   "op": "f32",
+   "name": "CameraMouseSensitiveCorrectionValue",
+   "size": 4,
+   "cond": false,
+   "src": 96
+  },
+  {
+   "op": "f32",
+   "name": "CameraZoomSensitive",
+   "size": 4,
+   "cond": false,
+   "src": 100
+  },
+  {
+   "op": "f32",
+   "name": "TendencyZoomRearBound",
+   "size": 4,
+   "cond": false,
+   "src": 104
+  },
+  {
+   "op": "f32",
+   "name": "MovingTendencyZoomingVelocityFactor",
+   "size": 4,
+   "cond": false,
+   "src": 108
+  },
+  {
+   "op": "f32",
+   "name": "MovingTendencyZoomingStartTime",
+   "size": 4,
+   "cond": false,
+   "src": 112
+  },
+  {
+   "op": "f32",
+   "name": "AttackTendencyZoomCheckingTime",
+   "size": 4,
+   "cond": false,
+   "src": 116
+  },
+  {
+   "op": "f32",
+   "name": "AttackTendencyZoomCheckingCount",
+   "size": 4,
+   "cond": false,
+   "src": 120
+  },
+  {
+   "op": "f32",
+   "name": "AttackTendencyZoomActivateTime",
+   "size": 4,
+   "cond": false,
+   "src": 124
+  },
+  {
+   "op": "f32",
+   "name": "AttackTendencyZoomActivateLength",
+   "size": 4,
+   "cond": false,
+   "src": 128
+  },
+  {
+   "op": "f32",
+   "name": "AutoTargetingVelocityFactor",
+   "size": 4,
+   "cond": false,
+   "src": 132
+  },
+  {
+   "op": "f32",
+   "name": "AutoTargetingMinAngle",
+   "size": 4,
+   "cond": false,
+   "src": 136
+  },
+  {
+   "op": "f32",
+   "name": "AutoTargetingEndThreshold",
+   "size": 4,
+   "cond": false,
+   "src": 140
+  },
+  {
+   "op": "f32",
+   "name": "CameraHidingObjectAlpha",
+   "size": 4,
+   "cond": false,
+   "src": 144
+  },
+  {
+   "op": "f32",
+   "name": "AbsoluteCameraHidingObjectAlpha",
+   "size": 4,
+   "cond": false,
+   "src": 148
+  },
+  {
+   "op": "f32",
+   "name": "CameraRotationVelocityByKey",
+   "size": 4,
+   "cond": false,
+   "src": 152
+  },
+  {
+   "op": "f32",
+   "name": "CameraZoomVelocityByKey",
+   "size": 4,
+   "cond": false,
+   "src": 156
+  },
+  {
+   "op": "f32",
+   "name": "CameraTargetSpringConstant",
+   "size": 4,
+   "cond": false,
+   "src": 160
+  },
+  {
+   "op": "f32",
+   "name": "CameraAzimuthSpringConstant",
+   "size": 4,
+   "cond": false,
+   "src": 164
+  },
+  {
+   "op": "f32",
+   "name": "CameraElevationSpringConstant",
+   "size": 4,
+   "cond": false,
+   "src": 168
+  },
+  {
+   "op": "f32",
+   "name": "CameraDistanceSpringConstant",
+   "size": 4,
+   "cond": false,
+   "src": 172
+  },
+  {
+   "op": "bool",
+   "name": "ObstacleHandling",
+   "size": 1,
+   "cond": false,
+   "src": 176
+  },
+  {
+   "op": "raw",
+   "name": "AutoTargetMaxAngleRange",
+   "size": 8,
+   "cond": false,
+   "src": 180
+  },
+  {
+   "op": "f32",
+   "name": "DefaultActionCommandGap",
+   "size": 4,
+   "cond": false,
+   "src": 188
+  },
+  {
+   "op": "f32",
+   "name": "AutoFireInterval",
+   "size": 4,
+   "cond": false,
+   "src": 192
+  },
+  {
+   "op": "f32",
+   "name": "DefaultAiUpdateInterval",
+   "size": 4,
+   "cond": false,
+   "src": 196
+  },
+  {
+   "op": "u32",
+   "name": "EachStateMaximumCount",
+   "size": 4,
+   "cond": false,
+   "src": 200
+  },
+  {
+   "op": "f32",
+   "name": "SpecialAttackActivateTime",
+   "size": 4,
+   "cond": false,
+   "src": 204
+  },
+  {
+   "op": "container",
+   "name": "NpcHitShakeActivateStatusIds",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i64",
+   "name": "OidProductForCashExchange",
+   "size": 8,
+   "cond": false,
+   "src": 224
+  },
+  {
+   "op": "i32",
+   "name": "MaxGoldForRegist",
+   "size": 4,
+   "cond": false,
+   "src": 232
+  },
+  {
+   "op": "i32",
+   "name": "RegistGoldExpirePeriod",
+   "size": 4,
+   "cond": false,
+   "src": 236
+  },
+  {
+   "op": "i32",
+   "name": "RegistGoldDeposit",
+   "size": 4,
+   "cond": false,
+   "src": 240
+  },
+  {
+   "op": "i32",
+   "name": "OnePageGoldMaxCount",
+   "size": 4,
+   "cond": false,
+   "src": 244
+  },
+  {
+   "op": "i32",
+   "name": "MaxRegistGoldCount",
+   "size": 4,
+   "cond": false,
+   "src": 248
+  },
+  {
+   "op": "raw",
+   "name": "RandomMessageTimeRange",
+   "size": 8,
+   "cond": false,
+   "src": 252
+  },
+  {
+   "op": "wstr",
+   "name": "VisualRuntimeEffectAttachJointId",
+   "size": null,
+   "cond": false,
+   "src": 260
+  },
+  {
+   "op": "f32",
+   "name": "ItemPickUpRange",
+   "size": 4,
+   "cond": false,
+   "src": 288
+  },
+  {
+   "op": "wstr",
+   "name": "CollisionSphereModelPath",
+   "size": null,
+   "cond": false,
+   "src": 292
+  },
+  {
+   "op": "wstr",
+   "name": "CollisionBoxModelPath",
+   "size": null,
+   "cond": false,
+   "src": 324
+  },
+  {
+   "op": "wstr",
+   "name": "CollisionCylinderModelPath",
+   "size": null,
+   "cond": false,
+   "src": 356
+  },
+  {
+   "op": "container",
+   "name": "NpcHitShakes",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$Vector3@M@Math@AllM@@V?$allocator@U?$Vector3@M@Math@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "ReturnAniSpeedInterval",
+   "size": 4,
+   "cond": false,
+   "src": 436
+  },
+  {
+   "op": "raw",
+   "name": "AttachToModelDirection",
+   "size": 12,
+   "cond": false,
+   "src": 440
+  },
+  {
+   "op": "wstr",
+   "name": "RevivalActionId",
+   "size": null,
+   "cond": false,
+   "src": 632
+  },
+  {
+   "op": "container",
+   "name": "BackAttackAngleThresholdsByLengthSquared",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@MMU?$less@M@std@@V?$allocator@U?$pair@$$CBMM@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "NpcHitColor",
+   "size": 16,
+   "cond": false,
+   "src": 676
+  },
+  {
+   "op": "f32",
+   "name": "NpcHitColorDuration",
+   "size": 4,
+   "cond": false,
+   "src": 692
+  },
+  {
+   "op": "raw",
+   "name": "PlayerHitColor",
+   "size": 16,
+   "cond": false,
+   "src": 696
+  },
+  {
+   "op": "f32",
+   "name": "PlayerHitColorDuration",
+   "size": 4,
+   "cond": false,
+   "src": 712
+  },
+  {
+   "op": "f32",
+   "name": "BarrierHeight",
+   "size": 4,
+   "cond": false,
+   "src": 716
+  },
+  {
+   "op": "f32",
+   "name": "GoldAutoPickUpRange",
+   "size": 4,
+   "cond": false,
+   "src": 720
+  },
+  {
+   "op": "u32",
+   "name": "MaxGold",
+   "size": 4,
+   "cond": false,
+   "src": 724
+  },
+  {
+   "op": "i32",
+   "name": "MaxRebuyItemsCount",
+   "size": 4,
+   "cond": false,
+   "src": 728
+  },
+  {
+   "op": "f32",
+   "name": "IdentifyJackpotValueRate",
+   "size": 4,
+   "cond": false,
+   "src": 732
+  },
+  {
+   "op": "wstr",
+   "name": "MarbleEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 736
+  },
+  {
+   "op": "wstr",
+   "name": "MarbleArriveEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 740
+  },
+  {
+   "op": "raw",
+   "name": "MarbleEffectInitialSpeedInterval",
+   "size": 8,
+   "cond": false,
+   "src": 744
+  },
+  {
+   "op": "raw",
+   "name": "MarbleEffectInitialAngularSpeedInterval",
+   "size": 8,
+   "cond": false,
+   "src": 752
+  },
+  {
+   "op": "raw",
+   "name": "MarbleEffectAccelerationInverval",
+   "size": 8,
+   "cond": false,
+   "src": 760
+  },
+  {
+   "op": "raw",
+   "name": "MarbleEffectAngularAccelerationInverval",
+   "size": 8,
+   "cond": false,
+   "src": 768
+  },
+  {
+   "op": "raw",
+   "name": "MarbleEffectFollowerOffset",
+   "size": 12,
+   "cond": false,
+   "src": 776
+  },
+  {
+   "op": "raw",
+   "name": "MarbleEffectTargetOffset",
+   "size": 12,
+   "cond": false,
+   "src": 788
+  },
+  {
+   "op": "f32",
+   "name": "MarbleEffectArrivalRadius",
+   "size": 4,
+   "cond": false,
+   "src": 800
+  },
+  {
+   "op": "u32",
+   "name": "MaxMarbleCountAtOnce",
+   "size": 4,
+   "cond": false,
+   "src": 804
+  },
+  {
+   "op": "wstr",
+   "name": "MultiKillMarbleEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 808
+  },
+  {
+   "op": "wstr",
+   "name": "OverKillMarbleEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 812
+  },
+  {
+   "op": "wstr",
+   "name": "SpecialAttackMarbleEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 816
+  },
+  {
+   "op": "f32",
+   "name": "MultiKillMarbleCountFactor",
+   "size": 4,
+   "cond": false,
+   "src": 820
+  },
+  {
+   "op": "f32",
+   "name": "OverKillMarbleCountFactor",
+   "size": 4,
+   "cond": false,
+   "src": 824
+  },
+  {
+   "op": "u32",
+   "name": "SpecialAttackMarbleCountFactor",
+   "size": 4,
+   "cond": false,
+   "src": 828
+  },
+  {
+   "op": "wstr",
+   "name": "SectorWarpGateEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 832
+  },
+  {
+   "op": "wstr",
+   "name": "VisitedSectorWarpGateEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 836
+  },
+  {
+   "op": "wstr",
+   "name": "BossZoneWarpGateEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 840
+  },
+  {
+   "op": "wstr",
+   "name": "StageWarpGateEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 844
+  },
+  {
+   "op": "wstr",
+   "name": "VillageWarpGateEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 848
+  },
+  {
+   "op": "wstr",
+   "name": "DeactivateVillageWarpGateEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 852
+  },
+  {
+   "op": "wstr",
+   "name": "DeactivateStageWarpGateEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 856
+  },
+  {
+   "op": "container",
+   "name": "WarpGateAreaPoints",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$Vector2@M@Math@AllM@@V?$allocator@U?$Vector2@M@Math@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "SectorWarpGateFadeInEffectDuration",
+   "size": 4,
+   "cond": false,
+   "src": 876
+  },
+  {
+   "op": "wstr",
+   "name": "RollDiceEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 880
+  },
+  {
+   "op": "f32",
+   "name": "SectorWarpOffset",
+   "size": 4,
+   "cond": false,
+   "src": 884
+  },
+  {
+   "op": "wstr",
+   "name": "SectorRestrictionEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 888
+  },
+  {
+   "op": "f32",
+   "name": "SectorRestrictionFadeOutEffectDuration",
+   "size": 4,
+   "cond": false,
+   "src": 892
+  },
+  {
+   "op": "raw",
+   "name": "NearNpcDistanceRange",
+   "size": 8,
+   "cond": false,
+   "src": 896
+  },
+  {
+   "op": "raw",
+   "name": "NearNpcAngleRange",
+   "size": 8,
+   "cond": false,
+   "src": 904
+  },
+  {
+   "op": "wstr",
+   "name": "AdditionalPopInfoWhenCreatedEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 912
+  },
+  {
+   "op": "f32",
+   "name": "PhysXStepOffset",
+   "size": 4,
+   "cond": false,
+   "src": 916
+  },
+  {
+   "op": "f32",
+   "name": "PhysXObjectSkinWidth",
+   "size": 4,
+   "cond": false,
+   "src": 920
+  },
+  {
+   "op": "f32",
+   "name": "SlopeLimitAngle",
+   "size": 4,
+   "cond": false,
+   "src": 924
+  },
+  {
+   "op": "f32",
+   "name": "MultiKillCountPeriod",
+   "size": 4,
+   "cond": false,
+   "src": 928
+  },
+  {
+   "op": "f32",
+   "name": "ChainTimeBonusPerHit",
+   "size": 4,
+   "cond": false,
+   "src": 932
+  },
+  {
+   "op": "f32",
+   "name": "MaxChainTime",
+   "size": 4,
+   "cond": false,
+   "src": 936
+  },
+  {
+   "op": "wstr",
+   "name": "CalculateScoreFunctionName",
+   "size": null,
+   "cond": false,
+   "src": 940
+  },
+  {
+   "op": "wstr",
+   "name": "UpdateStatusFunctionName",
+   "size": null,
+   "cond": false,
+   "src": 968
+  },
+  {
+   "op": "wstr",
+   "name": "VerifyBuffFunctionName",
+   "size": null,
+   "cond": false,
+   "src": 996
+  },
+  {
+   "op": "wstr",
+   "name": "VerifyHitRatingFunctionName",
+   "size": null,
+   "cond": false,
+   "src": 1024
+  },
+  {
+   "op": "wstr",
+   "name": "VerifyEvadeRatingFunctionName",
+   "size": null,
+   "cond": false,
+   "src": 1052
+  },
+  {
+   "op": "wstr",
+   "name": "VerifyVerifyHitTypeFunctionName",
+   "size": null,
+   "cond": false,
+   "src": 1080
+  },
+  {
+   "op": "wstr",
+   "name": "OnProjectileHitTargetFunctionName",
+   "size": null,
+   "cond": false,
+   "src": 1108
+  },
+  {
+   "op": "u32",
+   "name": "MinimumDiceNumber",
+   "size": 4,
+   "cond": false,
+   "src": 1224
+  },
+  {
+   "op": "u32",
+   "name": "MaximumDiceNumber",
+   "size": 4,
+   "cond": false,
+   "src": 1220
+  },
+  {
+   "op": "u32",
+   "name": "PartyCapacity",
+   "size": 4,
+   "cond": false,
+   "src": 1244
+  },
+  {
+   "op": "container",
+   "name": "VillageIdList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RequiredRankToGetNextLicense",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "f32",
+   "name": "AdditionalNpcPopRequestTermAfterFail",
+   "size": 4,
+   "cond": true,
+   "src": 1280
+  },
+  {
+   "op": "wstr",
+   "name": "CharacterSelectMapPath",
+   "size": null,
+   "cond": true,
+   "src": 1284
+  },
+  {
+   "op": "wstr",
+   "name": "CharacterCreateMapPath",
+   "size": null,
+   "cond": true,
+   "src": 1316
+  },
+  {
+   "op": "struct",
+   "name": "CharacterCreateMapStarFilter",
+   "type": "Apple::Sdb::StageInfo::StarFilter",
+   "func": 7795104,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::StageInfo::StarFilter"
+    },
+    {
+     "op": "bool",
+     "name": "Enable",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "f32",
+     "name": "Threshold",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "f32",
+     "name": "Size",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "f32",
+     "name": "SizeScale",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "f32",
+     "name": "Power",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "CharacterSelectMapStarFilter",
+   "type": "Apple::Sdb::StageInfo::StarFilter",
+   "func": 7795104,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::StageInfo::StarFilter"
+    },
+    {
+     "op": "bool",
+     "name": "Enable",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "f32",
+     "name": "Threshold",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "f32",
+     "name": "Size",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "f32",
+     "name": "SizeScale",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "f32",
+     "name": "Power",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    }
+   ]
+  },
+  {
+   "op": "f32",
+   "name": "TargetChangeInterval",
+   "size": 4,
+   "cond": true,
+   "src": 1396
+  },
+  {
+   "op": "raw",
+   "name": "PlayerWarningHpThresholdMinMax",
+   "size": 8,
+   "cond": true,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "BossWarningHpThresholdMinMax",
+   "size": 8,
+   "cond": true,
+   "src": 12
+  },
+  {
+   "op": "wstr",
+   "name": "AnimationDirectingBone",
+   "size": null,
+   "cond": true,
+   "src": 452
+  },
+  {
+   "op": "f32",
+   "name": "DisableDirectingBoneAngle",
+   "size": 4,
+   "cond": true,
+   "src": 480
+  },
+  {
+   "op": "f32",
+   "name": "CollisionSphereAlpha",
+   "size": 4,
+   "cond": true,
+   "src": 388
+  },
+  {
+   "op": "wstr",
+   "name": "ChainShaderPath",
+   "size": null,
+   "cond": true,
+   "src": 392
+  },
+  {
+   "op": "wstr",
+   "name": "ModelBasisBoneName",
+   "size": null,
+   "cond": true,
+   "src": 484
+  },
+  {
+   "op": "wstr",
+   "name": "ModelFixedBoneName",
+   "size": null,
+   "cond": true,
+   "src": 512
+  },
+  {
+   "op": "f32",
+   "name": "ModelFallDepthMax",
+   "size": 4,
+   "cond": true,
+   "src": 540
+  },
+  {
+   "op": "f32",
+   "name": "HeadHeightDefault",
+   "size": 4,
+   "cond": true,
+   "src": 544
+  },
+  {
+   "op": "f32",
+   "name": "HeadHeightOffset",
+   "size": 4,
+   "cond": true,
+   "src": 548
+  },
+  {
+   "op": "i32",
+   "name": "HeaderFloatingUiOffsetX",
+   "size": 4,
+   "cond": true,
+   "src": 552
+  },
+  {
+   "op": "i32",
+   "name": "HeaderFloatingUiOffsetY",
+   "size": 4,
+   "cond": true,
+   "src": 556
+  },
+  {
+   "op": "f32",
+   "name": "HeadStampScaleOffset",
+   "size": 4,
+   "cond": true,
+   "src": 560
+  },
+  {
+   "op": "raw",
+   "name": "HeadStampPositionAdjustment",
+   "size": 8,
+   "cond": true,
+   "src": 564
+  },
+  {
+   "op": "struct",
+   "name": "HeadStampRandomRangeX",
+   "type": "V?$Pair@HH@Private@Serializer@AllM@@",
+   "func": 7531968,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "pair"
+    },
+    {
+     "op": "i32",
+     "name": "key",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "value",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "HeadStampRandomRangeY",
+   "type": "V?$Pair@HH@Private@Serializer@AllM@@",
+   "func": 7531968,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "pair"
+    },
+    {
+     "op": "i32",
+     "name": "key",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "value",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  },
+  {
+   "op": "wstr",
+   "name": "SilhouetteTexturePath",
+   "size": null,
+   "cond": true,
+   "src": 588
+  },
+  {
+   "op": "f32",
+   "name": "AppearPlayerDuration",
+   "size": 4,
+   "cond": true,
+   "src": 620
+  },
+  {
+   "op": "f32",
+   "name": "AppearPlayerDurationOnPvp",
+   "size": 4,
+   "cond": true,
+   "src": 624
+  },
+  {
+   "op": "f32",
+   "name": "NpcFadeDurationByAction",
+   "size": 4,
+   "cond": true,
+   "src": 628
+  },
+  {
+   "op": "u32",
+   "name": "CharacterNameMaximumLength",
+   "size": 4,
+   "cond": true,
+   "src": 1668
+  },
+  {
+   "op": "u32",
+   "name": "CharacterNameMinimumLength",
+   "size": 4,
+   "cond": true,
+   "src": 1672
+  },
+  {
+   "op": "u32",
+   "name": "MaximumCharacterCount",
+   "size": 4,
+   "cond": true,
+   "src": 1676
+  },
+  {
+   "op": "u32",
+   "name": "RdbPlayerNameMaxLength",
+   "size": 4,
+   "cond": true,
+   "src": 1680
+  },
+  {
+   "op": "container",
+   "name": "DefaultVillageIdsByClass",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "DefaultLicensesByClass",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@UDefaultLicensesInfo@GeneralInfo@Sdb@Apple@@V?$allocator@UDefaultLicensesInfo@GeneralInfo@Sdb@Apple@@@std@@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@UDefaultLicensesInfo@GeneralInfo@Sdb@Apple@@V?$allocator@UDefaultLicensesInfo@GeneralInfo@Sdb@Apple@@@std@@@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "DefaultVillageId",
+   "size": null,
+   "cond": true,
+   "src": 1716
+  },
+  {
+   "op": "wstr",
+   "name": "RenameItemIdForRestoration",
+   "size": null,
+   "cond": true,
+   "src": 1744
+  },
+  {
+   "op": "container",
+   "name": "DefaultLicenses",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UDefaultLicensesInfo@GeneralInfo@Sdb@Apple@@V?$allocator@UDefaultLicensesInfo@GeneralInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "PartyBonuses",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UPartyBonus@Sdb@Apple@@V?$allocator@UPartyBonus@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "u32",
+   "name": "PartyNameMaximumLength",
+   "size": 4,
+   "cond": true,
+   "src": 1804
+  },
+  {
+   "op": "f32",
+   "name": "AcceptableErrorRangeCooldown",
+   "size": 4,
+   "cond": true,
+   "src": 1808
+  },
+  {
+   "op": "wstr",
+   "name": "NormalMouseCursorPath",
+   "size": null,
+   "cond": true,
+   "src": 1812
+  },
+  {
+   "op": "wstr",
+   "name": "UnavailMouseCursorPath",
+   "size": null,
+   "cond": true,
+   "src": 1844
+  },
+  {
+   "op": "wstr",
+   "name": "UsingForItemMouseCursorPath",
+   "size": null,
+   "cond": true,
+   "src": 1876
+  },
+  {
+   "op": "f32",
+   "name": "FootprintSpacing",
+   "size": 4,
+   "cond": true,
+   "src": 1940
+  },
+  {
+   "op": "f32",
+   "name": "FootprintAdditionalVolumeOnStage",
+   "size": 4,
+   "cond": true,
+   "src": 1944
+  },
+  {
+   "op": "u32",
+   "name": "FootprintMaxCount",
+   "size": 4,
+   "cond": true,
+   "src": 1948
+  },
+  {
+   "op": "wstr",
+   "name": "GrazeHitSoundPath",
+   "size": null,
+   "cond": true,
+   "src": 1952
+  },
+  {
+   "op": "wstr",
+   "name": "BlendingInfoPath",
+   "size": null,
+   "cond": true,
+   "src": 1908
+  },
+  {
+   "op": "f32",
+   "name": "ItemAutoPickUpActivateDelay",
+   "size": 4,
+   "cond": true,
+   "src": 1956
+  },
+  {
+   "op": "enum",
+   "name": "MinGradeOfSealedEquipment",
+   "enum": "ItemGrade",
+   "cond": true
+  },
+  {
+   "op": "enum",
+   "name": "MinGradeOfUnidentifiedEquipment",
+   "enum": "ItemGrade",
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "OnSectorResetFunctionName",
+   "size": null,
+   "cond": true,
+   "src": 1136
+  },
+  {
+   "op": "wstr",
+   "name": "OnSectorBeginFunctionName",
+   "size": null,
+   "cond": true,
+   "src": 1164
+  },
+  {
+   "op": "wstr",
+   "name": "OnSectorClearFunctionName",
+   "size": null,
+   "cond": true,
+   "src": 1192
+  },
+  {
+   "op": "wstr",
+   "name": "CommonActionIdByPreloading",
+   "size": null,
+   "cond": true,
+   "src": 1968
+  },
+  {
+   "op": "i32",
+   "name": "MaxCraftMemoCount",
+   "size": 4,
+   "cond": true,
+   "src": 1996
+  },
+  {
+   "op": "i32",
+   "name": "MaxUpgradeMemoCount",
+   "size": 4,
+   "cond": true,
+   "src": 2000
+  },
+  {
+   "op": "i32",
+   "name": "MaxCraftAndBuyCount",
+   "size": 4,
+   "cond": true,
+   "src": 2004
+  },
+  {
+   "op": "f32",
+   "name": "WeaponDurabilityDecreasePerHit",
+   "size": 4,
+   "cond": true,
+   "src": 2008
+  },
+  {
+   "op": "f32",
+   "name": "ArmorDurabilityDecreasePerHit",
+   "size": 4,
+   "cond": true,
+   "src": 2012
+  },
+  {
+   "op": "f32",
+   "name": "AccessoryDurabilityDecreasePerHit",
+   "size": 4,
+   "cond": true,
+   "src": 2016
+  },
+  {
+   "op": "f32",
+   "name": "EquipmentDurabilityDecreaseRatePerDeath",
+   "size": 4,
+   "cond": true,
+   "src": 2020
+  },
+  {
+   "op": "f32",
+   "name": "RepairFeeRateOfEquipmentPrice",
+   "size": 4,
+   "cond": true,
+   "src": 2024
+  },
+  {
+   "op": "container",
+   "name": "StatusMultipliedByItemBaseValue",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "f32",
+   "name": "OwnClassEquipmentProbability",
+   "size": 4,
+   "cond": true,
+   "src": 2044
+  },
+  {
+   "op": "wstr",
+   "name": "VictoryActionId",
+   "size": null,
+   "cond": true,
+   "src": 2048
+  },
+  {
+   "op": "wstr",
+   "name": "VictoryExtraActionId",
+   "size": null,
+   "cond": true,
+   "src": 2076
+  },
+  {
+   "op": "u32",
+   "name": "MaxFatigue",
+   "size": 4,
+   "cond": true,
+   "src": 2128
+  },
+  {
+   "op": "u32",
+   "name": "MaxPCCafeFatigue",
+   "size": 4,
+   "cond": true,
+   "src": 2132
+  },
+  {
+   "op": "u32",
+   "name": "MaxPCCafeFatigueOfWeekend",
+   "size": 4,
+   "cond": true,
+   "src": 2136
+  },
+  {
+   "op": "i32",
+   "name": "GameLevForTrade",
+   "size": 4,
+   "cond": true,
+   "src": 2104
+  },
+  {
+   "op": "i32",
+   "name": "ElapsedMinutesForTrade",
+   "size": 4,
+   "cond": true,
+   "src": 2108
+  },
+  {
+   "op": "i32",
+   "name": "NewbieWarningForTrade",
+   "size": 4,
+   "cond": true,
+   "src": 2112
+  },
+  {
+   "op": "f32",
+   "name": "ElapsedSecondForSearch",
+   "size": 4,
+   "cond": true,
+   "src": 2116
+  },
+  {
+   "op": "f32",
+   "name": "ElapsedSecondForFirstTrade",
+   "size": 4,
+   "cond": true,
+   "src": 2120
+  },
+  {
+   "op": "u32",
+   "name": "MaximumTradableItemCount",
+   "size": 4,
+   "cond": true,
+   "src": 2124
+  },
+  {
+   "op": "i32",
+   "name": "DaysExpireToRestore",
+   "size": 4,
+   "cond": true,
+   "src": 2140
+  },
+  {
+   "op": "i32",
+   "name": "MaxLevel",
+   "size": 4,
+   "cond": true,
+   "src": 2144
+  },
+  {
+   "op": "f32",
+   "name": "LimitMaxExpPercent",
+   "size": 4,
+   "cond": true,
+   "src": 2148
+  },
+  {
+   "op": "i32",
+   "name": "MaxTierAttackPower",
+   "size": 4,
+   "cond": true,
+   "src": 2152
+  },
+  {
+   "op": "i32",
+   "name": "SpGainPerLevelUp",
+   "size": 4,
+   "cond": true,
+   "src": 2156
+  },
+  {
+   "op": "wstr",
+   "name": "CharacterSelectPageBgmId",
+   "size": null,
+   "cond": true,
+   "src": 2160
+  },
+  {
+   "op": "wstr",
+   "name": "StopBgmId",
+   "size": null,
+   "cond": true,
+   "src": 2188
+  },
+  {
+   "op": "f32",
+   "name": "DeadPlayerGetExpRate",
+   "size": 4,
+   "cond": true,
+   "src": 2216
+  },
+  {
+   "op": "container",
+   "name": "DisconnectionShouldBeCloseds",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "ConnectRetryCount",
+   "size": 4,
+   "cond": true,
+   "src": 2240
+  },
+  {
+   "op": "f32",
+   "name": "ConnectTimeoutDuration",
+   "size": 4,
+   "cond": true,
+   "src": 2244
+  },
+  {
+   "op": "i32",
+   "name": "ChattingPolicyLooseLevel",
+   "size": 4,
+   "cond": true,
+   "src": 1400
+  },
+  {
+   "op": "struct",
+   "name": "StrongChattingPolicy",
+   "type": "Apple::Sdb::GeneralInfo::ChattingPolicyInfo",
+   "func": 9926544,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::ChattingPolicyInfo"
+    },
+    {
+     "op": "f32",
+     "name": "MinimumInterval",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "CharacterCountDenominatorForInterval",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "i32",
+     "name": "MaxChattingRecordCount",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "i32",
+     "name": "MaxCompareEqualCount",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "i32",
+     "name": "PermittableChatLength",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "i32",
+     "name": "IntervalFromFirstChattingRecord",
+     "size": 4,
+     "cond": false,
+     "src": 24
+    },
+    {
+     "op": "i32",
+     "name": "MaxCompareEqualTime",
+     "size": 4,
+     "cond": false,
+     "src": 28
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "WeakChattingPolicy",
+   "type": "Apple::Sdb::GeneralInfo::ChattingPolicyInfo",
+   "func": 9926544,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::ChattingPolicyInfo"
+    },
+    {
+     "op": "f32",
+     "name": "MinimumInterval",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "CharacterCountDenominatorForInterval",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "i32",
+     "name": "MaxChattingRecordCount",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "i32",
+     "name": "MaxCompareEqualCount",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "i32",
+     "name": "PermittableChatLength",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "i32",
+     "name": "IntervalFromFirstChattingRecord",
+     "size": 4,
+     "cond": false,
+     "src": 24
+    },
+    {
+     "op": "i32",
+     "name": "MaxCompareEqualTime",
+     "size": 4,
+     "cond": false,
+     "src": 28
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "PartyChattingPolicy",
+   "type": "Apple::Sdb::GeneralInfo::ChattingPolicyInfo",
+   "func": 9926544,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::ChattingPolicyInfo"
+    },
+    {
+     "op": "f32",
+     "name": "MinimumInterval",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "CharacterCountDenominatorForInterval",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "i32",
+     "name": "MaxChattingRecordCount",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "i32",
+     "name": "MaxCompareEqualCount",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "i32",
+     "name": "PermittableChatLength",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "i32",
+     "name": "IntervalFromFirstChattingRecord",
+     "size": 4,
+     "cond": false,
+     "src": 24
+    },
+    {
+     "op": "i32",
+     "name": "MaxCompareEqualTime",
+     "size": 4,
+     "cond": false,
+     "src": 28
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "GuildChattingPolicy",
+   "type": "Apple::Sdb::GeneralInfo::ChattingPolicyInfo",
+   "func": 9926544,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::ChattingPolicyInfo"
+    },
+    {
+     "op": "f32",
+     "name": "MinimumInterval",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "CharacterCountDenominatorForInterval",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "i32",
+     "name": "MaxChattingRecordCount",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "i32",
+     "name": "MaxCompareEqualCount",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "i32",
+     "name": "PermittableChatLength",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "i32",
+     "name": "IntervalFromFirstChattingRecord",
+     "size": 4,
+     "cond": false,
+     "src": 24
+    },
+    {
+     "op": "i32",
+     "name": "MaxCompareEqualTime",
+     "size": 4,
+     "cond": false,
+     "src": 28
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "PlayerChattingPolicy",
+   "type": "Apple::Sdb::GeneralInfo::ChattingPolicyInfo",
+   "func": 9926544,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::ChattingPolicyInfo"
+    },
+    {
+     "op": "f32",
+     "name": "MinimumInterval",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "CharacterCountDenominatorForInterval",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "i32",
+     "name": "MaxChattingRecordCount",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "i32",
+     "name": "MaxCompareEqualCount",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "i32",
+     "name": "PermittableChatLength",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "i32",
+     "name": "IntervalFromFirstChattingRecord",
+     "size": 4,
+     "cond": false,
+     "src": 24
+    },
+    {
+     "op": "i32",
+     "name": "MaxCompareEqualTime",
+     "size": 4,
+     "cond": false,
+     "src": 28
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "FriendChattingPolicy",
+   "type": "Apple::Sdb::GeneralInfo::ChattingPolicyInfo",
+   "func": 9926544,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::ChattingPolicyInfo"
+    },
+    {
+     "op": "f32",
+     "name": "MinimumInterval",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "CharacterCountDenominatorForInterval",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "i32",
+     "name": "MaxChattingRecordCount",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "i32",
+     "name": "MaxCompareEqualCount",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "i32",
+     "name": "PermittableChatLength",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "i32",
+     "name": "IntervalFromFirstChattingRecord",
+     "size": 4,
+     "cond": false,
+     "src": 24
+    },
+    {
+     "op": "i32",
+     "name": "MaxCompareEqualTime",
+     "size": 4,
+     "cond": false,
+     "src": 28
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "PvpTeamChattingPolicy",
+   "type": "Apple::Sdb::GeneralInfo::ChattingPolicyInfo",
+   "func": 9926544,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::ChattingPolicyInfo"
+    },
+    {
+     "op": "f32",
+     "name": "MinimumInterval",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "CharacterCountDenominatorForInterval",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "i32",
+     "name": "MaxChattingRecordCount",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "i32",
+     "name": "MaxCompareEqualCount",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "i32",
+     "name": "PermittableChatLength",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "i32",
+     "name": "IntervalFromFirstChattingRecord",
+     "size": 4,
+     "cond": false,
+     "src": 24
+    },
+    {
+     "op": "i32",
+     "name": "MaxCompareEqualTime",
+     "size": 4,
+     "cond": false,
+     "src": 28
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "RaidChattingPolicy",
+   "type": "Apple::Sdb::GeneralInfo::ChattingPolicyInfo",
+   "func": 9926544,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::ChattingPolicyInfo"
+    },
+    {
+     "op": "f32",
+     "name": "MinimumInterval",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "CharacterCountDenominatorForInterval",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "i32",
+     "name": "MaxChattingRecordCount",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "i32",
+     "name": "MaxCompareEqualCount",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "i32",
+     "name": "PermittableChatLength",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "i32",
+     "name": "IntervalFromFirstChattingRecord",
+     "size": 4,
+     "cond": false,
+     "src": 24
+    },
+    {
+     "op": "i32",
+     "name": "MaxCompareEqualTime",
+     "size": 4,
+     "cond": false,
+     "src": 28
+    }
+   ]
+  },
+  {
+   "op": "u32",
+   "name": "ChattingInputMaximumLength",
+   "size": 4,
+   "cond": true,
+   "src": 1660
+  },
+  {
+   "op": "u32",
+   "name": "MegaphoneInputMaximumLength",
+   "size": 4,
+   "cond": true,
+   "src": 1664
+  },
+  {
+   "op": "f32",
+   "name": "SendingSyncInterval",
+   "size": 4,
+   "cond": true,
+   "src": 2248
+  },
+  {
+   "op": "f32",
+   "name": "UpdatingSyncDuration",
+   "size": 4,
+   "cond": true,
+   "src": 2252
+  },
+  {
+   "op": "f32",
+   "name": "SendingSyncInterval_Village",
+   "size": 4,
+   "cond": true,
+   "src": 2256
+  },
+  {
+   "op": "f32",
+   "name": "UpdatingSyncDuration_Village",
+   "size": 4,
+   "cond": true,
+   "src": 2260
+  },
+  {
+   "op": "f32",
+   "name": "InterpolDirectionSyncInterval",
+   "size": 4,
+   "cond": true,
+   "src": 2264
+  },
+  {
+   "op": "struct",
+   "name": "DeadlySkillGauge",
+   "type": "Apple::Sdb::GeneralInfo::DeadlySkillGaugeInfo",
+   "func": 10002592,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::DeadlySkillGaugeInfo"
+    },
+    {
+     "op": "i32",
+     "name": "SizeOfGauge",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "MaximumExGaugeStockCount",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "container",
+     "name": "GainAmmountByKillPerRank",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "GainAmmountsByDamagePerRank",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UGainAmmountByDamage@DeadlySkillGaugeInfo@GeneralInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UGainAmmountByDamage@DeadlySkillGaugeInfo@GeneralInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "GainAmmountBySectorClear",
+     "size": 4,
+     "cond": true,
+     "src": 44
+    },
+    {
+     "op": "i32",
+     "name": "GainAmmountByGotHit",
+     "size": 4,
+     "cond": true,
+     "src": 48
+    },
+    {
+     "op": "i32",
+     "name": "GainAmmountByRevive",
+     "size": 4,
+     "cond": true,
+     "src": 52
+    },
+    {
+     "op": "f32",
+     "name": "WaitingTimeBeforeReduceGauge",
+     "size": 4,
+     "cond": true,
+     "src": 56
+    },
+    {
+     "op": "i32",
+     "name": "ReducePerSec",
+     "size": 4,
+     "cond": true,
+     "src": 60
+    },
+    {
+     "op": "f32",
+     "name": "DeadlySkillDuration",
+     "size": 4,
+     "cond": true,
+     "src": 64
+    },
+    {
+     "op": "wstr",
+     "name": "ExModeActivateBuffId",
+     "size": null,
+     "cond": true,
+     "src": 68
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "RageGauge",
+   "type": "Apple::Sdb::GeneralInfo::RageGaugeInfo",
+   "func": 9926800,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::RageGaugeInfo"
+    },
+    {
+     "op": "i32",
+     "name": "Attack",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "Defense",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "f32",
+     "name": "WaitingTimeBeforeReduceGauge",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "f32",
+     "name": "WaitingTimeReduceValue",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "i32",
+     "name": "ReducePerSec",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "i32",
+     "name": "IntenseValue",
+     "size": 4,
+     "cond": false,
+     "src": 24
+    }
+   ]
+  },
+  {
+   "op": "i32",
+   "name": "CinematicDialogDelaySecond",
+   "size": 4,
+   "cond": true,
+   "src": 2392
+  },
+  {
+   "op": "container",
+   "name": "SectorChangablePartyPlayerCounts",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "f32",
+   "name": "SectorChangableWaitingSeconds",
+   "size": 4,
+   "cond": true,
+   "src": 2412
+  },
+  {
+   "op": "f32",
+   "name": "DefaultPingInterval",
+   "size": 4,
+   "cond": true,
+   "src": 2220
+  },
+  {
+   "op": "raw",
+   "name": "GmOutlineColor",
+   "size": 12,
+   "cond": true,
+   "src": 2416
+  },
+  {
+   "op": "f32",
+   "name": "GmOutlineWidth",
+   "size": 4,
+   "cond": true,
+   "src": 2428
+  },
+  {
+   "op": "u32",
+   "name": "FriendMaxCount",
+   "size": 4,
+   "cond": true,
+   "src": 2432
+  },
+  {
+   "op": "u32",
+   "name": "SendPresentMaxCount",
+   "size": 4,
+   "cond": true,
+   "src": 2436
+  },
+  {
+   "op": "u32",
+   "name": "GetPresentMaxCount",
+   "size": 4,
+   "cond": true,
+   "src": 2440
+  },
+  {
+   "op": "u32",
+   "name": "StoragePresentMaxCount",
+   "size": 4,
+   "cond": true,
+   "src": 2444
+  },
+  {
+   "op": "u32",
+   "name": "BlockingMaxCount",
+   "size": 4,
+   "cond": true,
+   "src": 2448
+  },
+  {
+   "op": "u32",
+   "name": "MemoMaxLimit",
+   "size": 4,
+   "cond": true,
+   "src": 2452
+  },
+  {
+   "op": "wstr",
+   "name": "FriendStoreId",
+   "size": null,
+   "cond": true,
+   "src": 2456
+  },
+  {
+   "op": "i32",
+   "name": "MaxFriendPoint",
+   "size": 4,
+   "cond": true,
+   "src": 2484
+  },
+  {
+   "op": "i32",
+   "name": "FriendPointForSendPresent",
+   "size": 4,
+   "cond": true,
+   "src": 2488
+  },
+  {
+   "op": "i32",
+   "name": "FriendPointForReceivePresent",
+   "size": 4,
+   "cond": true,
+   "src": 2492
+  },
+  {
+   "op": "i32",
+   "name": "FriendPointForFriendsInParty",
+   "size": 4,
+   "cond": true,
+   "src": 2496
+  },
+  {
+   "op": "i32",
+   "name": "FriendReapplyIntervalFromDeleted",
+   "size": 4,
+   "cond": true,
+   "src": 2500
+  },
+  {
+   "op": "u32",
+   "name": "OnePageProductMaxCount",
+   "size": 4,
+   "cond": true,
+   "src": 2504
+  },
+  {
+   "op": "i32",
+   "name": "RegisterPreriod1",
+   "size": 4,
+   "cond": true,
+   "src": 2508
+  },
+  {
+   "op": "i32",
+   "name": "RegisterPreriod2",
+   "size": 4,
+   "cond": true,
+   "src": 2512
+  },
+  {
+   "op": "i32",
+   "name": "RegisterPreriod3",
+   "size": 4,
+   "cond": true,
+   "src": 2516
+  },
+  {
+   "op": "i32",
+   "name": "RegisterPreriod4",
+   "size": 4,
+   "cond": true,
+   "src": 2520
+  },
+  {
+   "op": "i32",
+   "name": "BankSlotCountPerPage",
+   "size": 4,
+   "cond": true,
+   "src": 2524
+  },
+  {
+   "op": "u32",
+   "name": "BankMaxGold",
+   "size": 4,
+   "cond": true,
+   "src": 2528
+  },
+  {
+   "op": "i32",
+   "name": "PlayerBankInitialCapacity",
+   "size": 4,
+   "cond": true,
+   "src": 2532
+  },
+  {
+   "op": "i32",
+   "name": "AccountBankInitialCapacity",
+   "size": 4,
+   "cond": true,
+   "src": 2536
+  },
+  {
+   "op": "i32",
+   "name": "AvatarBankInitialCapacity",
+   "size": 4,
+   "cond": true,
+   "src": 2540
+  },
+  {
+   "op": "i32",
+   "name": "StashInitialCapacity",
+   "size": 4,
+   "cond": true,
+   "src": 2544
+  },
+  {
+   "op": "enum",
+   "name": "StashCautionMessage",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "struct",
+   "name": "SecondCharacterBonus",
+   "type": "Apple::Sdb::GeneralInfo::SecondCharacterBonusInfo",
+   "func": 9942608,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::SecondCharacterBonusInfo"
+    },
+    {
+     "op": "container",
+     "name": "XpBonusRateList",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HMU?$less@H@std@@V?$allocator@U?$pair@$$CBHM@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "f32",
+   "name": "PCBangStageClearExpBonusRate",
+   "size": 4,
+   "cond": true,
+   "src": 2600
+  },
+  {
+   "op": "f32",
+   "name": "AllSectorClearBonusRate",
+   "size": 4,
+   "cond": true,
+   "src": 2604
+  },
+  {
+   "op": "container",
+   "name": "StageLevelDiffExpRates",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UStageLevelDiffExpRate@GeneralInfo@Sdb@Apple@@V?$allocator@UStageLevelDiffExpRate@GeneralInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "raw",
+   "name": "StageLevelDiffExpRateLimit",
+   "size": 8,
+   "cond": true,
+   "src": 2624
+  },
+  {
+   "op": "raw",
+   "name": "StageLevelDiffExpLimit",
+   "size": 8,
+   "cond": true,
+   "src": 2632
+  },
+  {
+   "op": "wstr",
+   "name": "StageFailBuff",
+   "size": null,
+   "cond": true,
+   "src": 2676
+  },
+  {
+   "op": "f32",
+   "name": "SicknessRatio",
+   "size": 4,
+   "cond": true,
+   "src": 2704
+  },
+  {
+   "op": "f32",
+   "name": "SicknessRecoveryPeriod",
+   "size": 4,
+   "cond": true,
+   "src": 2708
+  },
+  {
+   "op": "f32",
+   "name": "SicknessRecoveryFactor",
+   "size": 4,
+   "cond": true,
+   "src": 2712
+  },
+  {
+   "op": "f32",
+   "name": "MultipleItemCreationTerm",
+   "size": 4,
+   "cond": true,
+   "src": 2716
+  },
+  {
+   "op": "f32",
+   "name": "BossItemDropRange",
+   "size": 4,
+   "cond": true,
+   "src": 2720
+  },
+  {
+   "op": "container",
+   "name": "InventoryExtendLevels",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UInventoryExtendLevelInfo@GeneralInfo@Sdb@Apple@@V?$allocator@UInventoryExtendLevelInfo@GeneralInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "f32",
+   "name": "MinimumDistanceToShowPartySearchWindow",
+   "size": 4,
+   "cond": true,
+   "src": 2724
+  },
+  {
+   "op": "f32",
+   "name": "ReviveDialogDisplayDelay",
+   "size": 4,
+   "cond": true,
+   "src": 2728
+  },
+  {
+   "op": "f32",
+   "name": "LowFrameIndicator",
+   "size": 4,
+   "cond": true,
+   "src": 2732
+  },
+  {
+   "op": "struct",
+   "name": "TgpPrivilege",
+   "type": "Apple::Sdb::GeneralInfo::TgpPrivilegeInfo",
+   "func": 9942672,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::TgpPrivilegeInfo"
+    },
+    {
+     "op": "container",
+     "name": "TgpStageClearExpInfos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UTgpStageClearExpInfo@TgpPrivilegeInfo@GeneralInfo@Sdb@Apple@@V?$allocator@UTgpStageClearExpInfo@TgpPrivilegeInfo@GeneralInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "ResetDaily",
+   "type": "Apple::Sdb::GeneralInfo::ResetDailyInfo",
+   "func": 9927456,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::ResetDailyInfo"
+    },
+    {
+     "op": "i32",
+     "name": "ResurrectionStoneCount_PcCafe",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "ResurrectionStoneCount_Daily",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "FatigueTicketItemIds",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "AttendRouletteTicketItemId",
+   "size": null,
+   "cond": true,
+   "src": 2764
+  },
+  {
+   "op": "wstr",
+   "name": "BingoTicketItemId",
+   "size": null,
+   "cond": true,
+   "src": 2792
+  },
+  {
+   "op": "f32",
+   "name": "CameraZoomMin_VirtualTexture",
+   "size": 4,
+   "cond": true,
+   "src": 2820
+  },
+  {
+   "op": "f32",
+   "name": "CameraZoomMax_VirtualTexture",
+   "size": 4,
+   "cond": true,
+   "src": 2824
+  },
+  {
+   "op": "raw",
+   "name": "CameraMoveParallelVLimit_VirtualTexture",
+   "size": 8,
+   "cond": true,
+   "src": 2828
+  },
+  {
+   "op": "raw",
+   "name": "CameraMoveParallelHLimit_VirtualTexture",
+   "size": 8,
+   "cond": true,
+   "src": 2836
+  },
+  {
+   "op": "container",
+   "name": "FloatingUiMaxRanges",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UFloatingUiMaxRangeInfo@GeneralInfo@Sdb@Apple@@V?$allocator@UFloatingUiMaxRangeInfo@GeneralInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "FloatingUiPriorities",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UFloatingUiPriorityInfo@GeneralInfo@Sdb@Apple@@V?$allocator@UFloatingUiPriorityInfo@GeneralInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "ResurrectionStoneCount_OnCreate",
+   "size": 4,
+   "cond": true,
+   "src": 2876
+  },
+  {
+   "op": "wstr",
+   "name": "WorldBossResurrectionStoneId",
+   "size": null,
+   "cond": true,
+   "src": 2880
+  },
+  {
+   "op": "i32",
+   "name": "WorldNoticeMessage_EnhanceLimit",
+   "size": 4,
+   "cond": true,
+   "src": 2908
+  },
+  {
+   "op": "i32",
+   "name": "WorldNoticeMessage_Item_Grade_Limit",
+   "size": 4,
+   "cond": true,
+   "src": 2912
+  },
+  {
+   "op": "i32",
+   "name": "NormalMailExpirePeriod",
+   "size": 4,
+   "cond": true,
+   "src": 2916
+  },
+  {
+   "op": "i32",
+   "name": "SystemMailExpirePeriod",
+   "size": 4,
+   "cond": true,
+   "src": 2920
+  },
+  {
+   "op": "i32",
+   "name": "OpenItemPackageSystemMailExpirePeriod",
+   "size": 4,
+   "cond": true,
+   "src": 2924
+  },
+  {
+   "op": "i32",
+   "name": "ElapsedTimeForMail",
+   "size": 4,
+   "cond": true,
+   "src": 2928
+  },
+  {
+   "op": "i32",
+   "name": "MinimunSecondPasswordLength",
+   "size": 4,
+   "cond": true,
+   "src": 2932
+  },
+  {
+   "op": "i32",
+   "name": "MaximunSecondPasswordLength",
+   "size": 4,
+   "cond": true,
+   "src": 2936
+  },
+  {
+   "op": "i32",
+   "name": "MaxSecondPasswordRetryCount",
+   "size": 4,
+   "cond": true,
+   "src": 2940
+  },
+  {
+   "op": "bool",
+   "name": "ResetSecondPasswordState",
+   "size": 1,
+   "cond": true,
+   "src": 2944
+  },
+  {
+   "op": "i32",
+   "name": "ResetSecondPasswordWaitMinutes",
+   "size": 4,
+   "cond": true,
+   "src": 2948
+  },
+  {
+   "op": "struct",
+   "name": "CashExchangeUsageLimit",
+   "type": "Apple::Sdb::GeneralInfo::UsageLimitInfo",
+   "func": 9927536,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::UsageLimitInfo"
+    },
+    {
+     "op": "i32",
+     "name": "Character",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "Account",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "MarketUsageLimit",
+   "type": "Apple::Sdb::GeneralInfo::UsageLimitInfo",
+   "func": 9927536,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::UsageLimitInfo"
+    },
+    {
+     "op": "i32",
+     "name": "Character",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "Account",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "MailUsageLimit",
+   "type": "Apple::Sdb::GeneralInfo::UsageLimitInfo",
+   "func": 9927536,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::UsageLimitInfo"
+    },
+    {
+     "op": "i32",
+     "name": "Character",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "Account",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  },
+  {
+   "op": "i32",
+   "name": "RecoveredNormalFatigue",
+   "size": 4,
+   "cond": true,
+   "src": 2996
+  },
+  {
+   "op": "i32",
+   "name": "RecoveredRoyalFatigue",
+   "size": 4,
+   "cond": true,
+   "src": 3000
+  },
+  {
+   "op": "i32",
+   "name": "PersonalTradeUsageLimit",
+   "size": 4,
+   "cond": true,
+   "src": 3004
+  },
+  {
+   "op": "container",
+   "name": "ItemDropCountRatesByPlayerCount",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UItemDropCountInfo@GeneralInfo@Sdb@Apple@@V?$allocator@UItemDropCountInfo@GeneralInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "ItemDropInfosByStageDifficulty",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UItemDropInfoByStageDifficulty@GeneralInfo@Sdb@Apple@@V?$allocator@UItemDropInfoByStageDifficulty@GeneralInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "f32",
+   "name": "PhysicalAttributeBonusDamageRate",
+   "size": 4,
+   "cond": true,
+   "src": 2952
+  },
+  {
+   "op": "f32",
+   "name": "ElementalAttributeBonusDamageRate",
+   "size": 4,
+   "cond": true,
+   "src": 2956
+  },
+  {
+   "op": "f32",
+   "name": "AAPDecreaseRateByDamage",
+   "size": 4,
+   "cond": true,
+   "src": 3040
+  },
+  {
+   "op": "f32",
+   "name": "AAPDecreaseBonusRateWhenMatchWeakAttribute",
+   "size": 4,
+   "cond": true,
+   "src": 3044
+  },
+  {
+   "op": "f32",
+   "name": "AAPDecreaseBonusRateWhenRangeAttack",
+   "size": 4,
+   "cond": true,
+   "src": 3048
+  },
+  {
+   "op": "f32",
+   "name": "AAPDecreaseRateWhenSuperArmorCrash",
+   "size": 4,
+   "cond": true,
+   "src": 3052
+  },
+  {
+   "op": "i32",
+   "name": "MaxEventOptionChangeCount",
+   "size": 4,
+   "cond": true,
+   "src": 3056
+  },
+  {
+   "op": "i32",
+   "name": "MaxReidentifyCount",
+   "size": 4,
+   "cond": true,
+   "src": 3060
+  },
+  {
+   "op": "i32",
+   "name": "MaxUnbindCount",
+   "size": 4,
+   "cond": true,
+   "src": 3064
+  },
+  {
+   "op": "i32",
+   "name": "PetMaxUnbindCount",
+   "size": 4,
+   "cond": true,
+   "src": 3068
+  },
+  {
+   "op": "i32",
+   "name": "MaxItemBonusLevel",
+   "size": 4,
+   "cond": true,
+   "src": 3072
+  },
+  {
+   "op": "i32",
+   "name": "MaxArenaNpcLevel",
+   "size": 4,
+   "cond": true,
+   "src": 3076
+  },
+  {
+   "op": "i32",
+   "name": "MaxArenaClearCount",
+   "size": 4,
+   "cond": true,
+   "src": 3080
+  },
+  {
+   "op": "i32",
+   "name": "MaxPartyPasswordLength",
+   "size": 4,
+   "cond": true,
+   "src": 3084
+  },
+  {
+   "op": "wstr",
+   "name": "DoomBladeAwakenBuffId",
+   "size": null,
+   "cond": true,
+   "src": 3088
+  },
+  {
+   "op": "wstr",
+   "name": "GigongsaAwakenBuffId",
+   "size": null,
+   "cond": true,
+   "src": 3116
+  },
+  {
+   "op": "wstr",
+   "name": "GigongsaReloadBuffId",
+   "size": null,
+   "cond": true,
+   "src": 3144
+  },
+  {
+   "op": "bool",
+   "name": "EnableAwaken",
+   "size": 1,
+   "cond": true,
+   "src": 3172
+  },
+  {
+   "op": "wstr",
+   "name": "DoomBladeCurseBuffId",
+   "size": null,
+   "cond": true,
+   "src": 3176
+  },
+  {
+   "op": "wstr",
+   "name": "ArchitectBulletBuffId",
+   "size": null,
+   "cond": true,
+   "src": 3204
+  },
+  {
+   "op": "i32",
+   "name": "GigongsaReloadMaxCount",
+   "size": 4,
+   "cond": true,
+   "src": 3232
+  },
+  {
+   "op": "f32",
+   "name": "NoticeShowSecond",
+   "size": 4,
+   "cond": true,
+   "src": 3236
+  },
+  {
+   "op": "f32",
+   "name": "NoticeIntervalSecond",
+   "size": 4,
+   "cond": true,
+   "src": 3240
+  },
+  {
+   "op": "i32",
+   "name": "NoticeRepeat",
+   "size": 4,
+   "cond": true,
+   "src": 3244
+  },
+  {
+   "op": "f32",
+   "name": "UiNotifyUpdateTick",
+   "size": 4,
+   "cond": true,
+   "src": 3248
+  },
+  {
+   "op": "container",
+   "name": "NeedVisitStageOnMemoryCheck",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UVisitStageInfo@GeneralInfo@Sdb@Apple@@V?$allocator@UVisitStageInfo@GeneralInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "f32",
+   "name": "WaitTimeOnMemoryCheck",
+   "size": 4,
+   "cond": true,
+   "src": 3432
+  },
+  {
+   "op": "wstr",
+   "name": "EnhanceFailRewardItemId",
+   "size": null,
+   "cond": true,
+   "src": 3252
+  },
+  {
+   "op": "i32",
+   "name": "AddItemBonusDelta",
+   "size": 4,
+   "cond": true,
+   "src": 3280
+  },
+  {
+   "op": "f32",
+   "name": "MaxPartyIntrusionProbability",
+   "size": 4,
+   "cond": true,
+   "src": 3284
+  },
+  {
+   "op": "f32",
+   "name": "MinShowIntrusionHintProbability",
+   "size": 4,
+   "cond": true,
+   "src": 3288
+  },
+  {
+   "op": "wstr",
+   "name": "IntrusionHintNpcId",
+   "size": null,
+   "cond": true,
+   "src": 3292
+  },
+  {
+   "op": "wstr",
+   "name": "IntrusionActionId",
+   "size": null,
+   "cond": true,
+   "src": 3320
+  },
+  {
+   "op": "container",
+   "name": "AddNpcBuffCategories",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "bool",
+   "name": "AutoIdleChannelSelect",
+   "size": 1,
+   "cond": true,
+   "src": 3364
+  },
+  {
+   "op": "container",
+   "name": "UpgradableItemTutorialQuests",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "Tutorial_AttainTierAttackPower",
+   "size": 4,
+   "cond": true,
+   "src": 3384
+  },
+  {
+   "op": "wstr",
+   "name": "Tutorial_AttainMaxLevelVillageId",
+   "size": null,
+   "cond": true,
+   "src": 3388
+  },
+  {
+   "op": "f32",
+   "name": "MaxVisiblePlayerDistanceOnVillage",
+   "size": 4,
+   "cond": true,
+   "src": 3436
+  },
+  {
+   "op": "bool",
+   "name": "MinimizeWindowWhenRechargingCash",
+   "size": 1,
+   "cond": true,
+   "src": 3440
+  },
+  {
+   "op": "wstr",
+   "name": "PointRefundStartDate",
+   "size": null,
+   "cond": true,
+   "src": 3444
+  },
+  {
+   "op": "wstr",
+   "name": "PointRefundEndDate",
+   "size": null,
+   "cond": true,
+   "src": 3472
+  },
+  {
+   "op": "container",
+   "name": "PopStageCoinIds",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "PopStageCoinShopId",
+   "size": null,
+   "cond": true,
+   "src": 3516
+  },
+  {
+   "op": "i32",
+   "name": "RebalanceVersion",
+   "size": 4,
+   "cond": true,
+   "src": 3588
+  },
+  {
+   "op": "container",
+   "name": "PvpMissionQuestTable",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@V?$allocator@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "DailyPvpRewardQuestId",
+   "size": null,
+   "cond": true,
+   "src": 3560
+  },
+  {
+   "op": "container",
+   "name": "MaxTierAttackPowerByLevel",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "f32",
+   "name": "AttackPowerAdjustmentRateByTierAttackPower",
+   "size": 4,
+   "cond": true,
+   "src": 3608
+  },
+  {
+   "op": "i32",
+   "name": "WinningStreakMessageInterval",
+   "size": 4,
+   "cond": true,
+   "src": 3612
+  },
+  {
+   "op": "i32",
+   "name": "WinningStreakBroadCastToWorldMinLevel",
+   "size": 4,
+   "cond": true,
+   "src": 3616
+  },
+  {
+   "op": "container",
+   "name": "MonsterWaveNpcRankPoints",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UNpcRankPointInfo@GeneralInfo@Sdb@Apple@@V?$allocator@UNpcRankPointInfo@GeneralInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "AlarmTimeAttackSecond",
+   "size": 4,
+   "cond": true,
+   "src": 3636
+  },
+  {
+   "op": "i32",
+   "name": "Tutorial_SecondPasswordLevel",
+   "size": 4,
+   "cond": true,
+   "src": 3640
+  },
+  {
+   "op": "wstr",
+   "name": "WeeklyPopStageQuestId",
+   "size": null,
+   "cond": true,
+   "src": 3644
+  },
+  {
+   "op": "i32",
+   "name": "DailyCreatePlayerLimit",
+   "size": 4,
+   "cond": true,
+   "src": 3672
+  },
+  {
+   "op": "i32",
+   "name": "MaxItemPackageFeverPoint",
+   "size": 4,
+   "cond": true,
+   "src": 3676
+  },
+  {
+   "op": "i32",
+   "name": "MaxReconnectionCountToAasServer",
+   "size": 4,
+   "cond": true,
+   "src": 3680
+  },
+  {
+   "op": "f32",
+   "name": "GMEvent_LimitExpRate",
+   "size": 4,
+   "cond": true,
+   "src": 3684
+  },
+  {
+   "op": "f32",
+   "name": "GMEvent_LimitDropRate",
+   "size": 4,
+   "cond": true,
+   "src": 3688
+  },
+  {
+   "op": "struct",
+   "name": "PetDefaultInfos",
+   "type": "Apple::Sdb::GeneralInfo::PetDefaultInfos",
+   "func": 9998560,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::PetDefaultInfos"
+    },
+    {
+     "op": "f32",
+     "name": "DecreaseDurabilityValueBySpendFatigue",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "f32",
+     "name": "IncreaseExpRateByDecreaseDurability",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "f32",
+     "name": "AutoConsumePetFoodDurabilityRate",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "f32",
+     "name": "AutoDurabilityRestorationMaxRate",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "f32",
+     "name": "AutoDurabilityRestorationSeconds",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "f32",
+     "name": "AutoDurabilityRestorationValue",
+     "size": 4,
+     "cond": false,
+     "src": 24
+    },
+    {
+     "op": "container",
+     "name": "NextUpgradableExp",
+     "kind": "associative_array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "PetPassiveSkillDefaultIconPaths",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "wstr",
+     "name": "SkillReadyEffectId",
+     "size": null,
+     "cond": true,
+     "src": 60
+    }
+   ]
+  },
+  {
+   "op": "wstr",
+   "name": "MoleStagePopupItemInfoId",
+   "size": null,
+   "cond": true,
+   "src": 3784
+  },
+  {
+   "op": "u32",
+   "name": "BasicSwapableQuickSlotSize",
+   "size": 4,
+   "cond": true,
+   "src": 3692
+  },
+  {
+   "op": "container",
+   "name": "PopStageRegionIdList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "NewbiePeriod",
+   "size": 4,
+   "cond": true,
+   "src": 3828
+  },
+  {
+   "op": "i32",
+   "name": "MaxContractRemainTime",
+   "size": 4,
+   "cond": true,
+   "src": 3832
+  },
+  {
+   "op": "container",
+   "name": "UnusableClassTypeForContract",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "u32",
+   "name": "PetitionMessageMaximumLength",
+   "size": 4,
+   "cond": true,
+   "src": 3852
+  },
+  {
+   "op": "u32",
+   "name": "MaxAccountIdLegnth",
+   "size": 4,
+   "cond": true,
+   "src": 3856
+  },
+  {
+   "op": "i32",
+   "name": "ItemUnlockStandbyHourTime",
+   "size": 4,
+   "cond": true,
+   "src": 3860
+  },
+  {
+   "op": "i32",
+   "name": "ItemLockMaxCount",
+   "size": 4,
+   "cond": true,
+   "src": 3864
+  },
+  {
+   "op": "bool",
+   "name": "UseUnbindAfterLock",
+   "size": 1,
+   "cond": true,
+   "src": 3868
+  },
+  {
+   "op": "wstr",
+   "name": "NightmareStageId",
+   "size": null,
+   "cond": true,
+   "src": 3872
+  },
+  {
+   "op": "f32",
+   "name": "LimitedHitFreezeTimeEachAction",
+   "size": 4,
+   "cond": true,
+   "src": 3900
+  },
+  {
+   "op": "i32",
+   "name": "PaidAdditionalSlotCount",
+   "size": 4,
+   "cond": true,
+   "src": 3904
+  },
+  {
+   "op": "wstr",
+   "name": "XmasStartTime",
+   "size": null,
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "XmasEndTime",
+   "size": null,
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "QuickServiceNpcId",
+   "size": null,
+   "cond": true,
+   "src": 3944
+  },
+  {
+   "op": "i32",
+   "name": "MaxOpenItemPackageStackCount",
+   "size": 4,
+   "cond": true,
+   "src": 3976
+  },
+  {
+   "op": "container",
+   "name": "CollectivelyOpenPackageTypes",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@V?$allocator@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "enum",
+   "name": "QuickServiceProvideType",
+   "enum": "QuickServiceProvideType",
+   "cond": true
+  },
+  {
+   "op": "bool",
+   "name": "DefaultAllowDisplayPlayerInfo",
+   "size": 1,
+   "cond": true,
+   "src": 3980
+  },
+  {
+   "op": "i32",
+   "name": "QuestTitrationLevel",
+   "size": 4,
+   "cond": true,
+   "src": 3984
+  },
+  {
+   "op": "bool",
+   "name": "UseTitleStepReward",
+   "size": 1,
+   "cond": true,
+   "src": 3988
+  },
+  {
+   "op": "bool",
+   "name": "UseItemDropLimit",
+   "size": 1,
+   "cond": true,
+   "src": 3989
+  },
+  {
+   "op": "bool",
+   "name": "AllowItemOrGoldAttachedMail",
+   "size": 1,
+   "cond": true,
+   "src": 3990
+  },
+  {
+   "op": "container",
+   "name": "OpenEquipSlotListByLevel",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UOpenEquipSlotInfo@GeneralInfo@Sdb@Apple@@V?$allocator@UOpenEquipSlotInfo@GeneralInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "raw",
+   "name": "AttackSpeedLimit",
+   "size": 8,
+   "cond": true,
+   "src": 4008
+  },
+  {
+   "op": "raw",
+   "name": "FeelingDifficultyRangeRate",
+   "size": 8,
+   "cond": true,
+   "src": 4016
+  },
+  {
+   "op": "container",
+   "name": "RequiredValuePerBaseStatusSkillLevel",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "AddItemMaxBonusLevelLimitForUi",
+   "size": 4,
+   "cond": true,
+   "src": 4040
+  },
+  {
+   "op": "i32",
+   "name": "MinLevelForOldSkills",
+   "size": 4,
+   "cond": true,
+   "src": 4044
+  },
+  {
+   "op": "i32",
+   "name": "MinLevelForCombine",
+   "size": 4,
+   "cond": true,
+   "src": 4048
+  },
+  {
+   "op": "i32",
+   "name": "DestructibleObjectActivationHp",
+   "size": 4,
+   "cond": true,
+   "src": 4052
+  },
+  {
+   "op": "i32",
+   "name": "DestructibleObjectDefaultHp",
+   "size": 4,
+   "cond": true,
+   "src": 4056
+  },
+  {
+   "op": "enum",
+   "name": "IndividualDropItemPickUpBroadcastGrade",
+   "enum": "ItemGrade",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "CatalapisExModeLimitCount",
+   "size": 4,
+   "cond": true,
+   "src": 4064
+  },
+  {
+   "op": "container",
+   "name": "SkillAttributeDescList",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UDescriptionInfo@GeneralInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UDescriptionInfo@GeneralInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "SkillTypeDescList",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UDescriptionInfo@GeneralInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UDescriptionInfo@GeneralInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "f64",
+   "name": "OverPowerPenaltyRate",
+   "size": 8,
+   "cond": true,
+   "src": 4104
+  },
+  {
+   "op": "container",
+   "name": "StageTabTypeAdditionalInfo",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UTabAdditionalInfo@GeneralInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UTabAdditionalInfo@GeneralInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "PetNameWithBadWordChangeRewardId",
+   "size": null,
+   "cond": true,
+   "src": 4128
+  },
+  {
+   "op": "i32",
+   "name": "PetNameWithBadWordChangeRewardCount",
+   "size": 4,
+   "cond": true,
+   "src": 4156
+  },
+  {
+   "op": "container",
+   "name": "UIXmlUrlList",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@VLocator@AllM@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@VLocator@AllM@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "f32",
+   "name": "AutoDirectionWhenAttackTurnSpeedFactor",
+   "size": 4,
+   "cond": true,
+   "src": 4176
+  },
+  {
+   "op": "f32",
+   "name": "AutoDirectionWhenAttackTurnDuration",
+   "size": 4,
+   "cond": true,
+   "src": 4180
+  },
+  {
+   "op": "f32",
+   "name": "AutoDirectionVertialTarget",
+   "size": 4,
+   "cond": true,
+   "src": 4200
+  },
+  {
+   "op": "i32",
+   "name": "PetPackageDisassemblyMax",
+   "size": 4,
+   "cond": true,
+   "src": 4204
+  },
+  {
+   "op": "i32",
+   "name": "NormalPackageDisassemblyMax",
+   "size": 4,
+   "cond": true,
+   "src": 4208
+  },
+  {
+   "op": "f32",
+   "name": "AutoDirectionWhenMoveTurnSpeedFactor",
+   "size": 4,
+   "cond": true,
+   "src": 4184
+  },
+  {
+   "op": "f32",
+   "name": "AutoDirectionWhenMoveTurnDuration",
+   "size": 4,
+   "cond": true,
+   "src": 4188
+  },
+  {
+   "op": "f32",
+   "name": "AutoDirectionWhenMoveIgnoreAngle",
+   "size": 4,
+   "cond": true,
+   "src": 4192
+  },
+  {
+   "op": "f32",
+   "name": "AutoDirectionIgnoreTime",
+   "size": 4,
+   "cond": true,
+   "src": 4196
+  },
+  {
+   "op": "i32",
+   "name": "MaxItemCountInParcelBox",
+   "size": 4,
+   "cond": true,
+   "src": 4212
+  },
+  {
+   "op": "struct",
+   "name": "BettingInfo",
+   "type": "Apple::Sdb::GeneralInfo::BettingInfo",
+   "func": 10055056,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::BettingInfo"
+    },
+    {
+     "op": "i32",
+     "name": "GuildCompetitionBettableMaxTickets",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "GuildCompetitionBettingMatchCount",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "i32",
+     "name": "GuildCompetitionBettingStartDelayMinutes",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "wstr",
+     "name": "TicketId",
+     "size": null,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "wstr",
+     "name": "RewardTicketId",
+     "size": null,
+     "cond": false,
+     "src": 44
+    },
+    {
+     "op": "f64",
+     "name": "TicketReturnRate",
+     "size": 8,
+     "cond": false,
+     "src": 72
+    },
+    {
+     "op": "wstr",
+     "name": "RefundTicketId",
+     "size": null,
+     "cond": false,
+     "src": 80
+    },
+    {
+     "op": "wstr",
+     "name": "HackRefundTicketId",
+     "size": null,
+     "cond": false,
+     "src": 108
+    },
+    {
+     "op": "container",
+     "name": "CashItemNames",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@VLocaleType@Locale@AllM@@V?$allocator@VLocaleType@Locale@AllM@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "struct",
+     "name": "PvpTournament",
+     "type": "Apple::Sdb::GeneralInfo::BettingInfo::PvpTournamentInfo",
+     "func": 9928112,
+     "cond": false,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::Sdb::GeneralInfo::BettingInfo::PvpTournamentInfo"
+      },
+      {
+       "op": "i32",
+       "name": "BettableMaxTicketCount",
+       "size": 4,
+       "cond": false,
+       "src": 4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "op": "i32",
+   "name": "TalismanStartLevel",
+   "size": 4,
+   "cond": true,
+   "src": 4376
+  },
+  {
+   "op": "wstr",
+   "name": "TalismanInstantLevelUpItemId",
+   "size": null,
+   "cond": true,
+   "src": 4380
+  },
+  {
+   "op": "i32",
+   "name": "TalismanInstantLevelUpItemOidProduct",
+   "size": 4,
+   "cond": true,
+   "src": 4408
+  },
+  {
+   "op": "wstr",
+   "name": "HiddenIncludedFeverPackageItemId",
+   "size": null,
+   "cond": true,
+   "src": 4412
+  },
+  {
+   "op": "container",
+   "name": "FeverPackageKeyProductOids",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "enum",
+   "name": "MinimumAvatarGradeToGetExpandedEnchantSlot",
+   "enum": "ItemGrade",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "DefaultPet2StatusPercentage",
+   "size": 4,
+   "cond": true,
+   "src": 4460
+  },
+  {
+   "op": "i32",
+   "name": "SkillSetExpendProductOid",
+   "size": 4,
+   "cond": true,
+   "src": 4464
+  },
+  {
+   "op": "container",
+   "name": "CrystalEnableGrades",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "enum",
+   "name": "NoticeGuildBossSumoned",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "bool",
+   "name": "KPointAvailableWhenCashExchange",
+   "size": 1,
+   "cond": true,
+   "src": 4517
+  },
+  {
+   "op": "bool",
+   "name": "PurchaseCancelable",
+   "size": 1,
+   "cond": true,
+   "src": 4516
+  },
+  {
+   "op": "struct",
+   "name": "TradeAutoBanningInfo",
+   "type": "Apple::Sdb::GeneralInfo::TradeAutoBanningInfo",
+   "func": 9943280,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::TradeAutoBanningInfo"
+    },
+    {
+     "op": "i32",
+     "name": "MinLevelForPassCheck",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "TotalItemCountLimit",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "container",
+     "name": "TargetItemIds",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "CaptchaInfo",
+   "type": "Apple::Sdb::GeneralInfo::CaptchaInfo",
+   "func": 9928176,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GeneralInfo::CaptchaInfo"
+    },
+    {
+     "op": "i32",
+     "name": "ActivateSpentFatigue",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "RepeatInterval",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "i32",
+     "name": "RetryLimitCount",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "i32",
+     "name": "TimeLimitSecond",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "i32",
+     "name": "BlockPeriod",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "i32",
+     "name": "LogFrequency",
+     "size": 4,
+     "cond": false,
+     "src": 24
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "DisableWorldNoticeByUserTypes",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  }
+ ],
+ "types": {
+  "Apple::Sdb::StageInfo::StarFilter": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::StageInfo::StarFilter"
+   },
+   {
+    "op": "bool",
+    "name": "Enable",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "f32",
+    "name": "Threshold",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "f32",
+    "name": "Size",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "f32",
+    "name": "SizeScale",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "f32",
+    "name": "Power",
+    "size": 4,
+    "cond": false,
+    "src": 20
+   }
+  ],
+  "V?$Pair@HH@Private@Serializer@AllM@@": [
+   {
+    "op": "begin",
+    "type": "pair"
+   },
+   {
+    "op": "i32",
+    "name": "key",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "value",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   }
+  ],
+  "Apple::Sdb::GeneralInfo::ChattingPolicyInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::GeneralInfo::ChattingPolicyInfo"
+   },
+   {
+    "op": "f32",
+    "name": "MinimumInterval",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "CharacterCountDenominatorForInterval",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "i32",
+    "name": "MaxChattingRecordCount",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "i32",
+    "name": "MaxCompareEqualCount",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "i32",
+    "name": "PermittableChatLength",
+    "size": 4,
+    "cond": false,
+    "src": 20
+   },
+   {
+    "op": "i32",
+    "name": "IntervalFromFirstChattingRecord",
+    "size": 4,
+    "cond": false,
+    "src": 24
+   },
+   {
+    "op": "i32",
+    "name": "MaxCompareEqualTime",
+    "size": 4,
+    "cond": false,
+    "src": 28
+   }
+  ],
+  "Apple::Sdb::GeneralInfo::DeadlySkillGaugeInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::GeneralInfo::DeadlySkillGaugeInfo"
+   },
+   {
+    "op": "i32",
+    "name": "SizeOfGauge",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "MaximumExGaugeStockCount",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "container",
+    "name": "GainAmmountByKillPerRank",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "GainAmmountsByDamagePerRank",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UGainAmmountByDamage@DeadlySkillGaugeInfo@GeneralInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UGainAmmountByDamage@DeadlySkillGaugeInfo@GeneralInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "GainAmmountBySectorClear",
+    "size": 4,
+    "cond": true,
+    "src": 44
+   },
+   {
+    "op": "i32",
+    "name": "GainAmmountByGotHit",
+    "size": 4,
+    "cond": true,
+    "src": 48
+   },
+   {
+    "op": "i32",
+    "name": "GainAmmountByRevive",
+    "size": 4,
+    "cond": true,
+    "src": 52
+   },
+   {
+    "op": "f32",
+    "name": "WaitingTimeBeforeReduceGauge",
+    "size": 4,
+    "cond": true,
+    "src": 56
+   },
+   {
+    "op": "i32",
+    "name": "ReducePerSec",
+    "size": 4,
+    "cond": true,
+    "src": 60
+   },
+   {
+    "op": "f32",
+    "name": "DeadlySkillDuration",
+    "size": 4,
+    "cond": true,
+    "src": 64
+   },
+   {
+    "op": "wstr",
+    "name": "ExModeActivateBuffId",
+    "size": null,
+    "cond": true,
+    "src": 68
+   }
+  ],
+  "Apple::Sdb::GeneralInfo::RageGaugeInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::GeneralInfo::RageGaugeInfo"
+   },
+   {
+    "op": "i32",
+    "name": "Attack",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "Defense",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "f32",
+    "name": "WaitingTimeBeforeReduceGauge",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "f32",
+    "name": "WaitingTimeReduceValue",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "i32",
+    "name": "ReducePerSec",
+    "size": 4,
+    "cond": false,
+    "src": 20
+   },
+   {
+    "op": "i32",
+    "name": "IntenseValue",
+    "size": 4,
+    "cond": false,
+    "src": 24
+   }
+  ],
+  "Apple::Sdb::GeneralInfo::SecondCharacterBonusInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::GeneralInfo::SecondCharacterBonusInfo"
+   },
+   {
+    "op": "container",
+    "name": "XpBonusRateList",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HMU?$less@H@std@@V?$allocator@U?$pair@$$CBHM@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::GeneralInfo::TgpPrivilegeInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::GeneralInfo::TgpPrivilegeInfo"
+   },
+   {
+    "op": "container",
+    "name": "TgpStageClearExpInfos",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UTgpStageClearExpInfo@TgpPrivilegeInfo@GeneralInfo@Sdb@Apple@@V?$allocator@UTgpStageClearExpInfo@TgpPrivilegeInfo@GeneralInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::GeneralInfo::ResetDailyInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::GeneralInfo::ResetDailyInfo"
+   },
+   {
+    "op": "i32",
+    "name": "ResurrectionStoneCount_PcCafe",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "ResurrectionStoneCount_Daily",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   }
+  ],
+  "Apple::Sdb::GeneralInfo::UsageLimitInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::GeneralInfo::UsageLimitInfo"
+   },
+   {
+    "op": "i32",
+    "name": "Character",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "Account",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   }
+  ],
+  "Apple::Sdb::GeneralInfo::PetDefaultInfos": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::GeneralInfo::PetDefaultInfos"
+   },
+   {
+    "op": "f32",
+    "name": "DecreaseDurabilityValueBySpendFatigue",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "f32",
+    "name": "IncreaseExpRateByDecreaseDurability",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "f32",
+    "name": "AutoConsumePetFoodDurabilityRate",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "f32",
+    "name": "AutoDurabilityRestorationMaxRate",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "f32",
+    "name": "AutoDurabilityRestorationSeconds",
+    "size": 4,
+    "cond": false,
+    "src": 20
+   },
+   {
+    "op": "f32",
+    "name": "AutoDurabilityRestorationValue",
+    "size": 4,
+    "cond": false,
+    "src": 24
+   },
+   {
+    "op": "container",
+    "name": "NextUpgradableExp",
+    "kind": "associative_array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "PetPassiveSkillDefaultIconPaths",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "wstr",
+    "name": "SkillReadyEffectId",
+    "size": null,
+    "cond": true,
+    "src": 60
+   }
+  ],
+  "Apple::Sdb::GeneralInfo::BettingInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::GeneralInfo::BettingInfo"
+   },
+   {
+    "op": "i32",
+    "name": "GuildCompetitionBettableMaxTickets",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "GuildCompetitionBettingMatchCount",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "i32",
+    "name": "GuildCompetitionBettingStartDelayMinutes",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "wstr",
+    "name": "TicketId",
+    "size": null,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "wstr",
+    "name": "RewardTicketId",
+    "size": null,
+    "cond": false,
+    "src": 44
+   },
+   {
+    "op": "f64",
+    "name": "TicketReturnRate",
+    "size": 8,
+    "cond": false,
+    "src": 72
+   },
+   {
+    "op": "wstr",
+    "name": "RefundTicketId",
+    "size": null,
+    "cond": false,
+    "src": 80
+   },
+   {
+    "op": "wstr",
+    "name": "HackRefundTicketId",
+    "size": null,
+    "cond": false,
+    "src": 108
+   },
+   {
+    "op": "container",
+    "name": "CashItemNames",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@VLocaleType@Locale@AllM@@V?$allocator@VLocaleType@Locale@AllM@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "struct",
+    "name": "PvpTournament",
+    "type": "Apple::Sdb::GeneralInfo::BettingInfo::PvpTournamentInfo",
+    "func": 9928112,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::Sdb::GeneralInfo::BettingInfo::PvpTournamentInfo"
+     },
+     {
+      "op": "i32",
+      "name": "BettableMaxTicketCount",
+      "size": 4,
+      "cond": false,
+      "src": 4
+     }
+    ]
+   }
+  ],
+  "Apple::Sdb::GeneralInfo::BettingInfo::PvpTournamentInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::GeneralInfo::BettingInfo::PvpTournamentInfo"
+   },
+   {
+    "op": "i32",
+    "name": "BettableMaxTicketCount",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   }
+  ],
+  "Apple::Sdb::GeneralInfo::TradeAutoBanningInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::GeneralInfo::TradeAutoBanningInfo"
+   },
+   {
+    "op": "i32",
+    "name": "MinLevelForPassCheck",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "TotalItemCountLimit",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "container",
+    "name": "TargetItemIds",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::GeneralInfo::CaptchaInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::GeneralInfo::CaptchaInfo"
+   },
+   {
+    "op": "i32",
+    "name": "ActivateSpentFatigue",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "RepeatInterval",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "i32",
+    "name": "RetryLimitCount",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "i32",
+    "name": "TimeLimitSecond",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "i32",
+    "name": "BlockPeriod",
+    "size": 4,
+    "cond": false,
+    "src": 20
+   },
+   {
+    "op": "i32",
+    "name": "LogFrequency",
+    "size": 4,
+    "cond": false,
+    "src": 24
+   }
+  ]
+ }
+}

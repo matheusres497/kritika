@@ -1,0 +1,65 @@
+{
+ "type": "Apple::Sdb::SimpleQuestInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SimpleQuestInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "QuestCategory",
+   "size": null,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "wstr",
+   "name": "ExpandedQuestCategory",
+   "size": null,
+   "cond": false,
+   "src": 88
+  },
+  {
+   "op": "enum",
+   "name": "MainTitle",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "QuestClearNoticeType",
+   "size": null,
+   "cond": false,
+   "src": 116
+  },
+  {
+   "op": "raw",
+   "name": "AcceptConditionLevel",
+   "size": 8,
+   "cond": false,
+   "src": 176
+  },
+  {
+   "op": "bool",
+   "name": "IsMainQuest",
+   "size": 1,
+   "cond": false,
+   "src": 184
+  },
+  {
+   "op": "wstr",
+   "name": "ApplyNpcId",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "QuestId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  }
+ ],
+ "types": {}
+}

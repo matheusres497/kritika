@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::ExpTableInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ExpTableInfo"
+  },
+  {
+   "op": "container",
+   "name": "ExpTable",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@IV?$allocator@I@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

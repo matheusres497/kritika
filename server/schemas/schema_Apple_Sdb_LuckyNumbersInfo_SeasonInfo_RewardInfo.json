@@ -1,0 +1,28 @@
+{
+ "type": ".?AU?$WriterWrapper@$$CBURewardInfo@SeasonInfo@LuckyNumbersInfo@Sdb@Apple@@@Private@Serializer@AllM@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::LuckyNumbersInfo::SeasonInfo::RewardInfo"
+  },
+  {
+   "op": "i32",
+   "name": "Index",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "Range",
+   "size": 8,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ItemId",
+   "size": null,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

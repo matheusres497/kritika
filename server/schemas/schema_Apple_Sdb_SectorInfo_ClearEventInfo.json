@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::SectorInfo::ClearEventInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ClearEventInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "CinematicDialogId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "CreateItems",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCreateItem@ClearEventInfo@SectorInfo@Sdb@Apple@@V?$allocator@UCreateItem@ClearEventInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

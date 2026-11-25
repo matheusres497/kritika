@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::FreetypeTextureInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::FreetypeTextureInfo"
+  },
+  {
+   "op": "container",
+   "name": "FreetypeTextures",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UFreetypeTexture@FreetypeTextureInfo@Sdb@Apple@@V?$allocator@UFreetypeTexture@FreetypeTextureInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

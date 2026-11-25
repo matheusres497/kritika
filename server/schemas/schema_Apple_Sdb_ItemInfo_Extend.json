@@ -1,0 +1,200 @@
+{
+ "type": "Apple::Sdb::ItemInfo::Extend",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemInfo::Extend"
+  },
+  {
+   "op": "container",
+   "name": "PeriodStatus",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "PeriodEventOptionList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PeriodOptionExclusiveClassId",
+   "size": null,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "struct",
+   "name": "ExpireInfo",
+   "type": "Apple::Sdb::ItemInfo::Expire",
+   "func": 7457088,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ItemInfo::Expire"
+    },
+    {
+     "op": "enum",
+     "name": "Type",
+     "enum": "ExpirationType",
+     "cond": false
+    },
+    {
+     "op": "struct",
+     "name": "DateInfo",
+     "type": "Apple::Sdb::ItemInfo::Expire::Date",
+     "func": 7444768,
+     "cond": false,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::Sdb::ItemInfo::Expire::Date"
+      },
+      {
+       "op": "i32",
+       "name": "Year",
+       "size": 4,
+       "cond": false,
+       "src": 4
+      },
+      {
+       "op": "i32",
+       "name": "Month",
+       "size": 4,
+       "cond": false,
+       "src": 8
+      },
+      {
+       "op": "i32",
+       "name": "Day",
+       "size": 4,
+       "cond": false,
+       "src": 12
+      },
+      {
+       "op": "i32",
+       "name": "Hour",
+       "size": 4,
+       "cond": false,
+       "src": 16
+      },
+      {
+       "op": "i32",
+       "name": "Minute",
+       "size": 4,
+       "cond": false,
+       "src": 20
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::ItemInfo::Expire": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ItemInfo::Expire"
+   },
+   {
+    "op": "enum",
+    "name": "Type",
+    "enum": "ExpirationType",
+    "cond": false
+   },
+   {
+    "op": "struct",
+    "name": "DateInfo",
+    "type": "Apple::Sdb::ItemInfo::Expire::Date",
+    "func": 7444768,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::Sdb::ItemInfo::Expire::Date"
+     },
+     {
+      "op": "i32",
+      "name": "Year",
+      "size": 4,
+      "cond": false,
+      "src": 4
+     },
+     {
+      "op": "i32",
+      "name": "Month",
+      "size": 4,
+      "cond": false,
+      "src": 8
+     },
+     {
+      "op": "i32",
+      "name": "Day",
+      "size": 4,
+      "cond": false,
+      "src": 12
+     },
+     {
+      "op": "i32",
+      "name": "Hour",
+      "size": 4,
+      "cond": false,
+      "src": 16
+     },
+     {
+      "op": "i32",
+      "name": "Minute",
+      "size": 4,
+      "cond": false,
+      "src": 20
+     }
+    ]
+   }
+  ],
+  "Apple::Sdb::ItemInfo::Expire::Date": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ItemInfo::Expire::Date"
+   },
+   {
+    "op": "i32",
+    "name": "Year",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "Month",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "i32",
+    "name": "Day",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "i32",
+    "name": "Hour",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "i32",
+    "name": "Minute",
+    "size": 4,
+    "cond": false,
+    "src": 20
+   }
+  ]
+ }
+}

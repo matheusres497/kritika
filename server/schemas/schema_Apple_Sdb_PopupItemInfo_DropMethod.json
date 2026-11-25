@@ -1,0 +1,16 @@
+{
+ "type": "Apple::Sdb::PopupItemInfo::DropMethod",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PopupItemInfo::DropMethod"
+  },
+  {
+   "op": "enum",
+   "name": "MethodType",
+   "enum": "MethodType",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

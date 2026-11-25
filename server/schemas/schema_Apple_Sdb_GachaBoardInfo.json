@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::GachaBoardInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GachaBoardInfo"
+  },
+  {
+   "op": "i32",
+   "name": "LineCount",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "RewardLevelInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardLevelInfo@GachaBoardInfo@Sdb@Apple@@V?$allocator@URewardLevelInfo@GachaBoardInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "BasicRewards",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardItemInfo@GachaBoardInfo@Sdb@Apple@@V?$allocator@URewardItemInfo@GachaBoardInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "BasicBoardRows",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HV?$vector@HV?$allocator@H@std@@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$vector@HV?$allocator@H@std@@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

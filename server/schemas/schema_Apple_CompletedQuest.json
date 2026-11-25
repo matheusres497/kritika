@@ -1,0 +1,41 @@
+{
+ "type": "Apple::CompletedQuest",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::CompletedQuest"
+  },
+  {
+   "op": "i16",
+   "name": "Count",
+   "size": 2,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "CompletedTime",
+   "type": "Apple::DateTime",
+   "func": 4809616,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::DateTime"
+    },
+    {
+     "op": "u64",
+     "name": "Ticks",
+     "size": 8,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "i64",
+   "name": "OidQuestComplete",
+   "size": 8,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

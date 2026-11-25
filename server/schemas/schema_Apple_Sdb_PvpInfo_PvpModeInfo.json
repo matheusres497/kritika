@@ -1,0 +1,65 @@
+{
+ "type": "Apple::Sdb::PvpInfo::PvpModeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PvpInfo::PvpModeInfo"
+  },
+  {
+   "op": "enum",
+   "name": "ModeType",
+   "enum": "PvpGameType",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "PvpRecordThresholdSecond",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "PvpRecordThresholdScore",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "i32",
+   "name": "PvpGiveUpPenalty",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "f32",
+   "name": "PvpStartingCountdown",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "f32",
+   "name": "PvpReviveCountdown",
+   "size": 4,
+   "cond": false,
+   "src": 24
+  },
+  {
+   "op": "f32",
+   "name": "PvpScoreMultiple",
+   "size": 4,
+   "cond": false,
+   "src": 28
+  },
+  {
+   "op": "f32",
+   "name": "PvpScoreMinimunMultiple",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

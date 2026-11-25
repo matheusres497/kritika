@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::IntrusionNpcGroupInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::IntrusionNpcGroupInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "MainNpcGroup",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UNpcInfo@IntrusionNpcGroupInfo@Sdb@Apple@@V?$allocator@UNpcInfo@IntrusionNpcGroupInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "AttachedSubNpcGroup",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USubNpcGroupInfo@IntrusionNpcGroupInfo@Sdb@Apple@@V?$allocator@USubNpcGroupInfo@IntrusionNpcGroupInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

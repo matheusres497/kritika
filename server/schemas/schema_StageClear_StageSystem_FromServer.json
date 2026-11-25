@@ -1,0 +1,337 @@
+{
+ "type": "Apple::Protocol::FromServer::StageSystem::StageClear",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "f32",
+   "name": "PlayTime",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "PlayTimeByServer",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "Score",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "AssistScore",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "AverageScore",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "BonusAverageScore",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "KillCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "GotHitCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "DeadCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsPerfect",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "Grade",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "Medal",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "MvpId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "ExpReport",
+   "type": "Apple::Serializable::ExpReportData",
+   "func": 12395040,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Serializable::ExpReportData"
+    },
+    {
+     "op": "i32",
+     "name": "TotalExp",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "BaseExp",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "PartyExp",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "RankExp",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "ChannelExp",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "PcCafeExp",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "PartyExpForStageClear",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "StageDiffExp",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "StageMinDiffExp",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "SecondaryExp",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "EventExp",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "MembershipExp",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "AllSectorClearExp",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "SectorClearRewardExp",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "TgpPrivilegeExp",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "AbilityExp",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "AddByItemExp",
+     "size": 4,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "SectorRewardItems",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UItem@Apple@@V?$allocator@UItem@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "QuestMoviePath",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "AbilityPoint",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsParallelMazeTimeOver",
+   "size": 1,
+   "cond": false
+  }
+ ],
+ "types": {
+  "Apple::Serializable::ExpReportData": [
+   {
+    "op": "begin",
+    "type": "Apple::Serializable::ExpReportData"
+   },
+   {
+    "op": "i32",
+    "name": "TotalExp",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "BaseExp",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "PartyExp",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "RankExp",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "ChannelExp",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "PcCafeExp",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "PartyExpForStageClear",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "StageDiffExp",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "StageMinDiffExp",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "SecondaryExp",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "EventExp",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "MembershipExp",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "AllSectorClearExp",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "SectorClearRewardExp",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "TgpPrivilegeExp",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "AbilityExp",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "AddByItemExp",
+    "size": 4,
+    "cond": false
+   }
+  ]
+ }
+}

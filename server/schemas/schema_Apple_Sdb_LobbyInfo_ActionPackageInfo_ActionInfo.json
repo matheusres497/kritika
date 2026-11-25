@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::LobbyInfo::ActionPackageInfo::ActionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::LobbyInfo::ActionPackageInfo::ActionInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "TypeName",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "ActionProperties",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UActionProperty@ActionPackageInfo@LobbyInfo@Sdb@Apple@@V?$allocator@UActionProperty@ActionPackageInfo@LobbyInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

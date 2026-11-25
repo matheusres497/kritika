@@ -1,0 +1,60 @@
+{
+ "type": "Apple::Sdb::ValidationBadResultHandlingInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::ValidationBadResultHandlingInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Validation",
+   "enum": "validationType",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "BlockTarget",
+   "enum": "blockTargetType",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "BlockDuration",
+   "type": "VTimeSpan@Apple@@",
+   "func": 4775936,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::TimeSpan"
+    },
+    {
+     "op": "u64",
+     "name": "Ticks",
+     "size": 8,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "enum",
+   "name": "BlockReason",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {
+  "VTimeSpan@Apple@@": [
+   {
+    "op": "begin",
+    "type": "Apple::TimeSpan"
+   },
+   {
+    "op": "u64",
+    "name": "Ticks",
+    "size": 8,
+    "cond": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::GameRankInfo::MentorRankInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GameRankInfo::MentorRankInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "RankHideStartTime",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "RankHideEndTime",
+   "size": null,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::DLCProductInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::DLCProductInfo"
+  },
+  {
+   "op": "container",
+   "name": "DLCProducts",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@_K_KU?$less@_K@std@@V?$allocator@U?$pair@$$CB_K_K@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

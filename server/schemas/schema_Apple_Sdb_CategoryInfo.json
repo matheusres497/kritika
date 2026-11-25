@@ -1,0 +1,44 @@
+{
+ "type": "Apple::Sdb::CategoryInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::CategoryInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsShow",
+   "size": 1,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "bool",
+   "name": "IsFilterable",
+   "size": 1,
+   "cond": false,
+   "src": 65
+  },
+  {
+   "op": "container",
+   "name": "SubCategory",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UCategoryInfo@Sdb@Apple@@V?$allocator@UCategoryInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

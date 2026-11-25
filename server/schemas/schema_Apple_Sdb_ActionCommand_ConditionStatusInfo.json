@@ -1,0 +1,29 @@
+{
+ "type": "Apple::Sdb::ActionCommand::ConditionStatusInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ActionCommand::ConditionStatusInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "Value",
+   "size": null,
+   "cond": true
+  },
+  {
+   "op": "enum",
+   "name": "CompareType",
+   "enum": "CompareType",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

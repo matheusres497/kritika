@@ -1,0 +1,1009 @@
+{
+ "type": "Apple::Sdb::DailyTodoInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::DailyTodoInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "ShowLevel",
+   "size": 4,
+   "cond": false,
+   "src": 96
+  },
+  {
+   "op": "wstr",
+   "name": "GroupId",
+   "size": null,
+   "cond": false,
+   "src": 100
+  },
+  {
+   "op": "enum",
+   "name": "MissionType",
+   "enum": "DailyTodoMissionType",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "DailyTodoCategory",
+   "enum": "DailyTodoCategory",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "DailyTodoCategoryForUI",
+   "enum": "DailyTodoCategoryForUI",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "SystemType",
+   "enum": "DailyTodoSystemType",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "ResetType",
+   "enum": "DailyTodoResetType",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "AcceptCondition",
+   "type": "Apple::Sdb::DailyTodoInfo::ConditionInfo",
+   "func": 10119824,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::DailyTodoInfo::ConditionInfo"
+    },
+    {
+     "op": "bool",
+     "name": "Enable",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "Level",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "container",
+     "name": "DayOfWeeks",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "CompletedDailyTodo",
+     "size": null,
+     "cond": false,
+     "src": 28
+    },
+    {
+     "op": "i32",
+     "name": "OverPower",
+     "size": 4,
+     "cond": false,
+     "src": 56
+    },
+    {
+     "op": "u64",
+     "name": "VillageDps",
+     "size": 8,
+     "cond": false,
+     "src": 64
+    },
+    {
+     "op": "container",
+     "name": "LicenseList",
+     "kind": "associative_array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "Classes",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "ExcludeCondition",
+   "type": "Apple::Sdb::DailyTodoInfo::ConditionInfo",
+   "func": 10119824,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::DailyTodoInfo::ConditionInfo"
+    },
+    {
+     "op": "bool",
+     "name": "Enable",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "Level",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "container",
+     "name": "DayOfWeeks",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "CompletedDailyTodo",
+     "size": null,
+     "cond": false,
+     "src": 28
+    },
+    {
+     "op": "i32",
+     "name": "OverPower",
+     "size": 4,
+     "cond": false,
+     "src": 56
+    },
+    {
+     "op": "u64",
+     "name": "VillageDps",
+     "size": 8,
+     "cond": false,
+     "src": 64
+    },
+    {
+     "op": "container",
+     "name": "LicenseList",
+     "kind": "associative_array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "container",
+     "name": "Classes",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "CompleteCondition",
+   "type": "Apple::Condition",
+   "func": 8206256,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Condition"
+    },
+    {
+     "op": "container",
+     "name": "Classes",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "Level",
+     "size": 8,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "i32",
+     "name": "Gold",
+     "size": 4,
+     "cond": false,
+     "src": 28
+    },
+    {
+     "op": "raw",
+     "name": "RequiredTierAttackPower",
+     "size": 8,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "enum",
+     "name": "Awakening",
+     "enum": "AwakenConditionType",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "SlotOpening",
+     "enum": "SlotOpenConditionType",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "PvpWinCounts",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "PvpLoseCounts",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "PvpTotalCounts",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "Items",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "IsAllowExpirableItems",
+     "size": 1,
+     "cond": false,
+     "src": 128
+    },
+    {
+     "op": "container",
+     "name": "Licenses",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "InacceptableQuests",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "InacceptableWhenCompleted",
+     "size": 1,
+     "cond": false,
+     "src": 164
+    },
+    {
+     "op": "container",
+     "name": "PrecedingQuests",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "PrecedingQuestsTypeOr",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "MinimumDifficulty",
+     "enum": "Difficulty",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "CompleteType",
+     "enum": "ConditionCompleteType",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "DetailConditionCompleteType",
+     "enum": "ConditionCompleteType",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "NpcConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UNpcCondition@Condition@Apple@@V?$allocator@UNpcCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "PvpConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UPvpCondition@Condition@Apple@@V?$allocator@UPvpCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "AutoBattleConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UAutoBattleCondition@Condition@Apple@@V?$allocator@UAutoBattleCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "StageEnterCount",
+     "size": 4,
+     "cond": false,
+     "src": 260
+    },
+    {
+     "op": "i32",
+     "name": "StageClearCount",
+     "size": 4,
+     "cond": false,
+     "src": 264
+    },
+    {
+     "op": "container",
+     "name": "StageConditions",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UStageCondition@Condition@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UStageCondition@Condition@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "UseItems",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UUseItemInfo@Condition@Apple@@V?$allocator@UUseItemInfo@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "EnhanceItems",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UEnhanceItemInfo@Condition@Apple@@V?$allocator@UEnhanceItemInfo@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "EquipItems",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UEquipItemInfo@Condition@Apple@@V?$allocator@UEquipItemInfo@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "EquipmentSetInfos",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UEquipmentSetInfo@Condition@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UEquipmentSetInfo@Condition@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "StatusConditions",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@NU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@N@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "InventoryCapacity",
+     "size": 4,
+     "cond": false,
+     "src": 428
+    },
+    {
+     "op": "i32",
+     "name": "PlayerBankCapacity",
+     "size": 4,
+     "cond": false,
+     "src": 432
+    },
+    {
+     "op": "i32",
+     "name": "AccountBankCapacity",
+     "size": 4,
+     "cond": false,
+     "src": 436
+    },
+    {
+     "op": "container",
+     "name": "BuffConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UBuffCondition@Condition@Apple@@V?$allocator@UBuffCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "GeneralConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UGeneralCondition@Condition@Apple@@V?$allocator@UGeneralCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "GuildSiegeConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UGuildSiegeCondition@Condition@Apple@@V?$allocator@UGuildSiegeCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "RequiredAttackPowerForSeconds",
+     "size": 8,
+     "cond": false,
+     "src": 48
+    },
+    {
+     "op": "container",
+     "name": "RaidConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URaidCondition@Condition@Apple@@V?$allocator@URaidCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "RequiredOverPowers",
+     "size": 8,
+     "cond": false,
+     "src": 56
+    },
+    {
+     "op": "i32",
+     "name": "InheritEnhanceCount",
+     "size": 4,
+     "cond": false,
+     "src": 440
+    },
+    {
+     "op": "i32",
+     "name": "OverrideItemBaseStatusCount",
+     "size": 4,
+     "cond": false,
+     "src": 444
+    },
+    {
+     "op": "i32",
+     "name": "ItemBaseStatusChangeCount",
+     "size": 4,
+     "cond": false,
+     "src": 448
+    },
+    {
+     "op": "i32",
+     "name": "UseRuneCount",
+     "size": 4,
+     "cond": false,
+     "src": 452
+    },
+    {
+     "op": "i32",
+     "name": "UseDestroyPreventItemCount",
+     "size": 4,
+     "cond": false,
+     "src": 456
+    },
+    {
+     "op": "i32",
+     "name": "AttemptEnhanceCount",
+     "size": 4,
+     "cond": false,
+     "src": 460
+    },
+    {
+     "op": "bool",
+     "name": "IsMentoringCooperativeMission",
+     "size": 1,
+     "cond": false,
+     "src": 464
+    }
+   ]
+  },
+  {
+   "op": "bool",
+   "name": "IsAccount",
+   "size": 1,
+   "cond": false,
+   "src": 828
+  },
+  {
+   "op": "struct",
+   "name": "CompleteReward",
+   "type": "Apple::Sdb::DailyTodoInfo::Reward",
+   "func": 10116464,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::DailyTodoInfo::Reward"
+    },
+    {
+     "op": "i32",
+     "name": "BonusExp",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "Gold",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "i32",
+     "name": "BattlePassPoint",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "container",
+     "name": "ItemsToGive",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@IU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@I@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::DailyTodoInfo::ConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::DailyTodoInfo::ConditionInfo"
+   },
+   {
+    "op": "bool",
+    "name": "Enable",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "Level",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "container",
+    "name": "DayOfWeeks",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "CompletedDailyTodo",
+    "size": null,
+    "cond": false,
+    "src": 28
+   },
+   {
+    "op": "i32",
+    "name": "OverPower",
+    "size": 4,
+    "cond": false,
+    "src": 56
+   },
+   {
+    "op": "u64",
+    "name": "VillageDps",
+    "size": 8,
+    "cond": false,
+    "src": 64
+   },
+   {
+    "op": "container",
+    "name": "LicenseList",
+    "kind": "associative_array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "container",
+    "name": "Classes",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   }
+  ],
+  "Apple::Condition": [
+   {
+    "op": "begin",
+    "type": "Apple::Condition"
+   },
+   {
+    "op": "container",
+    "name": "Classes",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "Level",
+    "size": 8,
+    "cond": false,
+    "src": 20
+   },
+   {
+    "op": "i32",
+    "name": "Gold",
+    "size": 4,
+    "cond": false,
+    "src": 28
+   },
+   {
+    "op": "raw",
+    "name": "RequiredTierAttackPower",
+    "size": 8,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "enum",
+    "name": "Awakening",
+    "enum": "AwakenConditionType",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "SlotOpening",
+    "enum": "SlotOpenConditionType",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "PvpWinCounts",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "PvpLoseCounts",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "PvpTotalCounts",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "Items",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "IsAllowExpirableItems",
+    "size": 1,
+    "cond": false,
+    "src": 128
+   },
+   {
+    "op": "container",
+    "name": "Licenses",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "InacceptableQuests",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "InacceptableWhenCompleted",
+    "size": 1,
+    "cond": false,
+    "src": 164
+   },
+   {
+    "op": "container",
+    "name": "PrecedingQuests",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "PrecedingQuestsTypeOr",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "MinimumDifficulty",
+    "enum": "Difficulty",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "CompleteType",
+    "enum": "ConditionCompleteType",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "DetailConditionCompleteType",
+    "enum": "ConditionCompleteType",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "NpcConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UNpcCondition@Condition@Apple@@V?$allocator@UNpcCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "PvpConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UPvpCondition@Condition@Apple@@V?$allocator@UPvpCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "AutoBattleConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UAutoBattleCondition@Condition@Apple@@V?$allocator@UAutoBattleCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "StageEnterCount",
+    "size": 4,
+    "cond": false,
+    "src": 260
+   },
+   {
+    "op": "i32",
+    "name": "StageClearCount",
+    "size": 4,
+    "cond": false,
+    "src": 264
+   },
+   {
+    "op": "container",
+    "name": "StageConditions",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UStageCondition@Condition@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UStageCondition@Condition@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "UseItems",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UUseItemInfo@Condition@Apple@@V?$allocator@UUseItemInfo@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "EnhanceItems",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UEnhanceItemInfo@Condition@Apple@@V?$allocator@UEnhanceItemInfo@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "EquipItems",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UEquipItemInfo@Condition@Apple@@V?$allocator@UEquipItemInfo@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "EquipmentSetInfos",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UEquipmentSetInfo@Condition@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UEquipmentSetInfo@Condition@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "StatusConditions",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@NU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@N@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "InventoryCapacity",
+    "size": 4,
+    "cond": false,
+    "src": 428
+   },
+   {
+    "op": "i32",
+    "name": "PlayerBankCapacity",
+    "size": 4,
+    "cond": false,
+    "src": 432
+   },
+   {
+    "op": "i32",
+    "name": "AccountBankCapacity",
+    "size": 4,
+    "cond": false,
+    "src": 436
+   },
+   {
+    "op": "container",
+    "name": "BuffConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UBuffCondition@Condition@Apple@@V?$allocator@UBuffCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "GeneralConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UGeneralCondition@Condition@Apple@@V?$allocator@UGeneralCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "GuildSiegeConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UGuildSiegeCondition@Condition@Apple@@V?$allocator@UGuildSiegeCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "RequiredAttackPowerForSeconds",
+    "size": 8,
+    "cond": false,
+    "src": 48
+   },
+   {
+    "op": "container",
+    "name": "RaidConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@URaidCondition@Condition@Apple@@V?$allocator@URaidCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "RequiredOverPowers",
+    "size": 8,
+    "cond": false,
+    "src": 56
+   },
+   {
+    "op": "i32",
+    "name": "InheritEnhanceCount",
+    "size": 4,
+    "cond": false,
+    "src": 440
+   },
+   {
+    "op": "i32",
+    "name": "OverrideItemBaseStatusCount",
+    "size": 4,
+    "cond": false,
+    "src": 444
+   },
+   {
+    "op": "i32",
+    "name": "ItemBaseStatusChangeCount",
+    "size": 4,
+    "cond": false,
+    "src": 448
+   },
+   {
+    "op": "i32",
+    "name": "UseRuneCount",
+    "size": 4,
+    "cond": false,
+    "src": 452
+   },
+   {
+    "op": "i32",
+    "name": "UseDestroyPreventItemCount",
+    "size": 4,
+    "cond": false,
+    "src": 456
+   },
+   {
+    "op": "i32",
+    "name": "AttemptEnhanceCount",
+    "size": 4,
+    "cond": false,
+    "src": 460
+   },
+   {
+    "op": "bool",
+    "name": "IsMentoringCooperativeMission",
+    "size": 1,
+    "cond": false,
+    "src": 464
+   }
+  ],
+  "Apple::Sdb::DailyTodoInfo::Reward": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::DailyTodoInfo::Reward"
+   },
+   {
+    "op": "i32",
+    "name": "BonusExp",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "Gold",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "i32",
+    "name": "BattlePassPoint",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "container",
+    "name": "ItemsToGive",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@IU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@I@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ]
+ }
+}

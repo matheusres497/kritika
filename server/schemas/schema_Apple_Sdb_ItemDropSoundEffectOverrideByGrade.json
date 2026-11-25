@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::ItemDropSoundEffectOverrideByGrade",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemDropSoundEffectOverrideByGrade"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "DropSoundEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

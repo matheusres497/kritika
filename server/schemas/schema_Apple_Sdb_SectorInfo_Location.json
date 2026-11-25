@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::SectorInfo::Location",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SectorInfo::Location"
+  },
+  {
+   "op": "wstr",
+   "name": "Identifier",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "LocationPoints",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$Vector3@M@Math@AllM@@V?$allocator@U?$Vector3@M@Math@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

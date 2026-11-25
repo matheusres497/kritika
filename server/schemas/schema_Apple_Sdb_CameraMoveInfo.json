@@ -1,0 +1,224 @@
+{
+ "type": "Apple::Sdb::CameraMoveInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::CameraMove"
+  },
+  {
+   "op": "enum",
+   "name": "CameraMoveType",
+   "enum": "CameraMoveType",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "HideObjects",
+   "size": 1,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "bool",
+   "name": "SyncEffect",
+   "size": 1,
+   "cond": false,
+   "src": 37
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "FilePath",
+   "size": null,
+   "cond": false,
+   "src": 40
+  },
+  {
+   "op": "f32",
+   "name": "StartTime",
+   "size": 4,
+   "cond": false,
+   "src": 72
+  },
+  {
+   "op": "f32",
+   "name": "BeginBlendingTime",
+   "size": 4,
+   "cond": false,
+   "src": 76
+  },
+  {
+   "op": "f32",
+   "name": "EndBlendingTime",
+   "size": 4,
+   "cond": false,
+   "src": 80
+  },
+  {
+   "op": "enum",
+   "name": "CameraEndPose",
+   "enum": "CameraEndPose",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "PauseWhenFreeze",
+   "size": 1,
+   "cond": false,
+   "src": 88
+  },
+  {
+   "op": "container",
+   "name": "DetachInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UDetachInfo@Sdb@Apple@@V?$allocator@UDetachInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "FovBySeeingDir",
+   "size": 1,
+   "cond": false,
+   "src": 124
+  },
+  {
+   "op": "container",
+   "name": "ChangeOfFov",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@MMU?$less@M@std@@V?$allocator@U?$pair@$$CBMM@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "AdditionalFov",
+   "size": 4,
+   "cond": false,
+   "src": 128
+  },
+  {
+   "op": "f32",
+   "name": "FovStartTime",
+   "size": 4,
+   "cond": false,
+   "src": 132
+  },
+  {
+   "op": "f32",
+   "name": "FovEndTime",
+   "size": 4,
+   "cond": false,
+   "src": 136
+  },
+  {
+   "op": "f32",
+   "name": "FovChangeTime",
+   "size": 4,
+   "cond": false,
+   "src": 140
+  },
+  {
+   "op": "f32",
+   "name": "CameraTargetSpringConstant",
+   "size": 4,
+   "cond": false,
+   "src": 144
+  },
+  {
+   "op": "f32",
+   "name": "SpringStartTime",
+   "size": 4,
+   "cond": false,
+   "src": 148
+  },
+  {
+   "op": "f32",
+   "name": "SpringEndTime",
+   "size": 4,
+   "cond": false,
+   "src": 152
+  },
+  {
+   "op": "wstr",
+   "name": "UIActionId",
+   "size": null,
+   "cond": false,
+   "src": 156
+  },
+  {
+   "op": "enum",
+   "name": "UIActionMessage",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "CameraScale",
+   "size": 12,
+   "cond": false,
+   "src": 216
+  },
+  {
+   "op": "bool",
+   "name": "IsSkipable",
+   "size": 1,
+   "cond": false,
+   "src": 228
+  },
+  {
+   "op": "raw",
+   "name": "DefaultTarget",
+   "size": 12,
+   "cond": false,
+   "src": 232
+  },
+  {
+   "op": "bool",
+   "name": "FixedZoom",
+   "size": 1,
+   "cond": false,
+   "src": 244
+  },
+  {
+   "op": "f32",
+   "name": "ZoomValue",
+   "size": 4,
+   "cond": false,
+   "src": 248
+  },
+  {
+   "op": "f32",
+   "name": "VerticalMoveLimit",
+   "size": 4,
+   "cond": false,
+   "src": 252
+  },
+  {
+   "op": "f32",
+   "name": "AzimuthSpringConstantWhenTps",
+   "size": 4,
+   "cond": false,
+   "src": 256
+  },
+  {
+   "op": "f32",
+   "name": "ElevationSpringConstantWhenTps",
+   "size": 4,
+   "cond": false,
+   "src": 260
+  },
+  {
+   "op": "f32",
+   "name": "MaxRotateSpeedWhenTps",
+   "size": 4,
+   "cond": false,
+   "src": 264
+  }
+ ],
+ "types": {}
+}

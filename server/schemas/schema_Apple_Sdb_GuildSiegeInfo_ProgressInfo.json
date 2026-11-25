@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::GuildSiegeInfo::ProgressInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GuildSiegeInfo::ProgressInfo"
+  },
+  {
+   "op": "container",
+   "name": "Steps",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  }
+ ],
+ "types": {}
+}

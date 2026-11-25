@@ -1,0 +1,30 @@
+{
+ "type": "Apple::Sdb::SectorInfo::AutoWarpGateAfterSectorClearInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::AutoWarpGateAfterSectorClearInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "WarpGateId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "DelayTime",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "enum",
+   "name": "Message",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

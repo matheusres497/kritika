@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::VipInfo::RankRewardInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::VipInfo::RankRewardInfo"
+  },
+  {
+   "op": "raw",
+   "name": "RewardRankRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "RewardItemId",
+   "size": null,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "i64",
+   "name": "OidProduct",
+   "size": 8,
+   "cond": false,
+   "src": 40
+  }
+ ],
+ "types": {}
+}

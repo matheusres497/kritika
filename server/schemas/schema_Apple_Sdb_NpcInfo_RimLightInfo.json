@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::NpcInfo::RimLightInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::NpcInfo::RimLightInfo"
+  },
+  {
+   "op": "bool",
+   "name": "Enable",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "Color",
+   "size": 12,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,50 @@
+{
+ "type": "Apple::Sdb::WorldBossInfo::BossInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::WorldBossInfo::BossInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "StageId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "NpcId",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "BackImagePath",
+   "size": null,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "wstr",
+   "name": "BossImagePath",
+   "size": null,
+   "cond": false,
+   "src": 92
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Cautions",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

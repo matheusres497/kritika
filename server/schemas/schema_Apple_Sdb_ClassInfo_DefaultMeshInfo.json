@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::ClassInfo::DefaultMeshInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ClassInfo::DefaultMeshInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Type",
+   "enum": "type",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "MeshPaths",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

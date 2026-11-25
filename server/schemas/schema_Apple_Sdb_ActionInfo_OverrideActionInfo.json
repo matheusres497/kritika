@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::ActionInfo::OverrideActionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ActionInfo::OverrideActionInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "bool",
+   "name": "Enable",
+   "size": 1,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::__SkillInfo::SkillDetailInfo::OverrideLevelInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SkillDetailInfo::OverrideLevelInfo"
+  },
+  {
+   "op": "u32",
+   "name": "MaxLevel",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "u32",
+   "name": "AutoLearnSkillLevel",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

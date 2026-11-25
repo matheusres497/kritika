@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::SectorInfo::AdditionalNpcPopInfosType",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SectorInfo::AdditionalNpcPopInfosType"
+  },
+  {
+   "op": "bool",
+   "name": "IgnoreCountSafetyLock",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "Infos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UAdditionalNpcPopInfo@SectorInfo@Sdb@Apple@@V?$allocator@UAdditionalNpcPopInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

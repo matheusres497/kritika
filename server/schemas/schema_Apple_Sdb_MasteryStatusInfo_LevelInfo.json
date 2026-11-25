@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::MasteryStatusInfo::LevelInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::MasteryStatusInfo::LevelInfo"
+  },
+  {
+   "op": "i32",
+   "name": "CheckValue",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "MaxCutValue",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "container",
+   "name": "AddStatuses",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UIncreaseStatus@Apple@@V?$allocator@UIncreaseStatus@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

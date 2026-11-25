@@ -1,0 +1,86 @@
+{
+ "type": "Apple::Sdb::BasicDropRuleInfo::DropItemInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemDropRuleInfo::DropItemInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f64",
+   "name": "Probability",
+   "size": 8,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "struct",
+   "name": "DropCondition",
+   "type": "Apple::Sdb::BasicDropRuleInfo::DropConditionInfo",
+   "func": 7531168,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ItemDropRuleInfo::DropCondition"
+    },
+    {
+     "op": "raw",
+     "name": "StageLevelRange",
+     "size": 8,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "wstr",
+     "name": "StageIds",
+     "size": null,
+     "cond": false,
+     "src": 12
+    }
+   ]
+  },
+  {
+   "op": "raw",
+   "name": "DropCount",
+   "size": 8,
+   "cond": false,
+   "src": 80
+  },
+  {
+   "op": "wstr",
+   "name": "RandomEnhanceInfoId",
+   "size": null,
+   "cond": false,
+   "src": 88
+  }
+ ],
+ "types": {
+  "Apple::Sdb::BasicDropRuleInfo::DropConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ItemDropRuleInfo::DropCondition"
+   },
+   {
+    "op": "raw",
+    "name": "StageLevelRange",
+    "size": 8,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "wstr",
+    "name": "StageIds",
+    "size": null,
+    "cond": false,
+    "src": 12
+   }
+  ]
+ }
+}

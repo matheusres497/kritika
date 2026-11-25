@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::RaidInfo::StageClearInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::RaidInfo:::StageClearInfo"
+  },
+  {
+   "op": "container",
+   "name": "ChangeStateStageList",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@V?$allocator@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "AddtionalClearLimitSeconds",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "i32",
+   "name": "ClearProgressPoint",
+   "size": 4,
+   "cond": false,
+   "src": 24
+  },
+  {
+   "op": "container",
+   "name": "Buffs",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UBuffInfo@RaidInfo@Sdb@Apple@@V?$allocator@UBuffInfo@RaidInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  }
+ ],
+ "types": {}
+}

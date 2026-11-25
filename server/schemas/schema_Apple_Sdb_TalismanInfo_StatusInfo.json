@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::TalismanInfo::StatusInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::TalismanInfo::StatusInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "StatusId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "ValueDecimalPartLength",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "container",
+   "name": "Increments",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "RequiredItemForIncrease",
+   "size": null,
+   "cond": false,
+   "src": 52
+  }
+ ],
+ "types": {}
+}

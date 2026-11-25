@@ -1,0 +1,46 @@
+{
+ "type": ".?AUJoinVillage@StageSystem@FromServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "bool",
+   "name": "IsFirstPlay",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "SwitchChannelInVillage",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "VillageId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "SectorId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "TimeStamp",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsReload",
+   "size": 1,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

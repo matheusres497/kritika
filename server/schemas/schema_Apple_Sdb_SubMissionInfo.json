@@ -1,0 +1,384 @@
+{
+ "type": "Apple::Sdb::SubMissionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SubMissionInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "SubMissionCategory",
+   "enum": "subMissionCategory",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "CompleteCondition",
+   "type": "Apple::SubMissionCondition",
+   "func": 8641136,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::SubMissionCondition"
+    },
+    {
+     "op": "i32",
+     "name": "Value",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "raw",
+     "name": "PartyMemberCount",
+     "size": 8,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "container",
+     "name": "IncludeClassType",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "ExceptedClassType",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "NpcConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UNpcConditionInfo@SubMissionCondition@Apple@@V?$allocator@UNpcConditionInfo@SubMissionCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "StatusConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UStatusConditionInfo@SubMissionCondition@Apple@@V?$allocator@UStatusConditionInfo@SubMissionCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "struct",
+     "name": "NpcActionCondition",
+     "type": "Apple::SubMissionCondition::NpcActionConditionInfo",
+     "func": 8639328,
+     "cond": false,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::SubMissionCondition::NpcActionConditionInfo"
+      },
+      {
+       "op": "wstr",
+       "name": "ActionId",
+       "size": null,
+       "cond": false,
+       "src": 4
+      },
+      {
+       "op": "i32",
+       "name": "ActionCount",
+       "size": 4,
+       "cond": false,
+       "src": 32
+      }
+     ]
+    },
+    {
+     "op": "enum",
+     "name": "FinalHitClass",
+     "enum": "ClassType",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "LastAttackedSkills",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "struct",
+     "name": "SkillCondition",
+     "type": "Apple::SubMissionCondition::SkillConditionInfo",
+     "func": 8639408,
+     "cond": false,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::SubMissionCondition::SkillConditionInfo"
+      },
+      {
+       "op": "wstr",
+       "name": "SkillId",
+       "size": null,
+       "cond": false,
+       "src": 4
+      },
+      {
+       "op": "i32",
+       "name": "SkillLevel",
+       "size": 4,
+       "cond": false,
+       "src": 32
+      },
+      {
+       "op": "i32",
+       "name": "BossAttackCount",
+       "size": 4,
+       "cond": false,
+       "src": 36
+      },
+      {
+       "op": "i32",
+       "name": "UseSkillCount",
+       "size": 4,
+       "cond": false,
+       "src": 40
+      }
+     ]
+    },
+    {
+     "op": "container",
+     "name": "MustUseItems",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UItemConditionInfo@SubMissionCondition@Apple@@V?$allocator@UItemConditionInfo@SubMissionCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "LimitItems",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UItemConditionInfo@SubMissionCondition@Apple@@V?$allocator@UItemConditionInfo@SubMissionCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "i32",
+   "name": "RewardPoint",
+   "size": 4,
+   "cond": false,
+   "src": 280
+  }
+ ],
+ "types": {
+  "Apple::SubMissionCondition": [
+   {
+    "op": "begin",
+    "type": "Apple::SubMissionCondition"
+   },
+   {
+    "op": "i32",
+    "name": "Value",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "raw",
+    "name": "PartyMemberCount",
+    "size": 8,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "container",
+    "name": "IncludeClassType",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "ExceptedClassType",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "NpcConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UNpcConditionInfo@SubMissionCondition@Apple@@V?$allocator@UNpcConditionInfo@SubMissionCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "StatusConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UStatusConditionInfo@SubMissionCondition@Apple@@V?$allocator@UStatusConditionInfo@SubMissionCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "struct",
+    "name": "NpcActionCondition",
+    "type": "Apple::SubMissionCondition::NpcActionConditionInfo",
+    "func": 8639328,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::SubMissionCondition::NpcActionConditionInfo"
+     },
+     {
+      "op": "wstr",
+      "name": "ActionId",
+      "size": null,
+      "cond": false,
+      "src": 4
+     },
+     {
+      "op": "i32",
+      "name": "ActionCount",
+      "size": 4,
+      "cond": false,
+      "src": 32
+     }
+    ]
+   },
+   {
+    "op": "enum",
+    "name": "FinalHitClass",
+    "enum": "ClassType",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "LastAttackedSkills",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "struct",
+    "name": "SkillCondition",
+    "type": "Apple::SubMissionCondition::SkillConditionInfo",
+    "func": 8639408,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::SubMissionCondition::SkillConditionInfo"
+     },
+     {
+      "op": "wstr",
+      "name": "SkillId",
+      "size": null,
+      "cond": false,
+      "src": 4
+     },
+     {
+      "op": "i32",
+      "name": "SkillLevel",
+      "size": 4,
+      "cond": false,
+      "src": 32
+     },
+     {
+      "op": "i32",
+      "name": "BossAttackCount",
+      "size": 4,
+      "cond": false,
+      "src": 36
+     },
+     {
+      "op": "i32",
+      "name": "UseSkillCount",
+      "size": 4,
+      "cond": false,
+      "src": 40
+     }
+    ]
+   },
+   {
+    "op": "container",
+    "name": "MustUseItems",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UItemConditionInfo@SubMissionCondition@Apple@@V?$allocator@UItemConditionInfo@SubMissionCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "LimitItems",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UItemConditionInfo@SubMissionCondition@Apple@@V?$allocator@UItemConditionInfo@SubMissionCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::SubMissionCondition::NpcActionConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::SubMissionCondition::NpcActionConditionInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "ActionId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "ActionCount",
+    "size": 4,
+    "cond": false,
+    "src": 32
+   }
+  ],
+  "Apple::SubMissionCondition::SkillConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::SubMissionCondition::SkillConditionInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "SkillId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "SkillLevel",
+    "size": 4,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "i32",
+    "name": "BossAttackCount",
+    "size": 4,
+    "cond": false,
+    "src": 36
+   },
+   {
+    "op": "i32",
+    "name": "UseSkillCount",
+    "size": 4,
+    "cond": false,
+    "src": 40
+   }
+  ]
+ }
+}

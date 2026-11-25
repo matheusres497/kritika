@@ -1,0 +1,29 @@
+{
+ "type": ".?AUPartialListPlayersTitles@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "AccountId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PlayerId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "SelectedTitles",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UTitle@Apple@@V?$allocator@UTitle@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::PvpGradeTableInfo::PvpGradeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PvpGradeTableInfo::PvpGradeInfo"
+  },
+  {
+   "op": "i32",
+   "name": "PvpPoint",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "GradeName",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

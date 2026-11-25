@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::ActionStageActivityInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ActionStageActivityInfo"
+  },
+  {
+   "op": "container",
+   "name": "ActionStageActivities",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UActionStageActivity@ActionStageActivityInfo@Sdb@Apple@@V?$allocator@UActionStageActivity@ActionStageActivityInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

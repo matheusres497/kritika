@@ -1,0 +1,92 @@
+{
+ "type": "Apple::Sdb::SoulSystemInfo::SoulSkillTooltipInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SoulSystemInfo::SoulSkillTooltipInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "IconPath",
+   "size": null,
+   "cond": false,
+   "src": 68
+  },
+  {
+   "op": "wstr",
+   "name": "MoviePath",
+   "size": null,
+   "cond": false,
+   "src": 100
+  },
+  {
+   "op": "wstr",
+   "name": "EventOptionId",
+   "size": null,
+   "cond": false,
+   "src": 132
+  },
+  {
+   "op": "wstr",
+   "name": "SkillType",
+   "size": null,
+   "cond": false,
+   "src": 160
+  },
+  {
+   "op": "wstr",
+   "name": "Armor",
+   "size": null,
+   "cond": false,
+   "src": 188
+  },
+  {
+   "op": "bool",
+   "name": "IsSuperArmorCrash",
+   "size": 1,
+   "cond": false,
+   "src": 216
+  },
+  {
+   "op": "f32",
+   "name": "Duration",
+   "size": 4,
+   "cond": false,
+   "src": 220
+  },
+  {
+   "op": "u64",
+   "name": "TotalAttackPower",
+   "size": 8,
+   "cond": false,
+   "src": 224
+  },
+  {
+   "op": "container",
+   "name": "ElementalAttributes",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ProjectileIds",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

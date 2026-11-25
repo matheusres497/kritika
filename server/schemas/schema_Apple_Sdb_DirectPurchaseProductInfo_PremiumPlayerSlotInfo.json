@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::DirectPurchaseProductInfo::PremiumPlayerSlotInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::DirectPurchaseProductInfo::PremiumPlayerSlotInfo"
+  },
+  {
+   "op": "i32",
+   "name": "OidProduct",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "u32",
+   "name": "OrderCategory",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

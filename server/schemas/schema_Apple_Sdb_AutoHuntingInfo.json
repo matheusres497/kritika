@@ -1,0 +1,45 @@
+{
+ "type": "Apple::Sdb::AutoHuntingInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::AutoHuntingInfo"
+  },
+  {
+   "op": "i32",
+   "name": "UsablePlayerLevel",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "RewardStateExpirePeriod",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "RewardMailExpirePeriod",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "i32",
+   "name": "AllowableCompleteTimeErrorMin",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "container",
+   "name": "StepInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UStepInfo@AutoHuntingInfo@Sdb@Apple@@V?$allocator@UStepInfo@AutoHuntingInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

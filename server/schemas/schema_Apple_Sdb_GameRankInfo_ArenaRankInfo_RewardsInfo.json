@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::GameRankInfo::ArenaRankInfo::RewardsInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GameRankInfo::ArenaRankInfo::RewardsInfo"
+  },
+  {
+   "op": "container",
+   "name": "RankNumberRewardInfo",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URankRewardInfo@GameRankInfo@Sdb@Apple@@V?$allocator@URankRewardInfo@GameRankInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RankPercentRewardInfo",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URankRewardInfo@GameRankInfo@Sdb@Apple@@V?$allocator@URankRewardInfo@GameRankInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

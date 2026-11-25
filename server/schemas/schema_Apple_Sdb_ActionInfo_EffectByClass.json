@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::ActionInfo::EffectByClass",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ActionInfo::EffectByClass"
+  },
+  {
+   "op": "enum",
+   "name": "ClassType",
+   "enum": "ClassType",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Effects",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEffectInfo@Sdb@Apple@@V?$allocator@UEffectInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

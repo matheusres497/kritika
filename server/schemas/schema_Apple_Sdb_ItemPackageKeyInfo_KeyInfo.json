@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::ItemPackageKeyInfo::KeyInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemPackageKeyInfo::KeyInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "KeyId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "bool",
+   "name": "IsInCashShop",
+   "size": 1,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

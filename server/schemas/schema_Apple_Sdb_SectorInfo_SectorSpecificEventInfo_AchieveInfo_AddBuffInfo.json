@@ -1,0 +1,40 @@
+{
+ "type": ".?AU?$WriterWrapper@$$CBUAddBuffInfo@AchieveInfo@SectorSpecificEventInfo@SectorInfo@Sdb@Apple@@@Private@Serializer@AllM@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple;:Sdb::SectorSpecificEventInfo::AchieveInfo::AddBuffInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "BuffId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "TargetId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "Duration",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "Team",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "Level",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

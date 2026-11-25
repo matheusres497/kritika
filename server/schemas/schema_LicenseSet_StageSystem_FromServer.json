@@ -1,0 +1,34 @@
+{
+ "type": "Apple::Protocol::FromServer::StageSystem::LicenseSet",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "StageHash",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "Difficulty",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "Type",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsRemoved",
+   "size": 1,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

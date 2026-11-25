@@ -1,0 +1,23 @@
+{
+ "type": ".?AU?$WriterWrapper@$$CBUAddNpcBuffInfo@StageDifficultySetting@Sdb@Apple@@@Private@Serializer@AllM@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::StageDifficultySetting::AddNpcBuffInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Rank",
+   "enum": "Rank",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "MaxBuffDuplicationCount",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

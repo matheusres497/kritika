@@ -1,0 +1,65 @@
+{
+ "type": "Apple::Sdb::ImprintingInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ImprintingInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "SetId",
+   "size": null,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "wstr",
+   "name": "TargetClassId",
+   "size": null,
+   "cond": false,
+   "src": 92
+  },
+  {
+   "op": "wstr",
+   "name": "TargetSkillId",
+   "size": null,
+   "cond": false,
+   "src": 120
+  },
+  {
+   "op": "wstr",
+   "name": "GettableStageId",
+   "size": null,
+   "cond": false,
+   "src": 148
+  },
+  {
+   "op": "wstr",
+   "name": "BigImprintingTag",
+   "size": null,
+   "cond": false,
+   "src": 176
+  },
+  {
+   "op": "container",
+   "name": "EffectInfoPerGrade",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UEffectInfo@ImprintingInfo@Sdb@Apple@@V?$allocator@UEffectInfo@ImprintingInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  }
+ ],
+ "types": {}
+}

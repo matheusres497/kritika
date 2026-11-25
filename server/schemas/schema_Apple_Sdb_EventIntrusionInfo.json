@@ -1,0 +1,105 @@
+{
+ "type": "Apple::Sdb::EventIntrusionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventIntrusionInfos"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "StageId",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "SectorId",
+   "size": null,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "raw",
+   "name": "PopPosition",
+   "size": 12,
+   "cond": false,
+   "src": 88
+  },
+  {
+   "op": "raw",
+   "name": "Diretion",
+   "size": 12,
+   "cond": false,
+   "src": 100
+  },
+  {
+   "op": "struct",
+   "name": "Minimap",
+   "type": "Apple::Sdb::EventIntrusionInfo::MinimapInfo",
+   "func": 8082544,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::EventIntrusionInfos::ShowMinimap"
+    },
+    {
+     "op": "enum",
+     "name": "EffectType",
+     "enum": "EffectType",
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "IsShowIcon",
+     "size": 1,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "bool",
+     "name": "IsShowMessage",
+     "size": 1,
+     "cond": false,
+     "src": 9
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::EventIntrusionInfo::MinimapInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::EventIntrusionInfos::ShowMinimap"
+   },
+   {
+    "op": "enum",
+    "name": "EffectType",
+    "enum": "EffectType",
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "IsShowIcon",
+    "size": 1,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "bool",
+    "name": "IsShowMessage",
+    "size": 1,
+    "cond": false,
+    "src": 9
+   }
+  ]
+ }
+}

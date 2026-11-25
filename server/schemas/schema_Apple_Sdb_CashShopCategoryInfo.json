@@ -1,0 +1,104 @@
+{
+ "type": "Apple::Sdb::CashShopCategoryInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::CashShopCategoryInfo"
+  },
+  {
+   "op": "struct",
+   "name": "ItemCategoryInfos",
+   "type": "Apple::Sdb::ItemCategoryInfo",
+   "func": 9491664,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ItemCategoryInfo"
+    },
+    {
+     "op": "container",
+     "name": "MainCategory",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UCategoryInfo@Sdb@Apple@@V?$allocator@UCategoryInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "BelongingCashItemCategoryInfos",
+   "type": "Apple::Sdb::ItemCategoryInfo",
+   "func": 9491664,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ItemCategoryInfo"
+    },
+    {
+     "op": "container",
+     "name": "MainCategory",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UCategoryInfo@Sdb@Apple@@V?$allocator@UCategoryInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "MileageItemCategoryInfos",
+   "type": "Apple::Sdb::ItemCategoryInfo",
+   "func": 9491664,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ItemCategoryInfo"
+    },
+    {
+     "op": "container",
+     "name": "MainCategory",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UCategoryInfo@Sdb@Apple@@V?$allocator@UCategoryInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "SpecialOfferCategoryInfos",
+   "type": "Apple::Sdb::ItemCategoryInfo",
+   "func": 9491664,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ItemCategoryInfo"
+    },
+    {
+     "op": "container",
+     "name": "MainCategory",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UCategoryInfo@Sdb@Apple@@V?$allocator@UCategoryInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::ItemCategoryInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ItemCategoryInfo"
+   },
+   {
+    "op": "container",
+    "name": "MainCategory",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UCategoryInfo@Sdb@Apple@@V?$allocator@UCategoryInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ]
+ }
+}

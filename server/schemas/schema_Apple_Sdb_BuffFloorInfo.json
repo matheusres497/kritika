@@ -1,0 +1,121 @@
+{
+ "type": "Apple::Sdb::BuffFloorInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::BuffFloorInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "TargetEffects",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UTargetEffectInfo@BuffFloorInfo@Sdb@Apple@@V?$allocator@UTargetEffectInfo@BuffFloorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "EffectPath",
+   "size": null,
+   "cond": false,
+   "src": 48
+  },
+  {
+   "op": "struct",
+   "name": "Resize",
+   "type": "Apple::Sdb::BuffFloorInfo::ResizeInfo",
+   "func": 8071328,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::BuffFloorInfo::ResizeInfo"
+    },
+    {
+     "op": "f32",
+     "name": "RadiusOnStart",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "f32",
+     "name": "RadiusRatioOnEnd",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "f32",
+     "name": "Duration",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "f32",
+     "name": "StartSeconds",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "f32",
+     "name": "EndSeconds",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::BuffFloorInfo::ResizeInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::BuffFloorInfo::ResizeInfo"
+   },
+   {
+    "op": "f32",
+    "name": "RadiusOnStart",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "f32",
+    "name": "RadiusRatioOnEnd",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "f32",
+    "name": "Duration",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "f32",
+    "name": "StartSeconds",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "f32",
+    "name": "EndSeconds",
+    "size": 4,
+    "cond": false,
+    "src": 20
+   }
+  ]
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::RegionInfo::StageIdExtendInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::RegionInfo::StageIdExtendInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "SortIndex",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

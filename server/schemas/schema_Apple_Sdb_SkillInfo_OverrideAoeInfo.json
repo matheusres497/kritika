@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::SkillInfo::OverrideAoeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SkillInfo::OverrideAoeInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "TargetSkillId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "AoeInfoByLevel",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UAoeSkillInfo@SkillInfo@Sdb@Apple@@V?$allocator@UAoeSkillInfo@SkillInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

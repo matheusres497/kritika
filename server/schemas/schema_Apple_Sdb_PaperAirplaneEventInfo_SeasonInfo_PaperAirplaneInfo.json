@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::PaperAirplaneEventInfo::SeasonInfo::PaperAirplaneInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PaperAirplaneEventInfo::SeasonInfo::PaperAirplaneInfo"
+  },
+  {
+   "op": "container",
+   "name": "DistanceInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UDistanceInfo@SeasonInfo@PaperAirplaneEventInfo@Sdb@Apple@@V?$allocator@UDistanceInfo@SeasonInfo@PaperAirplaneEventInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "Grade",
+   "size": null,
+   "cond": false,
+   "src": 20
+  }
+ ],
+ "types": {}
+}

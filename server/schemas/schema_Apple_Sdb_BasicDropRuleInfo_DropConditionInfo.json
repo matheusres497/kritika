@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::BasicDropRuleInfo::DropConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemDropRuleInfo::DropCondition"
+  },
+  {
+   "op": "raw",
+   "name": "StageLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "StageIds",
+   "size": null,
+   "cond": false,
+   "src": 12
+  }
+ ],
+ "types": {}
+}

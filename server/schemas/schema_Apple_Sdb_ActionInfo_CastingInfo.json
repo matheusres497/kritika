@@ -1,0 +1,30 @@
+{
+ "type": "Apple::Sdb::ActionInfo::CastingInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ActionInfo::CastingInfo"
+  },
+  {
+   "op": "bool",
+   "name": "Activate",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "Range",
+   "size": 8,
+   "cond": false,
+   "src": 40
+  }
+ ],
+ "types": {}
+}

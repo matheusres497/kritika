@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::ProjectionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ProjectionInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "TexturePath",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "Scale",
+   "size": 12,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "bool",
+   "name": "IsFollow",
+   "size": 1,
+   "cond": false,
+   "src": 48
+  }
+ ],
+ "types": {}
+}

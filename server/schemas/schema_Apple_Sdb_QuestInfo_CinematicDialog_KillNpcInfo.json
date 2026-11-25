@@ -1,0 +1,22 @@
+{
+ "type": ".?AU?$WriterWrapper@$$CBUKillNpcInfo@CinematicDialog@QuestInfo@Sdb@Apple@@@Private@Serializer@AllM@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::QuestInfo::CinematicDialog::KillNpcInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "NpcId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "DialogId",
+   "size": null,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,40 @@
+{
+ "type": "Apple::Protocol::FromServer::StageSystem::ChangeSector",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "SectorId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "TimeStamp",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "ActorSerial",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 12,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "StageHashByParallelMaze",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

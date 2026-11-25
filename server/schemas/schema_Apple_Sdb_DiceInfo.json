@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::DiceInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::DiceInfo"
+  },
+  {
+   "op": "container",
+   "name": "TableInfos",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UTableInfo@DiceInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UTableInfo@DiceInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "UiInfos",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUUiInfo@DiceInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUUiInfo@DiceInfo@Sdb@Apple@@@std@@@6@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ReforgeMaterialId",
+   "size": null,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "f32",
+   "name": "Cooldown",
+   "size": 4,
+   "cond": false,
+   "src": 64
+  }
+ ],
+ "types": {}
+}

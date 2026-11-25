@@ -1,0 +1,37 @@
+{
+ "type": "Apple::Sdb::ShopInfo::SellItem::RepeatTimeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ShopInfo::SellItem::RepeatTimes"
+  },
+  {
+   "op": "enum",
+   "name": "Type",
+   "enum": "ShopRepeatType",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "StartAt",
+   "size": null,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "DurationMinute",
+   "size": 4,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "container",
+   "name": "DayOfTheWeek",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  }
+ ],
+ "types": {}
+}

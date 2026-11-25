@@ -1,0 +1,2071 @@
+{
+ "type": "Apple::Sdb::StageInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::StageInfo"
+  },
+  {
+   "op": "enum",
+   "name": "StageType",
+   "enum": "stagetype",
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": true,
+   "src": 8
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "enum",
+   "name": "DetailDesc",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "enum",
+   "name": "ClearConditionDesc",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "raw",
+   "name": "RecommandLevel",
+   "size": 8,
+   "cond": true,
+   "src": 220
+  },
+  {
+   "op": "container",
+   "name": "Sectors",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@USectorInfo@Sdb@Apple@@V?$allocator@USectorInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "BgmCue",
+   "size": null,
+   "cond": true,
+   "src": 744
+  },
+  {
+   "op": "wstr",
+   "name": "MinimapPath",
+   "size": null,
+   "cond": true,
+   "src": 540
+  },
+  {
+   "op": "wstr",
+   "name": "BossImagePath",
+   "size": null,
+   "cond": true,
+   "src": 604
+  },
+  {
+   "op": "u32",
+   "name": "Fatigue",
+   "size": 4,
+   "cond": true,
+   "src": 656
+  },
+  {
+   "op": "bool",
+   "name": "IsRestartable",
+   "size": 1,
+   "cond": true,
+   "src": 661
+  },
+  {
+   "op": "bool",
+   "name": "IsPractice",
+   "size": 1,
+   "cond": true,
+   "src": 1268
+  },
+  {
+   "op": "bool",
+   "name": "IsNpcSummonStage",
+   "size": 1,
+   "cond": true,
+   "src": 1269
+  },
+  {
+   "op": "container",
+   "name": "DifficultyInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_J@std@@V?$allocator@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_J@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "ReviveLimitCount",
+   "size": 4,
+   "cond": true,
+   "src": 1156
+  },
+  {
+   "op": "container",
+   "name": "RequireItems",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@URequireItem@StageInfo@Sdb@Apple@@V?$allocator@URequireItem@StageInfo@Sdb@Apple@@@std@@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@URequireItem@StageInfo@Sdb@Apple@@V?$allocator@URequireItem@StageInfo@Sdb@Apple@@@std@@@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "MaxDailyPlayCount",
+   "size": 4,
+   "cond": true,
+   "src": 1188
+  },
+  {
+   "op": "wstr",
+   "name": "LinkedStageId",
+   "size": null,
+   "cond": true,
+   "src": 1196
+  },
+  {
+   "op": "wstr",
+   "name": "StageSelectUIType",
+   "size": null,
+   "cond": true,
+   "src": 1340
+  },
+  {
+   "op": "bool",
+   "name": "ShowStageTitle",
+   "size": 1,
+   "cond": true,
+   "src": 1396
+  },
+  {
+   "op": "struct",
+   "name": "LoadingScreenInfo",
+   "type": "Apple::Sdb::StageInfo::LoadingScreen",
+   "func": 7814544,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::StageInfo::LoadingScreenInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "Image",
+     "size": null,
+     "cond": true,
+     "src": 4
+    },
+    {
+     "op": "enum",
+     "name": "Title",
+     "enum": "locale",
+     "cond": true
+    },
+    {
+     "op": "raw",
+     "name": "TitleRectangle",
+     "size": 16,
+     "cond": true,
+     "src": 68
+    },
+    {
+     "op": "enum",
+     "name": "SubTitle",
+     "enum": "locale",
+     "cond": true
+    },
+    {
+     "op": "raw",
+     "name": "SubTitleRectangle",
+     "size": 16,
+     "cond": true,
+     "src": 116
+    },
+    {
+     "op": "enum",
+     "name": "Desc",
+     "enum": "locale",
+     "cond": true
+    },
+    {
+     "op": "raw",
+     "name": "DescRectangle",
+     "size": 16,
+     "cond": true,
+     "src": 164
+    },
+    {
+     "op": "bool",
+     "name": "ShowTip",
+     "size": 1,
+     "cond": true,
+     "src": 180
+    },
+    {
+     "op": "container",
+     "name": "MaterialItemDropInfos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "EquipItemDropInfos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "f32",
+   "name": "ResurrectionDelay",
+   "size": 4,
+   "cond": true,
+   "src": 1696
+  },
+  {
+   "op": "container",
+   "name": "UniqueDropListForShowing",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "bool",
+   "name": "OpenAllDifficultiesByLevelUp",
+   "size": 1,
+   "cond": true,
+   "src": 2205
+  },
+  {
+   "op": "enum",
+   "name": "StageType",
+   "enum": "stagetype",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "DetailDesc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "ClearConditionDesc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "RecommandLevel",
+   "size": 8,
+   "cond": false,
+   "src": 220
+  },
+  {
+   "op": "raw",
+   "name": "EnterLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 228
+  },
+  {
+   "op": "u64",
+   "name": "RequiredDPS",
+   "size": 8,
+   "cond": false,
+   "src": 240
+  },
+  {
+   "op": "u64",
+   "name": "RequiredDPSMax",
+   "size": 8,
+   "cond": false,
+   "src": 248
+  },
+  {
+   "op": "i32",
+   "name": "RequiredOverPower",
+   "size": 4,
+   "cond": false,
+   "src": 256
+  },
+  {
+   "op": "f32",
+   "name": "DefaultOverPowerPenaltyRate",
+   "size": 4,
+   "cond": false,
+   "src": 260
+  },
+  {
+   "op": "container",
+   "name": "DifficultyOverPowerInfos",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "RecommandStatuses",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "ExperiencedDifficulty",
+   "size": 4,
+   "cond": true,
+   "src": 296
+  },
+  {
+   "op": "wstr",
+   "name": "StartingSectorId",
+   "size": null,
+   "cond": true,
+   "src": 36
+  },
+  {
+   "op": "wstr",
+   "name": "EnteringWarpGateId",
+   "size": null,
+   "cond": true,
+   "src": 64
+  },
+  {
+   "op": "raw",
+   "name": "StartingDirection",
+   "size": 12,
+   "cond": true,
+   "src": 300
+  },
+  {
+   "op": "container",
+   "name": "WarpGateLinkInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UWarpGateLinkInfo@Sdb@Apple@@V?$allocator@UWarpGateLinkInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "Sectors",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@USectorInfo@Sdb@Apple@@V?$allocator@USectorInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "u32",
+   "name": "ClearExp",
+   "size": 4,
+   "cond": true,
+   "src": 424
+  },
+  {
+   "op": "u32",
+   "name": "ClearGold",
+   "size": 4,
+   "cond": true,
+   "src": 428
+  },
+  {
+   "op": "wstr",
+   "name": "ClearMedal",
+   "size": null,
+   "cond": true,
+   "src": 432
+  },
+  {
+   "op": "container",
+   "name": "StageObjectNpcs",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "StageFailObjectNpcs",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "ClearConditions",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UStageClearCondition@Apple@@V?$allocator@UStageClearCondition@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "FailConditions",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UStageFailCondition@Apple@@V?$allocator@UStageFailCondition@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "raw",
+   "name": "StartingPosition",
+   "size": 8,
+   "cond": true,
+   "src": 524
+  },
+  {
+   "op": "u32",
+   "name": "MinimumLevelToGetLicense",
+   "size": 4,
+   "cond": true,
+   "src": 532
+  },
+  {
+   "op": "bool",
+   "name": "HideLicenseMessage",
+   "size": 1,
+   "cond": true,
+   "src": 536
+  },
+  {
+   "op": "bool",
+   "name": "GetResurrectionSicknessWhenFailed",
+   "size": 1,
+   "cond": true,
+   "src": 537
+  },
+  {
+   "op": "wstr",
+   "name": "BgmCue",
+   "size": null,
+   "cond": true,
+   "src": 744
+  },
+  {
+   "op": "wstr",
+   "name": "BossBgmCue",
+   "size": null,
+   "cond": true,
+   "src": 772
+  },
+  {
+   "op": "container",
+   "name": "SectorBgms",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@USectorBgm@StageInfo@Sdb@Apple@@V?$allocator@USectorBgm@StageInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "AmbientSoundEvents",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@UAmbientSoundEventType@Apple@@V?$allocator@UAmbientSoundEventType@Apple@@@std@@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@UAmbientSoundEventType@Apple@@V?$allocator@UAmbientSoundEventType@Apple@@@std@@@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "MinimapPath",
+   "size": null,
+   "cond": true,
+   "src": 540
+  },
+  {
+   "op": "wstr",
+   "name": "FishingSiteMinimapPath",
+   "size": null,
+   "cond": true,
+   "src": 572
+  },
+  {
+   "op": "wstr",
+   "name": "BossImagePath",
+   "size": null,
+   "cond": true,
+   "src": 604
+  },
+  {
+   "op": "container",
+   "name": "CameraEffectPaths",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "u32",
+   "name": "Level",
+   "size": 4,
+   "cond": true,
+   "src": 652
+  },
+  {
+   "op": "u32",
+   "name": "Fatigue",
+   "size": 4,
+   "cond": true,
+   "src": 656
+  },
+  {
+   "op": "bool",
+   "name": "EnableStageFailBuff",
+   "size": 1,
+   "cond": true,
+   "src": 660
+  },
+  {
+   "op": "bool",
+   "name": "IsRestartable",
+   "size": 1,
+   "cond": true,
+   "src": 661
+  },
+  {
+   "op": "bool",
+   "name": "IsPractice",
+   "size": 1,
+   "cond": true,
+   "src": 1268
+  },
+  {
+   "op": "bool",
+   "name": "IsNpcSummonStage",
+   "size": 1,
+   "cond": true,
+   "src": 1269
+  },
+  {
+   "op": "container",
+   "name": "MonsterStatusBonus",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "MonsterStatusBonusByDelta",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "RecommandElementalAttributes",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "StatusFixedList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UStatusInfo@SectorInfo@Sdb@Apple@@V?$allocator@UStatusInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "AddStatusesByStageRetryCount",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HV?$vector@UStatusInfo@SectorInfo@Sdb@Apple@@V?$allocator@UStatusInfo@SectorInfo@Sdb@Apple@@@std@@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$vector@UStatusInfo@SectorInfo@Sdb@Apple@@V?$allocator@UStatusInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "raw",
+   "name": "StartingRectangle",
+   "size": 16,
+   "cond": true,
+   "src": 832
+  },
+  {
+   "op": "container",
+   "name": "ReturnVillageStartingPoints",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UReturnVillageStartingPoint@StageInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UReturnVillageStartingPoint@StageInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "ExcStartingPoints",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "RedTeamStartingPosition",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$Vector2@M@Math@AllM@@V?$allocator@U?$Vector2@M@Math@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "BlueTeamStartingPosition",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$Vector2@M@Math@AllM@@V?$allocator@U?$Vector2@M@Math@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "RedTeamRevivePosition",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UPositionInfo@StageInfo@Sdb@Apple@@V?$allocator@UPositionInfo@StageInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "BlueTeamRevivePosition",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UPositionInfo@StageInfo@Sdb@Apple@@V?$allocator@UPositionInfo@StageInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "raw",
+   "name": "PvpStartingDirection",
+   "size": 12,
+   "cond": true,
+   "src": 944
+  },
+  {
+   "op": "raw",
+   "name": "RedTeamStartingDirection",
+   "size": 12,
+   "cond": true,
+   "src": 956
+  },
+  {
+   "op": "raw",
+   "name": "BlueTeamStartingDirection",
+   "size": 12,
+   "cond": true,
+   "src": 968
+  },
+  {
+   "op": "struct",
+   "name": "ItemDropRule",
+   "type": "Apple::Sdb::DropInfo",
+   "func": 7531504,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::DropInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "Id",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "wstr",
+     "name": "VipAdditionalRewardId",
+     "size": null,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "raw",
+     "name": "EquipableItemLevelRange",
+     "size": 8,
+     "cond": false,
+     "src": 60
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "StageClearRewardRule",
+   "type": "Apple::Sdb::DropInfo",
+   "func": 7531504,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::DropInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "Id",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "wstr",
+     "name": "VipAdditionalRewardId",
+     "size": null,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "raw",
+     "name": "EquipableItemLevelRange",
+     "size": 8,
+     "cond": false,
+     "src": 60
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "FishingDropRules",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUDropInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUDropInfo@Sdb@Apple@@@std@@@5@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "DifficultyInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_J@std@@V?$allocator@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@_J@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "MinDifficulty",
+   "size": null,
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "MaxDifficulty",
+   "size": null,
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "ReviveLimitCount",
+   "size": 4,
+   "cond": true,
+   "src": 1156
+  },
+  {
+   "op": "i32",
+   "name": "MinimumPlayerLimit",
+   "size": 4,
+   "cond": true,
+   "src": 1160
+  },
+  {
+   "op": "i32",
+   "name": "MaximumPlayerLimit",
+   "size": 4,
+   "cond": true,
+   "src": 1164
+  },
+  {
+   "op": "container",
+   "name": "RequireItems",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@URequireItem@StageInfo@Sdb@Apple@@V?$allocator@URequireItem@StageInfo@Sdb@Apple@@@std@@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$vector@URequireItem@StageInfo@Sdb@Apple@@V?$allocator@URequireItem@StageInfo@Sdb@Apple@@@std@@@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "RequiredTierAttackPower",
+   "size": 4,
+   "cond": true,
+   "src": 1184
+  },
+  {
+   "op": "i32",
+   "name": "MaxDailyPlayCount",
+   "size": 4,
+   "cond": true,
+   "src": 1188
+  },
+  {
+   "op": "i32",
+   "name": "MaxDailyAddEntryItem",
+   "size": 4,
+   "cond": true,
+   "src": 1192
+  },
+  {
+   "op": "wstr",
+   "name": "LinkedStageId",
+   "size": null,
+   "cond": true,
+   "src": 1196
+  },
+  {
+   "op": "wstr",
+   "name": "RoleCombatInfoId",
+   "size": null,
+   "cond": true,
+   "src": 1224
+  },
+  {
+   "op": "container",
+   "name": "QuestOnReturnVillages",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UQuestOnReturnVillage@StageInfo@Sdb@Apple@@V?$allocator@UQuestOnReturnVillage@StageInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "RecommandMemberNumber",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "StageSelectUIType",
+   "size": null,
+   "cond": true,
+   "src": 1340
+  },
+  {
+   "op": "wstr",
+   "name": "StageOutline",
+   "size": null,
+   "cond": true,
+   "src": 1368
+  },
+  {
+   "op": "bool",
+   "name": "ShowStageTitle",
+   "size": 1,
+   "cond": true,
+   "src": 1396
+  },
+  {
+   "op": "bool",
+   "name": "Nondurability",
+   "size": 1,
+   "cond": true,
+   "src": 1284
+  },
+  {
+   "op": "bool",
+   "name": "NoAdditionalItemCost",
+   "size": 1,
+   "cond": true,
+   "src": 1285
+  },
+  {
+   "op": "bool",
+   "name": "HideMinimapQuestMark",
+   "size": 1,
+   "cond": true,
+   "src": 1286
+  },
+  {
+   "op": "bool",
+   "name": "IsImprintingUsable",
+   "size": 1,
+   "cond": true,
+   "src": 1287
+  },
+  {
+   "op": "enum",
+   "name": "StageRewardType",
+   "enum": "StageRewardType",
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "GradedRewardId",
+   "size": null,
+   "cond": true,
+   "src": 1292
+  },
+  {
+   "op": "struct",
+   "name": "RandomSector",
+   "type": "Apple::Sdb::StageInfo::RandomSectorInfo",
+   "func": 7795024,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::StageInfo::RandomSectorInfo"
+    },
+    {
+     "op": "bool",
+     "name": "Enable",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "MaxRandomSectorSize",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  },
+  {
+   "op": "i32",
+   "name": "MaxMonsterCountInSector",
+   "size": 4,
+   "cond": true,
+   "src": 1320
+  },
+  {
+   "op": "struct",
+   "name": "LoadingScreenInfo",
+   "type": "Apple::Sdb::StageInfo::LoadingScreen",
+   "func": 7814544,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::StageInfo::LoadingScreenInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "Image",
+     "size": null,
+     "cond": true,
+     "src": 4
+    },
+    {
+     "op": "enum",
+     "name": "Title",
+     "enum": "locale",
+     "cond": true
+    },
+    {
+     "op": "raw",
+     "name": "TitleRectangle",
+     "size": 16,
+     "cond": true,
+     "src": 68
+    },
+    {
+     "op": "enum",
+     "name": "SubTitle",
+     "enum": "locale",
+     "cond": true
+    },
+    {
+     "op": "raw",
+     "name": "SubTitleRectangle",
+     "size": 16,
+     "cond": true,
+     "src": 116
+    },
+    {
+     "op": "enum",
+     "name": "Desc",
+     "enum": "locale",
+     "cond": true
+    },
+    {
+     "op": "raw",
+     "name": "DescRectangle",
+     "size": 16,
+     "cond": true,
+     "src": 164
+    },
+    {
+     "op": "bool",
+     "name": "ShowTip",
+     "size": 1,
+     "cond": true,
+     "src": 180
+    },
+    {
+     "op": "container",
+     "name": "MaterialItemDropInfos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "EquipItemDropInfos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "StarFilterInfo",
+   "type": "Apple::Sdb::StageInfo::StarFilter",
+   "func": 7795104,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::StageInfo::StarFilter"
+    },
+    {
+     "op": "bool",
+     "name": "Enable",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "f32",
+     "name": "Threshold",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "f32",
+     "name": "Size",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "f32",
+     "name": "SizeScale",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "f32",
+     "name": "Power",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "BloomInfo",
+   "type": "Apple::Sdb::StageInfo::Bloom",
+   "func": 7795248,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::StageInfo::Bloom"
+    },
+    {
+     "op": "bool",
+     "name": "Enable",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "f32",
+     "name": "Threshold",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "f32",
+     "name": "MaxValue",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "f32",
+     "name": "Power",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "f32",
+     "name": "Size",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "OverrideCooldownInfo",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "StatusLimit",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@NU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@N@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "f32",
+   "name": "ResurrectionDelay",
+   "size": 4,
+   "cond": true,
+   "src": 1696
+  },
+  {
+   "op": "bool",
+   "name": "IsAnyVillageStartable",
+   "size": 1,
+   "cond": true,
+   "src": 1700
+  },
+  {
+   "op": "container",
+   "name": "RandomRoute",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URandomRouteInfo@Sdb@Apple@@V?$allocator@URandomRouteInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "ClearItemListForShowing",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "UniqueDropListForShowing",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "ClearBuffListForShowing",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@V?$allocator@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "DamageAttackStageRewards",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@MV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@M@2@V?$allocator@U?$pair@$$CBMV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "bool",
+   "name": "UseProjectileWallCollision",
+   "size": 1,
+   "cond": true,
+   "src": 1701
+  },
+  {
+   "op": "bool",
+   "name": "UsePvpPrecooldown",
+   "size": 1,
+   "cond": true,
+   "src": 1702
+  },
+  {
+   "op": "bool",
+   "name": "IsPopStage",
+   "size": 1,
+   "cond": true,
+   "src": 1703
+  },
+  {
+   "op": "bool",
+   "name": "IsWorldBoss",
+   "size": 1,
+   "cond": true,
+   "src": 1704
+  },
+  {
+   "op": "bool",
+   "name": "EnableGiveExpWhenNpcDie",
+   "size": 1,
+   "cond": true,
+   "src": 1705
+  },
+  {
+   "op": "f32",
+   "name": "MonsterWaveRankRate",
+   "size": 4,
+   "cond": true,
+   "src": 1708
+  },
+  {
+   "op": "wstr",
+   "name": "BackgroundImagePath",
+   "size": null,
+   "cond": true,
+   "src": 1712
+  },
+  {
+   "op": "wstr",
+   "name": "ThumbnailImagePath",
+   "size": null,
+   "cond": true,
+   "src": 1744
+  },
+  {
+   "op": "bool",
+   "name": "PreloadingEachSector",
+   "size": 1,
+   "cond": true,
+   "src": 1776
+  },
+  {
+   "op": "i32",
+   "name": "EntranceFee",
+   "size": 4,
+   "cond": true,
+   "src": 1780
+  },
+  {
+   "op": "enum",
+   "name": "ShowType",
+   "enum": "ShowType",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "TeleportCost",
+   "size": 4,
+   "cond": true,
+   "src": 1788
+  },
+  {
+   "op": "enum",
+   "name": "BossName",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "enum",
+   "name": "BossWord",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "i32",
+   "name": "ShowSectorCount",
+   "size": 4,
+   "cond": true,
+   "src": 1856
+  },
+  {
+   "op": "container",
+   "name": "ExceptedBuffTagIdList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "IncludingBuffTagIdList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "NpcDebuffInfo",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "wstr",
+   "name": "RetrunVillageMoviePath",
+   "size": null,
+   "cond": true,
+   "src": 1908
+  },
+  {
+   "op": "wstr",
+   "name": "ClearMoviePath",
+   "size": null,
+   "cond": true,
+   "src": 1940
+  },
+  {
+   "op": "bool",
+   "name": "IsCorrectStatus",
+   "size": 1,
+   "cond": true,
+   "src": 1972
+  },
+  {
+   "op": "i32",
+   "name": "CorrectionLevel",
+   "size": 4,
+   "cond": true,
+   "src": 1976
+  },
+  {
+   "op": "f64",
+   "name": "ClearGoldBonusRate",
+   "size": 8,
+   "cond": true,
+   "src": 1984
+  },
+  {
+   "op": "bool",
+   "name": "IsDpsStage",
+   "size": 1,
+   "cond": true,
+   "src": 1992
+  },
+  {
+   "op": "bool",
+   "name": "IsStageLevelByPlayer",
+   "size": 1,
+   "cond": true,
+   "src": 1993
+  },
+  {
+   "op": "enum",
+   "name": "StageBuffDesc",
+   "enum": "locale",
+   "cond": true
+  },
+  {
+   "op": "container",
+   "name": "SectorIdPerFloorNumber",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "bool",
+   "name": "IsOneSectorStage",
+   "size": 1,
+   "cond": true,
+   "src": 2044
+  },
+  {
+   "op": "container",
+   "name": "RechallengeConsumeGolds",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": true
+  },
+  {
+   "op": "raw",
+   "name": "QuickServiceNpcPosition",
+   "size": 8,
+   "cond": true,
+   "src": 2064
+  },
+  {
+   "op": "struct",
+   "name": "NpcKillScoreUiScaleInfo",
+   "type": "Apple::Sdb::StageInfo::NpcKillScoreUiScale",
+   "func": 7807808,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::StageInfo::NpcKillScoreUiScale"
+    },
+    {
+     "op": "bool",
+     "name": "IsLinear",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "container",
+     "name": "Scales",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HMU?$less@H@std@@V?$allocator@U?$pair@$$CBHM@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "f32",
+   "name": "ForceClearScore",
+   "size": 4,
+   "cond": true,
+   "src": 2096
+  },
+  {
+   "op": "struct",
+   "name": "GuildExpedition",
+   "type": "Apple::Sdb::StageInfo::GuildExpeditionStageInfo",
+   "func": 7807888,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::StageInfo::GuildExpeditionStageInfo"
+    },
+    {
+     "op": "bool",
+     "name": "IsGuildStage",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "RequiredGuildLevel",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "i32",
+     "name": "ClearTimePoint",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "i32",
+     "name": "BasePoint",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "container",
+     "name": "ClearedStageIds",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "ClearedStageCount",
+     "size": 4,
+     "cond": false,
+     "src": 36
+    }
+   ]
+  },
+  {
+   "op": "bool",
+   "name": "IsGuildBoss",
+   "size": 1,
+   "cond": true,
+   "src": 2140
+  },
+  {
+   "op": "bool",
+   "name": "IsStepLevelStage",
+   "size": 1,
+   "cond": true,
+   "src": 2141
+  },
+  {
+   "op": "struct",
+   "name": "FirstEntranceVillageMoveToStage",
+   "type": "Apple::Sdb::StageInfo::FirstEntranceVillageMoveToStageInfo",
+   "func": 7795392,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::StageInfo::FirstEntranceVillageMoveToStageInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "TutorialId",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "wstr",
+     "name": "MoveToStageId",
+     "size": null,
+     "cond": false,
+     "src": 32
+    }
+   ]
+  },
+  {
+   "op": "bool",
+   "name": "AllowQusetPopUp",
+   "size": 1,
+   "cond": true,
+   "src": 2204
+  },
+  {
+   "op": "wstr",
+   "name": "RandomStageInfoId",
+   "size": null,
+   "cond": true,
+   "src": 2208
+  },
+  {
+   "op": "bool",
+   "name": "OpenAllDifficultiesByLevelUp",
+   "size": 1,
+   "cond": true,
+   "src": 2205
+  },
+  {
+   "op": "bool",
+   "name": "AllowChangeEquipment",
+   "size": 1,
+   "cond": true,
+   "src": 2236
+  },
+  {
+   "op": "struct",
+   "name": "TimeAttack",
+   "type": "Apple::Sdb::StageInfo::TimeAttackInfo",
+   "func": 7797840,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::StageInfo::TimeAttackInfo"
+    },
+    {
+     "op": "i32",
+     "name": "Seconds",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "struct",
+     "name": "FailEffect",
+     "type": "Apple::Sdb::StageInfo::TimeAttackInfo::FailEffectInfo",
+     "func": 7815408,
+     "cond": false,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::Sdb::StageInfo::TimeAttackInfo::FailEffectInfo"
+      },
+      {
+       "op": "enum",
+       "name": "Message",
+       "enum": "locale",
+       "cond": false
+      },
+      {
+       "op": "f32",
+       "name": "DropCountDecreaseRate",
+       "size": 4,
+       "cond": false,
+       "src": 36
+      },
+      {
+       "op": "container",
+       "name": "NpcActionInfos",
+       "kind": "associative_array",
+       "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UActionInfo@FailEffectInfo@TimeAttackInfo@StageInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UActionInfo@FailEffectInfo@TimeAttackInfo@StageInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+       "cond": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "op": "bool",
+   "name": "UseIncreaseTimer",
+   "size": 1,
+   "cond": true,
+   "src": 2304
+  },
+  {
+   "op": "f32",
+   "name": "ForcbilyKillNpcDuration",
+   "size": 4,
+   "cond": true,
+   "src": 2308
+  },
+  {
+   "op": "f32",
+   "name": "ForcbilyKillNamedNpcDuration",
+   "size": 4,
+   "cond": true,
+   "src": 2312
+  },
+  {
+   "op": "f32",
+   "name": "AdjustPower",
+   "size": 4,
+   "cond": true,
+   "src": 2316
+  },
+  {
+   "op": "f32",
+   "name": "AdjustPowerValue",
+   "size": 4,
+   "cond": true,
+   "src": 2320
+  },
+  {
+   "op": "struct",
+   "name": "Camera",
+   "type": "Apple::Sdb::StageInfo::CameraInfo",
+   "func": 7795568,
+   "cond": true,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::StageInfo::CameraInfo"
+    },
+    {
+     "op": "bool",
+     "name": "Enable",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "f32",
+     "name": "CameraZoomMax",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "f32",
+     "name": "CameraZoomMin",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "f32",
+     "name": "TargetOffsetY",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::StageInfo::LoadingScreen": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::StageInfo::LoadingScreenInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "Image",
+    "size": null,
+    "cond": true,
+    "src": 4
+   },
+   {
+    "op": "enum",
+    "name": "Title",
+    "enum": "locale",
+    "cond": true
+   },
+   {
+    "op": "raw",
+    "name": "TitleRectangle",
+    "size": 16,
+    "cond": true,
+    "src": 68
+   },
+   {
+    "op": "enum",
+    "name": "SubTitle",
+    "enum": "locale",
+    "cond": true
+   },
+   {
+    "op": "raw",
+    "name": "SubTitleRectangle",
+    "size": 16,
+    "cond": true,
+    "src": 116
+   },
+   {
+    "op": "enum",
+    "name": "Desc",
+    "enum": "locale",
+    "cond": true
+   },
+   {
+    "op": "raw",
+    "name": "DescRectangle",
+    "size": 16,
+    "cond": true,
+    "src": 164
+   },
+   {
+    "op": "bool",
+    "name": "ShowTip",
+    "size": 1,
+    "cond": true,
+    "src": 180
+   },
+   {
+    "op": "container",
+    "name": "MaterialItemDropInfos",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "EquipItemDropInfos",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::DropInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::DropInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "Id",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "wstr",
+    "name": "VipAdditionalRewardId",
+    "size": null,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "raw",
+    "name": "EquipableItemLevelRange",
+    "size": 8,
+    "cond": false,
+    "src": 60
+   }
+  ],
+  "Apple::Sdb::StageInfo::RandomSectorInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::StageInfo::RandomSectorInfo"
+   },
+   {
+    "op": "bool",
+    "name": "Enable",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "MaxRandomSectorSize",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   }
+  ],
+  "Apple::Sdb::StageInfo::StarFilter": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::StageInfo::StarFilter"
+   },
+   {
+    "op": "bool",
+    "name": "Enable",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "f32",
+    "name": "Threshold",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "f32",
+    "name": "Size",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "f32",
+    "name": "SizeScale",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "f32",
+    "name": "Power",
+    "size": 4,
+    "cond": false,
+    "src": 20
+   }
+  ],
+  "Apple::Sdb::StageInfo::Bloom": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::StageInfo::Bloom"
+   },
+   {
+    "op": "bool",
+    "name": "Enable",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "f32",
+    "name": "Threshold",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "f32",
+    "name": "MaxValue",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "f32",
+    "name": "Power",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "f32",
+    "name": "Size",
+    "size": 4,
+    "cond": false,
+    "src": 20
+   }
+  ],
+  "Apple::Sdb::StageInfo::NpcKillScoreUiScale": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::StageInfo::NpcKillScoreUiScale"
+   },
+   {
+    "op": "bool",
+    "name": "IsLinear",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "container",
+    "name": "Scales",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HMU?$less@H@std@@V?$allocator@U?$pair@$$CBHM@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::StageInfo::GuildExpeditionStageInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::StageInfo::GuildExpeditionStageInfo"
+   },
+   {
+    "op": "bool",
+    "name": "IsGuildStage",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "RequiredGuildLevel",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "i32",
+    "name": "ClearTimePoint",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "i32",
+    "name": "BasePoint",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "container",
+    "name": "ClearedStageIds",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "ClearedStageCount",
+    "size": 4,
+    "cond": false,
+    "src": 36
+   }
+  ],
+  "Apple::Sdb::StageInfo::FirstEntranceVillageMoveToStageInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::StageInfo::FirstEntranceVillageMoveToStageInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "TutorialId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "wstr",
+    "name": "MoveToStageId",
+    "size": null,
+    "cond": false,
+    "src": 32
+   }
+  ],
+  "Apple::Sdb::StageInfo::TimeAttackInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::StageInfo::TimeAttackInfo"
+   },
+   {
+    "op": "i32",
+    "name": "Seconds",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "struct",
+    "name": "FailEffect",
+    "type": "Apple::Sdb::StageInfo::TimeAttackInfo::FailEffectInfo",
+    "func": 7815408,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::Sdb::StageInfo::TimeAttackInfo::FailEffectInfo"
+     },
+     {
+      "op": "enum",
+      "name": "Message",
+      "enum": "locale",
+      "cond": false
+     },
+     {
+      "op": "f32",
+      "name": "DropCountDecreaseRate",
+      "size": 4,
+      "cond": false,
+      "src": 36
+     },
+     {
+      "op": "container",
+      "name": "NpcActionInfos",
+      "kind": "associative_array",
+      "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UActionInfo@FailEffectInfo@TimeAttackInfo@StageInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UActionInfo@FailEffectInfo@TimeAttackInfo@StageInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+      "cond": false
+     }
+    ]
+   }
+  ],
+  "Apple::Sdb::StageInfo::TimeAttackInfo::FailEffectInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::StageInfo::TimeAttackInfo::FailEffectInfo"
+   },
+   {
+    "op": "enum",
+    "name": "Message",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "DropCountDecreaseRate",
+    "size": 4,
+    "cond": false,
+    "src": 36
+   },
+   {
+    "op": "container",
+    "name": "NpcActionInfos",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UActionInfo@FailEffectInfo@TimeAttackInfo@StageInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UActionInfo@FailEffectInfo@TimeAttackInfo@StageInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::StageInfo::CameraInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::StageInfo::CameraInfo"
+   },
+   {
+    "op": "bool",
+    "name": "Enable",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "f32",
+    "name": "CameraZoomMax",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "f32",
+    "name": "CameraZoomMin",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "f32",
+    "name": "TargetOffsetY",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   }
+  ]
+ }
+}

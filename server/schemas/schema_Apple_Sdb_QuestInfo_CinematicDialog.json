@@ -1,0 +1,45 @@
+{
+ "type": "Apple::Sdb::QuestInfo::CinematicDialog",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::QuestInfo::CinematicDialog"
+  },
+  {
+   "op": "wstr",
+   "name": "OnQuestAccepted",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "OnQuestCompleted",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "container",
+   "name": "OnEnterSector",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USectorDialogInfo@CinematicDialog@QuestInfo@Sdb@Apple@@V?$allocator@USectorDialogInfo@CinematicDialog@QuestInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "OnClearSector",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USectorDialogInfo@CinematicDialog@QuestInfo@Sdb@Apple@@V?$allocator@USectorDialogInfo@CinematicDialog@QuestInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "OnKillNpc",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UKillNpcInfo@CinematicDialog@QuestInfo@Sdb@Apple@@V?$allocator@UKillNpcInfo@CinematicDialog@QuestInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

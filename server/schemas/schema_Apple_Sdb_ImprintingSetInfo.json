@@ -1,0 +1,37 @@
+{
+ "type": "Apple::Sdb::ImprintingSetInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ImprintingSetInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ThumbnailPath",
+   "size": null,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "container",
+   "name": "SetEffectInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USetEffectInfo@ImprintingSetInfo@Sdb@Apple@@V?$allocator@USetEffectInfo@ImprintingSetInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

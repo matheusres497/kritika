@@ -1,0 +1,29 @@
+{
+ "type": "Apple::CheatCommandInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::CheatCommandInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "CommandName",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "Description",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Category",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

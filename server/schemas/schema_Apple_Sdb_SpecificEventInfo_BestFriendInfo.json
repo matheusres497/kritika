@@ -1,0 +1,59 @@
+{
+ "type": "Apple::Sdb::SpecificEventInfo::BestFriendInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SpecificEventInfo::BestFriendInfo"
+  },
+  {
+   "op": "i32",
+   "name": "MaxCount",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "GetGiftCountLevel",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "GetGiftCountFatigue",
+   "size": 4,
+   "cond": false,
+   "src": 24
+  },
+  {
+   "op": "i32",
+   "name": "EventCheckInterval",
+   "size": 4,
+   "cond": false,
+   "src": 28
+  },
+  {
+   "op": "u32",
+   "name": "MaxMemoSize",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "ShopNpcId",
+   "size": null,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "wstr",
+   "name": "BestFriendCoinItemId",
+   "size": null,
+   "cond": false,
+   "src": 64
+  }
+ ],
+ "types": {}
+}

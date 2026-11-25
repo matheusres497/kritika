@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::NpcDropInfo::NpcItemDropInfo::ItemProbability",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::NpcItemDropInfo::ItemDropInfo::ItemProbability"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f64",
+   "name": "Probability",
+   "size": 8,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "RandomEnhanceInfoId",
+   "size": null,
+   "cond": false,
+   "src": 40
+  }
+ ],
+ "types": {}
+}

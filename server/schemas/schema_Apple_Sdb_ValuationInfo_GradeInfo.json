@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::ValuationInfo::GradeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ValuationInfo::GradeInfo"
+  },
+  {
+   "op": "f32",
+   "name": "Score",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "Rank",
+   "size": null,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "f32",
+   "name": "GoldRate",
+   "size": 4,
+   "cond": false,
+   "src": 36
+  },
+  {
+   "op": "f32",
+   "name": "ExpRate",
+   "size": 4,
+   "cond": false,
+   "src": 40
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::StageClearTimeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::StageClearTimeInfo"
+  },
+  {
+   "op": "container",
+   "name": "StageClearTimes",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UStageClearTime@Sdb@Apple@@V?$allocator@UStageClearTime@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

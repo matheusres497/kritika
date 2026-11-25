@@ -1,0 +1,59 @@
+{
+ "type": "Apple::Sdb::SectorInfo::PopInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SectorInfo::PopInfo"
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "Direction",
+   "size": 12,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "wstr",
+   "name": "NpcId",
+   "size": null,
+   "cond": false,
+   "src": 24
+  },
+  {
+   "op": "wstr",
+   "name": "DefaultActionId",
+   "size": null,
+   "cond": false,
+   "src": 52
+  },
+  {
+   "op": "wstr",
+   "name": "LocationId",
+   "size": null,
+   "cond": false,
+   "src": 80
+  },
+  {
+   "op": "wstr",
+   "name": "TeamId",
+   "size": null,
+   "cond": false,
+   "src": 108
+  },
+  {
+   "op": "container",
+   "name": "PopDay",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

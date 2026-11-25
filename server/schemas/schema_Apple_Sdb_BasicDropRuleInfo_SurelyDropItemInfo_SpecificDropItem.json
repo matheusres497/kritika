@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::BasicDropRuleInfo::SurelyDropItemInfo::SpecificDropItem",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemDropRuleInfo::SpecificDropItem"
+  },
+  {
+   "op": "container",
+   "name": "DropInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UDropItemInfo@BasicDropRuleInfo@Sdb@Apple@@V?$allocator@UDropItemInfo@BasicDropRuleInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::IgnoreMaxDailyPlayCountInfo::StageLevelTicketInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::IgnoreMaxDailyPlayCountInfo::StageLevelTicketInfo"
+  },
+  {
+   "op": "raw",
+   "name": "StageLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "RequiredItemId",
+   "size": null,
+   "cond": false,
+   "src": 12
+  }
+ ],
+ "types": {}
+}

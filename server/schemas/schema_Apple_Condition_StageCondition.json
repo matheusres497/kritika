@@ -1,0 +1,143 @@
+{
+ "type": "Apple::Condition::StageCondition",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Condition::StageCondition"
+  },
+  {
+   "op": "wstr",
+   "name": "Rank",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "ClearTime",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "BossClearTime",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "Mvp",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Chains",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@IIU?$less@I@std@@V?$allocator@U?$pair@$$CBII@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Multikills",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@IIU?$less@I@std@@V?$allocator@U?$pair@$$CBII@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "BackAttackUsageForSpecificNpcs",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UBackAttackUsageForSpecificNpc@StageCondition@Condition@Apple@@V?$allocator@UBackAttackUsageForSpecificNpc@StageCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "GotHitBySpecificNpcs",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UGotHitBySpecificNpc@StageCondition@Condition@Apple@@V?$allocator@UGotHitBySpecificNpc@StageCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "SpecialAttackUsageForSpecificNpcs",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USpecialAttackUsageForSpecificNpc@StageCondition@Condition@Apple@@V?$allocator@USpecialAttackUsageForSpecificNpc@StageCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "SpecialComboUseCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "DeadlySkillUsages",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UDeadlySkillUsage@StageCondition@Condition@Apple@@V?$allocator@UDeadlySkillUsage@StageCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "ClearAllSector",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "SkillUsageForSpecificNpcs",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USkillUsageForSpecificNpc@StageCondition@Condition@Apple@@V?$allocator@USkillUsageForSpecificNpc@StageCondition@Condition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "ArenaClearCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "ClearMemberCount",
+   "size": 8,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "MaxHealthPositionUseCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "MaxManaPositionUseCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "MaxDeadCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "MaxSkillUseCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "ClearCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "EnterCount",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

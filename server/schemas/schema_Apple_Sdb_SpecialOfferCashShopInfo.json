@@ -1,0 +1,29 @@
+{
+ "type": "Apple::Sdb::SpecialOfferCashShopInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SpecialOfferCashShopInfo"
+  },
+  {
+   "op": "bool",
+   "name": "Enable",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "StartTime",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "EndTime",
+   "size": null,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

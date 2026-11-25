@@ -1,0 +1,52 @@
+{
+ "type": "Apple::Sdb::WorldBossInfo::LevelRewardInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::WorldBossInfo::LevelRewardInfo"
+  },
+  {
+   "op": "raw",
+   "name": "Range",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "DamageRewards",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "GuildRankRewards",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "PlayerRankRewards",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UPlayerRankReward@LevelRewardInfo@WorldBossInfo@Sdb@Apple@@V?$allocator@UPlayerRankReward@LevelRewardInfo@WorldBossInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "PlayerRankPercentRewards",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UPlayerRankReward@LevelRewardInfo@WorldBossInfo@Sdb@Apple@@V?$allocator@UPlayerRankReward@LevelRewardInfo@WorldBossInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "FinishRewardId",
+   "size": null,
+   "cond": false,
+   "src": 76
+  }
+ ],
+ "types": {}
+}

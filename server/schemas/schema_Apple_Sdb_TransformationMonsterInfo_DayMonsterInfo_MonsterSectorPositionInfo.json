@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::TransformationMonsterInfo::DayMonsterInfo::MonsterSectorPositionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::TransformationMonsterInfo::DayMonsterInfo::MonsterSectorPositionInfo"
+  },
+  {
+   "op": "raw",
+   "name": "StartingPosition",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "StartingDirection",
+   "size": 12,
+   "cond": false,
+   "src": 12
+  }
+ ],
+ "types": {}
+}

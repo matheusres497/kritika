@@ -1,0 +1,45 @@
+{
+ "type": "Apple::Sdb::ParkingVillageInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ParkingVillageInfo"
+  },
+  {
+   "op": "i32",
+   "name": "MaxCount",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "IntervalSecond",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "UsedFatigue",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "f32",
+   "name": "CriticalProbability",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "container",
+   "name": "ExpInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UExpInfo@Sdb@Apple@@V?$allocator@UExpInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,30 @@
+{
+ "type": "Apple::Sdb::SkillInfo::SkillActivateCondition",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SkillInfo::SkillActivateCondition"
+  },
+  {
+   "op": "bool",
+   "name": "Enable",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "ScriptFuncName",
+   "size": null,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "enum",
+   "name": "DeactivatedMessage",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

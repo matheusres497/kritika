@@ -1,0 +1,28 @@
+{
+ "type": "Apple::Condition::RaidCondition",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Condition::RaidCondition"
+  },
+  {
+   "op": "wstr",
+   "name": "RegionId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "StepNumber",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "ClearCount",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

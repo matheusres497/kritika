@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::PurchaseAutoPostInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PurchaseAutoPostInfo"
+  },
+  {
+   "op": "container",
+   "name": "SeasonInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USeasonInfo@PurchaseAutoPostInfo@Sdb@Apple@@V?$allocator@USeasonInfo@PurchaseAutoPostInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::WorldBossInfo::ScheduleInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::WorldBossInfo::BossInfo"
+  },
+  {
+   "op": "i32",
+   "name": "PlayTime",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "NeedMembers",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "raw",
+   "name": "StartHourMinute",
+   "size": 8,
+   "cond": false,
+   "src": 12
+  }
+ ],
+ "types": {}
+}

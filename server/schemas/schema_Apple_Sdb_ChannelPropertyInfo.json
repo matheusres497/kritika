@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::ChannelPropertyInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ChannelPropertyInfo"
+  },
+  {
+   "op": "f32",
+   "name": "MaxXpFactor",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "Properties",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UChannelProperty@ChannelPropertyInfo@Sdb@Apple@@V?$allocator@UChannelProperty@ChannelPropertyInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

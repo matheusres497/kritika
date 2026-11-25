@@ -1,0 +1,144 @@
+{
+ "type": "Apple::Sdb::ForceInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ForceInfo::ForceDetatilInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "NextForceId",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "IconPath",
+   "size": null,
+   "cond": false,
+   "src": 92
+  },
+  {
+   "op": "container",
+   "name": "ForceStatuses",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UStatusInfo@ForceInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UStatusInfo@ForceInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CompleteQuestList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "OptionInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UOptionInfo@ForceInfo@Sdb@Apple@@V?$allocator@UOptionInfo@ForceInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "QuestOpenCondition",
+   "type": "Apple::Sdb::ForceInfo::QuestOpenConditionInfo",
+   "func": 8296048,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ForceInfo::QuestOpenConditionInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "Id",
+     "size": null,
+     "cond": false,
+     "src": 8
+    },
+    {
+     "op": "wstr",
+     "name": "QuestId",
+     "size": null,
+     "cond": false,
+     "src": 36
+    },
+    {
+     "op": "enum",
+     "name": "Desc",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "OpenType",
+     "enum": "OpenType",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "i32",
+   "name": "UnlockGold",
+   "size": 4,
+   "cond": false,
+   "src": 268
+  },
+  {
+   "op": "bool",
+   "name": "UseEventIcon",
+   "size": 1,
+   "cond": false,
+   "src": 272
+  }
+ ],
+ "types": {
+  "Apple::Sdb::ForceInfo::QuestOpenConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ForceInfo::QuestOpenConditionInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "Id",
+    "size": null,
+    "cond": false,
+    "src": 8
+   },
+   {
+    "op": "wstr",
+    "name": "QuestId",
+    "size": null,
+    "cond": false,
+    "src": 36
+   },
+   {
+    "op": "enum",
+    "name": "Desc",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "OpenType",
+    "enum": "OpenType",
+    "cond": false
+   }
+  ]
+ }
+}

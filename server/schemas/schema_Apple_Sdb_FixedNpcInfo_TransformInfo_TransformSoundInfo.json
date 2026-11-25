@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::FixedNpcInfo::TransformInfo::TransformSoundInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::FixedNpcInfo::TransformInfo::TransformSoundInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "SoundId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "bool",
+   "name": "IsAlwaysAttach",
+   "size": 1,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

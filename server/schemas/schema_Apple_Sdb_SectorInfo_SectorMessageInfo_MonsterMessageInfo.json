@@ -1,0 +1,29 @@
+{
+ "type": "Apple::Sdb::SectorInfo::SectorMessageInfo::MonsterMessageInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SectorMessageInfo::MonsterMessageInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "NpcId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "MessageType",
+   "enum": "MessageType",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Message",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

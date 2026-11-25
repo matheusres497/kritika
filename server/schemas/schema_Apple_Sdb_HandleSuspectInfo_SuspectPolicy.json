@@ -1,0 +1,46 @@
+{
+ "type": ".?AU?$WriterWrapper@$$CBUSuspectPolicy@HandleSuspectInfo@Sdb@Apple@@@Private@Serializer@AllM@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::HandleSuspectInfo::SuspectPolicy"
+  },
+  {
+   "op": "wstr",
+   "name": "SuspectCase",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "SensingPeriod",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "CountThreshold",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "ResponseTime",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "PrisonTime",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "ResponseAction",
+   "enum": "ResponseAction",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

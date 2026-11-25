@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::RaidInfo::Condition::AvailableTimeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::RaidInfo::Condition::AvailableTimeInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "StartDateTime",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "EndDateTime",
+   "size": null,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

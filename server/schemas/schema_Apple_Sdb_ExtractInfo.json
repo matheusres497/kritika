@@ -1,0 +1,30 @@
+{
+ "type": "Apple::Sdb::ExtractInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ExtractInfo"
+  },
+  {
+   "op": "bool",
+   "name": "Enable",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Caution",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ExtractInfos",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UExtractSupportInfo@ExtractInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UExtractSupportInfo@ExtractInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

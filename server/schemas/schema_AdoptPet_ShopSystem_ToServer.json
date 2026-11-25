@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Protocol::ToServer::ShopSystem::AdoptPet",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "i32",
+   "name": "Order",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,91 @@
+{
+ "type": "Apple::Sdb::SkillInfo::StackOverrideInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SkillInfo::StackOverrideInfo"
+  },
+  {
+   "op": "raw",
+   "name": "SkillLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "struct",
+   "name": "StackInfo",
+   "type": "Apple::Sdb::SkillInfo::SkillStackInfo",
+   "func": 7999936,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SkillInfo::SkillStackInfo"
+    },
+    {
+     "op": "bool",
+     "name": "Enable",
+     "size": 1,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "enum",
+     "name": "SkillStackType",
+     "enum": "SkillStackType",
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "MaxCount",
+     "size": 4,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "i32",
+     "name": "DefaultCount",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::SkillInfo::SkillStackInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SkillInfo::SkillStackInfo"
+   },
+   {
+    "op": "bool",
+    "name": "Enable",
+    "size": 1,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "enum",
+    "name": "SkillStackType",
+    "enum": "SkillStackType",
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "MaxCount",
+    "size": 4,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "i32",
+    "name": "DefaultCount",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   }
+  ]
+ }
+}

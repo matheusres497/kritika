@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::TransformationMonsterInfo::EventStageData::RewardInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::TransformationMonsterInfo::EventStageData::RewardInfo"
+  },
+  {
+   "op": "container",
+   "name": "BaseRewards",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardItemInfo@EventStageData@TransformationMonsterInfo@Sdb@Apple@@V?$allocator@URewardItemInfo@EventStageData@TransformationMonsterInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ClearRewards",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardItemInfo@EventStageData@TransformationMonsterInfo@Sdb@Apple@@V?$allocator@URewardItemInfo@EventStageData@TransformationMonsterInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

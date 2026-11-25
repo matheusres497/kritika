@@ -1,0 +1,980 @@
+{
+ "type": "Apple::Sdb::ClassInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ClassInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "ClassName",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ModelPath",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "VillageSimplifiedModelPath",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "StageSimplifiedModelPath",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "Scale",
+   "size": 12,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsCreateableClass",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "CollisionShape",
+   "type": "Apple::CollisionShape",
+   "func": 8670608,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::CollisionShape"
+    },
+    {
+     "op": "enum",
+     "name": "Type",
+     "enum": "Type",
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "Radius",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "Height",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "BoxSize",
+     "size": 12,
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "FanAngle",
+     "size": 8,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "wstr",
+   "name": "SkinType",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "JumpHeight",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "JumpGravity",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "StageDefaultActionId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "VillageDefaultActionId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "DefaultStagePassiveActionId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "LevelUpActionId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ClassChangeActionId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ClassSelectSoundEventId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ClassCreateSoundEventId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "BaseStatusId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ActionListId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "DefaultStatus",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Effects",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEffectInfo@Sdb@Apple@@V?$allocator@UEffectInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "DeadlySkillReadyEffects",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEffectInfo@Sdb@Apple@@V?$allocator@UEffectInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "LobbyEffectPaths",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ColorLinkInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UColorLinkInfo@ClassInfo@Sdb@Apple@@V?$allocator@UColorLinkInfo@ClassInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "DefaultBuffInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UBuff@Apple@@V?$allocator@UBuff@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ApDisplayType",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "SpecialAttackSettings",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@USpecialAttackSetting@ClassInfo@Sdb@Apple@@V?$allocator@USpecialAttackSetting@ClassInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "EquipCategories",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "SpecialAttackTargetingAngleRange",
+   "size": 8,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "DefaultMeshInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UDefaultMeshInfo@ClassInfo@Sdb@Apple@@V?$allocator@UDefaultMeshInfo@ClassInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "DefaultSkills",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "AwakenDefaultSkills",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "DefaultEquipment",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@2@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "DefaultQuickSlot",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@IUQuickSlot@Apple@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIUQuickSlot@Apple@@@std@@@4@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "DefaultQuest",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "DefaultStage",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "Description",
+   "type": "Apple::Sdb::ClassInfo::_Description",
+   "func": 7731808,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ClassInfo::Description"
+    },
+    {
+     "op": "enum",
+     "name": "Brief",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "Difficulty",
+     "size": null,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "wstr",
+   "name": "StartModeForStage",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "StartModeForVillage",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "StartFishingActionId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "CatchFishingActionId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "CatchFishingJackPotActionId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "PrepareFishingActionId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RandomModeChange",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@URandomModeChangeInfo@ClassInfo@Sdb@Apple@@V?$allocator@URandomModeChangeInfo@ClassInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "CriticalHitSoundPath",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "OverrideActions",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UOverrideActionInfo@ClassInfo@Sdb@Apple@@V?$allocator@UOverrideActionInfo@ClassInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "Customizing",
+   "type": "Apple::Sdb::ClassInfo::CustomizingInfo",
+   "func": 7781360,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ClassInfo::CustomizingInfo"
+    },
+    {
+     "op": "container",
+     "name": "CustomizingPartInfos",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UCustomizingPartInfo@CustomizingInfo@ClassInfo@Sdb@Apple@@V?$allocator@UCustomizingPartInfo@CustomizingInfo@ClassInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "SelectableSkinColors",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@U?$Vector3@M@Math@AllM@@V?$allocator@U?$Vector3@M@Math@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "DefaultCustomizing",
+   "type": "Apple::CustomizingData",
+   "func": 8278896,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::CustomizingData"
+    },
+    {
+     "op": "container",
+     "name": "CustomizingPartDatas",
+     "kind": "array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UCustomizingPartData@CustomizingData@Apple@@V?$allocator@UCustomizingPartData@CustomizingData@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    },
+    {
+     "op": "i32",
+     "name": "SelectedSkinColorIndex",
+     "size": 4,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "f32",
+   "name": "WeaponDurabilityDecreaseRate",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "ArmorDurabilityDecreaseRate",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "AccessoryDurabilityDecreaseRate",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "ClassBuffInfo",
+   "type": "Apple::Sdb::ClassInfo::ClassUniqueBuffInfo",
+   "func": 7727616,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ClassInfo::ClassUniqueBuffInfo"
+    },
+    {
+     "op": "container",
+     "name": "AddBuffs",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UAddBuffInfo@Sdb@Apple@@V?$allocator@UAddBuffInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "RemoveBuffs",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "BuffListToBeErased",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "GaugeInfo",
+   "type": "Apple::Sdb::ClassInfo::SpecialGaugeInfo",
+   "func": 7718368,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ClassInfo::SpecialGaugeInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "GaugeType",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "GaugeMaxValue",
+     "size": 4,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "CameraTargetInfomation",
+   "type": "Apple::Sdb::ClassInfo::CameraTargetInfo",
+   "func": 7718608,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ClassInfo::CameraTargetInfo"
+    },
+    {
+     "op": "raw",
+     "name": "NearCameraTarget",
+     "size": 12,
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "FarCameraTarget",
+     "size": 12,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "ChangeCameraModeByDistance",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "ChangeCameraModeByExpression",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "FollowBone",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "NotFollowByHeight",
+     "size": 4,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "bool",
+   "name": "UseHpInsteadOfMp",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "SkillCostType",
+   "enum": "SkillCostType",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "OverEdgeGaugeIncreaseStatusId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "OverEdgeGauges",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@HV?$allocator@H@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "OverEdgeGaugeDurationBuffId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "OverEdgeGaugeDurationBuffLevelOverridesByEquipments",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@V?$allocator@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "NachalForceStatusId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "SilhouetteInfo",
+   "type": "Apple::Sdb::ClassInfo::ClassSilhouetteInfo",
+   "func": 7718448,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ClassInfo::ClassSilhouetteInfo"
+    },
+    {
+     "op": "f32",
+     "name": "WorldWidth",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "WorldHeight",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "TextureX",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "TextureY",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "TextureWidth",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "TextureHeight",
+     "size": 4,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "BaseStatusSkillInfo",
+   "type": "Apple::Sdb::ClassInfo::ClassBaseStatusSkillInfo",
+   "func": 7733408,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ClassInfo::ClassBaseStatusSkillInfo"
+    },
+    {
+     "op": "enum",
+     "name": "Name",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "LevelInfos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@ULevelInfo@ClassBaseStatusSkillInfo@ClassInfo@Sdb@Apple@@V?$allocator@ULevelInfo@ClassBaseStatusSkillInfo@ClassInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "OverComeInfo",
+   "type": "Apple::Sdb::ClassInfo::ClassOvercomeInfo",
+   "func": 7733632,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ClassInfo::ClassOvercomeInfo"
+    },
+    {
+     "op": "enum",
+     "name": "ClassName",
+     "enum": "locale",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "ModelPath",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "LobbyEffectPaths",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "OvercomeQuestList",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "enum",
+   "name": "ExclusiveControlMode",
+   "enum": "ExclusiveControlMode",
+   "cond": false
+  }
+ ],
+ "types": {
+  "Apple::CollisionShape": [
+   {
+    "op": "begin",
+    "type": "Apple::CollisionShape"
+   },
+   {
+    "op": "enum",
+    "name": "Type",
+    "enum": "Type",
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "Radius",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "Height",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "BoxSize",
+    "size": 12,
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "FanAngle",
+    "size": 8,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ClassInfo::_Description": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ClassInfo::Description"
+   },
+   {
+    "op": "enum",
+    "name": "Brief",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "Difficulty",
+    "size": null,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ClassInfo::CustomizingInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ClassInfo::CustomizingInfo"
+   },
+   {
+    "op": "container",
+    "name": "CustomizingPartInfos",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UCustomizingPartInfo@CustomizingInfo@ClassInfo@Sdb@Apple@@V?$allocator@UCustomizingPartInfo@CustomizingInfo@ClassInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "SelectableSkinColors",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@U?$Vector3@M@Math@AllM@@V?$allocator@U?$Vector3@M@Math@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   }
+  ],
+  "Apple::CustomizingData": [
+   {
+    "op": "begin",
+    "type": "Apple::CustomizingData"
+   },
+   {
+    "op": "container",
+    "name": "CustomizingPartDatas",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UCustomizingPartData@CustomizingData@Apple@@V?$allocator@UCustomizingPartData@CustomizingData@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "i32",
+    "name": "SelectedSkinColorIndex",
+    "size": 4,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ClassInfo::ClassUniqueBuffInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ClassInfo::ClassUniqueBuffInfo"
+   },
+   {
+    "op": "container",
+    "name": "AddBuffs",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UAddBuffInfo@Sdb@Apple@@V?$allocator@UAddBuffInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "RemoveBuffs",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "BuffListToBeErased",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ClassInfo::SpecialGaugeInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ClassInfo::SpecialGaugeInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "GaugeType",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "GaugeMaxValue",
+    "size": 4,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ClassInfo::CameraTargetInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ClassInfo::CameraTargetInfo"
+   },
+   {
+    "op": "raw",
+    "name": "NearCameraTarget",
+    "size": 12,
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "FarCameraTarget",
+    "size": 12,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "ChangeCameraModeByDistance",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "ChangeCameraModeByExpression",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "FollowBone",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "NotFollowByHeight",
+    "size": 4,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ClassInfo::ClassSilhouetteInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ClassInfo::ClassSilhouetteInfo"
+   },
+   {
+    "op": "f32",
+    "name": "WorldWidth",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "WorldHeight",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "TextureX",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "TextureY",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "TextureWidth",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "TextureHeight",
+    "size": 4,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ClassInfo::ClassBaseStatusSkillInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ClassInfo::ClassBaseStatusSkillInfo"
+   },
+   {
+    "op": "enum",
+    "name": "Name",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "LevelInfos",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@ULevelInfo@ClassBaseStatusSkillInfo@ClassInfo@Sdb@Apple@@V?$allocator@ULevelInfo@ClassBaseStatusSkillInfo@ClassInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ClassInfo::ClassOvercomeInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ClassInfo::ClassOvercomeInfo"
+   },
+   {
+    "op": "enum",
+    "name": "ClassName",
+    "enum": "locale",
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "ModelPath",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "LobbyEffectPaths",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@VLocator@AllM@@V?$allocator@VLocator@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "OvercomeQuestList",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ]
+ }
+}

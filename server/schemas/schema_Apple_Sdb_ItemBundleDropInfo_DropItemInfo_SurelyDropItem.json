@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::ItemBundleDropInfo::DropItemInfo::SurelyDropItem",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemBundleDropInfo::DropItemInfo::SurelyDropItem"
+  },
+  {
+   "op": "wstr",
+   "name": "ItemId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "RandomEnhanceInfoId",
+   "size": null,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

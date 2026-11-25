@@ -1,0 +1,37 @@
+{
+ "type": "Apple::Sdb::SkillTooltipInfo::DescParamsInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SkillInfo::DescParamsInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "SkillId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "SkillLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Params",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UParamInfo@DescParamsInfo@SkillTooltipInfo@Sdb@Apple@@V?$allocator@UParamInfo@DescParamsInfo@SkillTooltipInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

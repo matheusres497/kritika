@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::ReturneeTooltipInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ReturneeTooltipInfo"
+  },
+  {
+   "op": "container",
+   "name": "ReturneeFatigueSeedTootipInfos",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUReturneeFatigueSeedTootipInfo@ReturneeTooltipInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUReturneeFatigueSeedTootipInfo@ReturneeTooltipInfo@Sdb@Apple@@@std@@@6@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "TooltipItemIds",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HV?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

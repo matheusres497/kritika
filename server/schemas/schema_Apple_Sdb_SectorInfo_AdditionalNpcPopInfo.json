@@ -1,0 +1,280 @@
+{
+ "type": "Apple::Sdb::SectorInfo::AdditionalNpcPopInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SectorInfo::AdditionalNpcPopInfo"
+  },
+  {
+   "op": "struct",
+   "name": "Repeat",
+   "type": "Apple::Sdb::SectorInfo::AdditionalNpcPopInfo::RepeatInfo",
+   "func": 7270624,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SectorInfo::AdditionalNpcPopInfo::RepeatInfo"
+    },
+    {
+     "op": "i32",
+     "name": "Count",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "f32",
+     "name": "Interval",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "Condition",
+   "type": "Apple::Sdb::SectorInfo::AdditionalNpcPopInfo::ConditionInfo",
+   "func": 7287952,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SectorInfo::AdditionalNpcPopInfo::ConditionInfo"
+    },
+    {
+     "op": "f32",
+     "name": "ActivateDelay",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "enum",
+     "name": "StartEventTypeOfActivateDelay",
+     "enum": "StartEventTypeOfActivateDelay",
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "NotifyActivateDelayToUi",
+     "size": 1,
+     "cond": false,
+     "src": 12
+    },
+    {
+     "op": "i32",
+     "name": "MaxNpcCount",
+     "size": 4,
+     "cond": false,
+     "src": 16
+    },
+    {
+     "op": "f32",
+     "name": "MinSectorTime",
+     "size": 4,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "wstr",
+     "name": "DestroyedNpcId",
+     "size": null,
+     "cond": false,
+     "src": 24
+    },
+    {
+     "op": "i32",
+     "name": "KillCount",
+     "size": 4,
+     "cond": false,
+     "src": 52
+    },
+    {
+     "op": "container",
+     "name": "KillCountTargetNpcIds",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "KillCountConditionPassType",
+     "enum": "KillCountConditionPassType",
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "NotifyKillCountToUi",
+     "size": 1,
+     "cond": false,
+     "src": 76
+    },
+    {
+     "op": "wstr",
+     "name": "AdditionalNpcPopQuestId",
+     "size": null,
+     "cond": false,
+     "src": 80
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "EndCondition",
+   "type": "Apple::Sdb::SectorInfo::AdditionalNpcPopInfo::EndConditionInfo",
+   "func": 7270784,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::SectorInfo::AdditionalNpcPopInfo::EndConditionInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "DestroyedNpcId",
+     "size": null,
+     "cond": false,
+     "src": 4
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "PopGroupInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UPopGroupInfo@AdditionalNpcPopInfo@SectorInfo@Sdb@Apple@@V?$allocator@UPopGroupInfo@AdditionalNpcPopInfo@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Message",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IgnoreMaxMonsterCountInSector",
+   "size": 1,
+   "cond": false,
+   "src": 204
+  }
+ ],
+ "types": {
+  "Apple::Sdb::SectorInfo::AdditionalNpcPopInfo::RepeatInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SectorInfo::AdditionalNpcPopInfo::RepeatInfo"
+   },
+   {
+    "op": "i32",
+    "name": "Count",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "f32",
+    "name": "Interval",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   }
+  ],
+  "Apple::Sdb::SectorInfo::AdditionalNpcPopInfo::ConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SectorInfo::AdditionalNpcPopInfo::ConditionInfo"
+   },
+   {
+    "op": "f32",
+    "name": "ActivateDelay",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "enum",
+    "name": "StartEventTypeOfActivateDelay",
+    "enum": "StartEventTypeOfActivateDelay",
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "NotifyActivateDelayToUi",
+    "size": 1,
+    "cond": false,
+    "src": 12
+   },
+   {
+    "op": "i32",
+    "name": "MaxNpcCount",
+    "size": 4,
+    "cond": false,
+    "src": 16
+   },
+   {
+    "op": "f32",
+    "name": "MinSectorTime",
+    "size": 4,
+    "cond": false,
+    "src": 20
+   },
+   {
+    "op": "wstr",
+    "name": "DestroyedNpcId",
+    "size": null,
+    "cond": false,
+    "src": 24
+   },
+   {
+    "op": "i32",
+    "name": "KillCount",
+    "size": 4,
+    "cond": false,
+    "src": 52
+   },
+   {
+    "op": "container",
+    "name": "KillCountTargetNpcIds",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "KillCountConditionPassType",
+    "enum": "KillCountConditionPassType",
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "NotifyKillCountToUi",
+    "size": 1,
+    "cond": false,
+    "src": 76
+   },
+   {
+    "op": "wstr",
+    "name": "AdditionalNpcPopQuestId",
+    "size": null,
+    "cond": false,
+    "src": 80
+   }
+  ],
+  "Apple::Sdb::SectorInfo::AdditionalNpcPopInfo::EndConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::SectorInfo::AdditionalNpcPopInfo::EndConditionInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "DestroyedNpcId",
+    "size": null,
+    "cond": false,
+    "src": 4
+   }
+  ]
+ }
+}

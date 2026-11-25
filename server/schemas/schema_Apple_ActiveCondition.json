@@ -1,0 +1,382 @@
+{
+ "type": "Apple::ActiveCondition",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::ActiveCondition"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "Conditions",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "Completable",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsImmediateCompletable",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "RemainCondition",
+   "type": "Apple::ActiveCondition::RemainConditionInfo",
+   "func": 12404832,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::ActiveCondition::RemainConditionInfo"
+    },
+    {
+     "op": "container",
+     "name": "RemainUseItems",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URemainUseItemInfo@ActiveCondition@Apple@@V?$allocator@URemainUseItemInfo@ActiveCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "RemainKillNpcInfos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URemainNpcCondition@ActiveCondition@Apple@@V?$allocator@URemainNpcCondition@ActiveCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "RemainPvpConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URemainPvpConditionInfo@ActiveCondition@Apple@@V?$allocator@URemainPvpConditionInfo@ActiveCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "RemainStageIds",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "RemainEnhance",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URemainEnhanceItemInfo@ActiveCondition@Apple@@V?$allocator@URemainEnhanceItemInfo@ActiveCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "RemainEquips",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URemainEquipItemInfo@ActiveCondition@Apple@@V?$allocator@URemainEquipItemInfo@ActiveCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "RemainStatus",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@INU?$less@I@std@@V?$allocator@U?$pair@$$CBIN@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "RemainBuffs",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URemainBuffConditionInfo@ActiveCondition@Apple@@V?$allocator@URemainBuffConditionInfo@ActiveCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "RemainGeneralConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URemainGeneralConditionInfo@ActiveCondition@Apple@@V?$allocator@URemainGeneralConditionInfo@ActiveCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "RemainGuildSiegeConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URemainGuildSiegeConditionInfo@ActiveCondition@Apple@@V?$allocator@URemainGuildSiegeConditionInfo@ActiveCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "RemainRaidConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URemainRaidConditionInfo@ActiveCondition@Apple@@V?$allocator@URemainRaidConditionInfo@ActiveCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "struct",
+     "name": "RemainItemTransform",
+     "type": "Apple::ActiveCondition::RemainItemTransformInfo",
+     "func": 12397104,
+     "cond": false,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::ActiveCondition::RemainItemTransformInfo"
+      },
+      {
+       "op": "i32",
+       "name": "InheritEnhanceCount",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "OverrideItemBaseStatusCount",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "ItemBaseStatusChangeCount",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "UseRuneCount",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "UseDestroyPreventItemCount",
+       "size": 4,
+       "cond": false
+      },
+      {
+       "op": "i32",
+       "name": "AttemptEnhanceCount",
+       "size": 4,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "container",
+     "name": "RemainStageConditions",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@URemainStageConditionInfo@ActiveCondition@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@URemainStageConditionInfo@ActiveCondition@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "RemainAutoBattleConditions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URemainAutoBattleConditionInfo@ActiveCondition@Apple@@V?$allocator@URemainAutoBattleConditionInfo@ActiveCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "i64",
+   "name": "OidActiveCondition",
+   "size": 8,
+   "cond": false
+  }
+ ],
+ "types": {
+  "Apple::ActiveCondition::RemainConditionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::ActiveCondition::RemainConditionInfo"
+   },
+   {
+    "op": "container",
+    "name": "RemainUseItems",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@URemainUseItemInfo@ActiveCondition@Apple@@V?$allocator@URemainUseItemInfo@ActiveCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "RemainKillNpcInfos",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@URemainNpcCondition@ActiveCondition@Apple@@V?$allocator@URemainNpcCondition@ActiveCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "RemainPvpConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@URemainPvpConditionInfo@ActiveCondition@Apple@@V?$allocator@URemainPvpConditionInfo@ActiveCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "RemainStageIds",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "RemainEnhance",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@URemainEnhanceItemInfo@ActiveCondition@Apple@@V?$allocator@URemainEnhanceItemInfo@ActiveCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "RemainEquips",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@URemainEquipItemInfo@ActiveCondition@Apple@@V?$allocator@URemainEquipItemInfo@ActiveCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "RemainStatus",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@INU?$less@I@std@@V?$allocator@U?$pair@$$CBIN@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "RemainBuffs",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@URemainBuffConditionInfo@ActiveCondition@Apple@@V?$allocator@URemainBuffConditionInfo@ActiveCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "RemainGeneralConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@URemainGeneralConditionInfo@ActiveCondition@Apple@@V?$allocator@URemainGeneralConditionInfo@ActiveCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "RemainGuildSiegeConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@URemainGuildSiegeConditionInfo@ActiveCondition@Apple@@V?$allocator@URemainGuildSiegeConditionInfo@ActiveCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "RemainRaidConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@URemainRaidConditionInfo@ActiveCondition@Apple@@V?$allocator@URemainRaidConditionInfo@ActiveCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "struct",
+    "name": "RemainItemTransform",
+    "type": "Apple::ActiveCondition::RemainItemTransformInfo",
+    "func": 12397104,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::ActiveCondition::RemainItemTransformInfo"
+     },
+     {
+      "op": "i32",
+      "name": "InheritEnhanceCount",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "OverrideItemBaseStatusCount",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "ItemBaseStatusChangeCount",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "UseRuneCount",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "UseDestroyPreventItemCount",
+      "size": 4,
+      "cond": false
+     },
+     {
+      "op": "i32",
+      "name": "AttemptEnhanceCount",
+      "size": 4,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "container",
+    "name": "RemainStageConditions",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@URemainStageConditionInfo@ActiveCondition@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@URemainStageConditionInfo@ActiveCondition@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "RemainAutoBattleConditions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@URemainAutoBattleConditionInfo@ActiveCondition@Apple@@V?$allocator@URemainAutoBattleConditionInfo@ActiveCondition@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::ActiveCondition::RemainItemTransformInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::ActiveCondition::RemainItemTransformInfo"
+   },
+   {
+    "op": "i32",
+    "name": "InheritEnhanceCount",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "OverrideItemBaseStatusCount",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "ItemBaseStatusChangeCount",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "UseRuneCount",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "UseDestroyPreventItemCount",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "AttemptEnhanceCount",
+    "size": 4,
+    "cond": false
+   }
+  ]
+ }
+}

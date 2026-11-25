@@ -1,0 +1,38 @@
+{
+ "type": "Apple::Sdb::SectorInfo::BgmFadingInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SectorInfo::BgmFadingInfo"
+  },
+  {
+   "op": "bool",
+   "name": "UsingBgmFadingInfo",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "Center",
+   "size": 12,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "f32",
+   "name": "FadingBeginDistance",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "f32",
+   "name": "ZeroVolumeDistance",
+   "size": 4,
+   "cond": false,
+   "src": 24
+  }
+ ],
+ "types": {}
+}

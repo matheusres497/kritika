@@ -1,0 +1,45 @@
+{
+ "type": "Apple::Sdb::SpecificEventInfo::PuzzleInfo::PuzzleBoardInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SpecificEventInfo::PuzzleInfo::PuzzleBoardInfo"
+  },
+  {
+   "op": "raw",
+   "name": "MaintenancePeriod",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "PieceList",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUPuzzlePieceInfo@PuzzleBoardInfo@PuzzleInfo@SpecificEventInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUPuzzlePieceInfo@PuzzleBoardInfo@PuzzleInfo@SpecificEventInfo@Sdb@Apple@@@std@@@8@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "RewardItemId",
+   "size": null,
+   "cond": false,
+   "src": 28
+  },
+  {
+   "op": "wstr",
+   "name": "ImagePath",
+   "size": null,
+   "cond": false,
+   "src": 56
+  },
+  {
+   "op": "i32",
+   "name": "BonusCount",
+   "size": 4,
+   "cond": false,
+   "src": 84
+  }
+ ],
+ "types": {}
+}

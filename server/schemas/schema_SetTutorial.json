@@ -1,0 +1,22 @@
+{
+ "type": ".?AUSetTutorial@TutorialSystem@FromServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "PlayerId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "TutorialId",
+   "size": null,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

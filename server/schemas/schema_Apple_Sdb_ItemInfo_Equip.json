@@ -1,0 +1,398 @@
+{
+ "type": "Apple::Sdb::ItemInfo::Equip",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::ItemInfo::Equip"
+  },
+  {
+   "op": "bool",
+   "name": "Enable",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "EquipPart",
+   "enum": "EquipPart",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "CooldownCategory",
+   "size": null,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "raw",
+   "name": "LimitLevel",
+   "size": 8,
+   "cond": false,
+   "src": 40
+  },
+  {
+   "op": "i32",
+   "name": "LimitMinLevelMinus",
+   "size": 4,
+   "cond": false,
+   "src": 48
+  },
+  {
+   "op": "f32",
+   "name": "MaxDurability",
+   "size": 4,
+   "cond": false,
+   "src": 52
+  },
+  {
+   "op": "bool",
+   "name": "Identified",
+   "size": 1,
+   "cond": false,
+   "src": 56
+  },
+  {
+   "op": "wstr",
+   "name": "BaseStatusId",
+   "size": null,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "wstr",
+   "name": "BaseStatusOverrideCategory",
+   "size": null,
+   "cond": false,
+   "src": 88
+  },
+  {
+   "op": "bool",
+   "name": "Sealed",
+   "size": 1,
+   "cond": false,
+   "src": 116
+  },
+  {
+   "op": "bool",
+   "name": "IsTemplateItem",
+   "size": 1,
+   "cond": false,
+   "src": 117
+  },
+  {
+   "op": "wstr",
+   "name": "EquipCategory",
+   "size": null,
+   "cond": false,
+   "src": 120
+  },
+  {
+   "op": "wstr",
+   "name": "GrowthRateId",
+   "size": null,
+   "cond": false,
+   "src": 148
+  },
+  {
+   "op": "container",
+   "name": "Status",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "MatchStatusCategory",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "EquipableType",
+   "enum": "EquipableType",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "MeshPaths",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UMeshPathData@Equip@ItemInfo@Sdb@Apple@@V?$allocator@UMeshPathData@Equip@ItemInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "EffectPath",
+   "size": null,
+   "cond": false,
+   "src": 228
+  },
+  {
+   "op": "container",
+   "name": "EventOptionList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "MasteryStatusIds",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "HideMeshTypes",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@V?$allocator@U?$pair@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "ColorChannelCount",
+   "size": 4,
+   "cond": false,
+   "src": 308
+  },
+  {
+   "op": "container",
+   "name": "ChannelColors",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@U?$Vector4@M@Math@AllM@@V?$allocator@U?$Vector4@M@Math@AllM@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "EquipmentSetInfoId",
+   "size": null,
+   "cond": false,
+   "src": 328
+  },
+  {
+   "op": "container",
+   "name": "OverrideProjectileByTag",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "SkillCoolDownInfo",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@USkillCoolDownInfoByItem@Equip@ItemInfo@Sdb@Apple@@V?$allocator@USkillCoolDownInfoByItem@Equip@ItemInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "AdditionalUnsealItemType",
+   "size": null,
+   "cond": false,
+   "src": 388
+  },
+  {
+   "op": "struct",
+   "name": "FishingInfo",
+   "type": "Apple::Sdb::ItemInfo::Equip::Fishing",
+   "func": 7455856,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::ItemInfo::Equip::Fishing"
+    },
+    {
+     "op": "i32",
+     "name": "BaitSlotCount",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "container",
+     "name": "Status",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "FishingEventOptions",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "wstr",
+   "name": "CatalapisBoostingInfoId",
+   "size": null,
+   "cond": false,
+   "src": 456
+  },
+  {
+   "op": "wstr",
+   "name": "PetInfoId",
+   "size": null,
+   "cond": false,
+   "src": 484
+  },
+  {
+   "op": "wstr",
+   "name": "TalismanId",
+   "size": null,
+   "cond": false,
+   "src": 512
+  },
+  {
+   "op": "container",
+   "name": "SubEquipInfos",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@USubEquip@Equip@ItemInfo@Sdb@Apple@@V?$allocator@USubEquip@Equip@ItemInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "EnableJewelSocket",
+   "size": 1,
+   "cond": false,
+   "src": 556
+  },
+  {
+   "op": "bool",
+   "name": "ReidentifyEvaluationLockable",
+   "size": 1,
+   "cond": false,
+   "src": 557
+  },
+  {
+   "op": "wstr",
+   "name": "SpecificIdentifyTableId",
+   "size": null,
+   "cond": false,
+   "src": 560
+  },
+  {
+   "op": "wstr",
+   "name": "CatalapisChageInfoId",
+   "size": null,
+   "cond": false,
+   "src": 588
+  },
+  {
+   "op": "wstr",
+   "name": "CatalapisExModeId",
+   "size": null,
+   "cond": false,
+   "src": 616
+  },
+  {
+   "op": "bool",
+   "name": "IsKeepShiftOptionTarget",
+   "size": 1,
+   "cond": false,
+   "src": 644
+  },
+  {
+   "op": "bool",
+   "name": "IsKeepShiftOptionMaterial",
+   "size": 1,
+   "cond": false,
+   "src": 645
+  },
+  {
+   "op": "bool",
+   "name": "IsCanTransportToAccountBankWhenBound",
+   "size": 1,
+   "cond": false,
+   "src": 646
+  },
+  {
+   "op": "i8",
+   "name": "EssenceCount",
+   "size": 1,
+   "cond": false,
+   "src": 647
+  },
+  {
+   "op": "wstr",
+   "name": "OverrideActionId",
+   "size": null,
+   "cond": false,
+   "src": 648
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "DiceOptionTableId",
+   "size": null,
+   "cond": false,
+   "src": 708
+  },
+  {
+   "op": "bool",
+   "name": "EnableDiceOptionChange",
+   "size": 1,
+   "cond": false,
+   "src": 736
+  },
+  {
+   "op": "wstr",
+   "name": "OverCriticalOptionId",
+   "size": null,
+   "cond": false,
+   "src": 740
+  },
+  {
+   "op": "container",
+   "name": "BeltLinkIds",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "BeltLinkOptionList",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  }
+ ],
+ "types": {
+  "Apple::Sdb::ItemInfo::Equip::Fishing": [
+   {
+    "op": "begin",
+    "type": "Apple::ItemInfo::Equip::Fishing"
+   },
+   {
+    "op": "i32",
+    "name": "BaitSlotCount",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "container",
+    "name": "Status",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@MU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@M@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "FishingEventOptions",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ]
+ }
+}

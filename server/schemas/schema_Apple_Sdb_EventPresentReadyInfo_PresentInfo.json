@@ -1,0 +1,40 @@
+{
+ "type": ".?AU?$WriterWrapper@$$CBUPresentInfo@EventPresentReadyInfo@Sdb@Apple@@@Private@Serializer@AllM@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventPresentReadyInfo::PresentInfo"
+  },
+  {
+   "op": "i32",
+   "name": "GaugeAmount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "TargetPresentItemId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "TargetPresentItemCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "MyPresentItemId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "MyPresentItemCount",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

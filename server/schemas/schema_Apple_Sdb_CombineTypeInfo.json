@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::CombineTypeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::CombineTypeInfo"
+  },
+  {
+   "op": "container",
+   "name": "CombinableTypes",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UTypeInfo@CombineTypeInfo@Sdb@Apple@@V?$allocator@UTypeInfo@CombineTypeInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Caution",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

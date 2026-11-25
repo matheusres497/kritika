@@ -1,0 +1,34 @@
+{
+ "type": "Apple::IncreaseStatus",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::IncreaseStatus"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "IncreaseType",
+   "enum": "IncreaseType",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "Value",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "RelativeRate",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

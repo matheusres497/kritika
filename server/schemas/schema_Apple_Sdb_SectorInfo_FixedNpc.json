@@ -1,0 +1,91 @@
+{
+ "type": "Apple::Sdb::SectorInfo::FixedNpc",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SectorInfo::FixedNpc"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": true,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 8,
+   "cond": true,
+   "src": 32
+  },
+  {
+   "op": "raw",
+   "name": "Direction",
+   "size": 12,
+   "cond": true,
+   "src": 40
+  },
+  {
+   "op": "raw",
+   "name": "MinimapIconOffset",
+   "size": 8,
+   "cond": true,
+   "src": 64
+  },
+  {
+   "op": "raw",
+   "name": "Scale",
+   "size": 12,
+   "cond": true,
+   "src": 52
+  },
+  {
+   "op": "struct",
+   "name": "?",
+   "type": "Apple::Sdb::SectorInfo::FixedNpc::MovementInfo",
+   "func": 7287408,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::Sector::FixedNpc::MovementInfo"
+    },
+    {
+     "op": "container",
+     "name": "Stamps",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UStampInfo@MovementInfo@FixedNpc@SectorInfo@Sdb@Apple@@V?$allocator@UStampInfo@MovementInfo@FixedNpc@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "MovementType",
+     "enum": "fixedNpcMovement",
+     "cond": false
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::SectorInfo::FixedNpc::MovementInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::Sector::FixedNpc::MovementInfo"
+   },
+   {
+    "op": "container",
+    "name": "Stamps",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UStampInfo@MovementInfo@FixedNpc@SectorInfo@Sdb@Apple@@V?$allocator@UStampInfo@MovementInfo@FixedNpc@SectorInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "MovementType",
+    "enum": "fixedNpcMovement",
+    "cond": false
+   }
+  ]
+ }
+}

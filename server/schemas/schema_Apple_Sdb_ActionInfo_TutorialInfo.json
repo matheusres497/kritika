@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::ActionInfo::TutorialInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ActionInfo::TutorialInfo"
+  },
+  {
+   "op": "f32",
+   "name": "Time",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "bool",
+   "name": "Pause",
+   "size": 1,
+   "cond": false,
+   "src": 36
+  }
+ ],
+ "types": {}
+}

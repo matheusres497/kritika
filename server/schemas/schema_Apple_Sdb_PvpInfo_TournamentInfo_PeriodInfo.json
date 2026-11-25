@@ -1,0 +1,79 @@
+{
+ "type": "Apple::Sdb::PvpInfo::TournamentInfo::PeriodInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PvpInfo::TournamentInfo::PeriodInfo"
+  },
+  {
+   "op": "i32",
+   "name": "DateInProgress",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "struct",
+   "name": "Repeat",
+   "type": "Apple::Sdb::PvpInfo::TournamentInfo::PeriodInfo::RepeatInfo",
+   "func": 9257072,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::PvpInfo::TournamentInfo::PeriodInfo::RepeatInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "StartAt",
+     "size": null,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "Duration",
+     "size": 4,
+     "cond": false,
+     "src": 32
+    },
+    {
+     "op": "bool",
+     "name": "IsOnce",
+     "size": 1,
+     "cond": false,
+     "src": 36
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::PvpInfo::TournamentInfo::PeriodInfo::RepeatInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::PvpInfo::TournamentInfo::PeriodInfo::RepeatInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "StartAt",
+    "size": null,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "Duration",
+    "size": 4,
+    "cond": false,
+    "src": 32
+   },
+   {
+    "op": "bool",
+    "name": "IsOnce",
+    "size": 1,
+    "cond": false,
+    "src": 36
+   }
+  ]
+ }
+}

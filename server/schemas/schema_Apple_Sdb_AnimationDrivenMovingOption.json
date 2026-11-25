@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::AnimationDrivenMovingOption",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::AnimationDrivenMovingOption"
+  },
+  {
+   "op": "bool",
+   "name": "HorizontalMove",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "bool",
+   "name": "VerticalMove",
+   "size": 1,
+   "cond": false,
+   "src": 5
+  },
+  {
+   "op": "bool",
+   "name": "FloatingWhenVerticalMove",
+   "size": 1,
+   "cond": false,
+   "src": 6
+  }
+ ],
+ "types": {}
+}

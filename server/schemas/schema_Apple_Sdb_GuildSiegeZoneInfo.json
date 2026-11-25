@@ -1,0 +1,77 @@
+{
+ "type": "Apple::Sdb::GuildSiegeZoneInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GuildSiegeZoneInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "TotalItemRewardId",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "WinItemRewardId",
+   "size": null,
+   "cond": false,
+   "src": 60
+  },
+  {
+   "op": "wstr",
+   "name": "OccupationEffectId",
+   "size": null,
+   "cond": false,
+   "src": 88
+  },
+  {
+   "op": "i32",
+   "name": "Index",
+   "size": 4,
+   "cond": false,
+   "src": 116
+  },
+  {
+   "op": "i32",
+   "name": "Level",
+   "size": 4,
+   "cond": false,
+   "src": 120
+  },
+  {
+   "op": "enum",
+   "name": "BattleDay",
+   "enum": "WeekDay",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "BattleHourMinute",
+   "size": 8,
+   "cond": false,
+   "src": 128
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

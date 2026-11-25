@@ -1,0 +1,45 @@
+{
+ "type": "Apple::Sdb::TutorialInfo::Condition",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::TutorialInfo::Condition"
+  },
+  {
+   "op": "wstr",
+   "name": "ActionId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "InputKeys",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "UseItemId",
+   "size": null,
+   "cond": false,
+   "src": 48
+  },
+  {
+   "op": "wstr",
+   "name": "PickUpItemId",
+   "size": null,
+   "cond": false,
+   "src": 76
+  },
+  {
+   "op": "container",
+   "name": "ComboInfos",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UComboInfo@Condition@TutorialInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UComboInfo@Condition@TutorialInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

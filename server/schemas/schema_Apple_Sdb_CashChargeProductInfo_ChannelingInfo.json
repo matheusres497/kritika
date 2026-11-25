@@ -1,0 +1,30 @@
+{
+ "type": "Apple::Sdb::CashChargeProductInfo::ChannelingInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::CashChargeProductInfo::ChannelingInfo"
+  },
+  {
+   "op": "enum",
+   "name": "ChannelType",
+   "enum": "ChannelType",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "Currency",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "container",
+   "name": "ProductItemList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UProductItemInfo@ChannelingInfo@CashChargeProductInfo@Sdb@Apple@@V?$allocator@UProductItemInfo@ChannelingInfo@CashChargeProductInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

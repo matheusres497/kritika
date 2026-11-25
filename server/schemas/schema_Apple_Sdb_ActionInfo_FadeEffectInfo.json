@@ -1,0 +1,52 @@
+{
+ "type": "Apple::Sdb::ActionInfo::FadeEffectInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ActionInfo::FadeEffectInfo"
+  },
+  {
+   "op": "f32",
+   "name": "FadeBeginTime",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "FadeBeginLength",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "f32",
+   "name": "FadeEndTime",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "f32",
+   "name": "FadeEndLength",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "f32",
+   "name": "FadeAlpha",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "bool",
+   "name": "Enabled",
+   "size": 1,
+   "cond": false,
+   "src": 24
+  }
+ ],
+ "types": {}
+}

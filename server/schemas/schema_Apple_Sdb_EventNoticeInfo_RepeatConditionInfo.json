@@ -1,0 +1,92 @@
+{
+ "type": "Apple::Sdb::EventNoticeInfo::RepeatConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventInfo::RepeatConditionInfo"
+  },
+  {
+   "op": "container",
+   "name": "DayOfTheWeek",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "StartTime",
+   "type": "Apple::Sdb::EventNoticeInfo::RepeatConditionInfo::TimeInfo",
+   "func": 23357024,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::EventNoticeInfo::RepeatConditionInfo::TimeInfo"
+    },
+    {
+     "op": "i32",
+     "name": "Hour",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "Minute",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "EndTime",
+   "type": "Apple::Sdb::EventNoticeInfo::RepeatConditionInfo::TimeInfo",
+   "func": 23357024,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::EventNoticeInfo::RepeatConditionInfo::TimeInfo"
+    },
+    {
+     "op": "i32",
+     "name": "Hour",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "Minute",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::EventNoticeInfo::RepeatConditionInfo::TimeInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::EventNoticeInfo::RepeatConditionInfo::TimeInfo"
+   },
+   {
+    "op": "i32",
+    "name": "Hour",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "Minute",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   }
+  ]
+ }
+}

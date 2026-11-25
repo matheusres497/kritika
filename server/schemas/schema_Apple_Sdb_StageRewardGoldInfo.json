@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::StageRewardGoldInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::StageRewardGoldInfo"
+  },
+  {
+   "op": "container",
+   "name": "GoldTable",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UStageRewardGoldElement@StageRewardGoldInfo@Sdb@Apple@@V?$allocator@UStageRewardGoldElement@StageRewardGoldInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

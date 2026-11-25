@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::ForceOptionInfo::StatusInfo::DetailStatusInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ForceOptionInfo::ForceOptionDetatilInfo::StatusInfo::DetailStatusInfo"
+  },
+  {
+   "op": "raw",
+   "name": "Range",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "FluctuationProbabilities",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UProbabilityInfo@DetailStatusInfo@StatusInfo@ForceOptionInfo@Sdb@Apple@@V?$allocator@UProbabilityInfo@DetailStatusInfo@StatusInfo@ForceOptionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

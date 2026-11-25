@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::PaperAirplaneEventInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PaperAirplaneEventInfo"
+  },
+  {
+   "op": "container",
+   "name": "Seasons",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USeasonInfo@PaperAirplaneEventInfo@Sdb@Apple@@V?$allocator@USeasonInfo@PaperAirplaneEventInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Caution",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,30 @@
+{
+ "type": "Apple::Sdb::EventIntrusionInfo::MinimapInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventIntrusionInfos::ShowMinimap"
+  },
+  {
+   "op": "enum",
+   "name": "EffectType",
+   "enum": "EffectType",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsShowIcon",
+   "size": 1,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "bool",
+   "name": "IsShowMessage",
+   "size": 1,
+   "cond": false,
+   "src": 9
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,51 @@
+{
+ "type": "Apple::Sdb::SkillInfo::AoeSkillInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SkillInfo::AoeSkillInfo"
+  },
+  {
+   "op": "bool",
+   "name": "Enable",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "u32",
+   "name": "Level",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "f32",
+   "name": "Radius",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "f32",
+   "name": "MaxRange",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "enum",
+   "name": "SectorLimitCheckType",
+   "enum": "SectorLimitCheckType",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "AoeVisualId",
+   "size": null,
+   "cond": false,
+   "src": 24
+  }
+ ],
+ "types": {}
+}

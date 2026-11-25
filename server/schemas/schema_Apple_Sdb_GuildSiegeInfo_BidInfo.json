@@ -1,0 +1,71 @@
+{
+ "type": "Apple::Sdb::GuildSiegeInfo::BidInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GuildSiegeInfo::BidInfo"
+  },
+  {
+   "op": "i32",
+   "name": "MinCoinCount",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "OverBidMinCoinCount",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "i32",
+   "name": "HasZoneLimit",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "f32",
+   "name": "CoolTimeSeconds",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "u32",
+   "name": "RefreshListIntervalSeconds",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "enum",
+   "name": "StartDay",
+   "enum": "WeekDay",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "StartHourMinute",
+   "size": 8,
+   "cond": false,
+   "src": 28
+  },
+  {
+   "op": "enum",
+   "name": "EndDay",
+   "enum": "WeekDay",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "EndHourMinute",
+   "size": 8,
+   "cond": false,
+   "src": 40
+  }
+ ],
+ "types": {}
+}

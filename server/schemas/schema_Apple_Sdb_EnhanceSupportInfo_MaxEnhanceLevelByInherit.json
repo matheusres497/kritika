@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::EnhanceSupportInfo::MaxEnhanceLevelByInherit",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EnhanceSupportInfo::MaxEnhanceLevelByInherit"
+  },
+  {
+   "op": "raw",
+   "name": "InheritLevelRange",
+   "size": 8,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "i32",
+   "name": "MaxEnhanceLevel",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  }
+ ],
+ "types": {}
+}

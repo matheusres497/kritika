@@ -1,0 +1,16 @@
+{
+ "type": ".?AUUpdateLastMainQuestId@QuestSystem@FromServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "LastMainQuestId",
+   "size": null,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

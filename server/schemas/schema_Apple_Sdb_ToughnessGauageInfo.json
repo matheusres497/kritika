@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::ToughnessGauageInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ToughnessGaugeInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "ArmorIcons",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UArmorIconInfo@ToughnessGauageInfo@Sdb@Apple@@V?$allocator@UArmorIconInfo@ToughnessGauageInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

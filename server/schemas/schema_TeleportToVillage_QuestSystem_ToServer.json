@@ -1,0 +1,24 @@
+{
+ "type": ".?AUTeleportToVillage@QuestSystem@ToServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "wstr",
+   "name": "QuestId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "u32",
+   "name": "State",
+   "size": 4,
+   "cond": false,
+   "src": 32
+  }
+ ],
+ "types": {}
+}

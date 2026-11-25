@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Protocol::FromServer::InventorySystem::DeletePetCollection",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "container",
+   "name": "Items",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@I_K@std@@V?$allocator@U?$pair@I_K@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

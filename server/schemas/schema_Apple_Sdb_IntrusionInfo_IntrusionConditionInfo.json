@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::IntrusionInfo::IntrusionConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::IntrusionInfo::IntrusionConditionInfo"
+  },
+  {
+   "op": "i32",
+   "name": "MaxNpcCount",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "MinSectorTime",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "wstr",
+   "name": "DestroyedNpcId",
+   "size": null,
+   "cond": false,
+   "src": 12
+  }
+ ],
+ "types": {}
+}

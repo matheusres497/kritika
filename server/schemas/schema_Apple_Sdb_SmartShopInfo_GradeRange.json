@@ -1,0 +1,22 @@
+{
+ "type": "Apple::Sdb::SmartShopInfo::GradeRange",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::SmartShopInfo::GradeRange"
+  },
+  {
+   "op": "enum",
+   "name": "X",
+   "enum": "ItemGrade",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Y",
+   "enum": "ItemGrade",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

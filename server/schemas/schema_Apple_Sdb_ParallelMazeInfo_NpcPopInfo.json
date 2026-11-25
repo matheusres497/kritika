@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::ParallelMazeInfo::NpcPopInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ParallelMazeInfo::NpcPopInfo"
+  },
+  {
+   "op": "container",
+   "name": "RandomPositions",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$Vector2@M@Math@AllM@@V?$allocator@U?$Vector2@M@Math@AllM@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "Direction",
+   "size": 12,
+   "cond": false,
+   "src": 20
+  }
+ ],
+ "types": {}
+}

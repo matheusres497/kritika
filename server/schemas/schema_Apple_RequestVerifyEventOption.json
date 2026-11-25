@@ -1,0 +1,22 @@
+{
+ "type": "Apple::RequestVerifyEventOption",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::RequestVerifyEventOption"
+  },
+  {
+   "op": "u32",
+   "name": "EventOptionSerial",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "EventOptionId",
+   "size": null,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

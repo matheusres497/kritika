@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::GeneralInfo::TabAdditionalInfo::TabEnableConditionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GeneralInfo::TabAdditionalInfo::TabEnableConditionInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "QuestId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Description",
+   "enum": "locale",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

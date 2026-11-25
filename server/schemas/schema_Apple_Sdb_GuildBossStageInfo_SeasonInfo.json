@@ -1,0 +1,85 @@
+{
+ "type": "Apple::Sdb::GuildBossStageInfo::SeasonInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GuildBossStageInfo::SeasonInfo"
+  },
+  {
+   "op": "struct",
+   "name": "MonthlyStartTime",
+   "type": "Apple::Sdb::GuildBossStageInfo::SeasonInfo::DayHourTime",
+   "func": 10920240,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GuildBossStageInfo::SeasonInfo::DayHourTime"
+    },
+    {
+     "op": "i32",
+     "name": "Day",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "Hour",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "MonthlyEndTime",
+   "type": "Apple::Sdb::GuildBossStageInfo::SeasonInfo::DayHourTime",
+   "func": 10920240,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::GuildBossStageInfo::SeasonInfo::DayHourTime"
+    },
+    {
+     "op": "i32",
+     "name": "Day",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "i32",
+     "name": "Hour",
+     "size": 4,
+     "cond": false,
+     "src": 8
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::GuildBossStageInfo::SeasonInfo::DayHourTime": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::GuildBossStageInfo::SeasonInfo::DayHourTime"
+   },
+   {
+    "op": "i32",
+    "name": "Day",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "i32",
+    "name": "Hour",
+    "size": 4,
+    "cond": false,
+    "src": 8
+   }
+  ]
+ }
+}

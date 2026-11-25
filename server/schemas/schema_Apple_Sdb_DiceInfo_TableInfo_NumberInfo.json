@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::DiceInfo::TableInfo::NumberInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::DiceInfo::TableInfo::NumberInfo"
+  },
+  {
+   "op": "container",
+   "name": "RandomTables",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@MV?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@std@@V?$allocator@U?$pair@MV?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

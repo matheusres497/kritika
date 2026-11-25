@@ -1,0 +1,44 @@
+{
+ "type": "Apple::Sdb::ItemPackageInfo::ContainedItemsInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemPackageInfo::ContainedItemsInfo"
+  },
+  {
+   "op": "enum",
+   "name": "InfoType",
+   "enum": "InfoType",
+   "cond": false
+  },
+  {
+   "op": "f64",
+   "name": "Probability",
+   "size": 8,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "container",
+   "name": "ItemIdForClass",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UClassItemsInfo@ItemPackageInfo@Sdb@Apple@@V?$allocator@UClassItemsInfo@ItemPackageInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ItemList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UItemListInfo@ItemPackageInfo@Sdb@Apple@@V?$allocator@UItemListInfo@ItemPackageInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsJackPot",
+   "size": 1,
+   "cond": false,
+   "src": 48
+  }
+ ],
+ "types": {}
+}

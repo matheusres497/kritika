@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<allm>
+	<WorldStatusServerList type="array">
+		<item type="WorldStatusServiceInfo">
+			<WorldNumber type="int" value="1" />
+			<WorldName type="wstring" value="KRITIKA" /> 
+			<WorldStatusServiceAddress type="wstring" value="127.0.0.1:10331" />
+			<WorldLogAddress type="wstring" value="" />
+		</item>
+	</WorldStatusServerList>
+</allm>

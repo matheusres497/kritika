@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::TutorialInfo::Dialog",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::TutorialInfo::Dialog"
+  },
+  {
+   "op": "enum",
+   "name": "DisplayType",
+   "enum": "DisplayType",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Infos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UInfo@Dialog@TutorialInfo@Sdb@Apple@@V?$allocator@UInfo@Dialog@TutorialInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

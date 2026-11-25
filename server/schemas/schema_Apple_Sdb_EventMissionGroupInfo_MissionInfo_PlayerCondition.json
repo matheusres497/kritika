@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::EventMissionGroupInfo::MissionInfo::PlayerCondition",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventMissionGroupInfo::MissionInfo::PlayerCondition"
+  },
+  {
+   "op": "bool",
+   "name": "IsFatigueMission",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  }
+ ],
+ "types": {}
+}

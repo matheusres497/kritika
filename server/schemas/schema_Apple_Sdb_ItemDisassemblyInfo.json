@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::ItemDisassemblyInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ItemDisassemblyInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "bool",
+   "name": "IsJackpot",
+   "size": 1,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "container",
+   "name": "DisassemblyOutputs",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UDisassemblyOutput@Sdb@Apple@@V?$allocator@UDisassemblyOutput@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

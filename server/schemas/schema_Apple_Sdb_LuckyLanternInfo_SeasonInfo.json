@@ -1,0 +1,62 @@
+{
+ "type": "Apple::Sdb::LuckyLanternInfo::SeasonInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::LuckyLanternInfo::SeasonInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "StartDate",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "EndDate",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "RecieveRewardStartDate",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "RecieveRewardEndDate",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "Number",
+   "size": 4,
+   "cond": false,
+   "src": 72
+  },
+  {
+   "op": "container",
+   "name": "LuckyReward",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardInfo@SeasonInfo@LuckyLanternInfo@Sdb@Apple@@V?$allocator@URewardInfo@SeasonInfo@LuckyLanternInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RankReward",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URewardInfo@SeasonInfo@LuckyLanternInfo@Sdb@Apple@@V?$allocator@URewardInfo@SeasonInfo@LuckyLanternInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "MailExpirationPeriod",
+   "size": 4,
+   "cond": false,
+   "src": 108
+  }
+ ],
+ "types": {}
+}

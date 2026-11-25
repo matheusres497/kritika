@@ -1,0 +1,122 @@
+{
+ "type": "Apple::Sdb::EventOptionInfo::PassiveEffectInfo::SkillBonusLevelInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EventOptionInfo::PassiveEffectInfo::SkillBonusLevelInfo"
+  },
+  {
+   "op": "struct",
+   "name": "Target",
+   "type": "Apple::Sdb::EventOptionInfo::PassiveEffectInfo::SkillBonusLevelInfo::TargetInfo",
+   "func": 7950896,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::EventOptionInfo::PassiveEffectInfo::SkillBonusLevelInfo::TargetInfo"
+    },
+    {
+     "op": "struct",
+     "name": "MinLevelToLearn",
+     "type": "Apple::Sdb::EventOptionInfo::PassiveEffectInfo::SkillBonusLevelInfo::TargetInfo::MinLevelToLearnInfo",
+     "func": 7977184,
+     "cond": false,
+     "fields": [
+      {
+       "op": "begin",
+       "type": "Apple::Sdb::EventOptionInfo::PassiveEffectInfo::SkillBonusLevelInfo::TargetInfo::MinLevelToLearnInfo"
+      },
+      {
+       "op": "container",
+       "name": "Classes",
+       "kind": "array",
+       "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+       "cond": true
+      },
+      {
+       "op": "raw",
+       "name": "Range",
+       "size": 8,
+       "cond": false
+      }
+     ]
+    },
+    {
+     "op": "container",
+     "name": "SkillIds",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "i32",
+   "name": "BonusLevel",
+   "size": 4,
+   "cond": false,
+   "src": 52
+  }
+ ],
+ "types": {
+  "Apple::Sdb::EventOptionInfo::PassiveEffectInfo::SkillBonusLevelInfo::TargetInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::EventOptionInfo::PassiveEffectInfo::SkillBonusLevelInfo::TargetInfo"
+   },
+   {
+    "op": "struct",
+    "name": "MinLevelToLearn",
+    "type": "Apple::Sdb::EventOptionInfo::PassiveEffectInfo::SkillBonusLevelInfo::TargetInfo::MinLevelToLearnInfo",
+    "func": 7977184,
+    "cond": false,
+    "fields": [
+     {
+      "op": "begin",
+      "type": "Apple::Sdb::EventOptionInfo::PassiveEffectInfo::SkillBonusLevelInfo::TargetInfo::MinLevelToLearnInfo"
+     },
+     {
+      "op": "container",
+      "name": "Classes",
+      "kind": "array",
+      "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+      "cond": true
+     },
+     {
+      "op": "raw",
+      "name": "Range",
+      "size": 8,
+      "cond": false
+     }
+    ]
+   },
+   {
+    "op": "container",
+    "name": "SkillIds",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$set@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::EventOptionInfo::PassiveEffectInfo::SkillBonusLevelInfo::TargetInfo::MinLevelToLearnInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::EventOptionInfo::PassiveEffectInfo::SkillBonusLevelInfo::TargetInfo::MinLevelToLearnInfo"
+   },
+   {
+    "op": "container",
+    "name": "Classes",
+    "kind": "array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   },
+   {
+    "op": "raw",
+    "name": "Range",
+    "size": 8,
+    "cond": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,1043 @@
+{
+ "type": "Apple::Sdb::ProjectileInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::Projectile"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Type",
+   "enum": "projectiletype",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ModelPath",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "DefaultAnimationPath",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "Scale",
+   "size": 12,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "Projection",
+   "type": "Apple::Sdb::ProjectionInfo",
+   "func": 7889920,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ProjectionInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "TexturePath",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "Scale",
+     "size": 12,
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "IsFollow",
+     "size": 1,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "Collision",
+   "type": "Apple::CollisionShape_Deprecated",
+   "func": 8670912,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::CollisionShape"
+    },
+    {
+     "op": "wstr",
+     "name": "Value",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "Type",
+     "enum": "Type",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "Filter",
+   "type": "Apple::Sdb::ProjectileInfo::CollisionFilter",
+   "func": 7897280,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ProjectileInfo::CollisionFilter"
+    },
+    {
+     "op": "container",
+     "name": "True",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "False",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "struct",
+   "name": "FreezeInfo",
+   "type": "Apple::Sdb::Freeze",
+   "func": 7895776,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Freeze"
+    },
+    {
+     "op": "enum",
+     "name": "FreezeTarget",
+     "enum": "FreezeTarget",
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "Duration",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "AnimationSpeed",
+     "size": 4,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "f32",
+   "name": "Speed",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "Duration",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "ReHitInterval",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "MaxReHitCount",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "TimeToLive",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ActionListId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "DefaultActionId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "DefaultStatusHash",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@IV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@I@2@V?$allocator@U?$pair@$$CBIV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "DefaultStatus",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ProjectileActionsWhenHit",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UProjectileActionAndParams@ProjectileInfo@Sdb@Apple@@V?$allocator@UProjectileActionAndParams@ProjectileInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "HitActionIds",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UHitActionAndParams@ProjectileInfo@Sdb@Apple@@V?$allocator@UHitActionAndParams@ProjectileInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CreateEffects",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UEffectInfo@Sdb@Apple@@V?$allocator@UEffectInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "DestroyEffectPath",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "CameraEffectInfo",
+   "type": "Apple::Sdb::CameraEffectInfo",
+   "func": 8741040,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::CameraEffect"
+    },
+    {
+     "op": "enum",
+     "name": "CameraEffectType",
+     "enum": "CameraEffectType",
+     "cond": false
+    },
+    {
+     "op": "bool",
+     "name": "SyncEffect",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "Id",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "FilePath",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "StartTime",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "DetachInfos",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UDetachInfo@Sdb@Apple@@V?$allocator@UDetachInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "DistanceSyncEffect",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "CameraEffects",
+     "kind": "associative_array",
+     "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCameraEffectInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCameraEffectInfo@Sdb@Apple@@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+     "cond": true
+    }
+   ]
+  },
+  {
+   "op": "wstr",
+   "name": "VisualRuntimeEffectType",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "SoundRuntimeEffectType",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "VisualRuntimeEffectRotate",
+   "size": 12,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "DestroyActionId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "CollideWithProjectileInfo",
+   "type": "Apple::Sdb::ProjectileInfo::CollideWithProjectileInfo",
+   "func": 7890016,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ProjectileInfo::CollideWithProjectileInfo"
+    },
+    {
+     "op": "bool",
+     "name": "Enable",
+     "size": 1,
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "CallbackScript",
+     "size": null,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "bool",
+   "name": "AlwaysInSectorOutline",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IgnoreActionSpeed",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IgnoreChainCount",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "AddPowerRateWhenHasBuff",
+   "type": "Apple::Sdb::ProjectileInfo::AddPowerRateWhenHasBuffInfo",
+   "func": 7897616,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ProjectileInfo::AddPowerRateWhenHasBuffInfo"
+    },
+    {
+     "op": "wstr",
+     "name": "BuffId",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "InfoPerDuplication",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@URateInfoPerDuplication@AddPowerRateWhenHasBuffInfo@ProjectileInfo@Sdb@Apple@@V?$allocator@URateInfoPerDuplication@AddPowerRateWhenHasBuffInfo@ProjectileInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "RemoveBuffCount",
+     "size": 4,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "i32",
+   "name": "AttackPowerRate",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u64",
+   "name": "FixedDamage",
+   "size": 8,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "MaxHitCountPerTick",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "HitInterval",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "SkillIds",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "ShowHpBarFromSummon",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "UseCustomizingColor",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ProjectileOverrideInfoBySkill",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UOverrideBySkill@ProjectileInfo@Sdb@Apple@@V?$allocator@UOverrideBySkill@ProjectileInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "ProjectileOverrideInfoByBuff",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UOverrideByBuff@ProjectileInfo@Sdb@Apple@@V?$allocator@UOverrideByBuff@ProjectileInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "ProjectileOverrideInfoOnPvp",
+   "type": "Apple::Sdb::ProjectileOverrideInfo",
+   "func": 7896592,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ProjectileOverrideInfo"
+    },
+    {
+     "op": "enum",
+     "name": "NumericOverrideType",
+     "enum": "NumericOverrideType",
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "Scale",
+     "size": 12,
+     "cond": false
+    },
+    {
+     "op": "enum",
+     "name": "CollisionShapeType",
+     "enum": "CollisionShapeType",
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "HitFreezeDuration",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "HitFreezeAnimationSpeed",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "Speed",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "DefaultActionId",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "Duration",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "HitInterval",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "ReHitInterval",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "MaxReHitCount",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "TimeToLive",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "MaxHitCountPerTick",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "AttackPowerRate",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "VisualRuntimeEffectType",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "SoundRuntimeEffectType",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "DestroyEffectPath",
+     "size": null,
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "DefaultStatusHash",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@IV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@I@2@V?$allocator@U?$pair@$$CBIV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "DefaultStatus",
+     "kind": "associative_array",
+     "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "container",
+     "name": "CreateEffects",
+     "kind": "array",
+     "rtti": ".?AV?$ContainerSerialize@V?$vector@UEffectInfo@Sdb@Apple@@V?$allocator@UEffectInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "BoxCollisionValue",
+     "size": 12,
+     "cond": false
+    },
+    {
+     "op": "f32",
+     "name": "SphereCollisionValue",
+     "size": 4,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "bool",
+   "name": "ReflectDamage",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "UnaffectedByDurability",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IgnoreWallCollision",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "RemoveWhenCollidingWall",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Tags",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "struct",
+   "name": "NPProjectileInfo",
+   "type": "Apple::Sdb::ProjectileInfo::NPInfo",
+   "func": 7890256,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::ProjectileInfo::NPInfo"
+    },
+    {
+     "op": "i32",
+     "name": "AddValue",
+     "size": 4,
+     "cond": false
+    },
+    {
+     "op": "i32",
+     "name": "AddValueOnPvp",
+     "size": 4,
+     "cond": false
+    }
+   ]
+  },
+  {
+   "op": "container",
+   "name": "Marks",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UMarkInfo@ProjectileInfo@Sdb@Apple@@V?$allocator@UMarkInfo@ProjectileInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "Debuffs",
+   "kind": "array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$ContainerSerialize@V?$vector@UDebuffInfo@ProjectileInfo@Sdb@Apple@@V?$allocator@UDebuffInfo@ProjectileInfo@Sdb@Apple@@@std@@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IgnoreIncreaseDeadlySkillGauge",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "BackAttackType",
+   "enum": "BackAttackType",
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "UseColorLink",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsAlwaysCritical",
+   "size": 1,
+   "cond": false
+  }
+ ],
+ "types": {
+  "Apple::Sdb::ProjectionInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ProjectionInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "TexturePath",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "Scale",
+    "size": 12,
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "IsFollow",
+    "size": 1,
+    "cond": false
+   }
+  ],
+  "Apple::CollisionShape_Deprecated": [
+   {
+    "op": "begin",
+    "type": "Apple::CollisionShape"
+   },
+   {
+    "op": "wstr",
+    "name": "Value",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "Type",
+    "enum": "Type",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ProjectileInfo::CollisionFilter": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ProjectileInfo::CollisionFilter"
+   },
+   {
+    "op": "container",
+    "name": "True",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "False",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::Freeze": [
+   {
+    "op": "begin",
+    "type": "Apple::Freeze"
+   },
+   {
+    "op": "enum",
+    "name": "FreezeTarget",
+    "enum": "FreezeTarget",
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "Duration",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "AnimationSpeed",
+    "size": 4,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::CameraEffectInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::CameraEffect"
+   },
+   {
+    "op": "enum",
+    "name": "CameraEffectType",
+    "enum": "CameraEffectType",
+    "cond": false
+   },
+   {
+    "op": "bool",
+    "name": "SyncEffect",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "Id",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "FilePath",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "StartTime",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "DetachInfos",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UDetachInfo@Sdb@Apple@@V?$allocator@UDetachInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "DistanceSyncEffect",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "CameraEffects",
+    "kind": "associative_array",
+    "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCameraEffectInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCameraEffectInfo@Sdb@Apple@@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+    "cond": true
+   }
+  ],
+  "Apple::Sdb::ProjectileInfo::CollideWithProjectileInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ProjectileInfo::CollideWithProjectileInfo"
+   },
+   {
+    "op": "bool",
+    "name": "Enable",
+    "size": 1,
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "CallbackScript",
+    "size": null,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ProjectileInfo::AddPowerRateWhenHasBuffInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ProjectileInfo::AddPowerRateWhenHasBuffInfo"
+   },
+   {
+    "op": "wstr",
+    "name": "BuffId",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "InfoPerDuplication",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@URateInfoPerDuplication@AddPowerRateWhenHasBuffInfo@ProjectileInfo@Sdb@Apple@@V?$allocator@URateInfoPerDuplication@AddPowerRateWhenHasBuffInfo@ProjectileInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "RemoveBuffCount",
+    "size": 4,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ProjectileOverrideInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ProjectileOverrideInfo"
+   },
+   {
+    "op": "enum",
+    "name": "NumericOverrideType",
+    "enum": "NumericOverrideType",
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "Scale",
+    "size": 12,
+    "cond": false
+   },
+   {
+    "op": "enum",
+    "name": "CollisionShapeType",
+    "enum": "CollisionShapeType",
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "HitFreezeDuration",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "HitFreezeAnimationSpeed",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "Speed",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "DefaultActionId",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "Duration",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "HitInterval",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "ReHitInterval",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "MaxReHitCount",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "TimeToLive",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "MaxHitCountPerTick",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "AttackPowerRate",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "VisualRuntimeEffectType",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "SoundRuntimeEffectType",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "DestroyEffectPath",
+    "size": null,
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "DefaultStatusHash",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@IV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@U?$less@I@2@V?$allocator@U?$pair@$$CBIV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "DefaultStatus",
+    "kind": "associative_array",
+    "rtti": ".?AV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V12@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "container",
+    "name": "CreateEffects",
+    "kind": "array",
+    "rtti": ".?AV?$ContainerSerialize@V?$vector@UEffectInfo@Sdb@Apple@@V?$allocator@UEffectInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "BoxCollisionValue",
+    "size": 12,
+    "cond": false
+   },
+   {
+    "op": "f32",
+    "name": "SphereCollisionValue",
+    "size": 4,
+    "cond": false
+   }
+  ],
+  "Apple::Sdb::ProjectileInfo::NPInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::ProjectileInfo::NPInfo"
+   },
+   {
+    "op": "i32",
+    "name": "AddValue",
+    "size": 4,
+    "cond": false
+   },
+   {
+    "op": "i32",
+    "name": "AddValueOnPvp",
+    "size": 4,
+    "cond": false
+   }
+  ]
+ }
+}

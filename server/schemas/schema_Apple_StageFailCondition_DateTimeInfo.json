@@ -1,0 +1,22 @@
+{
+ "type": "Apple::StageFailCondition::DateTimeInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::StageFailCondition::DateTimeInfo"
+  },
+  {
+   "op": "i32",
+   "name": "Minute",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "Second",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

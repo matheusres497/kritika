@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::StageInfo::ReturnVillageStartingPoint",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::StageInfo::ReturnVillageStartingPoint"
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 12,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "raw",
+   "name": "Direction",
+   "size": 12,
+   "cond": false,
+   "src": 16
+  }
+ ],
+ "types": {}
+}

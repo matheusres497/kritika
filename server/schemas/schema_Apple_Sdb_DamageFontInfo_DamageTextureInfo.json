@@ -1,0 +1,126 @@
+{
+ "type": "Apple::Sdb::DamageFontInfo::DamageTextureInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::DamageFontInfo::DamageTextureInfo"
+  },
+  {
+   "op": "f32",
+   "name": "WorldWidth",
+   "size": 4,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "f32",
+   "name": "WorldHeight",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  },
+  {
+   "op": "f32",
+   "name": "TextureX",
+   "size": 4,
+   "cond": false,
+   "src": 12
+  },
+  {
+   "op": "f32",
+   "name": "TextureY",
+   "size": 4,
+   "cond": false,
+   "src": 16
+  },
+  {
+   "op": "f32",
+   "name": "TextureWidth",
+   "size": 4,
+   "cond": false,
+   "src": 20
+  },
+  {
+   "op": "f32",
+   "name": "TextureHeight",
+   "size": 4,
+   "cond": false,
+   "src": 24
+  },
+  {
+   "op": "struct",
+   "name": "FontInfo",
+   "type": "Apple::Sdb::DamageFontInfo::FontDetailInfo",
+   "func": 10444736,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::DamageFontInfo::FontDetailInfo"
+    },
+    {
+     "op": "raw",
+     "name": "Color",
+     "size": 16,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "raw",
+     "name": "AjustPosition",
+     "size": 8,
+     "cond": false,
+     "src": 20
+    },
+    {
+     "op": "enum",
+     "name": "StartRenderPositionType",
+     "enum": "StartRenderPositionType",
+     "cond": false
+    },
+    {
+     "op": "raw",
+     "name": "PlusSize",
+     "size": 8,
+     "cond": false,
+     "src": 32
+    }
+   ]
+  }
+ ],
+ "types": {
+  "Apple::Sdb::DamageFontInfo::FontDetailInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::DamageFontInfo::FontDetailInfo"
+   },
+   {
+    "op": "raw",
+    "name": "Color",
+    "size": 16,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "raw",
+    "name": "AjustPosition",
+    "size": 8,
+    "cond": false,
+    "src": 20
+   },
+   {
+    "op": "enum",
+    "name": "StartRenderPositionType",
+    "enum": "StartRenderPositionType",
+    "cond": false
+   },
+   {
+    "op": "raw",
+    "name": "PlusSize",
+    "size": 8,
+    "cond": false,
+    "src": 32
+   }
+  ]
+ }
+}

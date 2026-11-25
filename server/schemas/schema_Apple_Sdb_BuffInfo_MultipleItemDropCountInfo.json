@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::BuffInfo::MultipleItemDropCountInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::BuffInfo::MultipleItemDropCountInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Target",
+   "enum": "TargetType",
+   "cond": false
+  },
+  {
+   "op": "f32",
+   "name": "Multiple",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

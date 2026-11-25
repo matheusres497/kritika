@@ -1,0 +1,30 @@
+{
+ "type": "Apple::Sdb::NpcSummonCollectionInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::NpcSummonCollectionInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "SummonNpcInfoList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USummonNpcInfo@NpcSummonCollectionInfo@Sdb@Apple@@V?$allocator@USummonNpcInfo@NpcSummonCollectionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "GroupList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@USummonNpcGroupInfo@NpcSummonCollectionInfo@Sdb@Apple@@V?$allocator@USummonNpcGroupInfo@NpcSummonCollectionInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::KirenosKnightsInfo::KirenosKinightsBurningInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::KirenosKnightsInfo::KirenosKinightsBurningInfo"
+  },
+  {
+   "op": "container",
+   "name": "FatigueRewardInfoList",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UFatigueRewardInfo@KirenosKinightsBurningInfo@KirenosKnightsInfo@Sdb@Apple@@V?$allocator@UFatigueRewardInfo@KirenosKinightsBurningInfo@KirenosKnightsInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "BuffCategory",
+   "size": null,
+   "cond": false,
+   "src": 20
+  }
+ ],
+ "types": {}
+}

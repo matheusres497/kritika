@@ -1,0 +1,45 @@
+{
+ "type": "Apple::Sdb::VisualRuntimeEffectInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::VisualRuntimeEffectInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "BioticEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "BioticCriticalEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 64
+  },
+  {
+   "op": "wstr",
+   "name": "NonBioticEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 96
+  },
+  {
+   "op": "wstr",
+   "name": "NonBioticCriticalEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 128
+  }
+ ],
+ "types": {}
+}

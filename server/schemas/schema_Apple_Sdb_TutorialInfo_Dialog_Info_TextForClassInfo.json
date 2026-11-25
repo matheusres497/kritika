@@ -1,0 +1,43 @@
+{
+ "type": "Apple::Sdb::TutorialInfo::Dialog::Info::TextForClassInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::TutorialInfo::Dialog::Info::TextForClassInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "ClassId",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Text",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "TellerName",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "SoundPath",
+   "size": null,
+   "cond": false,
+   "src": 96
+  },
+  {
+   "op": "wstr",
+   "name": "PortraitImagePath",
+   "size": null,
+   "cond": false,
+   "src": 128
+  }
+ ],
+ "types": {}
+}

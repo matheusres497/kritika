@@ -1,0 +1,88 @@
+{
+ "type": ".?AUCreateNpcByClient@ActorSystem@ToServer@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "MasterSerial",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "RequestSerial",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "NpcId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "Position",
+   "size": 12,
+   "cond": false
+  },
+  {
+   "op": "raw",
+   "name": "Direction",
+   "size": 12,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "Team",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsControllable",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "DropItemWhenDie",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "GiveExpWhenDie",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "IsStageObject",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "UninfluencedByQuest",
+   "size": 1,
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "DefaultActionId",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "NpcType",
+   "size": 4,
+   "cond": false
+  }
+ ],
+ "types": {}
+}

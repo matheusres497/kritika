@@ -1,0 +1,17 @@
+{
+ "type": "Apple::Sdb::GuidePopupInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GuidePopupInfo"
+  },
+  {
+   "op": "container",
+   "name": "GuideInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UGuideInfo@GuidePopupInfo@Sdb@Apple@@V?$allocator@UGuideInfo@GuidePopupInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::EnchantActiveTitleCombineInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EnchantCombineInfo"
+  },
+  {
+   "op": "wstr",
+   "name": "Id",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "container",
+   "name": "CombineDetailInfos",
+   "kind": "associative_array",
+   "rtti": ".?AV?$KeyedContainerSerialize@V?$map@HUCombineDetailInfo@EnchantCombineInfo@Sdb@Apple@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHUCombineDetailInfo@EnchantCombineInfo@Sdb@Apple@@@std@@@6@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CombineDetailInfosByClass",
+   "kind": "associative_array",
+   "rtti": ".?AU?$WriterWrapper@$$CBV?$KeyedContainerSerialize@V?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCombineDetailInfo@EnchantCombineInfo@Sdb@Apple@@U?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@UCombineDetailInfo@EnchantCombineInfo@Sdb@Apple@@@std@@@2@@std@@@Private@Serializer@AllM@@@Private@Serializer@AllM@@",
+   "cond": true
+  }
+ ],
+ "types": {}
+}

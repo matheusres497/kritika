@@ -1,0 +1,77 @@
+{
+ "type": "Apple::Sdb::DirectPurchaseProductInfo::VipBoostInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::DirectPurchaseProductInfo::VipBoostInfo"
+  },
+  {
+   "op": "struct",
+   "name": "Info",
+   "type": "Apple::Sdb::DirectPurchaseProductInfo::StandardPurchaseInfo",
+   "func": 8429520,
+   "cond": false,
+   "fields": [
+    {
+     "op": "begin",
+     "type": "Apple::Sdb::DirectPurchaseProductInfo::StandardPurchaseInfo"
+    },
+    {
+     "op": "i32",
+     "name": "OidProduct",
+     "size": 4,
+     "cond": false,
+     "src": 4
+    },
+    {
+     "op": "enum",
+     "name": "OrderCategory",
+     "enum": "OrderCategory",
+     "cond": false
+    },
+    {
+     "op": "wstr",
+     "name": "IconPath",
+     "size": null,
+     "cond": false,
+     "src": 12
+    }
+   ]
+  },
+  {
+   "op": "i32",
+   "name": "VipBoostPeriod",
+   "size": 4,
+   "cond": false,
+   "src": 44
+  }
+ ],
+ "types": {
+  "Apple::Sdb::DirectPurchaseProductInfo::StandardPurchaseInfo": [
+   {
+    "op": "begin",
+    "type": "Apple::Sdb::DirectPurchaseProductInfo::StandardPurchaseInfo"
+   },
+   {
+    "op": "i32",
+    "name": "OidProduct",
+    "size": 4,
+    "cond": false,
+    "src": 4
+   },
+   {
+    "op": "enum",
+    "name": "OrderCategory",
+    "enum": "OrderCategory",
+    "cond": false
+   },
+   {
+    "op": "wstr",
+    "name": "IconPath",
+    "size": null,
+    "cond": false,
+    "src": 12
+   }
+  ]
+ }
+}

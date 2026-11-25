@@ -1,0 +1,17 @@
+{
+ "type": ".?AUChangeVillageDps@StatusSystem@Both@Protocol@Apple@@",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u64",
+   "name": "Value",
+   "size": 8,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

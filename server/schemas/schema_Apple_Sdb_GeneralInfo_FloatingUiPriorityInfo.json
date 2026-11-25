@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::GeneralInfo::FloatingUiPriorityInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::GeneralInfo::FloatingUiPriorityInfo"
+  },
+  {
+   "op": "enum",
+   "name": "CommandType",
+   "enum": "CommandType",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "Priority",
+   "size": 4,
+   "cond": false,
+   "src": 8
+  }
+ ],
+ "types": {}
+}

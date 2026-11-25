@@ -1,0 +1,23 @@
+{
+ "type": "Apple::Sdb::ActionCommandGroup::SkillGroup",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::ActionCommandGroup::SkillGroup"
+  },
+  {
+   "op": "wstr",
+   "name": "NewCommand",
+   "size": null,
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "CommandGroups",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@ULinkedSkill@ActionCommand@Sdb@Apple@@V?$allocator@ULinkedSkill@ActionCommand@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

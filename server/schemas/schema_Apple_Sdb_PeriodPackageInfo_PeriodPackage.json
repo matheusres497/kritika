@@ -1,0 +1,85 @@
+{
+ "type": "Apple::Sdb::PeriodPackageInfo::PeriodPackage",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::PeriodPackageInfo::PeriodPackage"
+  },
+  {
+   "op": "bool",
+   "name": "Enabled",
+   "size": 1,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "enum",
+   "name": "Name",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "enum",
+   "name": "Desc",
+   "enum": "locale",
+   "cond": false
+  },
+  {
+   "op": "wstr",
+   "name": "ImagePath",
+   "size": null,
+   "cond": false,
+   "src": 72
+  },
+  {
+   "op": "wstr",
+   "name": "ImageListPath",
+   "size": null,
+   "cond": false,
+   "src": 104
+  },
+  {
+   "op": "wstr",
+   "name": "ImageHeaderPath",
+   "size": null,
+   "cond": false,
+   "src": 136
+  },
+  {
+   "op": "i32",
+   "name": "OidProduct",
+   "size": 4,
+   "cond": false,
+   "src": 168
+  },
+  {
+   "op": "container",
+   "name": "DailyRewards",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@V?$vector@URewardInfo@PeriodPackage@PeriodPackageInfo@Sdb@Apple@@V?$allocator@URewardInfo@PeriodPackage@PeriodPackageInfo@Sdb@Apple@@@std@@@std@@V?$allocator@V?$vector@URewardInfo@PeriodPackage@PeriodPackageInfo@Sdb@Apple@@V?$allocator@URewardInfo@PeriodPackage@PeriodPackageInfo@Sdb@Apple@@@std@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "Duration",
+   "size": 4,
+   "cond": false,
+   "src": 188
+  },
+  {
+   "op": "i32",
+   "name": "Order",
+   "size": 4,
+   "cond": false,
+   "src": 192
+  },
+  {
+   "op": "bool",
+   "name": "IsSell",
+   "size": 1,
+   "cond": false,
+   "src": 196
+  }
+ ],
+ "types": {}
+}

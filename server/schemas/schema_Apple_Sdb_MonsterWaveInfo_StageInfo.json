@@ -1,0 +1,24 @@
+{
+ "type": "Apple::Sdb::MonsterWaveInfo::StageInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::MonsterWaveInfo::StageInfo"
+  },
+  {
+   "op": "container",
+   "name": "RewardInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@U?$Vector2@H@Math@AllM@@URewardInfo@StageInfo@MonsterWaveInfo@Sdb@Apple@@@std@@V?$allocator@U?$pair@U?$Vector2@H@Math@AllM@@URewardInfo@StageInfo@MonsterWaveInfo@Sdb@Apple@@@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "MinimumDPSInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@U?$pair@H_J@std@@V?$allocator@U?$pair@H_J@std@@@2@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

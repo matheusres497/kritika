@@ -1,0 +1,31 @@
+{
+ "type": "Apple::Sdb::EffectBySkinType",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EffectBySkinType"
+  },
+  {
+   "op": "wstr",
+   "name": "SkinType",
+   "size": null,
+   "cond": false,
+   "src": 4
+  },
+  {
+   "op": "wstr",
+   "name": "EffectPath",
+   "size": null,
+   "cond": false,
+   "src": 32
+  },
+  {
+   "op": "wstr",
+   "name": "CriticalEffectPath",
+   "size": null,
+   "cond": false,
+   "src": 64
+  }
+ ],
+ "types": {}
+}

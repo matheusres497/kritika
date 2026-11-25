@@ -1,0 +1,30 @@
+{
+ "type": "Apple::Sdb::EnhanceEnchantInfo::EnhanceInfo",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "Apple::Sdb::EnhanceEnchantInfo::EnhanceInfo"
+  },
+  {
+   "op": "enum",
+   "name": "Grade",
+   "enum": "Grade",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "StatusInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@UStatusInfo@EnhanceInfo@EnhanceEnchantInfo@Sdb@Apple@@V?$allocator@UStatusInfo@EnhanceInfo@EnhanceEnchantInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  },
+  {
+   "op": "container",
+   "name": "RateInfos",
+   "kind": "array",
+   "rtti": ".?AV?$ContainerSerialize@V?$vector@URateInfo@EnhanceInfo@EnhanceEnchantInfo@Sdb@Apple@@V?$allocator@URateInfo@EnhanceInfo@EnhanceEnchantInfo@Sdb@Apple@@@std@@@std@@@PrivateFlat@Serializer@AllM@@",
+   "cond": false
+  }
+ ],
+ "types": {}
+}

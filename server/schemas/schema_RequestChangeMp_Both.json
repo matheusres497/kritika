@@ -1,0 +1,34 @@
+{
+ "type": "Apple::Protocol::Both::StatusSystem::RequestChangeMp",
+ "fields": [
+  {
+   "op": "begin",
+   "type": "<message id>"
+  },
+  {
+   "op": "u32",
+   "name": "Serial",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "i32",
+   "name": "DeltaMp",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "u32",
+   "name": "Reason",
+   "size": 4,
+   "cond": false
+  },
+  {
+   "op": "bool",
+   "name": "ShowUi",
+   "size": 1,
+   "cond": false
+  }
+ ],
+ "types": {}
+}
